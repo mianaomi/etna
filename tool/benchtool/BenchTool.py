@@ -117,14 +117,14 @@ class BenchTool(ABC):
     @abstractmethod
     def _build(self, workload_path: str):
         '''
-        Takes a path and returns the command to build the workloads.
+        Takes a path and executes the command to build the workloads.
         '''
         pass
 
     @abstractmethod
     def _run_trial(self, workload_path: str, args: TrialArgs):
         '''
-        Takes a path and an argument structure, and returns the command to run
+        Takes a path and an argument structure, and executes the command to run
         the workloads.
         '''
         pass
@@ -173,7 +173,7 @@ class BenchTool(ABC):
         Assumes that `workload` is already instantiated
         (via `apply_variant`) with the current variant.
 
-        This is private; it should not be called directly. 
+        This is private; it should not be called directly.
         Instead you should call `apply_variant` first.
         '''
         if not self.__variant:
@@ -186,8 +186,9 @@ class BenchTool(ABC):
         else:
             experiment = cfg.file
         file = os.path.join(self.results, f'{experiment}.json')
+        file2 = os.path.join(self.results, f'{experiment}.txt')
 
-        if os.path.isfile(file):
+        if os.path.isfile(file) or os.path.isfile(file2):
             match self._replace_level:
                 case ReplaceLevel.REPLACE:
                     pass
