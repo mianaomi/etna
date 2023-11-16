@@ -1,140 +1,140 @@
 [prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]    8    0    1    7 / 1000     0.0s test_prop_DeleteValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteValid failed (1 shrink steps):
-
-(Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,0,Empty),1,464,Tree (B,Empty,2,4,Empty)),3,1,Tree (R,Tree (B,Tree (R,Tree (B,Empty,4,2,Empty),5,9,Tree (B,Empty,6,4,Tree (R,Empty,7,2,Empty))),8,8,Tree (B,Empty,9,3,Empty)),12,51,Tree (B,Tree (B,Tree (R,Empty,14,32,Empty),16,7,Empty),24,8,Tree (B,Empty,26,2373,Empty)))),35,465,Tree (B,Tree (R,Tree (B,Tree (B,Empty,36,9,Empty),40,5,Tree (B,Tree (R,Empty,42,28,Empty),53,185,Tree (R,Empty,56,728,Empty))),68,97,Tree (B,Tree (R,Tree (B,Tree (R,Empty,75,4015,Empty),80,4,Empty),81,918,Tree (B,Empty,84,6,Tree (R,Empty,89,6566,Empty))),209,1,Tree (B,Tree (R,Empty,230,305,Empty),241,186,Empty))),311,6,Tree (R,Tree (B,Tree (B,Empty,396,5,Tree (R,Empty,474,634,Empty)),477,44,Tree (B,Tree (R,Empty,563,78,Empty),692,27,Empty)),865,0,Tree (B,Tree (B,Empty,2219,5,Empty),4194,1,Tree (R,Tree (B,Empty,4344,5,Empty),7340,6,Tree (B,Empty,7453,605,Empty)))))), 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 0.98]
-[prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]   19    0    1   18 / 1000     0.0s test_prop_DeleteValid
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]     90      0      1     89 / 500000     0.0s test_prop_DeleteValid
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteValid failed (0 shrink steps):
 
-(Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Empty,0,9,Empty),1,3,Tree (B,Empty,2,95,Empty)),3,9,Tree (B,Tree (B,Empty,4,28,Empty),5,829,Tree (R,Tree (B,Empty,6,4,Empty),7,9909,Tree (B,Empty,8,1,Empty)))),9,72,Tree (B,Tree (R,Tree (B,Empty,10,2,Empty),12,92,Tree (B,Empty,13,7,Empty)),14,66,Tree (B,Empty,15,2,Empty))),16,5260,Tree (B,Tree (R,Tree (B,Tree (B,Tree (R,Empty,17,995,Empty),18,17,Empty),19,7,Tree (B,Tree (R,Empty,20,779,Empty),21,508,Tree (R,Empty,22,6,Empty))),26,5,Tree (B,Tree (B,Empty,27,38,Empty),29,6,Tree (R,Tree (B,Empty,33,16,Empty),35,6,Tree (B,Empty,37,8605,Empty)))),38,4,Tree (R,Tree (B,Tree (R,Tree (B,Empty,39,38,Empty),40,5469,Tree (B,Tree (R,Empty,41,226,Empty),42,74,Tree (R,Empty,43,4,Empty))),49,8,Tree (B,Empty,50,9,Empty)),51,8,Tree (B,Tree (B,Empty,52,418,Empty),53,466,Tree (B,Empty,55,43,Empty))))),56,9,Tree (B,Tree (R,Tree (B,Tree (B,Empty,57,1,Tree (R,Empty,60,50,Empty)),61,2,Tree (B,Empty,63,92,Empty)),64,8382,Tree (B,Tree (R,Tree (B,Empty,66,2,Empty),67,43,Tree (B,Empty,68,9,Empty)),70,7,Tree (B,Empty,71,656,Empty))),72,0,Tree (R,Tree (B,Tree (B,Tree (R,Empty,73,9,Empty),74,0,Empty),76,7,Tree (B,Empty,77,0,Empty)),78,247,Tree (B,Tree (B,Tree (R,Empty,79,3,Empty),80,1,Empty),81,949,Tree (R,Tree (B,Empty,82,3,Empty),83,5,Tree (B,Empty,84,539,Empty)))))),85,84,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Tree (B,Tree (R,Empty,86,77,Empty),88,4387,Empty),90,0,Tree (R,Tree (B,Tree (R,Empty,94,3,Empty),98,1,Empty),105,63,Tree (B,Empty,106,60,Tree (R,Empty,112,7451,Empty)))),121,4,Tree (R,Tree (B,Tree (R,Tree (B,Empty,123,1,Empty),145,7,Tree (B,Empty,146,1,Empty)),171,88,Tree (B,Empty,178,8550,Empty)),181,409,Tree (B,Tree (R,Tree (B,Empty,186,3,Empty),188,146,Tree (B,Empty,200,777,Empty)),206,5,Tree (B,Empty,212,509,Empty)))),218,627,Tree (B,Tree (B,Tree (B,Tree (R,Empty,249,4,Empty),280,6,Empty),282,9,Tree (B,Tree (R,Empty,290,3,Empty),320,9,Empty)),345,3984,Tree (R,Tree (B,Tree (B,Tree (R,Empty,356,7,Empty),362,705,Empty),385,7,Tree (B,Empty,398,568,Empty)),416,0,Tree (B,Tree (B,Tree (R,Empty,418,5,Empty),421,46,Empty),428,29,Tree (B,Empty,431,731,Tree (R,Empty,440,94,Empty)))))),442,1,Tree (B,Tree (B,Tree (B,Tree (R,Empty,465,472,Empty),485,9,Empty),490,14,Tree (R,Tree (B,Empty,502,30,Tree (R,Empty,508,5287,Empty)),537,25,Tree (B,Tree (R,Empty,544,37,Empty),554,1,Empty))),558,94,Tree (B,Tree (B,Empty,584,23,Empty),589,5,Tree (B,Tree (R,Empty,593,92,Empty),598,2,Tree (R,Empty,628,6,Empty))))),632,0,Tree (B,Tree (B,Tree (B,Tree (B,Empty,697,6,Tree (R,Empty,699,60,Empty)),713,1,Tree (B,Tree (R,Empty,732,81,Empty),733,3,Empty)),744,5,Tree (B,Tree (R,Tree (B,Tree (R,Empty,761,270,Empty),784,9,Empty),798,92,Tree (B,Empty,816,2,Empty)),822,7,Tree (R,Tree (B,Empty,830,3,Empty),861,6,Tree (B,Empty,871,37,Empty)))),891,9,Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Empty,927,92,Empty),944,5,Empty),981,0,Tree (B,Empty,1303,871,Empty)),2122,760,Tree (R,Tree (B,Empty,2311,1,Empty),2402,5,Tree (B,Tree (R,Empty,2748,36,Empty),3097,2,Empty))),4151,0,Tree (B,Tree (R,Tree (B,Tree (R,Empty,4807,9572,Empty),5177,21,Tree (R,Empty,5336,62,Empty)),5363,8,Tree (B,Tree (R,Empty,5926,8,Empty),6076,12,Tree (R,Empty,6324,3,Empty))),7637,560,Tree (R,Tree (B,Empty,8109,15,Empty),8288,3446,Tree (B,Empty,8376,32,Tree (R,Empty,9655,54,Empty)))))))), 4)
+(Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,517,Empty),1,201,Tree (B,Empty,2,9,Empty)),3,2,Tree (B,Tree (B,Empty,4,47,Empty),5,1,Tree (B,Empty,6,615,Tree (R,Empty,7,715,Empty)))),8,329,Tree (R,Tree (B,Tree (B,Tree (B,Empty,9,8,Tree (R,Empty,11,5,Empty)),13,9,Tree (R,Tree (B,Tree (R,Empty,14,9,Empty),16,785,Empty),17,4,Tree (B,Empty,18,8,Tree (R,Empty,19,390,Empty)))),21,23,Tree (B,Tree (B,Tree (R,Empty,22,1,Empty),23,63,Empty),24,3,Tree (B,Empty,25,716,Empty))),26,7,Tree (B,Tree (R,Tree (B,Tree (B,Empty,27,0,Tree (R,Empty,28,465,Empty)),29,32,Tree (B,Tree (R,Empty,31,5,Empty),32,103,Empty)),33,8,Tree (B,Tree (B,Empty,34,3,Empty),35,9,Tree (B,Empty,36,23,Tree (R,Empty,38,9,Empty)))),40,9,Tree (B,Tree (B,Empty,41,929,Tree (R,Empty,43,9,Empty)),45,851,Tree (R,Tree (B,Empty,46,2,Empty),47,6162,Tree (B,Tree (R,Empty,48,851,Empty),49,800,Tree (R,Empty,50,8,Empty))))))),52,5,Tree (B,Tree (R,Tree (B,Tree (B,Tree (B,Empty,54,3,Empty),55,37,Tree (B,Tree (R,Empty,56,0,Empty),57,6052,Tree (R,Empty,58,30,Empty))),59,64,Tree (B,Tree (R,Tree (B,Empty,61,77,Empty),62,816,Tree (B,Empty,63,20,Empty)),64,17,Tree (B,Empty,66,3,Empty))),67,4,Tree (B,Tree (B,Tree (B,Tree (R,Empty,69,886,Empty),70,961,Empty),71,8,Tree (B,Empty,72,4,Tree (R,Empty,73,8,Empty))),74,41,Tree (B,Tree (B,Empty,75,13,Empty),76,2,Tree (B,Empty,77,1,Empty)))),78,118,Tree (B,Tree (R,Tree (B,Tree (B,Empty,79,9,Tree (R,Empty,80,6,Empty)),81,0,Tree (B,Empty,83,9,Empty)),84,8876,Tree (B,Tree (B,Empty,85,2,Empty),86,7,Tree (R,Tree (B,Empty,88,8,Empty),89,4,Tree (B,Empty,90,8,Empty)))),92,360,Tree (B,Tree (B,Empty,93,5930,Empty),94,6,Tree (B,Tree (R,Empty,96,2,Empty),98,45,Empty))))),99,3,Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Empty,103,88,Empty),118,26,Tree (R,Tree (B,Empty,123,32,Empty),136,58,Tree (B,Empty,141,6,Empty))),159,398,Tree (B,Tree (R,Tree (B,Empty,163,0,Empty),185,3032,Tree (B,Empty,190,4,Empty)),193,7,Tree (R,Tree (B,Empty,194,51,Empty),215,22,Tree (B,Empty,222,33,Tree (R,Empty,226,39,Empty))))),231,9573,Tree (B,Tree (R,Tree (B,Empty,232,9,Empty),234,0,Tree (B,Empty,244,986,Empty)),254,2,Tree (B,Empty,256,56,Tree (R,Empty,263,6638,Empty)))),267,908,Tree (B,Tree (B,Tree (B,Tree (R,Empty,275,2,Empty),280,8011,Empty),301,7,Tree (B,Tree (R,Empty,316,5,Empty),323,0,Tree (R,Empty,329,941,Empty))),342,2,Tree (R,Tree (B,Tree (B,Empty,354,23,Tree (R,Empty,375,56,Empty)),407,3,Tree (B,Empty,412,4,Empty)),434,4,Tree (B,Tree (B,Empty,436,714,Tree (R,Empty,443,15,Empty)),447,0,Tree (B,Tree (R,Empty,452,56,Empty),468,8,Tree (R,Empty,487,986,Empty)))))),493,9,Tree (R,Tree (B,Tree (B,Tree (B,Empty,515,2,Tree (R,Empty,525,321,Empty)),536,38,Tree (B,Empty,543,7,Empty)),550,8,Tree (B,Tree (B,Empty,563,293,Empty),564,2,Tree (B,Empty,575,8,Tree (R,Empty,595,4,Empty)))),596,12,Tree (B,Tree (R,Tree (B,Tree (B,Tree (R,Empty,599,3,Empty),610,3,Tree (R,Empty,614,4,Empty)),615,64,Tree (R,Tree (B,Tree (R,Empty,621,6,Empty),623,14,Empty),632,8,Tree (B,Empty,645,12,Empty))),648,8,Tree (B,Tree (B,Empty,652,750,Empty),655,45,Tree (B,Empty,659,220,Empty))),662,779,Tree (R,Tree (B,Tree (B,Empty,669,0,Empty),673,25,Tree (B,Empty,674,1,Empty)),689,9676,Tree (B,Tree (B,Empty,692,11,Tree (R,Empty,703,29,Empty)),733,4,Tree (R,Tree (B,Empty,750,1,Tree (R,Empty,759,196,Empty)),767,32,Tree (B,Empty,769,5,Empty))))))),776,0,Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Empty,795,8,Empty),813,6,Empty),825,3,Tree (B,Empty,830,5,Tree (R,Empty,842,2,Empty))),858,325,Tree (R,Tree (B,Empty,889,94,Empty),890,177,Tree (B,Empty,896,5,Empty))),905,9,Tree (B,Tree (B,Empty,915,74,Empty),917,4,Tree (B,Tree (R,Empty,924,319,Empty),943,21,Tree (R,Empty,946,3,Empty)))),951,3,Tree (B,Tree (B,Tree (R,Empty,952,1976,Empty),957,536,Empty),967,58,Tree (B,Empty,974,1,Tree (R,Empty,976,22,Empty)))),977,937,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,990,435,Empty),992,8,Tree (B,Empty,1016,6,Empty)),1688,6,Tree (B,Empty,2792,5,Empty)),3157,3,Tree (B,Tree (B,Empty,4827,61,Empty),4839,7,Tree (B,Empty,4970,47,Empty))),5315,286,Tree (R,Tree (B,Tree (R,Tree (B,Empty,5354,24,Empty),5493,6875,Tree (B,Empty,5688,65,Empty)),6303,8,Tree (B,Tree (R,Empty,7943,4,Empty),8029,2,Empty)),9218,263,Tree (B,Tree (B,Empty,9663,2,Empty),9728,29,Tree (B,Empty,9990,627,Empty))))))), 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 2.21]
+|prop_DeleteValid -> 5.97]
 [prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]  188    0    1  187 / 1000     0.0s test_prop_DeleteValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteValid failed (1 shrink steps):
-
-(Tree (B,Tree (B,Tree (B,Empty,0,478,Empty),1,50,Tree (B,Empty,2,78,Empty)),3,71,Tree (R,Tree (B,Tree (R,Tree (B,Empty,4,2,Empty),5,1,Tree (B,Empty,6,6,Empty)),7,98,Tree (B,Empty,8,16,Empty)),9,948,Tree (B,Tree (B,Empty,16,6,Tree (R,Empty,18,4,Empty)),44,8,Tree (R,Tree (B,Empty,62,2,Tree (R,Empty,85,91,Empty)),671,32,Tree (B,Empty,813,2,Empty))))), 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 19.33]
-[prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]   40    0    1   39 / 1000     0.0s test_prop_DeleteValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteValid failed (2 shrink steps):
-
-(Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,401,Empty),1,12,Tree (B,Empty,2,26,Empty)),4,6,Tree (R,Tree (B,Tree (B,Empty,6,2,Empty),8,6,Tree (B,Empty,9,1,Tree (R,Empty,19,6,Empty))),47,4221,Tree (B,Tree (B,Empty,50,80,Empty),56,56,Tree (B,Empty,61,6,Empty)))),81,7,Tree (B,Tree (B,Tree (B,Empty,84,72,Empty),86,0,Tree (B,Tree (R,Empty,93,3,Empty),95,5,Empty)),98,9171,Tree (B,Tree (R,Tree (B,Tree (R,Empty,136,467,Empty),223,470,Empty),396,41,Tree (B,Empty,581,1,Empty)),662,81,Tree (B,Tree (R,Empty,953,7319,Empty),8526,9,Tree (R,Empty,9749,555,Empty))))), 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 1.59]
-[prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]   38    0    1   37 / 1000     0.0s test_prop_DeleteValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteValid failed (1 shrink steps):
-
-(Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,0,Empty),1,125,Tree (B,Empty,2,7,Empty)),3,7,Tree (R,Tree (B,Tree (B,Empty,4,1,Tree (R,Empty,5,7,Empty)),6,4,Tree (B,Empty,7,72,Empty)),8,8,Tree (B,Tree (B,Empty,9,4,Empty),15,2,Tree (B,Empty,31,6,Empty)))),37,831,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Tree (R,Empty,40,10,Empty),42,723,Empty),47,7,Tree (B,Empty,48,0,Empty)),52,266,Tree (B,Tree (B,Empty,64,9,Empty),72,44,Tree (B,Empty,86,5,Tree (R,Empty,130,37,Empty)))),132,2,Tree (B,Tree (R,Tree (B,Tree (R,Empty,218,0,Empty),221,8986,Empty),225,2106,Tree (B,Empty,288,35,Empty)),366,9,Tree (B,Tree (R,Empty,369,73,Empty),447,5226,Empty))),479,25,Tree (B,Tree (B,Tree (B,Empty,663,7,Tree (R,Empty,698,68,Empty)),767,3,Tree (B,Empty,768,6,Empty)),769,9,Tree (B,Tree (B,Empty,771,4,Empty),799,9460,Tree (R,Tree (B,Empty,908,53,Empty),975,5,Tree (B,Empty,989,2,Empty)))))), 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 5.22]
-[prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]   11    0    1   10 / 1000     0.0s test_prop_DeleteValid
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]    291      0      1    290 / 500000     0.0s test_prop_DeleteValid
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteValid failed (0 shrink steps):
 
-(Tree (B,Tree (B,Tree (R,Tree (B,Tree (B,Empty,0,7,Empty),1,9,Tree (B,Empty,2,0,Empty)),3,1,Tree (B,Tree (B,Empty,4,7,Empty),5,6779,Tree (R,Tree (B,Empty,6,83,Empty),7,53,Tree (B,Empty,8,5,Empty)))),9,6,Tree (B,Tree (R,Tree (B,Empty,23,5,Empty),25,7,Tree (B,Empty,31,413,Empty)),34,96,Tree (R,Tree (B,Empty,37,86,Tree (R,Empty,39,36,Empty)),41,7,Tree (B,Empty,49,53,Empty)))),51,12,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,53,14,Empty),55,180,Tree (B,Empty,56,9,Tree (R,Empty,57,42,Empty))),61,2,Tree (R,Tree (B,Empty,62,80,Empty),64,999,Tree (B,Tree (R,Empty,65,6,Empty),66,9,Empty))),74,24,Tree (B,Tree (B,Empty,76,9,Empty),84,2,Tree (B,Empty,86,93,Empty))),98,14,Tree (R,Tree (B,Tree (B,Empty,108,565,Tree (R,Empty,161,7,Empty)),176,0,Tree (B,Empty,188,8,Empty)),200,8,Tree (B,Tree (R,Tree (B,Empty,232,23,Empty),251,148,Tree (B,Empty,287,0,Empty)),298,2,Tree (B,Empty,328,3,Tree (R,Empty,335,3,Empty))))),530,5,Tree (B,Tree (B,Tree (B,Empty,550,42,Empty),571,886,Tree (R,Tree (B,Empty,696,184,Tree (R,Empty,708,25,Empty)),734,8,Tree (B,Empty,738,124,Tree (R,Empty,761,42,Empty)))),798,545,Tree (B,Tree (R,Tree (B,Empty,839,50,Tree (R,Empty,881,754,Empty)),948,0,Tree (B,Tree (R,Empty,955,66,Empty),967,990,Empty)),5308,3,Tree (B,Empty,7940,752,Tree (R,Empty,9623,5,Empty)))))), 4)
+(Tree (B,Tree (B,Empty,1,5,Empty),4,23,Tree (R,Tree (B,Empty,6,93,Empty),8,9,Tree (B,Empty,74,67,Empty))), 1)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_DeleteValid -> 23.58]
+[prop_DeleteValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_DeleteValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteValid failed (0 shrink steps):
+
+(Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,427,Empty),1,9,Tree (R,Tree (B,Empty,2,895,Empty),3,7,Tree (B,Empty,4,9,Empty))),5,9976,Tree (B,Tree (R,Tree (B,Empty,6,0,Empty),7,9,Tree (B,Empty,8,5,Empty)),9,5,Tree (R,Tree (B,Empty,16,8,Empty),26,78,Tree (B,Empty,29,5,Empty)))),32,503,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Empty,33,4,Empty),43,41,Tree (B,Empty,45,546,Tree (R,Empty,49,57,Empty))),51,277,Tree (B,Tree (R,Tree (B,Empty,52,75,Empty),61,8,Tree (B,Tree (R,Empty,68,360,Empty),69,10,Empty)),87,651,Tree (B,Empty,90,3,Empty))),92,35,Tree (B,Tree (B,Empty,98,3,Empty),265,5,Tree (B,Tree (R,Empty,294,861,Empty),299,2,Empty))),485,68,Tree (B,Tree (B,Tree (B,Empty,507,801,Tree (R,Empty,511,78,Empty)),519,133,Tree (B,Tree (R,Empty,600,2,Empty),663,0,Tree (R,Empty,696,862,Empty))),734,0,Tree (B,Tree (R,Tree (B,Empty,965,0,Empty),999,61,Tree (B,Empty,1379,5,Empty)),2216,501,Tree (B,Tree (R,Empty,5809,668,Empty),5994,1,Tree (R,Empty,9239,2,Empty)))))), 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_DeleteValid -> 0.14]
+[prop_DeleteValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]    122      0      1    121 / 500000     0.0s test_prop_DeleteValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteValid failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,6,13,Empty),7,1,Tree (R,Tree (B,Tree (R,Empty,9,95,Empty),47,8,Empty),76,15,Tree (B,Tree (R,Empty,96,8,Empty),916,3,Empty))), 6)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_DeleteValid -> 14.65]
+[prop_DeleteValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]     15      0      1     14 / 500000     0.0s test_prop_DeleteValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteValid failed (0 shrink steps):
+
+(Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,9,Empty),1,2,Tree (B,Empty,2,9,Empty)),3,94,Tree (R,Tree (B,Tree (B,Tree (R,Empty,4,48,Empty),5,7,Tree (R,Empty,6,7,Empty)),7,250,Tree (B,Tree (R,Empty,8,45,Empty),9,0,Empty)),11,2244,Tree (B,Tree (B,Empty,13,2,Empty),15,4,Tree (R,Tree (B,Empty,16,270,Empty),17,0,Tree (B,Empty,18,84,Empty))))),19,70,Tree (R,Tree (B,Tree (B,Tree (B,Empty,21,9,Empty),23,4032,Tree (B,Tree (R,Empty,24,73,Empty),26,5,Empty)),27,2,Tree (B,Tree (B,Tree (R,Empty,28,9,Empty),29,2,Empty),31,43,Tree (R,Tree (B,Empty,36,2,Empty),37,4,Tree (B,Empty,39,85,Empty)))),40,1,Tree (B,Tree (B,Tree (R,Tree (B,Empty,45,2,Empty),46,464,Tree (B,Empty,47,95,Empty)),48,566,Tree (R,Tree (B,Empty,54,7,Empty),58,11,Tree (B,Empty,61,3,Empty))),63,1,Tree (R,Tree (B,Tree (B,Empty,66,1,Empty),67,7,Tree (B,Empty,71,35,Empty)),72,8,Tree (B,Tree (R,Tree (B,Empty,74,4,Empty),80,6,Tree (B,Empty,82,8,Empty)),84,44,Tree (R,Tree (B,Empty,85,0,Empty),86,704,Tree (B,Empty,88,4,Empty))))))),90,1,Tree (R,Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,92,970,Empty),94,6,Tree (B,Empty,95,0,Empty)),96,9,Tree (B,Empty,97,5,Empty)),99,32,Tree (B,Tree (B,Empty,100,6,Empty),133,59,Tree (B,Empty,149,6,Empty))),160,97,Tree (B,Tree (B,Empty,191,9,Empty),200,15,Tree (B,Empty,211,5,Empty))),228,9,Tree (B,Tree (B,Tree (B,Empty,248,595,Empty),286,8,Tree (B,Tree (R,Empty,335,32,Empty),339,5,Empty)),349,76,Tree (B,Tree (B,Empty,427,505,Empty),449,82,Tree (B,Tree (R,Empty,468,4,Empty),498,0,Tree (R,Empty,500,4,Empty))))),502,1,Tree (B,Tree (B,Tree (B,Tree (B,Tree (R,Empty,522,6,Empty),528,7,Empty),540,5,Tree (R,Tree (B,Empty,547,548,Empty),577,58,Tree (B,Empty,592,72,Tree (R,Empty,606,64,Empty)))),618,39,Tree (R,Tree (B,Tree (R,Tree (B,Empty,663,4,Empty),666,93,Tree (B,Empty,677,22,Empty)),689,36,Tree (B,Empty,747,2,Empty)),767,4619,Tree (B,Tree (B,Empty,774,6,Empty),777,9,Tree (B,Empty,791,5,Tree (R,Empty,811,97,Empty))))),812,1,Tree (B,Tree (R,Tree (B,Tree (B,Empty,817,58,Empty),822,251,Tree (B,Empty,825,76,Empty)),845,7,Tree (B,Tree (B,Empty,894,3,Tree (R,Empty,895,7,Empty)),899,4,Tree (B,Empty,969,9,Tree (R,Empty,977,5,Empty)))),988,2,Tree (R,Tree (B,Tree (R,Tree (B,Empty,1832,51,Empty),2515,89,Tree (B,Empty,3186,38,Empty)),3613,5,Tree (R,Tree (B,Empty,4250,60,Empty),4275,8,Tree (B,Tree (R,Empty,4985,5,Empty),5549,1491,Empty))),5941,4,Tree (B,Tree (R,Tree (B,Tree (R,Empty,6126,5,Empty),6174,20,Empty),7337,0,Tree (B,Empty,7937,5,Empty)),9039,9,Tree (R,Tree (B,Tree (R,Empty,9130,88,Empty),9223,4,Empty),9903,5923,Tree (B,Empty,9921,486,Empty)))))))), 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_DeleteValid -> 2.39]
+[prop_DeleteValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]      3      0      1      2 / 500000     0.0s test_prop_DeleteValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteValid failed (0 shrink steps):
+
+(Tree (B,Tree (B,Tree (B,Tree (R,Tree (B,Tree (B,Tree (B,Empty,0,7,Empty),1,9,Tree (R,Tree (B,Tree (R,Empty,2,7,Empty),3,3,Empty),4,15,Tree (B,Empty,5,11,Tree (R,Empty,6,80,Empty)))),7,1,Tree (B,Tree (B,Empty,8,1,Empty),9,3,Tree (B,Tree (R,Empty,10,60,Empty),12,876,Tree (R,Empty,13,1,Empty)))),14,2,Tree (B,Tree (B,Tree (B,Empty,15,6,Empty),16,58,Tree (B,Tree (R,Empty,17,7,Empty),18,6,Tree (R,Empty,19,22,Empty))),20,34,Tree (R,Tree (B,Tree (B,Empty,21,1,Empty),22,2,Tree (B,Empty,23,6,Empty)),24,9,Tree (B,Tree (B,Tree (R,Empty,26,0,Empty),27,3,Empty),28,516,Tree (B,Empty,31,7495,Empty))))),32,9,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Empty,33,5,Empty),34,6,Empty),35,7,Tree (B,Empty,36,99,Empty)),37,9,Tree (B,Empty,38,17,Empty)),39,6,Tree (B,Tree (B,Empty,40,286,Tree (R,Empty,41,2,Empty)),42,843,Tree (R,Tree (B,Empty,43,4652,Empty),44,785,Tree (B,Empty,45,955,Tree (R,Empty,46,7,Empty))))),47,35,Tree (B,Tree (B,Tree (R,Empty,48,297,Empty),51,1,Tree (R,Empty,52,4,Empty)),53,3,Tree (B,Tree (R,Empty,54,97,Empty),55,5,Empty))),56,7,Tree (B,Tree (B,Tree (B,Tree (R,Empty,57,5,Empty),58,904,Empty),59,5,Tree (B,Tree (R,Empty,60,9052,Empty),61,97,Empty)),62,7,Tree (B,Tree (R,Tree (B,Empty,63,59,Empty),65,88,Tree (B,Empty,66,932,Empty)),67,29,Tree (B,Empty,69,3,Empty))))),70,233,Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,72,99,Tree (R,Empty,75,215,Empty)),76,6,Tree (B,Empty,77,8,Empty)),78,8,Tree (R,Tree (B,Tree (R,Empty,79,74,Empty),80,0,Empty),81,8,Tree (B,Empty,82,63,Tree (R,Empty,83,2,Empty)))),84,4,Tree (B,Tree (R,Tree (B,Empty,85,4,Empty),86,124,Tree (B,Empty,87,2,Tree (R,Empty,88,289,Empty))),90,45,Tree (B,Empty,91,4139,Empty))),92,562,Tree (B,Tree (B,Empty,93,8,Empty),94,5,Tree (B,Tree (R,Empty,95,2,Empty),96,6,Empty))),97,44,Tree (B,Tree (R,Tree (B,Tree (B,Empty,98,8,Tree (R,Empty,99,73,Empty)),104,9,Tree (R,Tree (B,Tree (R,Empty,111,64,Empty),114,0,Empty),115,9,Tree (B,Empty,125,0,Empty))),129,4,Tree (B,Tree (B,Empty,133,10,Empty),135,46,Tree (R,Tree (B,Empty,137,10,Empty),140,7,Tree (B,Empty,159,6,Empty)))),163,89,Tree (B,Tree (B,Tree (R,Empty,173,2,Empty),174,3,Empty),179,947,Tree (R,Tree (B,Tree (R,Empty,180,8,Empty),182,44,Empty),223,909,Tree (B,Empty,231,332,Empty)))))),232,5,Tree (B,Tree (R,Tree (B,Tree (B,Tree (B,Tree (B,Tree (R,Empty,233,3,Empty),234,98,Tree (R,Empty,239,1,Empty)),241,49,Tree (R,Tree (B,Empty,243,4,Empty),247,58,Tree (B,Tree (R,Empty,249,7,Empty),270,99,Empty))),279,0,Tree (R,Tree (B,Tree (B,Empty,289,67,Tree (R,Empty,290,3,Empty)),304,9,Tree (B,Empty,309,9,Tree (R,Empty,317,340,Empty))),328,4,Tree (B,Tree (B,Empty,332,61,Empty),334,5,Tree (R,Tree (B,Tree (R,Empty,338,745,Empty),341,4,Empty),343,3,Tree (B,Empty,345,1788,Empty))))),346,9,Tree (B,Tree (B,Tree (B,Empty,350,5,Empty),353,6,Tree (B,Empty,359,5,Tree (R,Empty,360,3,Empty))),372,7,Tree (B,Tree (R,Tree (B,Empty,373,335,Empty),376,4,Tree (B,Empty,379,21,Empty)),392,17,Tree (B,Tree (R,Empty,396,3,Empty),397,55,Empty)))),405,8,Tree (B,Tree (B,Tree (B,Tree (B,Tree (R,Empty,409,4,Empty),417,3,Empty),418,2,Tree (R,Tree (B,Tree (R,Empty,429,1905,Empty),432,0,Tree (R,Empty,436,2,Empty)),439,75,Tree (B,Empty,450,9,Tree (R,Empty,452,6682,Empty)))),454,3,Tree (R,Tree (B,Tree (B,Empty,457,7,Empty),458,2,Tree (B,Empty,460,0,Empty)),468,97,Tree (B,Tree (B,Empty,471,62,Empty),485,78,Tree (B,Empty,500,75,Empty)))),505,8,Tree (R,Tree (B,Tree (B,Tree (B,Empty,516,1,Empty),534,7,Tree (B,Empty,536,7,Empty)),537,387,Tree (B,Tree (B,Tree (R,Empty,538,0,Empty),539,1,Tree (R,Empty,548,4,Empty)),553,0,Tree (B,Tree (R,Empty,554,470,Empty),570,57,Tree (R,Empty,577,586,Empty)))),582,727,Tree (B,Tree (B,Tree (R,Tree (B,Empty,589,4,Empty),596,9,Tree (B,Empty,607,33,Empty)),620,2,Tree (R,Tree (B,Empty,621,3,Tree (R,Empty,625,88,Empty)),628,6,Tree (B,Empty,629,783,Empty))),647,9,Tree (R,Tree (B,Tree (B,Empty,651,157,Empty),652,1,Tree (B,Empty,657,36,Empty)),667,25,Tree (B,Tree (B,Empty,675,2,Empty),676,5,Tree (B,Empty,678,7,Tree (R,Empty,693,30,Empty)))))))),699,8,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,708,3978,Tree (R,Empty,720,834,Empty)),723,424,Tree (B,Empty,744,8,Empty)),750,2,Tree (B,Empty,770,9,Empty)),777,2,Tree (B,Tree (B,Empty,784,98,Tree (R,Empty,796,84,Empty)),814,5,Tree (B,Empty,829,84,Empty))),833,49,Tree (B,Tree (B,Tree (R,Empty,845,1,Empty),851,35,Empty),854,1,Tree (B,Empty,856,1,Empty))),858,28,Tree (B,Tree (B,Tree (B,Tree (R,Empty,861,12,Empty),865,4,Empty),866,9,Tree (B,Empty,871,77,Empty)),908,18,Tree (B,Tree (B,Empty,938,1,Empty),941,1,Tree (B,Empty,944,62,Tree (R,Empty,955,1,Empty))))),956,39,Tree (B,Tree (B,Tree (B,Empty,962,141,Empty),964,24,Tree (B,Empty,971,21,Empty)),980,1820,Tree (B,Tree (R,Tree (B,Tree (R,Empty,982,9,Empty),985,3,Empty),989,5,Tree (B,Empty,2138,2,Tree (R,Empty,2172,14,Empty))),2641,3,Tree (B,Empty,2741,2394,Tree (R,Empty,2937,85,Empty))))),3615,6,Tree (B,Tree (B,Tree (B,Tree (B,Empty,4016,104,Tree (R,Empty,4433,3,Empty)),4631,7,Tree (B,Empty,4958,4,Tree (R,Empty,4981,102,Empty))),5190,3,Tree (B,Tree (B,Empty,5961,2,Empty),6101,4,Tree (B,Empty,6287,756,Empty))),6604,609,Tree (B,Tree (B,Tree (B,Empty,6761,38,Tree (R,Empty,7141,9,Empty)),7573,94,Tree (B,Empty,7940,0,Empty)),8026,634,Tree (R,Tree (B,Tree (B,Tree (R,Empty,8152,223,Empty),8815,6,Tree (R,Empty,9223,1,Empty)),9402,39,Tree (B,Tree (R,Empty,9603,0,Empty),9645,7,Empty)),9703,1,Tree (B,Tree (B,Empty,9825,1,Empty),9885,56,Tree (B,Empty,9901,80,Empty)))))))), 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
 |prop_DeleteValid -> 0.37]
 [prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]   88    0    1   87 / 1000     0.0s test_prop_DeleteValid
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]     29      0      1     28 / 500000     0.0s test_prop_DeleteValid
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteValid failed (0 shrink steps):
 
-(Tree (B,Tree (B,Empty,0,7,Empty),2,96,Tree (R,Tree (B,Tree (R,Empty,6,50,Empty),9,18,Empty),29,9,Tree (B,Empty,89,92,Tree (R,Empty,922,48,Empty)))), 0)
+(Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Empty,0,507,Empty),1,8,Empty),2,1,Tree (B,Empty,3,4,Empty)),4,3,Tree (B,Empty,5,5,Empty)),6,805,Tree (B,Tree (B,Tree (R,Empty,7,5,Empty),8,9,Empty),9,49,Tree (R,Tree (B,Empty,11,97,Tree (R,Empty,12,4,Empty)),13,8,Tree (B,Tree (R,Empty,14,4,Empty),15,50,Empty)))),16,0,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,17,507,Empty),18,7,Tree (B,Empty,19,294,Tree (R,Empty,20,97,Empty))),21,701,Tree (B,Empty,22,9,Empty)),23,0,Tree (B,Tree (B,Empty,25,2,Empty),27,79,Tree (B,Empty,28,92,Empty))),29,1,Tree (B,Tree (R,Tree (B,Empty,30,598,Tree (R,Empty,31,1885,Empty)),32,4037,Tree (B,Empty,33,6,Empty)),34,34,Tree (B,Empty,35,2,Tree (R,Empty,36,1,Empty))))),37,1,Tree (B,Tree (B,Tree (B,Tree (R,Tree (B,Empty,38,225,Empty),39,464,Tree (B,Tree (R,Empty,41,10,Empty),42,6,Tree (R,Empty,43,8,Empty))),44,5,Tree (R,Tree (B,Empty,45,58,Empty),46,8,Tree (B,Empty,47,29,Empty))),48,26,Tree (B,Tree (B,Empty,49,70,Empty),50,40,Tree (B,Tree (R,Empty,51,0,Empty),52,84,Empty))),53,4222,Tree (B,Tree (R,Tree (B,Tree (B,Empty,54,1,Empty),55,72,Tree (B,Empty,56,880,Empty)),57,7,Tree (B,Tree (R,Tree (B,Empty,58,3,Empty),59,9,Tree (B,Empty,60,0,Empty)),61,87,Tree (R,Tree (B,Empty,62,4,Empty),63,8,Tree (B,Empty,64,5,Empty)))),65,6,Tree (R,Tree (B,Tree (B,Empty,66,2,Empty),67,7,Tree (B,Tree (R,Empty,68,8,Empty),69,31,Tree (R,Empty,70,19,Empty))),71,9,Tree (B,Tree (B,Empty,72,3,Empty),73,0,Tree (R,Tree (B,Empty,75,932,Empty),76,7,Tree (B,Empty,77,64,Empty))))))),78,600,Tree (R,Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Empty,79,553,Empty),82,6,Tree (B,Tree (R,Empty,83,63,Empty),84,399,Empty)),85,4151,Tree (B,Tree (B,Tree (R,Empty,86,8,Empty),87,22,Empty),88,1,Tree (B,Empty,89,929,Empty))),90,363,Tree (R,Tree (B,Tree (B,Tree (B,Empty,91,8,Empty),92,285,Tree (R,Tree (B,Empty,93,0,Empty),94,5,Tree (B,Empty,95,0,Empty))),96,26,Tree (R,Tree (B,Tree (B,Empty,97,18,Empty),98,92,Tree (B,Empty,99,9,Empty)),112,3,Tree (B,Tree (B,Tree (R,Empty,114,2,Empty),120,80,Empty),127,83,Tree (R,Tree (B,Empty,142,3,Empty),148,9,Tree (B,Empty,149,5741,Empty))))),151,53,Tree (B,Tree (B,Tree (R,Tree (B,Empty,163,6,Empty),164,0,Tree (B,Empty,166,8,Tree (R,Empty,167,6,Empty))),180,446,Tree (B,Empty,187,0,Empty)),202,104,Tree (B,Tree (R,Tree (B,Empty,205,946,Empty),207,131,Tree (B,Tree (R,Empty,208,525,Empty),215,0,Empty)),217,763,Tree (B,Tree (R,Empty,219,1,Empty),221,99,Tree (R,Empty,224,40,Empty)))))),225,1,Tree (B,Tree (B,Tree (R,Tree (B,Tree (B,Empty,226,60,Empty),237,6,Tree (B,Empty,242,4,Empty)),243,0,Tree (B,Tree (B,Empty,248,1,Tree (R,Empty,250,7466,Empty)),265,0,Tree (R,Tree (B,Tree (R,Empty,281,12,Empty),282,37,Empty),283,90,Tree (B,Empty,292,9190,Tree (R,Empty,294,58,Empty))))),300,282,Tree (B,Tree (B,Tree (R,Empty,301,43,Empty),304,7,Empty),315,973,Tree (B,Empty,321,8,Empty))),322,134,Tree (B,Tree (B,Tree (B,Empty,330,950,Tree (R,Empty,345,7,Empty)),346,6,Tree (B,Empty,358,7,Tree (R,Empty,362,8,Empty))),366,111,Tree (B,Tree (B,Empty,375,42,Empty),377,3,Tree (B,Empty,379,63,Tree (R,Empty,384,27,Empty)))))),393,3,Tree (B,Tree (B,Tree (R,Tree (B,Tree (B,Tree (B,Empty,412,35,Empty),426,36,Tree (B,Tree (R,Empty,434,8,Empty),443,8,Empty)),453,1,Tree (B,Tree (B,Empty,454,59,Empty),458,1,Tree (B,Empty,463,5582,Empty))),473,41,Tree (B,Tree (B,Tree (B,Tree (R,Empty,475,9,Empty),484,663,Tree (R,Empty,494,17,Empty)),502,0,Tree (R,Tree (B,Tree (R,Empty,505,54,Empty),508,818,Tree (R,Empty,516,861,Empty)),519,0,Tree (B,Empty,529,2,Empty))),531,69,Tree (R,Tree (B,Tree (R,Tree (B,Empty,541,313,Empty),551,0,Tree (B,Tree (R,Empty,552,186,Empty),560,6,Empty)),562,23,Tree (B,Empty,568,800,Tree (R,Empty,573,26,Empty))),576,616,Tree (B,Tree (B,Empty,577,96,Empty),583,8,Tree (B,Empty,586,43,Tree (R,Empty,594,23,Empty)))))),614,4,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Empty,632,3,Empty),635,6,Tree (B,Tree (R,Empty,639,4053,Empty),643,6,Tree (R,Empty,652,64,Empty))),656,783,Tree (B,Tree (R,Tree (B,Empty,657,487,Empty),660,6,Tree (B,Empty,677,79,Tree (R,Empty,692,9,Empty))),697,7,Tree (R,Tree (B,Empty,704,2,Empty),720,0,Tree (B,Tree (R,Empty,727,8186,Empty),732,66,Empty)))),737,32,Tree (B,Tree (B,Empty,758,740,Empty),760,621,Tree (B,Empty,761,8,Empty))),768,3,Tree (B,Tree (B,Tree (B,Empty,769,81,Empty),775,65,Tree (B,Tree (R,Empty,776,103,Empty),784,4,Empty)),796,196,Tree (B,Tree (B,Empty,801,4,Empty),816,102,Tree (R,Tree (B,Empty,826,1656,Empty),838,25,Tree (B,Empty,844,8,Empty)))))),852,493,Tree (B,Tree (B,Tree (B,Tree (B,Tree (R,Empty,853,618,Empty),865,988,Empty),875,9,Tree (R,Tree (B,Empty,899,9,Tree (R,Empty,910,4835,Empty)),911,524,Tree (B,Tree (R,Empty,912,4,Empty),913,6,Empty))),914,9,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Empty,915,2,Empty),925,8,Empty),930,2,Tree (B,Empty,933,4,Empty)),941,1,Tree (B,Tree (R,Empty,943,2,Empty),945,4,Empty)),954,71,Tree (B,Tree (B,Empty,976,8,Empty),979,0,Tree (R,Tree (B,Empty,983,62,Empty),990,228,Tree (B,Empty,1394,67,Tree (R,Empty,1452,8,Empty)))))),1537,10,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Empty,1650,8,Empty),2010,25,Tree (B,Empty,2114,106,Empty)),2381,7,Tree (B,Tree (B,Empty,2630,4,Empty),2676,29,Tree (B,Tree (R,Empty,3145,8,Empty),3345,0,Empty))),3523,0,Tree (R,Tree (B,Tree (B,Empty,4071,47,Empty),4360,4,Tree (R,Tree (B,Empty,4416,5,Empty),4439,50,Tree (B,Empty,4686,8,Tree (R,Empty,5458,622,Empty)))),5835,39,Tree (B,Tree (R,Tree (B,Tree (R,Empty,5838,3,Empty),6015,5,Empty),6224,38,Tree (B,Tree (R,Empty,6442,35,Empty),6890,30,Empty)),6923,927,Tree (R,Tree (B,Empty,6924,86,Empty),7017,44,Tree (B,Empty,7119,3,Tree (R,Empty,7370,61,Empty)))))),7463,149,Tree (B,Tree (B,Tree (B,Empty,7699,6,Empty),7710,3,Tree (R,Tree (B,Tree (R,Empty,7773,218,Empty),8285,0,Empty),8347,67,Tree (B,Empty,8760,49,Empty))),8991,264,Tree (B,Tree (B,Empty,9077,3,Empty),9321,815,Tree (R,Tree (B,Empty,9850,7,Empty),9853,970,Tree (B,Empty,9888,36,Empty))))))))), 72)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 9.80]
+|prop_DeleteValid -> 4.13]
 [prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]    2    0    1    1 / 1000     0.0s test_prop_DeleteValid
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]     28      0      1     27 / 500000     0.0s test_prop_DeleteValid
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteValid failed (0 shrink steps):
 
-(Tree (B,Tree (B,Tree (R,Tree (B,Tree (B,Empty,0,79,Empty),1,0,Tree (R,Tree (B,Empty,2,1,Empty),3,3,Tree (B,Empty,4,3,Empty))),5,4,Tree (B,Tree (R,Tree (B,Tree (R,Empty,6,3,Empty),7,6,Empty),8,7,Tree (B,Empty,9,127,Empty)),11,575,Tree (R,Tree (B,Tree (R,Empty,21,70,Empty),37,793,Empty),56,650,Tree (B,Empty,59,84,Tree (R,Empty,67,6,Empty))))),70,6,Tree (B,Tree (B,Tree (R,Empty,78,1,Empty),81,1,Empty),83,311,Tree (R,Tree (B,Empty,85,412,Empty),91,38,Tree (B,Tree (R,Empty,94,9,Empty),112,72,Empty)))),169,0,Tree (B,Tree (B,Tree (B,Empty,228,174,Tree (R,Empty,338,8517,Empty)),420,1,Tree (B,Empty,477,6,Empty)),493,0,Tree (R,Tree (B,Tree (B,Empty,548,189,Empty),607,5,Tree (B,Empty,674,6,Empty)),805,4,Tree (B,Tree (B,Empty,811,9,Empty),821,87,Tree (R,Tree (B,Empty,822,661,Empty),963,325,Tree (B,Empty,4592,97,Tree (R,Empty,9946,284,Empty))))))), 0)
+(Tree (B,Tree (R,Tree (B,Tree (B,Tree (B,Empty,0,0,Empty),1,1,Tree (B,Tree (R,Empty,2,6,Empty),3,9,Empty)),4,76,Tree (B,Tree (R,Tree (B,Empty,5,0,Empty),6,21,Tree (B,Empty,7,9,Empty)),8,2,Tree (B,Tree (R,Empty,9,44,Empty),16,225,Empty))),33,45,Tree (B,Tree (B,Tree (B,Empty,37,762,Empty),41,5,Tree (B,Empty,44,3,Empty)),55,2,Tree (R,Tree (B,Tree (R,Tree (B,Empty,56,9,Empty),58,86,Tree (B,Tree (R,Empty,159,42,Empty),232,9,Empty)),273,40,Tree (B,Empty,289,362,Empty)),333,87,Tree (B,Tree (B,Empty,337,9,Empty),414,8,Tree (B,Empty,431,485,Empty))))),582,9,Tree (B,Tree (B,Tree (B,Tree (R,Empty,682,508,Empty),793,8,Tree (R,Empty,810,3,Empty)),837,0,Tree (B,Empty,934,862,Empty)),941,7,Tree (B,Tree (B,Empty,977,7,Empty),1692,86,Tree (B,Empty,7361,6,Empty)))), 41)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 0.33]
+|prop_DeleteValid -> 3.50]
 [prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]   44    0    1   43 / 1000     0.0s test_prop_DeleteValid
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]     41      0      1     40 / 500000     0.0s test_prop_DeleteValid
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteValid failed (0 shrink steps):
 
-(Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,33,Empty),1,6274,Tree (R,Tree (B,Empty,2,69,Empty),3,5997,Tree (B,Empty,4,4,Empty))),5,2,Tree (B,Tree (R,Tree (B,Empty,6,1,Empty),7,3,Tree (B,Empty,8,67,Empty)),9,305,Tree (B,Tree (R,Empty,29,7,Empty),34,0,Tree (R,Empty,45,737,Empty)))),52,6,Tree (R,Tree (B,Tree (B,Tree (B,Tree (R,Empty,54,26,Empty),56,85,Tree (R,Empty,58,32,Empty)),70,0,Tree (R,Tree (B,Empty,71,95,Empty),75,8,Tree (B,Tree (R,Empty,80,6,Empty),89,585,Empty))),98,4,Tree (B,Tree (R,Tree (B,Empty,113,2,Empty),156,99,Tree (B,Empty,165,20,Empty)),420,2,Tree (B,Empty,515,99,Empty))),555,8017,Tree (B,Tree (R,Tree (B,Tree (B,Empty,572,0,Empty),584,4,Tree (B,Empty,596,73,Empty)),740,39,Tree (B,Tree (B,Empty,747,3256,Empty),757,521,Tree (B,Tree (R,Empty,816,72,Empty),830,8,Tree (R,Empty,859,2,Empty)))),870,15,Tree (B,Tree (B,Tree (R,Empty,890,95,Empty),894,2,Empty),929,9,Tree (R,Tree (B,Empty,6221,50,Empty),6710,60,Tree (B,Tree (R,Empty,7552,9,Empty),7745,0,Tree (R,Empty,8896,4743,Empty))))))), 0)
+(Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,93,Empty),1,589,Tree (R,Tree (B,Empty,2,0,Tree (R,Empty,3,9,Empty)),4,484,Tree (B,Empty,5,2,Empty))),6,86,Tree (B,Tree (B,Tree (R,Empty,7,664,Empty),8,3,Empty),9,66,Tree (R,Tree (B,Empty,22,8,Empty),25,879,Tree (B,Empty,33,0,Empty)))),37,669,Tree (B,Tree (R,Tree (B,Tree (B,Empty,44,7,Empty),46,570,Tree (B,Empty,53,2,Tree (R,Empty,66,998,Empty))),68,15,Tree (B,Tree (R,Tree (B,Tree (R,Empty,71,5,Empty),73,65,Empty),77,88,Tree (B,Tree (R,Empty,80,7,Empty),105,7,Empty)),145,1,Tree (B,Empty,146,3,Tree (R,Empty,283,3,Empty)))),518,71,Tree (B,Tree (B,Empty,540,6,Tree (R,Empty,747,0,Empty)),975,50,Tree (R,Tree (B,Empty,2646,8,Empty),3067,6,Tree (B,Empty,9461,26,Empty))))), 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 7.39]
+|prop_DeleteValid -> 1.99]
 [prop_DeleteValid|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid
-[ ]    0    0    0    0 / 1000     0.0s test_prop_DeleteValid (generating)
-[✗]   59    0    1   58 / 1000     0.0s test_prop_DeleteValid
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteValid (generating)
+[✗]     48      0      1     47 / 500000     0.0s test_prop_DeleteValid
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteValid failed (0 shrink steps):
 
-(Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Empty,0,9782,Empty),1,2,Tree (R,Tree (B,Empty,2,5,Tree (R,Empty,3,2,Empty)),4,88,Tree (B,Empty,5,3,Tree (R,Empty,6,50,Empty)))),7,5,Tree (B,Tree (B,Empty,8,5,Empty),9,1,Tree (R,Tree (B,Empty,10,4,Empty),11,572,Tree (B,Empty,12,2,Tree (R,Empty,13,677,Empty))))),14,653,Tree (R,Tree (B,Tree (B,Tree (B,Tree (R,Empty,15,3,Empty),17,83,Tree (R,Empty,18,28,Empty)),19,1,Tree (B,Empty,21,58,Empty)),22,4,Tree (B,Tree (R,Tree (B,Empty,23,7,Empty),24,330,Tree (B,Empty,27,18,Tree (R,Empty,28,1,Empty))),30,59,Tree (B,Tree (R,Empty,31,5,Empty),32,650,Empty))),33,5,Tree (B,Tree (B,Tree (B,Empty,34,5,Empty),38,835,Tree (R,Tree (B,Empty,40,3,Empty),41,0,Tree (B,Empty,42,345,Empty))),43,0,Tree (B,Tree (R,Tree (B,Empty,44,46,Empty),45,4,Tree (B,Tree (R,Empty,46,54,Empty),47,8,Empty)),51,44,Tree (R,Tree (B,Tree (R,Empty,52,5,Empty),53,6,Empty),54,8,Tree (B,Tree (R,Empty,56,0,Empty),57,217,Empty)))))),58,14,Tree (B,Tree (R,Tree (B,Tree (B,Tree (B,Tree (R,Empty,59,96,Empty),60,3,Tree (R,Empty,61,94,Empty)),62,680,Tree (R,Tree (B,Empty,63,220,Empty),65,3957,Tree (B,Empty,66,8,Tree (R,Empty,68,95,Empty)))),69,3,Tree (B,Tree (B,Empty,70,73,Empty),71,19,Tree (R,Tree (B,Empty,72,0,Empty),75,8,Tree (B,Empty,77,4,Empty)))),79,601,Tree (B,Tree (B,Tree (B,Tree (R,Empty,81,0,Empty),82,8,Empty),86,4,Tree (R,Tree (B,Empty,87,7,Empty),88,258,Tree (B,Empty,91,3468,Empty))),94,2,Tree (B,Tree (B,Empty,96,83,Empty),97,42,Tree (R,Tree (B,Empty,98,3,Empty),104,8,Tree (B,Empty,138,3,Empty))))),173,8523,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,182,825,Empty),186,35,Tree (B,Empty,192,8,Empty)),201,70,Tree (R,Tree (B,Tree (R,Empty,227,1108,Empty),244,6,Empty),262,2,Tree (B,Empty,276,7291,Empty))),312,7,Tree (B,Tree (B,Tree (R,Empty,319,6,Empty),348,957,Tree (R,Empty,356,5,Empty)),373,56,Tree (R,Tree (B,Empty,375,6,Tree (R,Empty,385,1,Empty)),386,6,Tree (B,Empty,404,5,Empty)))),407,5,Tree (B,Tree (B,Empty,417,1,Empty),423,8,Tree (B,Empty,433,0,Tree (R,Empty,459,0,Empty)))))),463,7,Tree (B,Tree (B,Tree (B,Tree (B,Tree (B,Empty,493,8,Empty),496,472,Tree (B,Empty,509,5876,Empty)),511,9,Tree (B,Tree (B,Empty,530,9,Empty),552,2,Tree (B,Empty,558,80,Empty))),595,0,Tree (B,Tree (B,Tree (B,Empty,624,5,Empty),636,584,Tree (B,Empty,637,867,Empty)),641,703,Tree (B,Tree (B,Tree (R,Empty,658,1,Empty),663,12,Empty),665,1,Tree (B,Empty,683,7,Empty)))),721,294,Tree (B,Tree (B,Tree (R,Tree (B,Tree (B,Tree (R,Empty,728,619,Empty),744,4,Tree (R,Empty,748,42,Empty)),749,7,Tree (B,Empty,765,738,Empty)),777,116,Tree (B,Tree (B,Empty,795,6,Empty),800,870,Tree (B,Empty,801,3,Empty))),811,477,Tree (B,Tree (B,Empty,829,90,Tree (R,Empty,842,3152,Empty)),844,1,Tree (B,Empty,851,1,Empty))),879,599,Tree (R,Tree (B,Tree (R,Tree (B,Tree (B,Empty,883,90,Tree (R,Empty,888,5,Empty)),894,820,Tree (R,Tree (B,Empty,897,40,Tree (R,Empty,899,9,Empty)),907,7,Tree (B,Empty,926,3,Empty))),931,1,Tree (B,Tree (B,Tree (R,Empty,938,407,Empty),944,0,Tree (R,Empty,966,81,Empty)),969,255,Tree (B,Empty,973,6793,Empty))),987,60,Tree (B,Tree (R,Tree (B,Tree (R,Empty,1173,94,Empty),1819,942,Empty),3454,43,Tree (B,Empty,4285,7,Empty)),5194,3,Tree (B,Empty,5245,5,Empty))),6105,3,Tree (B,Tree (B,Tree (B,Empty,6215,106,Empty),6325,849,Tree (B,Empty,6623,793,Empty)),7191,91,Tree (B,Tree (B,Empty,8336,672,Tree (R,Empty,8542,8,Empty)),8715,0,Tree (B,Empty,9104,5,Tree (R,Empty,9825,7,Empty)))))))), 8)
+(Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,0,2,Empty),1,9,Tree (B,Empty,2,47,Empty)),3,6,Tree (B,Empty,4,567,Empty)),5,0,Tree (B,Tree (B,Tree (R,Empty,6,0,Empty),7,42,Tree (R,Empty,8,41,Empty)),9,1,Tree (R,Tree (B,Tree (R,Empty,11,48,Empty),14,125,Empty),19,52,Tree (B,Empty,23,30,Tree (R,Empty,28,5,Empty))))),29,2,Tree (R,Tree (B,Tree (B,Empty,35,79,Tree (R,Empty,47,6,Empty)),48,907,Tree (R,Tree (B,Empty,58,524,Empty),61,2,Tree (B,Empty,62,354,Tree (R,Empty,65,4,Empty)))),72,930,Tree (B,Tree (B,Empty,80,450,Empty),91,9,Tree (R,Tree (B,Tree (R,Empty,92,44,Empty),96,146,Empty),176,811,Tree (B,Empty,267,189,Empty))))),271,1,Tree (B,Tree (B,Tree (B,Empty,299,30,Empty),356,336,Tree (B,Tree (R,Empty,407,4,Empty),617,7,Tree (R,Empty,803,27,Empty))),863,8,Tree (B,Tree (B,Tree (R,Empty,871,0,Empty),894,9,Empty),964,94,Tree (R,Tree (B,Tree (R,Empty,979,3,Empty),3407,6,Empty),5666,4,Tree (B,Empty,6219,890,Empty))))), 80)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteValid -> 10.19]
+|prop_DeleteValid -> 2.67]

@@ -7,6 +7,7 @@ from functools import partial
 def analyze(results: str, images: str):
     df = parse_results(results)
     df['timeout'] = np.where(df['strategy'] == 'Lean', 10, 60)
+    df['time'] = df['time'] / 100
     df['foundbug'] = df['foundbug'] & (df['time'] < df['timeout'])
 
 

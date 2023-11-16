@@ -1,87 +1,297 @@
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[ ]  742    0    0  742 / 1000     0.1s test_prop_MultiPreserve (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    895      0      0    895 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1773      0      0   1773 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2398      0      0   2398 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   3273      0      0   3273 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   3895      0      0   3895 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[✗]   3896      0      1   3895 / 500000     0.5s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,\c:(Bool->Bool),b a
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 131.40]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 506.38]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    935      0      0    935 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1599      0      0   1599 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2429      0      0   2429 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   2970      0      0   2970 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   3375      0      0   3375 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[ ]   4180      0      0   4180 / 500000     0.6s test_prop_MultiPreserve (collecting)
+[ ]   4887      0      0   4887 / 500000     0.7s test_prop_MultiPreserve (collecting)
+[ ]   5502      0      0   5502 / 500000     0.8s test_prop_MultiPreserve (collecting)
+[ ]   6202      0      0   6202 / 500000     0.9s test_prop_MultiPreserve (collecting)
+[ ]   6883      0      0   6883 / 500000     1.0s test_prop_MultiPreserve (collecting)
+[ ]   7592      0      0   7592 / 500000     1.1s test_prop_MultiPreserve (collecting)
+[✗]   7633      0      1   7632 / 500000     1.1s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,\c:(Bool->((Bool->Bool)->(Bool->Bool))),\d:(((Bool->Bool)->(Bool->Bool))->((Bool->Bool)->(Bool->Bool))),c \c:Bool,\d:(Bool->Bool),\e:Bool,true \c:((Bool->Bool)->(Bool->Bool)),\d:(Bool->Bool),\e:Bool,false \b:(Bool->(Bool->Bool)),\c:Bool,c b \b:(Bool->Bool),\c:Bool,\d:Bool,true \b:(Bool->Bool),\c:Bool,\d:Bool,true b \b:Bool,\c:Bool,false a false
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 91.20]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 1119.86]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[ ]  953    0    0  953 / 1000     0.1s test_prop_MultiPreserve (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    954      0      0    954 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1673      0      0   1673 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2494      0      0   2494 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   3473      0      0   3473 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   4156      0      0   4156 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[ ]   4936      0      0   4936 / 500000     0.6s test_prop_MultiPreserve (collecting)
+[ ]   5714      0      0   5714 / 500000     0.7s test_prop_MultiPreserve (collecting)
+[✗]   6373      0      1   6372 / 500000     0.8s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,\c:(Bool->Bool),\d:Bool,c a
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 107.80]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 796.84]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    772      0      0    772 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1552      0      0   1552 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2375      0      0   2375 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   3098      0      0   3098 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   3833      0      0   3833 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[ ]   4361      0      0   4361 / 500000     0.6s test_prop_MultiPreserve (collecting)
+[ ]   4952      0      0   4952 / 500000     0.7s test_prop_MultiPreserve (collecting)
+[✗]   5419      0      1   5418 / 500000     0.8s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:(Bool->(Bool->(((Bool->(Bool->Bool))->(Bool->Bool))->Bool))),\c:Bool,\d:Bool,b b true \a:Bool,\b:Bool,\c:((Bool->(Bool->Bool))->(Bool->Bool)),true
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 92.58]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 770.91]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[ ]  887    0    0  887 / 1000     0.1s test_prop_MultiPreserve (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    949      0      0    949 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1875      0      0   1875 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[✗]   2211      0      1   2210 / 500000     0.2s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:(Bool->Bool),\b:Bool,\c:Bool,\d:(Bool->(Bool->(Bool->Bool))),\e:Bool,\f:Bool,e \d:Bool,\e:Bool,\f:Bool,\g:Bool,false b a true false \a:Bool,true \a:(Bool->Bool),true \a:Bool,false
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 105.99]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 235.84]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    915      0      0    915 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1666      0      0   1666 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2520      0      0   2520 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   3351      0      0   3351 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   3980      0      0   3980 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[ ]   4677      0      0   4677 / 500000     0.6s test_prop_MultiPreserve (collecting)
+[ ]   5331      0      0   5331 / 500000     0.7s test_prop_MultiPreserve (collecting)
+[ ]   5933      0      0   5933 / 500000     0.8s test_prop_MultiPreserve (collecting)
+[ ]   6496      0      0   6496 / 500000     0.9s test_prop_MultiPreserve (collecting)
+[ ]   7152      0      0   7152 / 500000     1.0s test_prop_MultiPreserve (collecting)
+[ ]   7742      0      0   7742 / 500000     1.1s test_prop_MultiPreserve (collecting)
+[ ]   8222      0      0   8222 / 500000     1.2s test_prop_MultiPreserve (collecting)
+[ ]   8857      0      0   8857 / 500000     1.3s test_prop_MultiPreserve (collecting)
+[ ]   9358      0      0   9358 / 500000     1.4s test_prop_MultiPreserve (collecting)
+[ ]  10045      0      0  10045 / 500000     1.5s test_prop_MultiPreserve (collecting)
+[ ]  10705      0      0  10705 / 500000     1.6s test_prop_MultiPreserve (collecting)
+[ ]  11258      0      0  11258 / 500000     1.7s test_prop_MultiPreserve (collecting)
+[ ]  11924      0      0  11924 / 500000     1.8s test_prop_MultiPreserve (collecting)
+[ ]  12572      0      0  12572 / 500000     1.9s test_prop_MultiPreserve (collecting)
+[ ]  13301      0      0  13301 / 500000     2.0s test_prop_MultiPreserve (collecting)
+[ ]  13894      0      0  13894 / 500000     2.1s test_prop_MultiPreserve (collecting)
+[ ]  14496      0      0  14496 / 500000     2.2s test_prop_MultiPreserve (collecting)
+[ ]  15059      0      0  15059 / 500000     2.3s test_prop_MultiPreserve (collecting)
+[ ]  15728      0      0  15728 / 500000     2.4s test_prop_MultiPreserve (collecting)
+[ ]  16338      0      0  16338 / 500000     2.5s test_prop_MultiPreserve (collecting)
+[ ]  17137      0      0  17137 / 500000     2.6s test_prop_MultiPreserve (collecting)
+[ ]  17678      0      0  17678 / 500000     2.7s test_prop_MultiPreserve (collecting)
+[ ]  18241      0      0  18241 / 500000     2.8s test_prop_MultiPreserve (collecting)
+[ ]  18872      0      0  18872 / 500000     2.9s test_prop_MultiPreserve (collecting)
+[ ]  19344      0      0  19344 / 500000     3.0s test_prop_MultiPreserve (collecting)
+[ ]  19858      0      0  19858 / 500000     3.1s test_prop_MultiPreserve (collecting)
+[ ]  20489      0      0  20489 / 500000     3.2s test_prop_MultiPreserve (collecting)
+[ ]  21057      0      0  21057 / 500000     3.3s test_prop_MultiPreserve (collecting)
+[ ]  21557      0      0  21557 / 500000     3.5s test_prop_MultiPreserve (collecting)
+[ ]  22129      0      0  22129 / 500000     3.6s test_prop_MultiPreserve (collecting)
+[ ]  22726      0      0  22726 / 500000     3.7s test_prop_MultiPreserve (collecting)
+[ ]  23322      0      0  23322 / 500000     3.8s test_prop_MultiPreserve (collecting)
+[ ]  23843      0      0  23843 / 500000     3.9s test_prop_MultiPreserve (collecting)
+[ ]  24335      0      0  24335 / 500000     4.0s test_prop_MultiPreserve (collecting)
+[ ]  24989      0      0  24989 / 500000     4.1s test_prop_MultiPreserve (collecting)
+[ ]  25599      0      0  25599 / 500000     4.2s test_prop_MultiPreserve (collecting)
+[ ]  25993      0      0  25993 / 500000     4.3s test_prop_MultiPreserve (collecting)
+[ ]  26483      0      0  26483 / 500000     4.4s test_prop_MultiPreserve (collecting)
+[ ]  26990      0      0  26990 / 500000     4.5s test_prop_MultiPreserve (collecting)
+[ ]  27476      0      0  27476 / 500000     4.6s test_prop_MultiPreserve (collecting)
+[ ]  27967      0      0  27967 / 500000     4.7s test_prop_MultiPreserve (collecting)
+[ ]  28747      0      0  28747 / 500000     4.8s test_prop_MultiPreserve (collecting)
+[ ]  29373      0      0  29373 / 500000     4.9s test_prop_MultiPreserve (collecting)
+[ ]  30010      0      0  30010 / 500000     5.0s test_prop_MultiPreserve (collecting)
+[ ]  30700      0      0  30700 / 500000     5.1s test_prop_MultiPreserve (collecting)
+[ ]  31302      0      0  31302 / 500000     5.2s test_prop_MultiPreserve (collecting)
+[ ]  31939      0      0  31939 / 500000     5.3s test_prop_MultiPreserve (collecting)
+[ ]  32469      0      0  32469 / 500000     5.4s test_prop_MultiPreserve (collecting)
+[ ]  32739      0      0  32739 / 500000     5.5s test_prop_MultiPreserve (collecting)
+[ ]  33424      0      0  33424 / 500000     5.6s test_prop_MultiPreserve (collecting)
+[ ]  34066      0      0  34066 / 500000     5.7s test_prop_MultiPreserve (collecting)
+[ ]  34569      0      0  34569 / 500000     5.8s test_prop_MultiPreserve (collecting)
+[ ]  35121      0      0  35121 / 500000     5.9s test_prop_MultiPreserve (collecting)
+[ ]  35625      0      0  35625 / 500000     6.0s test_prop_MultiPreserve (collecting)
+[ ]  36051      0      0  36051 / 500000     6.1s test_prop_MultiPreserve (collecting)
+[ ]  36669      0      0  36669 / 500000     6.2s test_prop_MultiPreserve (collecting)
+[ ]  37252      0      0  37252 / 500000     6.3s test_prop_MultiPreserve (collecting)
+[ ]  37867      0      0  37867 / 500000     6.4s test_prop_MultiPreserve (collecting)
+[ ]  38355      0      0  38355 / 500000     6.5s test_prop_MultiPreserve (collecting)
+[ ]  39021      0      0  39021 / 500000     6.6s test_prop_MultiPreserve (collecting)
+[ ]  39500      0      0  39500 / 500000     6.7s test_prop_MultiPreserve (collecting)
+[ ]  39967      0      0  39967 / 500000     6.8s test_prop_MultiPreserve (collecting)
+[✗]  40138      0      1  40137 / 500000     6.8s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:(((Bool->Bool)->Bool)->(Bool->((Bool->Bool)->(((Bool->Bool)->Bool)->(Bool->(Bool->Bool)))))),\b:(Bool->Bool),\c:Bool,\d:((Bool->(Bool->Bool))->Bool),\e:Bool,\f:Bool,\g:Bool,\h:Bool,\i:((Bool->Bool)->Bool),\j:Bool,c b true c \d:(Bool->(Bool->Bool)),true true \c:(((Bool->Bool)->Bool)->Bool),false \c:((Bool->Bool)->Bool),\d:((Bool->Bool)->Bool),false \d:Bool,\e:(Bool->Bool),true true \a:((Bool->Bool)->Bool),\b:Bool,\c:(Bool->Bool),\d:((Bool->Bool)->Bool),\e:Bool,\f:Bool,true
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 93.76]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 6846.89]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[ ]  729    0    0  729 / 1000     0.1s test_prop_MultiPreserve (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    859      0      0    859 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1681      0      0   1681 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2517      0      0   2517 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   3335      0      0   3335 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   3938      0      0   3938 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[ ]   4535      0      0   4535 / 500000     0.6s test_prop_MultiPreserve (collecting)
+[✗]   4978      0      1   4977 / 500000     0.7s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,\c:(Bool->(((Bool->Bool)->Bool)->(Bool->Bool))),b a true
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 136.24]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 690.66]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[ ]  974    0    0  974 / 1000     0.1s test_prop_MultiPreserve (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]    794      0      0    794 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1599      0      0   1599 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2453      0      0   2453 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   3130      0      0   3130 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   3927      0      0   3927 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[ ]   4657      0      0   4657 / 500000     0.6s test_prop_MultiPreserve (collecting)
+[ ]   5398      0      0   5398 / 500000     0.7s test_prop_MultiPreserve (collecting)
+[ ]   5981      0      0   5981 / 500000     0.8s test_prop_MultiPreserve (collecting)
+[ ]   6515      0      0   6515 / 500000     0.9s test_prop_MultiPreserve (collecting)
+[ ]   7292      0      0   7292 / 500000     1.0s test_prop_MultiPreserve (collecting)
+[ ]   8015      0      0   8015 / 500000     1.1s test_prop_MultiPreserve (collecting)
+[ ]   8598      0      0   8598 / 500000     1.2s test_prop_MultiPreserve (collecting)
+[ ]   9238      0      0   9238 / 500000     1.3s test_prop_MultiPreserve (collecting)
+[ ]   9738      0      0   9738 / 500000     1.4s test_prop_MultiPreserve (collecting)
+[ ]  10229      0      0  10229 / 500000     1.5s test_prop_MultiPreserve (collecting)
+[ ]  11015      0      0  11015 / 500000     1.6s test_prop_MultiPreserve (collecting)
+[ ]  11569      0      0  11569 / 500000     1.7s test_prop_MultiPreserve (collecting)
+[ ]  12203      0      0  12203 / 500000     1.8s test_prop_MultiPreserve (collecting)
+[ ]  12882      0      0  12882 / 500000     1.9s test_prop_MultiPreserve (collecting)
+[ ]  13480      0      0  13480 / 500000     2.0s test_prop_MultiPreserve (collecting)
+[ ]  14058      0      0  14058 / 500000     2.1s test_prop_MultiPreserve (collecting)
+[ ]  14470      0      0  14470 / 500000     2.2s test_prop_MultiPreserve (collecting)
+[ ]  15219      0      0  15219 / 500000     2.3s test_prop_MultiPreserve (collecting)
+[ ]  15770      0      0  15770 / 500000     2.4s test_prop_MultiPreserve (collecting)
+[ ]  16360      0      0  16360 / 500000     2.5s test_prop_MultiPreserve (collecting)
+[✗]  16617      0      1  16616 / 500000     2.6s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:(((Bool->((Bool->Bool)->Bool))->Bool)->Bool),\b:(Bool->(Bool->Bool)),\c:Bool,\d:Bool,\e:(Bool->(Bool->Bool)),c \c:((((Bool->((Bool->Bool)->((Bool->Bool)->Bool)))->(((Bool->(Bool->Bool))->((Bool->(((Bool->Bool)->(Bool->Bool))->(Bool->(Bool->Bool))))->Bool))->Bool))->Bool)->Bool),b b false true true \c:(Bool->((Bool->Bool)->Bool)),\d:(((Bool->((Bool->Bool)->((Bool->Bool)->Bool)))->(((Bool->(Bool->Bool))->((Bool->(((Bool->Bool)->(Bool->Bool))->(Bool->(Bool->Bool))))->Bool))->Bool))->Bool),false \c:Bool,\d:(Bool->Bool),false \b:Bool,\c:Bool,b
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 101.91]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 2596.94]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[ ]  944    0    0  944 / 1000     0.1s test_prop_MultiPreserve (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[ ]   1222      0      0   1222 / 500000     0.1s test_prop_MultiPreserve (collecting)
+[ ]   1807      0      0   1807 / 500000     0.2s test_prop_MultiPreserve (collecting)
+[ ]   2602      0      0   2602 / 500000     0.3s test_prop_MultiPreserve (collecting)
+[ ]   3263      0      0   3263 / 500000     0.4s test_prop_MultiPreserve (collecting)
+[ ]   3909      0      0   3909 / 500000     0.5s test_prop_MultiPreserve (collecting)
+[ ]   4563      0      0   4563 / 500000     0.6s test_prop_MultiPreserve (collecting)
+[ ]   5303      0      0   5303 / 500000     0.7s test_prop_MultiPreserve (collecting)
+[ ]   6001      0      0   6001 / 500000     0.8s test_prop_MultiPreserve (collecting)
+[ ]   6571      0      0   6571 / 500000     0.9s test_prop_MultiPreserve (collecting)
+[ ]   7189      0      0   7189 / 500000     1.0s test_prop_MultiPreserve (collecting)
+[ ]   7726      0      0   7726 / 500000     1.1s test_prop_MultiPreserve (collecting)
+[ ]   8537      0      0   8537 / 500000     1.2s test_prop_MultiPreserve (collecting)
+[ ]   9130      0      0   9130 / 500000     1.3s test_prop_MultiPreserve (collecting)
+[ ]   9732      0      0   9732 / 500000     1.4s test_prop_MultiPreserve (collecting)
+[ ]  10320      0      0  10320 / 500000     1.5s test_prop_MultiPreserve (collecting)
+[ ]  10859      0      0  10859 / 500000     1.6s test_prop_MultiPreserve (collecting)
+[ ]  11414      0      0  11414 / 500000     1.7s test_prop_MultiPreserve (collecting)
+[ ]  11949      0      0  11949 / 500000     1.8s test_prop_MultiPreserve (collecting)
+[ ]  12687      0      0  12687 / 500000     1.9s test_prop_MultiPreserve (collecting)
+[ ]  13286      0      0  13286 / 500000     2.0s test_prop_MultiPreserve (collecting)
+[ ]  13903      0      0  13903 / 500000     2.1s test_prop_MultiPreserve (collecting)
+[ ]  14625      0      0  14625 / 500000     2.2s test_prop_MultiPreserve (collecting)
+[ ]  15412      0      0  15412 / 500000     2.3s test_prop_MultiPreserve (collecting)
+[ ]  15862      0      0  15862 / 500000     2.4s test_prop_MultiPreserve (collecting)
+[ ]  16261      0      0  16261 / 500000     2.5s test_prop_MultiPreserve (collecting)
+[ ]  16826      0      0  16826 / 500000     2.6s test_prop_MultiPreserve (collecting)
+[ ]  17417      0      0  17417 / 500000     2.7s test_prop_MultiPreserve (collecting)
+[✗]  17435      0      1  17434 / 500000     2.7s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,\c:(Bool->((((Bool->Bool)->Bool)->Bool)->Bool)),\d:((Bool->Bool)->(Bool->Bool)),c \c:Bool,\d:Bool,\e:(((Bool->Bool)->Bool)->Bool),false \c:Bool,false \c:Bool,true \c:(Bool->(Bool->(Bool->Bool))),\d:Bool,false \c:Bool,\d:Bool,\e:Bool,false true \c:(Bool->Bool),a a
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 110.65]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 2731.19]
 [prop_MultiPreserve|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve
-[ ]    0    0    0    0 / 1000     0.0s test_prop_MultiPreserve (generating)
-[ ]  826    0    0  826 / 1000     0.1s test_prop_MultiPreserve (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_MultiPreserve
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve
+[ ]      0      0      0      0 / 500000     0.0s test_prop_MultiPreserve (generating)
+[✗]    971      0      1    970 / 500000     0.1s test_prop_MultiPreserve
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:((Bool->Bool)->((Bool->(Bool->Bool))->Bool)),\b:Bool,\c:(Bool->Bool),\d:Bool,\e:((Bool->(Bool->Bool))->Bool),\f:(Bool->Bool),c \e:(Bool->(Bool->Bool)),true b \c:(((Bool->(Bool->(Bool->Bool)))->Bool)->(Bool->Bool)),\d:Bool,true \c:((Bool->(Bool->(Bool->Bool)))->Bool),\d:Bool,false \a:(Bool->Bool),\b:(Bool->(Bool->Bool)),false \a:Bool,false true \a:Bool,true
 ================================================================================
-success (ran 1 tests)
-|prop_MultiPreserve -> 118.39]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_MultiPreserve -> 90.75]

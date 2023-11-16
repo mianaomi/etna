@@ -6,6 +6,22 @@ type kvlist = (int * int) list
 type key = int
 type value = int
 
+(* Simplified Applicative of Options *)
+let (<|>) x y = match x with
+  | None -> y
+  | Some _ -> x
+
+let rec (===) t t' = match t, t' with
+| E, T _ -> false
+| T _, E -> false
+| E, E -> true
+| T (l, k, v, r), T (l', k', v', r') ->
+  l === l' &&
+  k = k' &&
+  v = v' &&
+  r === r'
+
+
 let rec keys (t: tree): int list =
   match t with
   | E -> []
@@ -71,12 +87,13 @@ let prop_DeletePost : (tree * key * key) -> bool =
 
 let prop_UnionPost : (tree * tree * key) -> bool =
   fun (t, t', k) ->
+    assume (isBST t);
     let lhs  = Impl.find k (union t t') in
     let rhs  = Impl.find k t in
     let rhs' = Impl.find k t' in
-    (lhs = rhs || lhs = rhs')
+    lhs = (rhs <|> rhs')
 
-(* ---------- *)
+(* ------------------------------------------------------------------------- *)
 
 (* -- Model-based properties. *)
 
@@ -196,7 +213,7 @@ let prop_UnionUnionAssoc : (tree * tree * tree) -> bool =
   assume (isBST t1);
   assume (isBST t2);
   assume (isBST t3);
-  union (union t1 t2) t3 =|= union t1 (union t2 t3)
+  union (union t1 t2) t3 === union t1 (union t2 t3)
 
 
 (* ---------- *)
@@ -205,36 +222,3 @@ let sizeBST (t: tree) : int =
   length (toList t)
 
 (* -- Size properties. *)
-
-let bst_gen =
-  let open QCheck.Gen in
-  let rec tree_gen n =
-    if n <= 0 then
-      return E
-    else
-      frequency
-        [ 1, return E;
-          2, map2 (fun (left, right) (key, value) -> T (left, key, value, right))
-                 (pair (tree_gen (n / 2)) (tree_gen (n / 2))) (pair nat nat)
-        ]
-  in
-  sized (fun n -> tree_gen n)
-
-let arbitrary_tree =
-  let rec print_tree = function
-    | E -> "Empty"
-    | T (l, k, v, r) -> "Tree (" ^ (print_tree l) ^ "," ^ (string_of_int k) ^ "," ^ (string_of_int v) ^ "," ^ (print_tree r) ^ ")"
-  in
-  QCheck.make bst_gen ~print:print_tree;;
-
-let test =
-  QCheck.Test.make ~count:1000 ~name:"bst_trial"
-   QCheck.(triple arbitrary_tree small_int small_int)
-   prop_InsertValid
-
-let test_nonsense =
-  QCheck.Test.make ~count:1000 ~name:"bst_trial"
-   arbitrary_tree
-   (fun _t -> false)
-
-let _ = QCheck.Test.check_exn test;;

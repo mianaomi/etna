@@ -13,7 +13,7 @@ let rec insert_correct (k: int) (v: int) (t: tree) =
 
 let bespoke =
   let open QCheck.Gen in
-  list (pair nat nat) >>= (fun kvs -> return (fold_left (fun t (k, v) -> insert_correct k v t) E kvs))
+  sized (fun n -> list_repeat n (pair small_int small_int) >>= (fun kvs -> return (fold_left (fun t (k, v) -> insert_correct k v t) E kvs)))
 
 (*! QCheck test_prop_InsertValid. *)
 (*! QCheck test_prop_DeleteValid. *)

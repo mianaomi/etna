@@ -53,7 +53,7 @@ let print_expr e =
   in
   _print_expr 0 e
 
-let makeTest name = Test.make ~count:1000 ~name
+let makeTest name = Test.make ~count:500000 ~name
 let arbitrary_of_gen g = make g ~print:print_expr
 
 (* --------------------- Tests --------------------- *)

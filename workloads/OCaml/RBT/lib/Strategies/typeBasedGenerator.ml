@@ -29,7 +29,7 @@ let rec print_tree t =
 
 let aKey = small_int
 let aVal = small_int
-let makeTest name = Test.make ~count:1000 ~name
+let makeTest name = Test.make ~count:500000 ~name
 let arbitrary_of_gen g = make g ~print:print_tree
 
 (* --------------------- Tests --------------------- *)

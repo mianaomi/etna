@@ -23,7 +23,7 @@ let rec print_tree = function
 let aKey = small_int
 let aVal = small_int
 
-let makeTest name = Test.make ~count:1000 ~name:name
+let makeTest name = Test.make ~count:500000 ~name:name
 
 let test_prop_InsertValid aTree =
   makeTest "test_prop_InsertValid"

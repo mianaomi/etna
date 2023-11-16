@@ -5,12 +5,13 @@ from benchtool.OCaml import OCaml
 from benchtool.Types import ReplaceLevel, TrialConfig
 from benchtool.Tasks import tasks
 
-RUNNING = ['STLC']
+RUNNING = ['RBT']
+STRATEGIES = ['bespokeGenerator']
 TRIALS = 10
 TIMEOUT = 65
 
 def collect(results: str):
-    tool = OCaml(results, replace_level=ReplaceLevel.SKIP)
+    tool = OCaml(results, replace_level=ReplaceLevel.REPLACE)
 
     for workload in tool.all_workloads():
         if workload.name not in RUNNING:
@@ -22,7 +23,14 @@ def collect(results: str):
 
             run_trial = None
             for strategy in tool.all_strategies(workload):
+                if strategy.name not in STRATEGIES:
+                    continue
+
                 for property in tool.all_properties(workload):
+                    if workload.name in ['BST', 'RBT']:
+                        if property.split('_')[1] not in tasks[workload.name][variant.name]:
+                            continue
+
                     if not run_trial:
                         run_trial = tool.apply_variant(workload, variant)
 

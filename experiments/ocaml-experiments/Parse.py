@@ -6,7 +6,6 @@ DATA_PATH = './oc/'
 OUTPUT_FILE = './experiments/ocaml-experiments/parsed.json'
 
 def parse(filename):
-    # Sample input data
     workload, strategy, mutant, prop = os.path.splitext(os.path.basename(filename))[0].split(',')
 
     file = ""
