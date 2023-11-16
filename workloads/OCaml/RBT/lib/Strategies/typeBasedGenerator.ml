@@ -34,9 +34,6 @@ let arbitrary_of_gen g = make g ~print:print_tree
 
 (* --------------------- Tests --------------------- *)
 
-(* discarded "None" tests should be considered passing *)
-let ( ~~ ) x = match x with Some false -> false | _ -> true
-
 let test_prop_InsertValid aTree =
   makeTest "test_prop_InsertValid" (triple aTree aKey aVal) (fun (t, k, v) ->
       prop_InsertValid t k v)
@@ -45,7 +42,7 @@ let test_prop_InsertValid aTree =
 
 let test_prop_DeleteValid aTree =
   makeTest "test_prop_DeleteValid" (pair aTree aKey) (fun (t, k) ->
-      ~~(prop_DeleteValid t k))
+      prop_DeleteValid t k)
 
 (*! QCheck test_prop_DeleteValid. *)
 
@@ -69,7 +66,7 @@ let test_prop_InsertModel aTree =
 
 let test_prop_DeleteModel aTree =
   makeTest "test_prop_DeleteModel" (pair aTree aKey) (fun (t, k) ->
-      ~~(prop_DeleteModel t k))
+      prop_DeleteModel t k)
 
 (*! QCheck test_prop_DeleteModel. *)
 
@@ -82,18 +79,18 @@ let test_prop_InsertInsert aTree =
 
 let test_prop_InsertDelete aTree =
   makeTest "test_prop_InsertDelete" (quad aTree aKey aKey aVal)
-    (fun (t, k, k', v) -> ~~(prop_InsertDelete t k k' v))
+    (fun (t, k, k', v) -> prop_InsertDelete t k k' v)
 
 (*! QCheck test_prop_InsertDelete. *)
 
 let test_prop_DeleteInsert aTree =
   makeTest "test_prop_DeleteInsert" (quad aTree aKey aKey aVal)
-    (fun (t, k, k', v') -> ~~(prop_DeleteInsert t k k' v'))
+    (fun (t, k, k', v') -> prop_DeleteInsert t k k' v')
 
 (*! QCheck test_prop_DeleteInsert. *)
 
 let test_prop_DeleteDelete aTree =
   makeTest "test_prop_DeleteDelete" (triple aTree aKey aKey) (fun (t, k, k') ->
-      ~~(prop_DeleteDelete t k k'))
+      prop_DeleteDelete t k k')
 
 (*! QCheck test_prop_DeleteDelete. *)

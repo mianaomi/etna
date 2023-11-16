@@ -74,13 +74,13 @@ bst = {
 redblack = {
     'miscolor_insert': [
         'InsertValid',
-        # 'DeleteInsert',
+        'DeleteInsert',
     ],
     'miscolor_delete': ['DeleteValid'],
     'miscolordelete': ['DeleteValid'],
     'miscolor_balLeft': [
         'DeleteValid',
-        # 'DeleteDelete',
+        'DeleteDelete',
     ],
     'miscolor_balRight': [
         'DeleteValid',
@@ -89,17 +89,17 @@ redblack = {
     'miscolor_join_1': ['DeleteValid'],
     'miscolor_join_2': [
         'DeleteValid',
-        # 'DeleteDelete',
+        'DeleteDelete',
     ],
     'no_balance_insert_1': [
         'InsertValid',
-        # 'DeleteInsert',
-        # 'InsertDelete',
+        'DeleteInsert',
+        'InsertDelete',
     ],
     'no_balance_insert_2': [
         'InsertValid',
-        # 'DeleteInsert',
-        # 'InsertDelete',
+        'DeleteInsert',
+        'InsertDelete',
     ],
     'swap_cd': [
         'InsertValid',

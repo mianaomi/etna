@@ -1,6 +1,11 @@
 open Impl
 open QCheck
 
+(* Monad helpers *)
+let ( !! ) x = match x with None -> false | Some b -> b
+let insert' k v t = Some (insert k v t)
+let ( =<< ) k m = m >>= k
+
 let rec isBST (t : ('a, 'b) tree) : bool =
   let rec every (p : 'a -> bool) (t : ('a, 'b) tree) : bool =
     match t with
@@ -41,13 +46,13 @@ let rec toList (t : ('a, 'b) tree) : ('a * 'b) list =
 
 (* -- Validity properties. *)
 
-let prop_InsertValid (t : ('a, 'b) tree) (k : 'a) (v : 'b) =
+let prop_InsertValid (t : ('a, 'b) tree) (k : 'a) (v : 'b) : bool =
   assume (isRBT t);
   isRBT (insert k v t)
 
-let prop_DeleteValid (t : ('a, 'b) tree) (k : 'a) =
+let prop_DeleteValid (t : ('a, 'b) tree) (k : 'a) : bool =
   assume (isRBT t);
-  delete k t >>= fun t' -> Some (isRBT t')
+  !!(delete k t >>= fun t -> Some (isRBT t))
 
 (* ---------- *)
 
@@ -80,44 +85,40 @@ let rec l_insert (kv : 'a * 'b) (l : ('a * 'b) list) : ('a * 'b) list =
       else if fst kv < k then kv :: l
       else (k, v) :: l_insert kv xs
 
-let prop_InsertModel (t : ('a, 'b) tree) (k : 'a) (v : 'b) =
+let prop_InsertModel (t : ('a, 'b) tree) (k : 'a) (v : 'b) : bool =
   assume (isRBT t);
   toList (insert k v t) = l_insert (k, v) (deleteKey k (toList t))
 
-let prop_DeleteModel (t : ('a, 'b) tree) (k : 'a) =
+let prop_DeleteModel (t : ('a, 'b) tree) (k : 'a) : bool =
   assume (isRBT t);
-  delete k t >>= fun t' -> Some (toList t' = deleteKey k (toList t))
+  !!(delete k t >>= fun t' -> Some (toList t' = deleteKey k (toList t)))
 
 (* ---------- *)
 
 (* -- Metamorphic properties. *)
 
+let ( =~= ) t t' =
+  match (t, t') with Some t, Some t' -> toList t = toList t' | _ -> false
+
 let prop_InsertInsert (t : ('a, 'b) tree) (k : 'a) (k' : 'a) (v : 'b) (v' : 'b)
     : bool =
   assume (isRBT t);
-  toList (insert k v (insert k' v' t))
-  = toList (if k = k' then insert k v t else insert k' v' (insert k v t))
+  insert' k v =<< insert' k' v' t
+  =~= if k == k' then insert' k v t else insert' k' v' =<< insert' k v t
 
-let prop_InsertDelete (t : ('a, 'b) tree) (k : 'a) (k' : 'a) (v : 'b) :
-    bool option =
+let prop_InsertDelete (t : ('a, 'b) tree) (k : 'a) (k' : 'a) (v : 'b) : bool =
   assume (isRBT t);
-  delete k' t >>= fun t' ->
-  delete k' (insert k v t) >>= fun t'' ->
-  Some (toList (insert k v t') = toList (if k = k' then insert k v t else t''))
+  insert' k v =<< delete k' t
+  =~= if k == k' then insert' k v t else delete k' =<< insert' k v t
 
 let prop_DeleteInsert (t : ('a, 'b) tree) (k : 'a) (k' : 'a) (v' : 'b) =
   assume (isRBT t);
-  delete k (insert k' v' t) >>= fun t' ->
-  delete k t >>= fun t'' ->
-  let t''' = insert k' v' t'' in
-  Some (toList t' = toList (if k = k' then t'' else t'''))
+  delete k =<< insert' k' v' t
+  =~= if k == k' then delete k t else insert' k' v' =<< delete k t
 
 let prop_DeleteDelete (t : ('a, 'b) tree) (k : 'a) (k' : 'a) =
   assume (isRBT t);
-  delete k' t >>= fun t' ->
-  delete k t' >>= fun t'' ->
-  delete k t >>= fun t1' ->
-  delete k' t1' >>= fun t1'' -> Some (toList t'' = toList t1'')
+  delete k =<< delete k' t =~= (delete k' =<< delete k t)
 
 (* ---------- *)
 
