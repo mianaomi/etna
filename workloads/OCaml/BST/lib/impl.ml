@@ -3,7 +3,7 @@ type tree =
 | T of tree * int * int * tree
 
 
-let fuel : int = 100000
+let fuel : int = 10000
 
 
 let rec insert (k: int) (v: int) (t: tree) =
@@ -11,13 +11,13 @@ let rec insert (k: int) (v: int) (t: tree) =
   | E -> T (E, k, v, E)
   | T (l, k', v', r) ->
     (*! *)
-      if k < k' then T ((insert k v l), k', v', r)
+      (* if k < k' then T ((insert k v l), k', v', r)
       else if k' < k then T (l, k', v', (insert k v r))
-      else T (l, k', v, r)
+      else T (l, k', v, r) *)
     (*!! insert_1 *)
-      (*!
-      let _ = ignore (l, k', v', r, insert) in T (E, k, v, E)
-      *)
+      (* ! *)
+      let _ = ignore (l, k', v', r, insert) in E (*T (E, k, v, E)*)
+
     (*!! insert_2 *)
       (*!
       if k < k' then T ((insert k v l), k', v', r)

@@ -1,5 +1,6 @@
 open BST.TypeBasedGenerator
 open BST.BespokeGenerator
+open BST.CrowbarType
 open QCheck
 
 let rec lookup l k =
@@ -60,7 +61,14 @@ let main () : unit =
     let _ = Printf.printf "Executing test %s into file %s using strategy %s" testname filename strategy in
     execute testname filename strategy
   else
-    Printf.printf "Not enough arguments were provided to `dune exec`\n"
+    Printf.printf "Not enough arguments were provided to `dune exec`\n";
+    Printf.printf "Running Crowbar tests instead\n";
+    crow ()
 
-let () = main ()
+let () =
+  ignore (main);
+  crow ()
+
+
+
 
