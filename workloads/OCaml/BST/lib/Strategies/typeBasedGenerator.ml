@@ -1,6 +1,4 @@
-open Spec
 open Impl
-open QCheck
 
 let typebased =
   let open QCheck.Gen in
@@ -24,3 +22,5 @@ let rec print_tree = function
   | T (l, k, v, r) ->
       "Tree (" ^ print_tree l ^ "," ^ string_of_int k ^ "," ^ string_of_int v
       ^ "," ^ print_tree r ^ ")"
+
+let typebased = QCheck.make typebased ~print:print_tree;;

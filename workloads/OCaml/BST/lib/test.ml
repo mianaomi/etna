@@ -8,7 +8,7 @@ let ( << ) f g x = f (g x)
 let qi = small_int
 let ci = int8
 
-let q_InsertValid : tree property =
+let test_prop_InsertValid : tree property =
   {
     name = "test_prop_InsertValid";
     q =

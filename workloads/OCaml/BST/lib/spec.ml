@@ -40,8 +40,6 @@ let rec toList (t : tree) : kvlist =
   match t with E -> [] | T (l, k, v, r) -> toList l @ [ (k, v) ] @ toList r
 
 (* -- Validity Properties. *)
-let prop_InsertValid : tree * key * value -> test =
- fun (t, k, v) -> isBST t ->> isBST (insert k v t)
 
 let prop_InsertValid : tree * key * value -> test =
  fun (t, k, v) -> isBST t ->> isBST (insert k v t)
