@@ -2,5 +2,5 @@
 
 (library
  (name BST)
- (modules impl spec typeBasedGenerator bespokeGenerator crowbarType)
- (libraries qcheck crowbar))
+ (modules impl spec test typeBasedGenerator bespokeGenerator crowbarType)
+ (libraries qcheck crowbar util))
