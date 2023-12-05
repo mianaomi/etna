@@ -1,0 +1,130 @@
+[1701753801.931834 start]
+[1701753801.931841 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753802.415539 exit 1]
+[1701753802.450900 start]
+[1701753802.450906 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753802.932696 exit 1]
+[1701753802.968415 start]
+[1701753802.968422 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753803.452968 exit 1]
+[1701753803.488542 start]
+[1701753803.488548 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753803.972290 exit 1]
+[1701753804.007471 start]
+[1701753804.007477 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753804.488946 exit 1]
+[1701753804.523809 start]
+[1701753804.523815 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753805.005349 exit 1]
+[1701753805.040523 start]
+[1701753805.040528 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753805.522518 exit 1]
+[1701753805.557977 start]
+[1701753805.557982 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753806.044239 exit 1]
+[1701753806.079731 start]
+[1701753806.079736 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753806.561326 exit 1]
+[1701753806.596897 start]
+[1701753806.596903 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753807.078859 exit 1]

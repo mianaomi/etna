@@ -1,0 +1,150 @@
+[1701753884.483193 start]
+[1701753884.483199 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753884.525781 exit 1]
+[1701753884.562685 start]
+[1701753884.562691 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753884.605084 exit 1]
+[1701753884.642151 start]
+[1701753884.642158 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753884.685422 exit 1]
+[1701753884.725488 start]
+[1701753884.725496 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753884.768520 exit 1]
+[1701753884.807816 start]
+[1701753884.807824 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753884.851008 exit 1]
+[1701753884.890441 start]
+[1701753884.890448 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753884.935016 exit 1]
+[1701753884.980309 start]
+[1701753884.980315 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753885.023566 exit 1]
+[1701753885.065918 start]
+[1701753885.065925 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753885.110002 exit 1]
+[1701753885.149443 start]
+[1701753885.149450 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753885.193116 exit 1]
+[1701753885.232620 start]
+[1701753885.232627 end]
+test_prop_DeleteUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, -121, E);
+     T(T(T(E, -128, -128, E), -16, 125, E), -10, 73, E);
+     -10]
+    
+the test failed:
+
+    check false
+    
+[1701753885.275434 exit 1]

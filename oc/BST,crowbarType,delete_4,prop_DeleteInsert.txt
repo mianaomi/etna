@@ -1,0 +1,130 @@
+[1701753809.427462 start]
+[1701753809.427468 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.427890 exit 1]
+[1701753809.463655 start]
+[1701753809.463661 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.464074 exit 1]
+[1701753809.501770 start]
+[1701753809.501776 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.502239 exit 1]
+[1701753809.539063 start]
+[1701753809.539069 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.539485 exit 1]
+[1701753809.575109 start]
+[1701753809.575115 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.575526 exit 1]
+[1701753809.610777 start]
+[1701753809.610786 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.611188 exit 1]
+[1701753809.645725 start]
+[1701753809.645730 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.646117 exit 1]
+[1701753809.679974 start]
+[1701753809.679979 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.680374 exit 1]
+[1701753809.714118 start]
+[1701753809.714124 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.714511 exit 1]
+[1701753809.748497 start]
+[1701753809.748503 end]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35]
+    
+the test failed:
+
+    check false
+    
+[1701753809.748902 exit 1]

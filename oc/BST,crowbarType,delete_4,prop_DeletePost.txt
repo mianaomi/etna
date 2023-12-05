@@ -1,0 +1,130 @@
+[1701753808.334991 start]
+[1701753808.335024 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.338123 exit 1]
+[1701753808.380705 start]
+[1701753808.380711 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.382836 exit 1]
+[1701753808.418582 start]
+[1701753808.418590 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.420664 exit 1]
+[1701753808.455884 start]
+[1701753808.455891 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.458269 exit 1]
+[1701753808.496628 start]
+[1701753808.496635 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.498616 exit 1]
+[1701753808.534297 start]
+[1701753808.534302 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.536296 exit 1]
+[1701753808.570923 start]
+[1701753808.570929 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.572912 exit 1]
+[1701753808.606951 start]
+[1701753808.606957 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.608930 exit 1]
+[1701753808.642833 start]
+[1701753808.642838 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.644799 exit 1]
+[1701753808.678693 start]
+[1701753808.678698 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83]
+    
+the test failed:
+
+    check false
+    
+[1701753808.680627 exit 1]

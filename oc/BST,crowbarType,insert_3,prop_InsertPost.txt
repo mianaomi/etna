@@ -1,0 +1,130 @@
+[1701753796.215197 start]
+[1701753796.215231 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753796.688046 exit 1]
+[1701753796.723517 start]
+[1701753796.723523 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753797.188112 exit 1]
+[1701753797.223270 start]
+[1701753797.223277 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753797.687159 exit 1]
+[1701753797.722948 start]
+[1701753797.722954 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753798.185484 exit 1]
+[1701753798.221243 start]
+[1701753798.221250 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753798.681879 exit 1]
+[1701753798.716651 start]
+[1701753798.716657 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753799.177670 exit 1]
+[1701753799.212836 start]
+[1701753799.212842 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753799.672925 exit 1]
+[1701753799.707542 start]
+[1701753799.707547 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753800.168623 exit 1]
+[1701753800.203216 start]
+[1701753800.203221 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753800.664611 exit 1]
+[1701753800.699582 start]
+[1701753800.699588 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -75, -68, T(E, 1, 9, E)); -75; -75; -115]
+    
+the test failed:
+
+    check false
+    
+[1701753801.159657 exit 1]

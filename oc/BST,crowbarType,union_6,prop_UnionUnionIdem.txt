@@ -1,0 +1,130 @@
+[1701753888.840359 start]
+[1701753888.840365 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753888.840842 exit 1]
+[1701753888.879683 start]
+[1701753888.879689 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753888.880117 exit 1]
+[1701753888.919512 start]
+[1701753888.919518 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753888.919998 exit 1]
+[1701753888.959202 start]
+[1701753888.959208 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753888.959663 exit 1]
+[1701753888.998496 start]
+[1701753888.998501 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753888.998931 exit 1]
+[1701753889.037948 start]
+[1701753889.037953 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753889.038443 exit 1]
+[1701753889.077006 start]
+[1701753889.077011 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753889.077441 exit 1]
+[1701753889.115631 start]
+[1701753889.115638 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753889.116048 exit 1]
+[1701753889.155982 start]
+[1701753889.155989 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753889.156480 exit 1]
+[1701753889.195210 start]
+[1701753889.195217 end]
+test_prop_UnionUnionIdem: FAIL
+
+When given the input:
+
+    T(E, 126, -23, E)
+    
+the test failed:
+
+    check false
+    
+[1701753889.195643 exit 1]

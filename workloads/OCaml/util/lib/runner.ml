@@ -39,7 +39,10 @@ let cbuild (g : ('b, unit) Crowbar.gens) (p : 'b) : string -> ctest =
  fun name () -> Crowbar.add_test ~name g p
 
 (** super simple running *)
-let qrun (p : 'a property) (g : 'a QCheck.arbitrary) : unit =
-  ignore (QCheck_runner.run_tests [ p.q g p.name ] ~colors:false ~verbose:true)
+let qrun (p : 'a property) (g : 'a QCheck.arbitrary) (oc : out_channel) : unit =
+  ignore
+    (QCheck_runner.run_tests
+       [ p.q g p.name ]
+       ~colors:false ~verbose:true ~out:oc)
 
 let crun (p : 'a property) (g : 'a Crowbar.gen) : unit = p.c g p.name ()

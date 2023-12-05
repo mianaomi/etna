@@ -34,7 +34,7 @@ let qstrategies : (string * tree arbitrary) list =
   [ ("typeBasedGenerator", typebased); ("bespokeGenerator", bespoke) ]
 
 let cstrategies : (string * tree gen) list =
-  [ ("typeBasedCrowbar", typebasedcrow)]
+  [ ("crowbarType", typebasedcrow)]
 
 let () = main properties qstrategies cstrategies
 

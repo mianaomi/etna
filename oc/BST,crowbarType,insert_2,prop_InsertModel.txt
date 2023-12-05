@@ -1,0 +1,130 @@
+[1701753793.505502 start]
+[1701753793.505511 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.506083 exit 1]
+[1701753793.542448 start]
+[1701753793.542454 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.542877 exit 1]
+[1701753793.577451 start]
+[1701753793.577457 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.577869 exit 1]
+[1701753793.611716 start]
+[1701753793.611722 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.612126 exit 1]
+[1701753793.645872 start]
+[1701753793.645877 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.646285 exit 1]
+[1701753793.680846 start]
+[1701753793.680851 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.681274 exit 1]
+[1701753793.716463 start]
+[1701753793.716469 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.716901 exit 1]
+[1701753793.751934 start]
+[1701753793.751940 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.752407 exit 1]
+[1701753793.787802 start]
+[1701753793.787809 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.792571 exit 1]
+[1701753793.852572 start]
+[1701753793.852578 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, -36, -109, E); -23; 57]
+    
+the test failed:
+
+    check false
+    
+[1701753793.853006 exit 1]

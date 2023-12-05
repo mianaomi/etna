@@ -1,0 +1,130 @@
+[1701753790.475776 start]
+[1701753790.475811 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.478880 exit 1]
+[1701753790.521297 start]
+[1701753790.521306 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.523421 exit 1]
+[1701753790.558455 start]
+[1701753790.558460 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.560392 exit 1]
+[1701753790.594648 start]
+[1701753790.594654 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.596585 exit 1]
+[1701753790.630701 start]
+[1701753790.630707 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.632647 exit 1]
+[1701753790.666737 start]
+[1701753790.666742 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.668671 exit 1]
+[1701753790.702715 start]
+[1701753790.702721 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.704652 exit 1]
+[1701753790.738576 start]
+[1701753790.738583 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.740499 exit 1]
+[1701753790.774624 start]
+[1701753790.774630 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.776536 exit 1]
+[1701753790.811132 start]
+[1701753790.811138 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(E, -83, 11, E); -56; -83; -49]
+    
+the test failed:
+
+    check false
+    
+[1701753790.813067 exit 1]

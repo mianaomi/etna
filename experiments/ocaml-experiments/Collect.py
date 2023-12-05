@@ -5,8 +5,8 @@ from benchtool.OCaml import OCaml
 from benchtool.Types import ReplaceLevel, TrialConfig
 from benchtool.Tasks import tasks
 
-RUNNING = ['RBT']
-STRATEGIES = ['bespokeGenerator']
+RUNNING = ['BST']
+STRATEGIES = ['crowbarType']
 TRIALS = 10
 TIMEOUT = 65
 

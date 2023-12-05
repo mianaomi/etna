@@ -19,7 +19,7 @@ let qmain t ts s ss file =
       in
       let _ = Printf.fprintf oc "[%s|\n" t in
       let st = Sys.time () in
-      let _ = qrun tst arb in
+      let _ = qrun tst arb oc in
       let dt = (Sys.time () -. st) *. 1000.0 in
       Printf.fprintf oc "|%s -> %.2f]\n" t dt;
       close_out oc
@@ -31,9 +31,9 @@ let cmain t ts s ss =
   | None, _ -> Printf.printf "Test %s not found\n" t
   | _, None -> Printf.printf "Strategy %s not found\n" s
   | Some tst, Some gen ->
-      Printf.printf "[%f start]\n" (Sys.time ());
+      Printf.printf "[%f start]\n" (Unix.gettimeofday ());
       crun tst gen;
-      at_exit (fun () -> Printf.printf "[%f end]\n" (Sys.time ()));
+      at_exit (fun () -> Printf.printf "[%f end]\n" (Unix.gettimeofday ()));
       ()
 
 let load_env () =
@@ -59,7 +59,8 @@ let crowbar_fork framework test strat filename =
   let od = Unix.descr_of_out_channel oc in
   let cur = Sys.executable_name in
   match
-    Unix.create_process_env cur [| cur |]
+    Unix.create_process_env cur
+      [| cur; "--repeat=100000000" |] (* pass the # of tests as a command line argument to the child process *)
       (make_env framework test strat filename)
       Unix.stdin od Unix.stderr
   with
@@ -68,8 +69,8 @@ let crowbar_fork framework test strat filename =
       (* parent thread *)
       let _, status = Unix.waitpid [] pid in
       match status with
-      | Unix.WEXITED c -> Printf.fprintf oc "[%f exit %i]\n" (Sys.time ()) c
-      | _ -> Printf.fprintf oc "[%f exit unsafely]\n" (Sys.time ()))
+      | Unix.WEXITED c -> Printf.fprintf oc "[%f exit %i]\n" (Unix.gettimeofday ()) c
+      | _ -> Printf.fprintf oc "[%f exit unsafely]\n" (Unix.gettimeofday ()))
 
 (* Call format:
    dune exec <workload> -- <framework> <testname> <strategy> <filename>

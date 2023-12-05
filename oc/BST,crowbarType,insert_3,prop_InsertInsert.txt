@@ -1,0 +1,130 @@
+[1701753801.567025 start]
+[1701753801.567031 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.568340 exit 1]
+[1701753801.604564 start]
+[1701753801.604570 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.605976 exit 1]
+[1701753801.640561 start]
+[1701753801.640567 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.641856 exit 1]
+[1701753801.675769 start]
+[1701753801.675775 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.677070 exit 1]
+[1701753801.710909 start]
+[1701753801.710915 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.712212 exit 1]
+[1701753801.746137 start]
+[1701753801.746146 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.747439 exit 1]
+[1701753801.781520 start]
+[1701753801.781526 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.782809 exit 1]
+[1701753801.816801 start]
+[1701753801.816810 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.818099 exit 1]
+[1701753801.855761 start]
+[1701753801.855768 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.857191 exit 1]
+[1701753801.893522 start]
+[1701753801.893529 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1701753801.894841 exit 1]

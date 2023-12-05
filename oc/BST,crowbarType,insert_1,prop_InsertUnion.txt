@@ -1,0 +1,130 @@
+[1701753791.564939 start]
+[1701753791.564946 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.565474 exit 1]
+[1701753791.601889 start]
+[1701753791.601895 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.602446 exit 1]
+[1701753791.637700 start]
+[1701753791.637706 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.638233 exit 1]
+[1701753791.673095 start]
+[1701753791.673101 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.673597 exit 1]
+[1701753791.708286 start]
+[1701753791.708291 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.708787 exit 1]
+[1701753791.743378 start]
+[1701753791.743384 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.743884 exit 1]
+[1701753791.778628 start]
+[1701753791.778634 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.779138 exit 1]
+[1701753791.814361 start]
+[1701753791.814366 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.814872 exit 1]
+[1701753791.849871 start]
+[1701753791.849878 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.850383 exit 1]
+[1701753791.885141 start]
+[1701753791.885147 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -117, -29, E); -88; 120]
+    
+the test failed:
+
+    check false
+    
+[1701753791.885682 exit 1]

@@ -9,9 +9,14 @@ import ctypes
 import platform
 
 STRATEGIES_DIR = 'lib/Strategies'
-IMPL_PATH = 'lib'
+IMPL_PATH = 'lib/'
 SPEC_PATH = 'lib/spec.ml'
 
+FRAMEWORK = {
+    "bespokeGenerator": "qcheck",
+    "typeBasedGenerator": "qcheck",
+    "crowbarType": "crowbar",
+}
 
 class OCaml(BenchTool):
 
@@ -46,8 +51,10 @@ class OCaml(BenchTool):
 
         with self._change_dir(workload_path):
             for _ in range(params.trials):
-                p = params.to_json()
-                self._shell_command(['dune', 'exec', '--',  params.workload, '--', params.property, params.file, params.strategy])
+                fw = FRAMEWORK[params.strategy]
+
+                # print(f"Executing command {' '.join(['dune', 'exec',  params.workload, '--', fw, params.property, params.strategy, params.file])}")
+                self._shell_command(['dune', 'exec',  params.workload, '--', fw, params.property, params.strategy, params.file])
 
         reformat(params.file)
 

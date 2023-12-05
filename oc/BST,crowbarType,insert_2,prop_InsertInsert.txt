@@ -1,0 +1,130 @@
+[1701753793.889629 start]
+[1701753793.889636 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753793.890105 exit 1]
+[1701753793.925928 start]
+[1701753793.925934 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753793.926350 exit 1]
+[1701753793.961417 start]
+[1701753793.961423 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753793.961823 exit 1]
+[1701753793.996492 start]
+[1701753793.996498 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753793.996903 exit 1]
+[1701753794.031742 start]
+[1701753794.031748 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753794.032156 exit 1]
+[1701753794.067046 start]
+[1701753794.067052 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753794.067463 exit 1]
+[1701753794.102498 start]
+[1701753794.102505 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753794.102909 exit 1]
+[1701753794.137531 start]
+[1701753794.137537 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753794.137958 exit 1]
+[1701753794.172703 start]
+[1701753794.172709 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753794.173110 exit 1]
+[1701753794.207958 start]
+[1701753794.207965 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; 106; 94; 35; 80]
+    
+the test failed:
+
+    check false
+    
+[1701753794.208364 exit 1]

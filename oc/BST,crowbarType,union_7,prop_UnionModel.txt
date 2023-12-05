@@ -1,0 +1,130 @@
+[1701753890.920015 start]
+[1701753890.920021 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753890.920769 exit 1]
+[1701753890.956927 start]
+[1701753890.956933 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753890.957606 exit 1]
+[1701753890.992985 start]
+[1701753890.992990 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753890.993645 exit 1]
+[1701753891.028616 start]
+[1701753891.028621 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753891.029288 exit 1]
+[1701753891.064111 start]
+[1701753891.064118 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753891.064764 exit 1]
+[1701753891.099625 start]
+[1701753891.099631 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753891.100294 exit 1]
+[1701753891.135239 start]
+[1701753891.135245 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753891.135892 exit 1]
+[1701753891.171036 start]
+[1701753891.171044 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753891.171829 exit 1]
+[1701753891.206992 start]
+[1701753891.206998 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753891.207647 exit 1]
+[1701753891.242552 start]
+[1701753891.242558 end]
+test_prop_UnionModel: FAIL
+
+When given the input:
+
+    [T(E, -28, 111, E); T(T(T(E, -128, -128, E), -116, -81, E), 68, -87, E)]
+    
+the test failed:
+
+    check false
+    
+[1701753891.243202 exit 1]

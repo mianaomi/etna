@@ -1,0 +1,130 @@
+[1701753808.716587 start]
+[1701753808.716597 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.717016 exit 1]
+[1701753808.753193 start]
+[1701753808.753199 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.753609 exit 1]
+[1701753808.788824 start]
+[1701753808.788829 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.789233 exit 1]
+[1701753808.823600 start]
+[1701753808.823607 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.824009 exit 1]
+[1701753808.857997 start]
+[1701753808.858002 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.858401 exit 1]
+[1701753808.893012 start]
+[1701753808.893019 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.893429 exit 1]
+[1701753808.928097 start]
+[1701753808.928106 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.928514 exit 1]
+[1701753808.962519 start]
+[1701753808.962525 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.962924 exit 1]
+[1701753808.998121 start]
+[1701753808.998126 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753808.998530 exit 1]
+[1701753809.035169 start]
+[1701753809.035176 end]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [T(E, 126, -23, E); 82]
+    
+the test failed:
+
+    check false
+    
+[1701753809.035613 exit 1]

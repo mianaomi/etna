@@ -2,331 +2,16 @@
  generated  error   fail   pass /  total     time test name
 [ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
 [ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    603      0      0    603 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[ ]   1486      0      0   1486 / 500000     0.2s test_prop_UnionUnionAssoc (collecting)
-[ ]   2340      0      0   2340 / 500000     0.3s test_prop_UnionUnionAssoc (collecting)
-[ ]   3206      0      0   3206 / 500000     0.4s test_prop_UnionUnionAssoc
-[ ]   4152      0      0   4152 / 500000     0.5s test_prop_UnionUnionAssoc (collecting)
-[ ]   5096      0      0   5096 / 500000     0.6s test_prop_UnionUnionAssoc (collecting)
-[ ]   6000      0      0   6000 / 500000     0.7s test_prop_UnionUnionAssoc (collecting)
-[ ]   6888      0      0   6888 / 500000     0.8s test_prop_UnionUnionAssoc (collecting)
-[ ]   7887      0      0   7887 / 500000     0.9s test_prop_UnionUnionAssoc (collecting)
-[ ]   8775      0      0   8775 / 500000     1.0s test_prop_UnionUnionAssoc (collecting)
-[ ]   9811      0      0   9811 / 500000     1.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  10678      0      0  10678 / 500000     1.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  11668      0      0  11668 / 500000     1.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  12526      0      0  12526 / 500000     1.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  13424      0      0  13424 / 500000     1.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  14304      0      0  14304 / 500000     1.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  15144      0      0  15144 / 500000     1.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  16057      0      0  16057 / 500000     1.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  16908      0      0  16908 / 500000     1.9s test_prop_UnionUnionAssoc
-[ ]  17767      0      0  17767 / 500000     2.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  18684      0      0  18684 / 500000     2.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  19466      0      0  19466 / 500000     2.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  20418      0      0  20418 / 500000     2.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  21256      0      0  21256 / 500000     2.4s test_prop_UnionUnionAssoc
-[ ]  22209      0      0  22209 / 500000     2.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  23012      0      0  23012 / 500000     2.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  23922      0      0  23922 / 500000     2.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  24681      0      0  24681 / 500000     2.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  25607      0      0  25607 / 500000     2.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  26369      0      0  26369 / 500000     3.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  27360      0      0  27360 / 500000     3.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  28198      0      0  28198 / 500000     3.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  29163      0      0  29163 / 500000     3.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  30022      0      0  30022 / 500000     3.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  30813      0      0  30813 / 500000     3.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  31695      0      0  31695 / 500000     3.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  32701      0      0  32701 / 500000     3.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  33492      0      0  33492 / 500000     3.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  34378      0      0  34378 / 500000     3.9s test_prop_UnionUnionAssoc
-[ ]  35431      0      0  35431 / 500000     4.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  36214      0      0  36214 / 500000     4.1s test_prop_UnionUnionAssoc
-[ ]  37008      0      0  37008 / 500000     4.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  37858      0      0  37858 / 500000     4.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  38711      0      0  38711 / 500000     4.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  39507      0      0  39507 / 500000     4.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  40381      0      0  40381 / 500000     4.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  41229      0      0  41229 / 500000     4.7s test_prop_UnionUnionAssoc
-[ ]  42050      0      0  42050 / 500000     4.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  42890      0      0  42890 / 500000     4.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  43841      0      0  43841 / 500000     5.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  44689      0      0  44689 / 500000     5.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  45507      0      0  45507 / 500000     5.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  46373      0      0  46373 / 500000     5.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  47260      0      0  47260 / 500000     5.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  48307      0      0  48307 / 500000     5.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  49073      0      0  49073 / 500000     5.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  49865      0      0  49865 / 500000     5.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  50785      0      0  50785 / 500000     5.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  51660      0      0  51660 / 500000     5.9s test_prop_UnionUnionAssoc
-[ ]  52548      0      0  52548 / 500000     6.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  53257      0      0  53257 / 500000     6.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  54021      0      0  54021 / 500000     6.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  54941      0      0  54941 / 500000     6.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  55735      0      0  55735 / 500000     6.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  56577      0      0  56577 / 500000     6.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  57344      0      0  57344 / 500000     6.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  58080      0      0  58080 / 500000     6.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  58877      0      0  58877 / 500000     6.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  59845      0      0  59845 / 500000     6.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  60613      0      0  60613 / 500000     7.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  61372      0      0  61372 / 500000     7.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  62165      0      0  62165 / 500000     7.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  63177      0      0  63177 / 500000     7.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  64109      0      0  64109 / 500000     7.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  65019      0      0  65019 / 500000     7.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  65813      0      0  65813 / 500000     7.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  66477      0      0  66477 / 500000     7.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  67289      0      0  67289 / 500000     7.8s test_prop_UnionUnionAssoc
-[ ]  68238      0      0  68238 / 500000     7.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  69213      0      0  69213 / 500000     8.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  70015      0      0  70015 / 500000     8.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  70725      0      0  70725 / 500000     8.2s test_prop_UnionUnionAssoc
-[ ]  71511      0      0  71511 / 500000     8.3s test_prop_UnionUnionAssoc
-[ ]  72285      0      0  72285 / 500000     8.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  73204      0      0  73204 / 500000     8.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  74114      0      0  74114 / 500000     8.6s test_prop_UnionUnionAssoc
-[ ]  75080      0      0  75080 / 500000     8.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  75918      0      0  75918 / 500000     8.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  76653      0      0  76653 / 500000     8.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  77480      0      0  77480 / 500000     9.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  78255      0      0  78255 / 500000     9.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  79121      0      0  79121 / 500000     9.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  80065      0      0  80065 / 500000     9.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  81012      0      0  81012 / 500000     9.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  81833      0      0  81833 / 500000     9.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  82626      0      0  82626 / 500000     9.6s test_prop_UnionUnionAssoc
-[ ]  83366      0      0  83366 / 500000     9.7s test_prop_UnionUnionAssoc
-[ ]  84161      0      0  84161 / 500000     9.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  85069      0      0  85069 / 500000     9.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  85980      0      0  85980 / 500000    10.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  86918      0      0  86918 / 500000    10.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  87665      0      0  87665 / 500000    10.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  88400      0      0  88400 / 500000    10.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  89220      0      0  89220 / 500000    10.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  89827      0      0  89827 / 500000    10.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  90607      0      0  90607 / 500000    10.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  91503      0      0  91503 / 500000    10.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  92355      0      0  92355 / 500000    10.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  93354      0      0  93354 / 500000    10.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  94198      0      0  94198 / 500000    11.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  94881      0      0  94881 / 500000    11.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  95653      0      0  95653 / 500000    11.2s test_prop_UnionUnionAssoc
-[ ]  96408      0      0  96408 / 500000    11.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  97191      0      0  97191 / 500000    11.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  98105      0      0  98105 / 500000    11.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  99044      0      0  99044 / 500000    11.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  99893      0      0  99893 / 500000    11.7s test_prop_UnionUnionAssoc (collecting)
-[ ] 100832      0      0 100832 / 500000    11.8s test_prop_UnionUnionAssoc (collecting)
-[ ] 101665      0      0 101665 / 500000    11.9s test_prop_UnionUnionAssoc (collecting)
-[ ] 102451      0      0 102451 / 500000    12.0s test_prop_UnionUnionAssoc (collecting)
-[ ] 103321      0      0 103321 / 500000    12.1s test_prop_UnionUnionAssoc
-[ ] 104091      0      0 104091 / 500000    12.2s test_prop_UnionUnionAssoc (collecting)
-[ ] 104892      0      0 104892 / 500000    12.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 105702      0      0 105702 / 500000    12.4s test_prop_UnionUnionAssoc (collecting)
-[ ] 106740      0      0 106740 / 500000    12.5s test_prop_UnionUnionAssoc (collecting)
-[ ] 107679      0      0 107679 / 500000    12.6s test_prop_UnionUnionAssoc (collecting)
-[ ] 108609      0      0 108609 / 500000    12.7s test_prop_UnionUnionAssoc (collecting)
-[ ] 109479      0      0 109479 / 500000    12.8s test_prop_UnionUnionAssoc
-[ ] 110226      0      0 110226 / 500000    12.9s test_prop_UnionUnionAssoc (collecting)
-[ ] 110948      0      0 110948 / 500000    13.0s test_prop_UnionUnionAssoc (collecting)
-[ ] 111624      0      0 111624 / 500000    13.1s test_prop_UnionUnionAssoc (collecting)
-[ ] 112355      0      0 112355 / 500000    13.2s test_prop_UnionUnionAssoc (collecting)
-[ ] 113052      0      0 113052 / 500000    13.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 113880      0      0 113880 / 500000    13.4s test_prop_UnionUnionAssoc (collecting)
-[ ] 114800      0      0 114800 / 500000    13.5s test_prop_UnionUnionAssoc
-[ ] 115820      0      0 115820 / 500000    13.6s test_prop_UnionUnionAssoc (collecting)
-[ ] 116770      0      0 116770 / 500000    13.7s test_prop_UnionUnionAssoc (collecting)
-[ ] 117672      0      0 117672 / 500000    13.8s test_prop_UnionUnionAssoc (collecting)
-[ ] 118573      0      0 118573 / 500000    13.9s test_prop_UnionUnionAssoc (collecting)
-[ ] 119299      0      0 119299 / 500000    14.0s test_prop_UnionUnionAssoc (collecting)
-[ ] 120058      0      0 120058 / 500000    14.1s test_prop_UnionUnionAssoc (collecting)
-[ ] 120788      0      0 120788 / 500000    14.2s test_prop_UnionUnionAssoc (collecting)
-[ ] 121591      0      0 121591 / 500000    14.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 122482      0      0 122482 / 500000    14.4s test_prop_UnionUnionAssoc (collecting)
-[ ] 123432      0      0 123432 / 500000    14.5s test_prop_UnionUnionAssoc (collecting)
-[ ] 124449      0      0 124449 / 500000    14.6s test_prop_UnionUnionAssoc (collecting)
-[ ] 125468      0      0 125468 / 500000    14.7s test_prop_UnionUnionAssoc (collecting)
-[ ] 126346      0      0 126346 / 500000    14.8s test_prop_UnionUnionAssoc (collecting)
-[ ] 127269      0      0 127269 / 500000    14.9s test_prop_UnionUnionAssoc (collecting)
-[ ] 128077      0      0 128077 / 500000    15.0s test_prop_UnionUnionAssoc
-[ ] 128877      0      0 128877 / 500000    15.1s test_prop_UnionUnionAssoc
-[ ] 129647      0      0 129647 / 500000    15.2s test_prop_UnionUnionAssoc (collecting)
-[ ] 130459      0      0 130459 / 500000    15.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 131255      0      0 131255 / 500000    15.4s test_prop_UnionUnionAssoc (collecting)
-[ ] 132023      0      0 132023 / 500000    15.5s test_prop_UnionUnionAssoc
-[ ] 132867      0      0 132867 / 500000    15.6s test_prop_UnionUnionAssoc (collecting)
-[ ] 133788      0      0 133788 / 500000    15.7s test_prop_UnionUnionAssoc (collecting)
-[ ] 134704      0      0 134704 / 500000    15.8s test_prop_UnionUnionAssoc (collecting)
-[ ] 135695      0      0 135695 / 500000    15.9s test_prop_UnionUnionAssoc (collecting)
-[ ] 136699      0      0 136699 / 500000    16.0s test_prop_UnionUnionAssoc (collecting)
-[ ] 137650      0      0 137650 / 500000    16.1s test_prop_UnionUnionAssoc (collecting)
-[ ] 138473      0      0 138473 / 500000    16.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 139194      0      0 139194 / 500000    16.4s test_prop_UnionUnionAssoc (collecting)[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    900      0      0    900 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[ ]   1908      0      0   1908 / 500000     0.2s test_prop_UnionUnionAssoc (collecting)
-[ ]   2814      0      0   2814 / 500000     0.3s test_prop_UnionUnionAssoc (collecting)
-[ ]   3591      0      0   3591 / 500000     0.4s test_prop_UnionUnionAssoc (collecting)
-[ ]   4379      0      0   4379 / 500000     0.5s test_prop_UnionUnionAssoc (collecting)
-[ ]   5257      0      0   5257 / 500000     0.6s test_prop_UnionUnionAssoc (collecting)
-[ ]   6160      0      0   6160 / 500000     0.7s test_prop_UnionUnionAssoc (collecting)
-[ ]   6964      0      0   6964 / 500000     0.8s test_prop_UnionUnionAssoc (collecting)
-[ ]   7818      0      0   7818 / 500000     0.9s test_prop_UnionUnionAssoc (collecting)
-[ ]   8603      0      0   8603 / 500000     1.0s test_prop_UnionUnionAssoc (collecting)
-[ ]   9442      0      0   9442 / 500000     1.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  10195      0      0  10195 / 500000     1.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  11063      0      0  11063 / 500000     1.3s test_prop_UnionUnionAssoc
-[ ]  11829      0      0  11829 / 500000     1.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  12634      0      0  12634 / 500000     1.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  13562      0      0  13562 / 500000     1.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  14350      0      0  14350 / 500000     1.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  15214      0      0  15214 / 500000     1.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  15972      0      0  15972 / 500000     1.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  16877      0      0  16877 / 500000     2.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  17728      0      0  17728 / 500000     2.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  18458      0      0  18458 / 500000     2.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  19381      0      0  19381 / 500000     2.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  20146      0      0  20146 / 500000     2.4s test_prop_UnionUnionAssoc
-[ ]  21011      0      0  21011 / 500000     2.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  21807      0      0  21807 / 500000     2.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  22620      0      0  22620 / 500000     2.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  23579      0      0  23579 / 500000     2.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  24541      0      0  24541 / 500000     2.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  25326      0      0  25326 / 500000     3.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  26323      0      0  26323 / 500000     3.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  27032      0      0  27032 / 500000     3.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  27956      0      0  27956 / 500000     3.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  28645      0      0  28645 / 500000     3.4s test_prop_UnionUnionAssoc
-[ ]  29431      0      0  29431 / 500000     3.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  30343      0      0  30343 / 500000     3.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  31167      0      0  31167 / 500000     3.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  32047      0      0  32047 / 500000     3.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  33061      0      0  33061 / 500000     3.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  33786      0      0  33786 / 500000     4.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  34642      0      0  34642 / 500000     4.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  35580      0      0  35580 / 500000     4.2s test_prop_UnionUnionAssoc
-[ ]  36369      0      0  36369 / 500000     4.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  37292      0      0  37292 / 500000     4.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  38212      0      0  38212 / 500000     4.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  38925      0      0  38925 / 500000     4.6s test_prop_UnionUnionAssoc
-[ ]  39602      0      0  39602 / 500000     4.7s test_prop_UnionUnionAssoc
-[ ]  40494      0      0  40494 / 500000     4.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  41245      0      0  41245 / 500000     4.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  42094      0      0  42094 / 500000     5.0s test_prop_UnionUnionAssoc
-[ ]  42837      0      0  42837 / 500000     5.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  43772      0      0  43772 / 500000     5.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  44681      0      0  44681 / 500000     5.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  45419      0      0  45419 / 500000     5.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  46110      0      0  46110 / 500000     5.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  47012      0      0  47012 / 500000     5.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  48009      0      0  48009 / 500000     5.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  48836      0      0  48836 / 500000     5.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  49542      0      0  49542 / 500000     5.9s test_prop_UnionUnionAssoc
-[ ]  50400      0      0  50400 / 500000     6.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  51415      0      0  51415 / 500000     6.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  52307      0      0  52307 / 500000     6.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  53015      0      0  53015 / 500000     6.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  53845      0      0  53845 / 500000     6.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  54656      0      0  54656 / 500000     6.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  55573      0      0  55573 / 500000     6.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  56528      0      0  56528 / 500000     6.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  57288      0      0  57288 / 500000     6.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  58196      0      0  58196 / 500000     6.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  58945      0      0  58945 / 500000     7.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  59848      0      0  59848 / 500000     7.1s test_prop_UnionUnionAssoc
-[ ]  60822      0      0  60822 / 500000     7.2s test_prop_UnionUnionAssoc
-[ ]  61795      0      0  61795 / 500000     7.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  62558      0      0  62558 / 500000     7.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  63363      0      0  63363 / 500000     7.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  64082      0      0  64082 / 500000     7.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  65006      0      0  65006 / 500000     7.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  66002      0      0  66002 / 500000     7.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  66842      0      0  66842 / 500000     7.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  67547      0      0  67547 / 500000     8.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  68182      0      0  68182 / 500000     8.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  68995      0      0  68995 / 500000     8.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  69891      0      0  69891 / 500000     8.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  70865      0      0  70865 / 500000     8.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  71767      0      0  71767 / 500000     8.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  72507      0      0  72507 / 500000     8.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  73331      0      0  73331 / 500000     8.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  74065      0      0  74065 / 500000     8.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  74975      0      0  74975 / 500000     8.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  75890      0      0  75890 / 500000     9.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  76878      0      0  76878 / 500000     9.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  77758      0      0  77758 / 500000     9.2s test_prop_UnionUnionAssoc
-[ ]  78440      0      0  78440 / 500000     9.3s test_prop_UnionUnionAssoc
-[ ]  79232      0      0  79232 / 500000     9.4s test_prop_UnionUnionAssoc
-[ ]  79955      0      0  79955 / 500000     9.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  80806      0      0  80806 / 500000     9.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  81766      0      0  81766 / 500000     9.7s test_prop_UnionUnionAssoc
-[ ]  82638      0      0  82638 / 500000     9.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  83499      0      0  83499 / 500000     9.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  84169      0      0  84169 / 500000    10.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  84990      0      0  84990 / 500000    10.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  85671      0      0  85671 / 500000    10.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  86406      0      0  86406 / 500000    10.3s test_prop_UnionUnionAssoc
-[ ]  87256      0      0  87256 / 500000    10.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  88119      0      0  88119 / 500000    10.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  89102      0      0  89102 / 500000    10.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  89992      0      0  89992 / 500000    10.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  90822      0      0  90822 / 500000    10.8s test_prop_UnionUnionAssoc (collecting)
-[ ]  91641      0      0  91641 / 500000    10.9s test_prop_UnionUnionAssoc (collecting)
-[ ]  92398      0      0  92398 / 500000    11.0s test_prop_UnionUnionAssoc (collecting)
-[ ]  93241      0      0  93241 / 500000    11.1s test_prop_UnionUnionAssoc (collecting)
-[ ]  94147      0      0  94147 / 500000    11.2s test_prop_UnionUnionAssoc (collecting)
-[ ]  95118      0      0  95118 / 500000    11.3s test_prop_UnionUnionAssoc (collecting)
-[ ]  96136      0      0  96136 / 500000    11.4s test_prop_UnionUnionAssoc (collecting)
-[ ]  97041      0      0  97041 / 500000    11.5s test_prop_UnionUnionAssoc (collecting)
-[ ]  97914      0      0  97914 / 500000    11.6s test_prop_UnionUnionAssoc (collecting)
-[ ]  98610      0      0  98610 / 500000    11.7s test_prop_UnionUnionAssoc (collecting)
-[ ]  99345      0      0  99345 / 500000    11.8s test_prop_UnionUnionAssoc (collecting)
-[ ] 100085      0      0 100085 / 500000    11.9s test_prop_UnionUnionAssoc
-[ ] 100900      0      0 100900 / 500000    12.0s test_prop_UnionUnionAssoc (collecting)
-[ ] 101835      0      0 101835 / 500000    12.1s test_prop_UnionUnionAssoc (collecting)
-[ ] 102697      0      0 102697 / 500000    12.2s test_prop_UnionUnionAssoc (collecting)
-[ ] 103684      0      0 103684 / 500000    12.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 104530      0      0 104530 / 500000    12.4s test_prop_UnionUnionAssoc (collecting)
-[ ] 105285      0      0 105285 / 500000    12.5s test_prop_UnionUnionAssoc (collecting)
-[ ] 106079      0      0 106079 / 500000    12.6s test_prop_UnionUnionAssoc (collecting)
-[ ] 106887      0      0 106887 / 500000    12.7s test_prop_UnionUnionAssoc (collecting)
-[ ] 107670      0      0 107670 / 500000    12.8s test_prop_UnionUnionAssoc (collecting)
-[ ] 108359      0      0 108359 / 500000    12.9s test_prop_UnionUnionAssoc (collecting)
-[ ] 109227      0      0 109227 / 500000    13.0s test_prop_UnionUnionAssoc (collecting)
-[ ] 110163      0      0 110163 / 500000    13.1s test_prop_UnionUnionAssoc
-[ ] 111057      0      0 111057 / 500000    13.2s test_prop_UnionUnionAssoc (collecting)
-[ ] 112086      0      0 112086 / 500000    13.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 112975      0      0 112975 / 500000    13.4s test_prop_UnionUnionAssoc (collecting)
-[ ] 113755      0      0 113755 / 500000    13.5s test_prop_UnionUnionAssoc (collecting)
-[ ] 114532      0      0 114532 / 500000    13.6s test_prop_UnionUnionAssoc (collecting)
-[ ] 115269      0      0 115269 / 500000    13.7s test_prop_UnionUnionAssoc (collecting)
-[ ] 115925      0      0 115925 / 500000    13.8s test_prop_UnionUnionAssoc (collecting)
-[ ] 116548      0      0 116548 / 500000    13.9s test_prop_UnionUnionAssoc (collecting)
-[ ] 117330      0      0 117330 / 500000    14.0s test_prop_UnionUnionAssoc (collecting)
-[ ] 118313      0      0 118313 / 500000    14.1s test_prop_UnionUnionAssoc (collecting)
-[ ] 119174      0      0 119174 / 500000    14.2s test_prop_UnionUnionAssoc (collecting)
-[ ] 120091      0      0 120091 / 500000    14.3s test_prop_UnionUnionAssoc (collecting)
-[ ] 120936      0      0 120936 / 500000    14.4s test_prop_UnionUnionAssoc (collecting)
-[ ] 121824      0      0 121824 / 500000    14.5s test_prop_UnionUnionAssoc (collecting)
-[ ] 122605      0      0 122605 / 500000    14.6s test_prop_UnionUnionAssoc (collecting)[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
 [✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Tree (Tree (Tree (Tree (Empty,0,1,Empty),1,8,Empty),2,4,Empty),3,9,Empty),4,65,Tree (Tree (Tree (Empty,5,74,Tree (Empty,6,4,Empty)),7,4,Tree (Empty,8,7,Empty)),9,1,Tree (Tree (Tree (Tree (Empty,16,7,Empty),24,78,Empty),27,65,Tree (Tree (Empty,34,0,Empty),39,5,Tree (Empty,43,7,Empty))),49,29,Tree (Tree (Tree (Empty,70,3,Empty),75,9,Tree (Tree (Empty,81,0,Empty),85,9,Empty)),97,56,Tree (Empty,99,8,Empty))))), Tree (Empty,0,8,Tree (Tree (Tree (Empty,1,0,Empty),2,1,Tree (Tree (Tree (Empty,6,81,Empty),8,7,Empty),9,5,Empty)),15,91,Tree (Tree (Tree (Empty,59,7,Empty),64,4,Empty),83,39,Empty))), Tree (Tree (Tree (Tree (Empty,0,2,Empty),2,9,Empty),8,80,Tree (Empty,43,5,Empty)),64,53,Empty))
+(Tree (Tree (Tree (Tree (Empty,0,4,Empty),1,4,Empty),2,4,Empty),3,6,Tree (Tree (Tree (Empty,4,0,Empty),5,94,Tree (Tree (Empty,6,3,Empty),7,9,Tree (Tree (Tree (Empty,8,2,Empty),9,43,Tree (Empty,10,43,Empty)),12,12,Tree (Tree (Tree (Tree (Tree (Tree (Tree (Empty,13,36,Tree (Tree (Tree (Empty,14,2,Empty),16,0,Empty),17,1,Tree (Empty,19,17,Tree (Empty,20,0,Empty)))),21,0,Empty),22,1,Tree (Tree (Tree (Empty,23,9,Empty),24,2,Empty),25,6,Tree (Empty,26,19,Empty))),27,1,Tree (Tree (Empty,28,1,Empty),30,8,Empty)),31,9,Tree (Tree (Tree (Tree (Tree (Empty,32,9,Empty),34,7,Empty),35,74,Tree (Tree (Tree (Tree (Empty,38,3,Empty),40,2,Empty),41,2,Tree (Tree (Empty,42,2,Empty),43,50,Tree (Empty,44,44,Empty))),45,96,Empty)),46,9,Tree (Empty,47,96,Tree (Tree (Empty,48,1,Empty),49,3,Empty))),50,4,Tree (Empty,51,8,Tree (Tree (Tree (Empty,52,8,Empty),54,8,Empty),55,69,Empty)))),56,0,Tree (Tree (Tree (Empty,57,8,Empty),58,6,Empty),59,8,Empty)),60,8,Tree (Tree (Tree (Empty,61,1,Tree (Empty,62,1,Empty)),63,3,Empty),64,74,Tree (Tree (Tree (Empty,65,6,Tree (Tree (Empty,66,2,Empty),67,7,Tree (Empty,68,7,Empty))),70,8,Tree (Empty,71,5,Empty)),72,23,Tree (Empty,73,47,Tree (Empty,76,5,Empty)))))))),77,48,Tree (Tree (Empty,79,4,Tree (Empty,80,6,Empty)),82,19,Tree (Tree (Tree (Tree (Empty,83,4,Empty),84,9,Tree (Tree (Empty,85,2,Tree (Empty,86,7,Tree (Empty,87,42,Tree (Empty,88,71,Empty)))),89,46,Empty)),92,5,Tree (Tree (Empty,93,77,Empty),94,1,Tree (Empty,96,1,Empty))),97,5,Empty)))), Tree (Tree (Tree (Empty,1,3,Empty),2,4,Tree (Tree (Empty,3,43,Empty),4,9,Tree (Empty,5,85,Empty))),6,6,Tree (Tree (Empty,8,4,Empty),9,30,Tree (Empty,28,11,Empty))), Tree (Empty,6,0,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.24]
+|prop_UnionUnionAssoc -> 0.20]
 [prop_UnionUnionAssoc|
  generated  error   fail   pass /  total     time test name
 [ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
@@ -337,10 +22,24 @@ failure (1 tests failed, 0 tests errored, ran 1 tests)
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Tree (Empty,0,7,Tree (Empty,1,1,Tree (Empty,2,1,Empty))),3,94,Tree (Tree (Empty,4,80,Tree (Empty,5,9,Empty)),6,83,Tree (Empty,7,9,Tree (Tree (Tree (Tree (Empty,8,2,Empty),9,0,Empty),11,9,Empty),12,5,Tree (Tree (Tree (Tree (Empty,18,77,Tree (Empty,21,3,Tree (Empty,26,78,Empty))),28,4,Empty),31,2,Tree (Tree (Empty,41,2,Tree (Empty,43,0,Empty)),46,25,Tree (Tree (Empty,60,46,Empty),62,63,Tree (Tree (Tree (Empty,84,6,Empty),85,2,Empty),86,73,Tree (Empty,93,5,Empty))))),98,3,Empty))))), Tree (Tree (Empty,4,7,Tree (Tree (Empty,6,17,Tree (Empty,9,5,Empty)),44,62,Tree (Tree (Empty,66,3,Empty),80,7,Empty))),94,0,Empty), Tree (Tree (Empty,0,7,Tree (Empty,1,9,Tree (Tree (Empty,2,3,Empty),3,9,Tree (Empty,4,5,Empty)))),5,0,Tree (Tree (Empty,6,6,Empty),7,2,Tree (Empty,8,8,Tree (Tree (Tree (Empty,9,8,Tree (Tree (Tree (Tree (Empty,10,24,Empty),14,7,Empty),19,3,Tree (Tree (Tree (Empty,23,66,Tree (Empty,25,2,Empty)),26,5,Empty),31,1,Tree (Tree (Empty,36,3,Tree (Empty,37,8,Empty)),42,69,Tree (Tree (Empty,44,4,Tree (Empty,47,3,Empty)),50,7,Tree (Tree (Empty,51,82,Tree (Empty,54,73,Empty)),55,7,Tree (Empty,58,7,Empty)))))),59,1,Tree (Tree (Empty,60,6,Empty),62,8,Empty))),65,74,Tree (Tree (Tree (Tree (Empty,70,54,Tree (Empty,72,7,Empty)),79,2,Tree (Empty,82,9,Empty)),84,0,Tree (Empty,86,2,Empty)),88,2,Tree (Tree (Empty,92,6,Tree (Tree (Empty,95,4,Empty),96,1,Empty)),97,5,Empty))),98,1,Empty)))))
+(Tree (Tree (Tree (Empty,0,9,Empty),1,5,Tree (Tree (Tree (Empty,2,6,Empty),3,9,Empty),4,1,Tree (Tree (Empty,5,64,Tree (Empty,6,8,Empty)),7,5,Empty))),8,8,Tree (Tree (Tree (Tree (Tree (Empty,9,4,Tree (Empty,10,4,Empty)),12,35,Tree (Tree (Tree (Empty,15,46,Empty),21,0,Empty),28,7,Tree (Empty,32,76,Tree (Empty,33,89,Tree (Tree (Empty,34,1,Empty),39,8,Empty))))),43,0,Empty),47,4,Tree (Tree (Empty,54,9,Tree (Empty,55,0,Empty)),56,2,Tree (Empty,57,9,Empty))),59,20,Tree (Tree (Empty,60,32,Tree (Tree (Tree (Empty,64,0,Tree (Tree (Empty,65,3,Empty),69,7,Empty)),85,39,Empty),87,2,Tree (Tree (Empty,88,4,Empty),91,8,Empty))),99,0,Empty))), Tree (Tree (Empty,0,1,Tree (Tree (Empty,1,66,Empty),2,9,Tree (Empty,3,48,Tree (Empty,4,3,Empty)))),5,6,Tree (Empty,6,36,Tree (Tree (Empty,7,5,Empty),8,53,Tree (Tree (Empty,9,7,Tree (Tree (Tree (Empty,10,82,Empty),12,58,Empty),14,2,Tree (Tree (Tree (Empty,15,5,Tree (Tree (Tree (Tree (Empty,17,87,Empty),18,0,Empty),19,2,Empty),20,7,Tree (Empty,22,94,Tree (Tree (Tree (Empty,23,56,Empty),24,9,Empty),25,3,Empty)))),26,24,Tree (Tree (Tree (Empty,27,0,Empty),28,46,Tree (Tree (Empty,29,15,Empty),32,11,Empty)),33,6,Tree (Tree (Tree (Empty,34,53,Tree (Tree (Empty,36,38,Empty),38,9,Empty)),39,8,Tree (Empty,40,42,Empty)),41,7,Empty))),42,5,Tree (Empty,43,5,Tree (Empty,44,2,Empty))))),45,2,Tree (Tree (Tree (Tree (Tree (Tree (Empty,46,0,Empty),47,6,Tree (Tree (Tree (Empty,49,21,Empty),50,1,Empty),51,10,Tree (Tree (Tree (Empty,53,52,Tree (Empty,54,34,Empty)),55,2,Empty),56,7,Tree (Empty,58,4,Empty)))),59,7,Tree (Tree (Tree (Tree (Empty,60,5,Empty),61,70,Empty),62,1,Tree (Tree (Empty,63,8,Empty),64,9,Empty)),65,9,Tree (Tree (Empty,66,61,Empty),67,8,Tree (Empty,68,5,Empty)))),70,5,Tree (Empty,71,29,Tree (Empty,72,7,Tree (Tree (Tree (Empty,73,4,Empty),74,4,Empty),75,4,Empty)))),76,87,Tree (Tree (Empty,77,76,Empty),78,7,Tree (Empty,79,7,Empty))),80,1,Tree (Tree (Empty,81,7,Empty),82,5,Tree (Tree (Tree (Empty,83,66,Empty),84,5,Tree (Empty,85,80,Empty)),86,6,Tree (Tree (Empty,87,78,Tree (Tree (Empty,89,89,Empty),90,6,Empty)),91,2,Tree (Tree (Empty,93,87,Tree (Empty,94,8,Empty)),95,7,Tree (Tree (Empty,97,6,Tree (Empty,98,4,Empty)),99,8,Empty)))))))))), Tree (Tree (Empty,0,40,Empty),1,3,Tree (Empty,2,0,Tree (Tree (Tree (Tree (Tree (Empty,3,8,Empty),4,5,Empty),5,23,Empty),6,7,Tree (Tree (Empty,7,4,Empty),8,9,Empty)),9,6,Tree (Tree (Tree (Empty,16,99,Tree (Empty,31,7,Empty)),36,43,Tree (Empty,39,6,Empty)),43,9,Tree (Tree (Empty,48,3,Tree (Empty,57,2,Tree (Tree (Empty,59,2,Empty),69,2,Empty))),91,3,Tree (Empty,99,0,Empty)))))))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.16]
+|prop_UnionUnionAssoc -> 0.26]
+[prop_UnionUnionAssoc|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
+[✗]      3      0      1      2 / 500000     0.0s test_prop_UnionUnionAssoc
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionUnionAssoc failed (0 shrink steps):
+
+(Tree (Empty,2,2,Tree (Empty,6,1,Tree (Empty,9,22,Empty))), Tree (Tree (Tree (Empty,0,39,Empty),1,9,Tree (Empty,6,4,Empty)),7,5,Tree (Empty,13,57,Tree (Empty,28,9,Empty))), Tree (Tree (Tree (Empty,4,9,Tree (Tree (Empty,5,10,Empty),6,4,Empty)),7,2,Tree (Empty,8,0,Empty)),9,7,Tree (Tree (Tree (Empty,18,0,Empty),60,1,Empty),98,3,Empty)))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionUnionAssoc -> 0.08]
 [prop_UnionUnionAssoc|
  generated  error   fail   pass /  total     time test name
 [ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
@@ -351,105 +50,91 @@ failure (1 tests failed, 0 tests errored, ran 1 tests)
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,2,2,Tree (Empty,5,2,Empty)), Tree (Tree (Tree (Empty,0,4,Tree (Tree (Empty,1,35,Empty),2,76,Empty)),3,57,Tree (Empty,4,0,Empty)),5,4,Tree (Tree (Tree (Tree (Empty,6,7,Tree (Empty,7,2,Tree (Empty,8,0,Empty))),9,7,Tree (Empty,17,53,Tree (Tree (Tree (Empty,21,9,Empty),27,5,Empty),32,6,Tree (Empty,39,3,Tree (Empty,41,0,Empty))))),42,28,Tree (Tree (Tree (Tree (Empty,43,3,Empty),47,5,Tree (Tree (Empty,55,84,Empty),58,89,Empty)),59,60,Tree (Tree (Empty,63,84,Tree (Tree (Empty,64,0,Empty),68,4,Empty)),70,8,Tree (Empty,71,23,Empty))),74,0,Empty)),85,6,Tree (Tree (Empty,88,1,Empty),91,8,Tree (Empty,93,24,Empty)))), Tree (Empty,4,8,Tree (Empty,7,1,Empty)))
+(Tree (Tree (Empty,0,0,Empty),1,7,Tree (Tree (Empty,2,0,Empty),3,67,Tree (Tree (Tree (Tree (Empty,4,4,Empty),5,7,Tree (Empty,6,4,Tree (Empty,7,6,Tree (Empty,8,5,Empty)))),9,9,Tree (Tree (Tree (Tree (Empty,10,0,Empty),11,30,Tree (Empty,12,3,Empty)),13,6,Tree (Tree (Tree (Tree (Tree (Tree (Tree (Tree (Tree (Empty,14,5,Tree (Empty,15,3,Empty)),16,3,Empty),17,15,Empty),18,86,Tree (Empty,19,4,Empty)),20,4,Tree (Tree (Tree (Empty,21,2,Empty),24,1,Tree (Empty,26,0,Tree (Tree (Tree (Tree (Empty,27,5,Empty),28,86,Empty),29,1,Tree (Tree (Tree (Empty,30,8,Empty),31,45,Tree (Empty,32,1,Empty)),33,80,Empty)),34,0,Empty))),35,4,Tree (Empty,36,6,Empty))),38,8,Tree (Tree (Tree (Tree (Tree (Empty,39,75,Empty),40,7,Empty),41,8,Empty),42,0,Tree (Tree (Empty,43,9,Tree (Empty,44,0,Empty)),45,5,Empty)),46,2,Tree (Tree (Empty,47,1,Empty),48,8,Tree (Tree (Empty,49,5,Empty),50,62,Empty)))),52,67,Tree (Tree (Empty,53,7,Empty),54,3,Tree (Tree (Empty,55,3,Empty),56,6,Empty))),57,7,Tree (Tree (Tree (Tree (Empty,59,5,Empty),60,3,Empty),62,5,Empty),63,0,Empty)),64,3,Empty)),65,4,Tree (Tree (Tree (Tree (Empty,66,8,Empty),67,8,Empty),68,2,Tree (Tree (Empty,69,4,Tree (Tree (Empty,70,5,Empty),71,9,Empty)),72,7,Tree (Empty,73,83,Tree (Tree (Empty,74,4,Empty),75,3,Empty)))),76,7,Tree (Tree (Tree (Tree (Empty,77,65,Empty),78,4,Empty),79,9,Empty),80,3,Tree (Empty,81,8,Tree (Empty,82,7,Empty)))))),86,0,Tree (Tree (Tree (Tree (Tree (Empty,88,9,Empty),89,5,Empty),91,3,Empty),93,57,Tree (Empty,94,62,Empty)),95,23,Tree (Empty,96,5,Tree (Tree (Tree (Empty,97,5,Empty),98,6,Empty),99,1,Empty)))))), Tree (Empty,1,7,Tree (Tree (Tree (Empty,3,2,Empty),4,75,Tree (Tree (Tree (Empty,5,8,Empty),6,9,Empty),8,8,Empty)),53,96,Tree (Empty,56,3,Empty))), Tree (Tree (Empty,4,3,Empty),7,0,Empty))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionUnionAssoc -> 0.25]
+[prop_UnionUnionAssoc|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionUnionAssoc failed (0 shrink steps):
+
+(Tree (Empty,8,7,Empty), Tree (Tree (Empty,0,1,Empty),1,5,Tree (Tree (Empty,2,1,Tree (Tree (Empty,3,7,Tree (Tree (Empty,4,9,Empty),5,4,Tree (Empty,6,5,Empty))),7,3,Empty)),8,2,Tree (Tree (Tree (Empty,9,4,Tree (Empty,10,2,Empty)),11,70,Tree (Tree (Tree (Empty,12,5,Tree (Tree (Tree (Empty,13,5,Empty),14,0,Tree (Empty,15,9,Tree (Empty,16,8,Empty))),17,0,Tree (Empty,18,8,Empty))),19,6,Empty),20,9,Tree (Empty,21,5,Tree (Tree (Empty,22,6,Tree (Empty,23,0,Tree (Empty,24,21,Empty))),25,9,Tree (Empty,26,6,Empty))))),27,0,Tree (Tree (Tree (Tree (Empty,28,2,Tree (Tree (Empty,29,2,Tree (Empty,30,1,Empty)),31,1,Tree (Empty,32,3,Empty))),33,1,Tree (Tree (Empty,34,2,Empty),35,0,Tree (Tree (Tree (Empty,36,1,Empty),37,1,Empty),38,1,Empty))),39,2,Tree (Tree (Tree (Empty,40,1,Empty),41,0,Tree (Tree (Tree (Empty,42,4,Empty),43,56,Tree (Empty,44,3,Empty)),45,9,Tree (Empty,46,4,Tree (Tree (Tree (Empty,47,2,Empty),48,0,Empty),49,0,Tree (Empty,50,4,Empty))))),51,0,Tree (Tree (Empty,52,1,Empty),53,4,Tree (Empty,54,5,Empty)))),55,9,Tree (Tree (Empty,56,2,Tree (Tree (Tree (Tree (Tree (Empty,57,1,Empty),58,39,Empty),59,6,Empty),60,65,Tree (Tree (Empty,61,7,Empty),62,1,Empty)),63,71,Tree (Tree (Empty,64,59,Empty),65,4,Tree (Empty,66,9,Empty)))),67,3,Tree (Tree (Tree (Tree (Empty,68,1,Tree (Tree (Empty,69,8,Tree (Empty,70,0,Empty)),71,29,Empty)),72,47,Tree (Tree (Empty,73,4,Tree (Empty,74,74,Empty)),75,8,Tree (Empty,76,1,Tree (Empty,77,1,Empty)))),78,7,Tree (Tree (Tree (Empty,79,2,Tree (Empty,80,1,Empty)),81,8,Tree (Empty,82,5,Tree (Tree (Empty,83,2,Empty),84,1,Tree (Empty,85,4,Tree (Empty,86,3,Tree (Empty,87,79,Tree (Empty,88,2,Empty))))))),89,9,Tree (Tree (Empty,90,0,Empty),91,4,Tree (Empty,92,6,Empty)))),93,9,Tree (Tree (Empty,94,53,Tree (Empty,95,16,Empty)),96,0,Tree (Empty,97,93,Tree (Tree (Empty,98,9,Empty),99,4,Empty))))))))), Tree (Tree (Empty,0,4,Empty),1,7,Tree (Tree (Tree (Tree (Tree (Tree (Empty,2,3,Tree (Empty,3,8,Empty)),4,5,Empty),5,3,Tree (Empty,6,78,Tree (Empty,7,62,Empty))),8,55,Tree (Tree (Tree (Empty,9,28,Empty),14,8,Tree (Empty,22,0,Empty)),23,14,Empty)),25,27,Tree (Empty,28,3,Tree (Tree (Empty,35,76,Empty),36,30,Empty))),37,1,Tree (Tree (Tree (Empty,54,36,Tree (Empty,73,4,Tree (Tree (Empty,77,76,Empty),80,7,Empty))),84,1,Tree (Empty,91,9,Empty)),97,4,Empty))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionUnionAssoc -> 1.15]
+[prop_UnionUnionAssoc|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionUnionAssoc failed (0 shrink steps):
+
+(Tree (Tree (Empty,0,1,Empty),1,49,Tree (Tree (Tree (Empty,2,6,Empty),3,19,Tree (Tree (Tree (Empty,4,1,Empty),6,3,Tree (Empty,7,61,Empty)),8,0,Tree (Tree (Empty,9,18,Tree (Empty,14,2,Empty)),24,6,Tree (Empty,26,40,Empty)))),35,9,Tree (Tree (Empty,67,5,Tree (Empty,69,0,Empty)),84,5,Tree (Empty,98,9,Empty)))), Tree (Tree (Empty,1,2,Empty),3,75,Tree (Tree (Tree (Empty,4,4,Tree (Empty,16,7,Empty)),20,1,Tree (Empty,40,2,Empty)),50,4,Empty)), Tree (Tree (Empty,0,6,Tree (Tree (Empty,1,4,Empty),2,1,Tree (Empty,3,4,Tree (Empty,4,66,Empty)))),5,4,Tree (Tree (Empty,6,5,Tree (Tree (Empty,7,10,Empty),8,0,Tree (Empty,9,7,Tree (Tree (Tree (Empty,10,9,Tree (Tree (Empty,11,9,Empty),12,3,Empty)),13,66,Tree (Tree (Empty,14,4,Empty),15,2,Empty)),16,4,Tree (Empty,17,9,Tree (Tree (Empty,18,6,Empty),19,5,Tree (Tree (Empty,20,89,Empty),21,8,Tree (Empty,22,94,Tree (Empty,23,54,Empty))))))))),24,9,Tree (Tree (Tree (Tree (Tree (Empty,25,7,Tree (Empty,26,1,Tree (Tree (Tree (Empty,27,34,Empty),28,8,Tree (Empty,29,5,Tree (Tree (Empty,30,76,Empty),31,6,Empty))),32,1,Tree (Empty,33,4,Tree (Empty,34,8,Tree (Empty,35,39,Tree (Empty,36,5,Empty))))))),37,5,Tree (Tree (Empty,38,9,Tree (Tree (Tree (Tree (Empty,39,7,Empty),40,0,Tree (Empty,41,7,Tree (Tree (Empty,42,8,Empty),43,61,Empty))),44,51,Empty),45,5,Tree (Empty,46,1,Empty))),47,0,Tree (Tree (Empty,48,56,Empty),49,8,Tree (Tree (Tree (Empty,50,0,Empty),51,9,Empty),52,5,Empty)))),53,72,Tree (Tree (Tree (Empty,54,3,Empty),55,0,Empty),56,7,Tree (Tree (Empty,57,66,Empty),58,14,Empty))),59,0,Tree (Tree (Tree (Empty,60,8,Empty),61,82,Tree (Tree (Empty,62,8,Empty),63,5,Empty)),64,9,Empty)),65,3,Tree (Tree (Tree (Tree (Tree (Empty,66,18,Empty),67,8,Tree (Empty,68,6,Tree (Empty,69,9,Empty))),70,2,Empty),71,19,Tree (Empty,72,4,Tree (Tree (Tree (Tree (Empty,73,4,Empty),74,5,Empty),75,1,Empty),76,8,Tree (Empty,77,37,Tree (Tree (Empty,78,0,Tree (Empty,79,61,Empty)),80,98,Empty))))),81,4,Tree (Empty,82,2,Tree (Tree (Tree (Empty,83,6,Empty),84,8,Tree (Tree (Tree (Tree (Empty,85,9,Empty),86,64,Tree (Empty,87,5,Empty)),88,2,Tree (Empty,89,5,Tree (Empty,90,49,Empty))),91,11,Tree (Empty,92,77,Empty))),93,4,Tree (Empty,94,8,Tree (Tree (Empty,95,30,Empty),96,6,Tree (Tree (Tree (Empty,97,47,Empty),98,2,Empty),99,4,Empty))))))))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionUnionAssoc -> 0.67]
+[prop_UnionUnionAssoc|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionUnionAssoc failed (0 shrink steps):
+
+(Tree (Tree (Tree (Empty,0,9,Empty),1,2,Tree (Tree (Empty,2,8,Empty),3,8,Tree (Empty,4,7,Empty))),5,1,Tree (Tree (Empty,6,3,Tree (Empty,7,50,Empty)),8,59,Tree (Empty,9,0,Tree (Tree (Tree (Empty,20,2,Tree (Tree (Empty,21,18,Tree (Empty,29,6,Tree (Empty,33,7,Empty))),42,5,Tree (Tree (Tree (Empty,49,9,Tree (Empty,57,9,Empty)),58,35,Tree (Empty,60,1,Empty)),63,2,Tree (Empty,65,3,Empty)))),69,0,Tree (Tree (Empty,73,8,Tree (Tree (Empty,78,3,Tree (Tree (Empty,80,82,Empty),83,7,Tree (Empty,85,5,Empty))),90,23,Empty)),92,50,Empty)),93,67,Tree (Empty,99,9,Empty))))), Tree (Tree (Empty,3,2,Empty),5,1,Tree (Tree (Empty,9,6,Empty),60,4,Empty)), Tree (Tree (Tree (Empty,0,7,Tree (Tree (Empty,4,8,Empty),5,3,Empty)),8,17,Tree (Tree (Empty,38,9,Empty),50,5,Empty)),95,49,Tree (Empty,97,6,Empty)))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionUnionAssoc -> 0.09]
+[prop_UnionUnionAssoc|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionUnionAssoc failed (0 shrink steps):
+
+(Tree (Tree (Tree (Tree (Empty,0,6,Tree (Empty,1,81,Empty)),2,8,Tree (Tree (Empty,3,5,Tree (Empty,4,64,Empty)),5,41,Tree (Empty,6,17,Empty))),7,8,Tree (Empty,8,8,Tree (Tree (Tree (Empty,9,6,Tree (Tree (Empty,10,4,Empty),11,9,Tree (Tree (Tree (Tree (Empty,12,0,Empty),13,0,Empty),14,0,Empty),15,6,Tree (Empty,16,3,Tree (Tree (Empty,17,42,Tree (Empty,18,4,Empty)),19,7,Tree (Tree (Tree (Empty,20,1,Empty),21,53,Empty),22,0,Empty)))))),23,3,Tree (Empty,24,9,Tree (Tree (Tree (Tree (Tree (Tree (Empty,25,96,Tree (Empty,26,3,Empty)),27,5,Tree (Tree (Tree (Tree (Empty,28,22,Empty),29,45,Tree (Empty,30,4,Empty)),31,79,Empty),32,1,Empty)),33,2,Empty),34,71,Empty),35,57,Tree (Tree (Empty,36,9,Empty),37,2,Tree (Empty,38,9,Empty))),39,3,Tree (Tree (Tree (Empty,40,3,Tree (Tree (Tree (Empty,41,2,Empty),42,5,Empty),43,1,Empty)),44,7,Tree (Tree (Tree (Empty,45,9,Tree (Empty,46,7,Tree (Empty,47,67,Empty))),48,6,Tree (Empty,49,1,Empty)),50,8,Tree (Tree (Tree (Tree (Empty,51,23,Empty),52,39,Empty),53,30,Empty),54,93,Tree (Tree (Tree (Empty,55,46,Empty),56,1,Empty),57,3,Empty)))),58,5,Empty)))),59,5,Tree (Tree (Empty,60,4,Empty),61,1,Tree (Tree (Empty,62,4,Empty),63,1,Tree (Tree (Empty,64,13,Empty),65,1,Tree (Empty,66,66,Tree (Tree (Tree (Empty,67,2,Empty),68,4,Empty),69,4,Tree (Tree (Empty,70,59,Empty),71,0,Empty))))))))),72,5,Tree (Tree (Tree (Tree (Empty,73,1,Tree (Empty,74,56,Empty)),75,8,Empty),76,1,Tree (Tree (Empty,77,0,Tree (Tree (Empty,78,29,Empty),79,9,Empty)),80,6,Tree (Tree (Tree (Empty,81,8,Tree (Empty,82,0,Empty)),83,9,Empty),84,8,Tree (Tree (Empty,85,8,Empty),86,1,Tree (Empty,87,4,Tree (Empty,88,0,Empty)))))),89,14,Tree (Tree (Empty,90,44,Empty),91,2,Tree (Tree (Tree (Tree (Empty,92,9,Empty),93,9,Tree (Empty,94,5,Empty)),95,23,Tree (Tree (Empty,96,9,Empty),97,97,Tree (Empty,98,97,Empty))),99,50,Empty)))), Tree (Tree (Empty,4,63,Tree (Empty,7,1,Tree (Empty,31,8,Empty))),42,3,Tree (Empty,76,6,Empty)), Tree (Tree (Tree (Tree (Tree (Empty,0,56,Empty),1,8,Tree (Empty,2,5,Empty)),3,1,Tree (Tree (Empty,4,8,Tree (Empty,5,5,Empty)),6,3,Empty)),7,1,Tree (Tree (Empty,8,8,Tree (Empty,9,3,Tree (Tree (Empty,10,4,Empty),12,50,Empty))),15,5,Tree (Tree (Tree (Empty,16,96,Tree (Tree (Tree (Tree (Empty,17,12,Empty),18,9,Tree (Empty,19,4,Empty)),21,5,Empty),22,8,Empty)),23,89,Empty),24,92,Tree (Tree (Tree (Tree (Empty,26,6,Empty),28,13,Empty),29,2,Tree (Tree (Tree (Empty,30,0,Empty),32,1,Tree (Tree (Empty,34,0,Tree (Tree (Tree (Empty,36,8,Empty),37,9,Empty),39,1,Empty)),40,2,Tree (Empty,42,1,Empty))),43,73,Empty)),46,0,Tree (Tree (Empty,47,96,Tree (Empty,51,53,Empty)),52,2,Tree (Tree (Tree (Empty,56,2,Empty),57,63,Tree (Tree (Empty,58,5,Empty),59,10,Empty)),63,3,Tree (Empty,68,1,Tree (Empty,69,95,Empty)))))))),71,7,Tree (Tree (Tree (Tree (Empty,72,3,Tree (Empty,73,1,Empty)),74,93,Empty),77,9,Tree (Tree (Empty,80,3,Tree (Tree (Empty,81,1,Empty),82,7,Tree (Tree (Empty,83,7,Tree (Empty,84,76,Empty)),91,3,Empty))),93,9,Tree (Empty,94,7,Empty))),95,9,Tree (Empty,96,3,Empty))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionUnionAssoc -> 1.11]
+[prop_UnionUnionAssoc|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionUnionAssoc failed (0 shrink steps):
+
+(Tree (Tree (Tree (Empty,1,9,Empty),3,9,Tree (Tree (Empty,6,61,Empty),8,3,Tree (Empty,20,0,Empty))),43,59,Tree (Empty,92,17,Empty)), Tree (Tree (Tree (Empty,1,6,Empty),2,56,Empty),5,56,Tree (Empty,6,9,Tree (Empty,8,1,Tree (Empty,67,8,Empty)))), Tree (Tree (Tree (Tree (Empty,0,0,Tree (Empty,1,1,Tree (Empty,2,1,Empty))),3,21,Empty),4,5,Tree (Empty,5,73,Tree (Tree (Empty,6,1,Empty),7,5,Empty))),8,0,Tree (Empty,9,8,Tree (Tree (Tree (Tree (Tree (Tree (Empty,10,5,Empty),11,7,Tree (Empty,12,7,Empty)),13,0,Tree (Tree (Tree (Tree (Empty,15,3,Empty),16,5,Empty),18,8,Tree (Tree (Tree (Empty,19,59,Empty),20,3,Empty),21,17,Tree (Empty,22,4,Empty))),23,7,Tree (Tree (Empty,24,6,Tree (Empty,25,6,Tree (Empty,26,4,Tree (Empty,27,59,Empty)))),28,58,Empty))),30,1,Tree (Tree (Tree (Empty,31,0,Empty),32,5,Tree (Tree (Tree (Empty,33,6,Tree (Empty,34,4,Empty)),35,4,Tree (Empty,36,4,Empty)),39,3,Tree (Tree (Tree (Empty,40,2,Tree (Empty,41,7,Empty)),42,5,Empty),43,97,Tree (Tree (Tree (Empty,44,6,Empty),45,5,Tree (Empty,46,5,Empty)),47,6,Empty)))),48,4,Tree (Tree (Tree (Empty,49,4,Empty),50,1,Tree (Empty,51,8,Tree (Empty,53,9,Empty))),54,2,Tree (Tree (Tree (Empty,55,6,Empty),56,4,Empty),57,9,Tree (Empty,58,8,Empty))))),59,2,Tree (Tree (Empty,60,0,Empty),61,4,Tree (Tree (Empty,63,4,Empty),64,26,Empty))),67,1,Tree (Tree (Tree (Tree (Tree (Empty,69,86,Tree (Tree (Empty,70,2,Empty),71,8,Tree (Empty,72,1,Tree (Empty,73,74,Empty)))),74,5,Tree (Empty,75,2,Empty)),76,4,Tree (Empty,77,7,Empty)),78,8,Tree (Tree (Tree (Empty,79,6,Tree (Empty,80,3,Empty)),82,7,Tree (Tree (Tree (Empty,84,17,Empty),85,9,Empty),86,2,Tree (Empty,88,9,Empty))),89,23,Empty)),90,98,Tree (Empty,91,3,Tree (Tree (Empty,92,8,Tree (Empty,93,5,Empty)),94,9,Tree (Tree (Tree (Tree (Empty,95,4,Empty),96,3,Tree (Empty,97,55,Empty)),98,6,Empty),99,6,Empty))))))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionUnionAssoc -> 0.21]
+[prop_UnionUnionAssoc|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionUnionAssoc failed (0 shrink steps):
+
+(Tree (Tree (Empty,3,1,Tree (Empty,6,6,Empty)),7,8,Empty), Tree (Empty,1,7,Tree (Tree (Tree (Empty,4,2,Empty),5,5,Empty),6,42,Tree (Tree (Empty,8,5,Empty),9,8,Tree (Tree (Empty,34,0,Empty),69,9,Empty)))), Tree (Tree (Tree (Empty,0,2,Empty),1,6,Tree (Tree (Tree (Empty,2,5,Empty),3,3,Tree (Tree (Empty,4,6,Empty),5,3,Empty)),6,6,Empty)),7,6,Tree (Tree (Empty,8,9,Empty),9,8,Tree (Tree (Tree (Tree (Tree (Tree (Empty,10,4,Empty),11,2,Tree (Tree (Empty,12,7,Empty),14,42,Tree (Empty,15,3,Empty))),16,8,Tree (Empty,17,9,Tree (Tree (Tree (Tree (Empty,18,2,Empty),19,3,Empty),20,8,Empty),21,2,Empty))),22,8,Tree (Empty,24,1,Tree (Tree (Empty,25,6,Empty),26,1,Tree (Tree (Tree (Empty,28,23,Empty),29,0,Empty),30,9,Tree (Empty,31,8,Tree (Empty,32,39,Empty)))))),33,0,Tree (Tree (Tree (Tree (Empty,34,2,Tree (Empty,35,9,Tree (Tree (Tree (Tree (Empty,36,4,Empty),37,0,Empty),38,9,Tree (Empty,40,1,Empty)),41,9,Tree (Tree (Empty,43,50,Empty),44,7,Empty)))),46,5,Tree (Empty,47,6,Tree (Empty,49,1,Empty))),50,7,Empty),51,70,Tree (Tree (Tree (Empty,52,3,Tree (Tree (Empty,53,0,Tree (Empty,54,1,Tree (Empty,55,2,Empty))),56,6,Tree (Empty,58,77,Empty))),59,0,Tree (Tree (Tree (Empty,61,72,Tree (Tree (Empty,63,8,Empty),64,99,Tree (Empty,66,1,Empty))),67,1,Tree (Empty,68,3,Tree (Empty,69,90,Empty))),70,4,Tree (Tree (Empty,71,9,Empty),72,6,Tree (Empty,73,8,Tree (Empty,74,7,Tree (Empty,75,0,Tree (Empty,76,61,Empty))))))),77,9,Tree (Empty,80,7,Tree (Tree (Tree (Tree (Empty,83,84,Tree (Empty,84,0,Empty)),85,51,Tree (Empty,86,4,Empty)),88,47,Empty),89,9,Tree (Tree (Empty,90,8,Tree (Empty,91,80,Empty)),92,4,Empty)))))),94,50,Tree (Tree (Empty,95,1,Tree (Empty,96,3,Tree (Empty,97,0,Empty))),98,6,Tree (Empty,99,4,Empty))))))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
 |prop_UnionUnionAssoc -> 0.14]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionUnionAssoc failed (0 shrink steps):
-
-(Tree (Tree (Tree (Empty,0,0,Empty),3,3,Tree (Empty,5,1,Tree (Empty,6,2,Empty))),7,4,Tree (Empty,9,0,Empty)), Tree (Empty,0,4,Tree (Tree (Tree (Empty,1,0,Empty),2,1,Tree (Empty,3,5,Empty)),4,9,Tree (Empty,5,7,Tree (Tree (Tree (Empty,6,0,Empty),7,7,Tree (Empty,8,1,Empty)),9,4,Tree (Tree (Tree (Tree (Empty,10,99,Empty),12,3,Tree (Tree (Tree (Empty,13,7,Empty),14,1,Tree (Empty,15,0,Empty)),17,0,Tree (Tree (Empty,18,1,Empty),19,7,Tree (Tree (Empty,20,9,Empty),22,5,Tree (Empty,25,6,Empty))))),26,5,Tree (Tree (Tree (Empty,27,1,Empty),28,7,Tree (Empty,29,6,Empty)),30,99,Empty)),31,1,Tree (Tree (Tree (Tree (Empty,32,8,Empty),33,6,Tree (Tree (Empty,34,2,Tree (Tree (Empty,37,8,Empty),39,0,Tree (Tree (Empty,41,9,Empty),42,4,Empty))),44,6,Tree (Empty,45,5,Tree (Tree (Empty,47,9,Empty),48,64,Tree (Empty,49,3,Empty))))),50,2,Tree (Tree (Empty,51,2,Tree (Empty,55,5,Empty)),56,41,Empty)),59,4,Tree (Tree (Tree (Empty,60,4,Tree (Empty,61,3,Empty)),62,2,Empty),63,3,Tree (Empty,65,1,Tree (Tree (Tree (Empty,67,3,Empty),68,77,Tree (Empty,69,48,Empty)),71,11,Tree (Tree (Tree (Tree (Empty,72,38,Empty),75,55,Tree (Tree (Empty,76,6,Empty),77,6,Tree (Empty,79,27,Empty))),81,0,Tree (Tree (Empty,83,0,Empty),84,28,Empty)),85,5,Tree (Tree (Tree (Empty,86,4,Empty),89,4,Tree (Empty,90,9,Empty)),96,9,Tree (Tree (Empty,97,56,Empty),98,9,Empty)))))))))))), Tree (Empty,0,79,Tree (Empty,1,4,Tree (Tree (Tree (Tree (Empty,2,7,Empty),3,2,Empty),4,4,Tree (Tree (Empty,5,4,Tree (Tree (Empty,6,18,Empty),7,7,Tree (Empty,8,5,Empty))),9,4,Tree (Tree (Empty,17,7,Empty),18,62,Empty))),19,5,Tree (Tree (Tree (Empty,25,4,Tree (Tree (Tree (Empty,35,1,Tree (Empty,37,6,Empty)),40,47,Tree (Tree (Empty,42,94,Tree (Empty,45,5,Tree (Empty,49,7,Empty))),50,0,Empty)),52,0,Empty)),53,0,Tree (Empty,54,5,Tree (Empty,55,7,Empty))),58,6,Tree (Tree (Tree (Tree (Empty,65,6,Empty),67,7,Empty),76,2,Empty),81,18,Tree (Tree (Tree (Empty,83,8,Empty),86,4,Tree (Tree (Empty,88,5,Tree (Empty,89,7,Empty)),90,0,Tree (Empty,91,7,Empty))),98,8,Tree (Empty,99,2,Empty))))))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.19]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionUnionAssoc failed (0 shrink steps):
-
-(Tree (Tree (Empty,0,7,Empty),6,7,Tree (Empty,80,33,Empty)), Tree (Tree (Tree (Empty,2,9,Empty),6,2,Tree (Tree (Empty,8,5,Empty),9,7,Empty)),56,1,Tree (Empty,74,1,Empty)), Tree (Tree (Tree (Empty,1,67,Empty),5,6,Tree (Empty,6,2,Empty)),7,1,Tree (Empty,38,6,Empty)))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.10]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionUnionAssoc failed (0 shrink steps):
-
-(Tree (Tree (Empty,0,6,Empty),1,9,Tree (Tree (Tree (Empty,2,31,Empty),3,5,Tree (Empty,5,8,Empty)),6,4,Tree (Tree (Tree (Empty,7,3,Empty),8,20,Tree (Empty,9,5,Empty)),17,57,Empty))), Tree (Tree (Empty,0,0,Empty),1,1,Tree (Empty,2,54,Tree (Tree (Empty,3,2,Empty),4,7,Tree (Tree (Tree (Tree (Empty,5,51,Empty),6,2,Tree (Tree (Tree (Empty,7,6,Empty),8,5,Tree (Empty,9,4,Empty)),19,49,Tree (Empty,33,8,Empty))),44,9,Tree (Tree (Empty,47,3,Empty),49,6,Tree (Tree (Tree (Empty,58,8,Tree (Empty,65,5,Empty)),70,0,Empty),77,7,Empty))),79,0,Empty)))), Tree (Tree (Empty,0,8,Empty),2,9,Tree (Tree (Tree (Empty,3,8,Empty),7,1,Empty),27,9,Empty)))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.12]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionUnionAssoc failed (0 shrink steps):
-
-(Tree (Tree (Empty,0,3,Empty),8,7,Empty), Tree (Empty,6,46,Tree (Tree (Tree (Empty,7,0,Empty),9,71,Empty),48,7,Empty)), Tree (Tree (Tree (Empty,2,80,Tree (Tree (Empty,3,11,Empty),4,3,Empty)),5,39,Tree (Tree (Tree (Empty,6,20,Empty),7,59,Empty),8,7,Empty)),9,56,Tree (Empty,26,4,Tree (Empty,39,43,Empty))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.11]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionUnionAssoc failed (0 shrink steps):
-
-(Tree (Tree (Empty,2,5,Tree (Empty,3,8,Tree (Empty,5,5,Empty))),8,8,Tree (Tree (Tree (Empty,9,6,Empty),14,0,Empty),60,4,Empty)), Tree (Tree (Tree (Tree (Tree (Tree (Empty,0,1,Empty),1,1,Empty),2,1,Tree (Empty,3,4,Tree (Empty,4,8,Empty))),5,0,Empty),6,1,Tree (Tree (Empty,7,0,Empty),8,8,Tree (Tree (Tree (Tree (Empty,9,9,Tree (Empty,10,37,Empty)),18,35,Tree (Empty,21,8,Tree (Empty,22,6,Tree (Tree (Empty,34,8,Empty),36,9,Tree (Empty,38,2,Tree (Tree (Empty,39,2,Empty),51,13,Empty)))))),53,1,Empty),56,4,Empty))),74,5,Tree (Tree (Empty,78,9,Tree (Empty,80,5,Empty)),83,5,Tree (Empty,91,8,Empty))), Tree (Tree (Tree (Tree (Tree (Empty,0,6,Empty),1,97,Tree (Tree (Empty,2,4,Empty),3,49,Empty)),4,9,Tree (Empty,5,5,Empty)),6,1,Tree (Empty,7,4,Empty)),8,57,Tree (Empty,9,0,Tree (Tree (Tree (Empty,10,3,Empty),20,3,Tree (Empty,24,2,Empty)),32,1,Tree (Empty,40,6,Tree (Tree (Tree (Tree (Empty,62,3,Empty),65,7,Empty),67,34,Tree (Tree (Empty,78,7,Empty),79,55,Empty)),97,5,Empty))))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.12]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionUnionAssoc failed (0 shrink steps):
-
-(Tree (Empty,6,2,Tree (Empty,8,5,Empty)), Tree (Tree (Empty,0,8,Tree (Tree (Empty,1,7,Empty),2,8,Tree (Empty,4,2,Empty))),7,34,Tree (Empty,39,20,Empty)), Tree (Tree (Tree (Tree (Empty,0,3,Empty),1,7,Tree (Tree (Empty,2,3,Tree (Tree (Empty,3,3,Empty),4,0,Empty)),5,4,Tree (Empty,6,7,Empty))),7,6,Empty),8,8,Tree (Empty,9,4,Tree (Tree (Tree (Tree (Empty,10,49,Empty),12,4,Tree (Tree (Tree (Empty,13,9,Empty),14,2,Tree (Empty,15,0,Tree (Empty,16,1,Tree (Tree (Empty,17,0,Empty),18,0,Tree (Empty,19,2,Empty))))),20,1,Tree (Tree (Empty,21,9,Tree (Empty,22,6,Empty)),24,4,Empty))),25,15,Tree (Tree (Tree (Tree (Tree (Empty,26,4,Empty),28,4,Empty),29,2,Tree (Empty,30,97,Empty)),31,3,Tree (Tree (Empty,32,9,Empty),33,9,Tree (Tree (Empty,34,19,Empty),35,5,Tree (Empty,36,84,Empty)))),37,1,Tree (Empty,38,0,Empty))),39,99,Tree (Tree (Tree (Tree (Empty,40,1,Tree (Tree (Tree (Tree (Empty,41,0,Empty),42,4,Empty),43,37,Empty),44,9,Tree (Empty,45,6,Tree (Tree (Tree (Empty,46,6,Empty),47,1,Empty),48,9,Tree (Empty,49,2,Tree (Empty,51,46,Empty)))))),52,11,Tree (Empty,53,2,Empty)),54,2,Tree (Tree (Empty,55,7,Empty),56,4,Tree (Empty,57,2,Tree (Empty,58,11,Tree (Tree (Tree (Tree (Tree (Empty,59,6,Empty),60,43,Tree (Tree (Empty,61,32,Tree (Empty,62,6,Empty)),63,8,Tree (Tree (Empty,64,1,Tree (Empty,65,1,Empty)),66,9,Tree (Empty,67,40,Empty)))),68,9,Tree (Empty,69,9,Empty)),70,22,Empty),71,9,Tree (Empty,72,3,Tree (Tree (Tree (Empty,73,8,Empty),74,1,Tree (Tree (Tree (Empty,75,4,Empty),76,44,Empty),77,7,Tree (Empty,79,7,Empty))),80,63,Tree (Empty,81,5,Empty)))))))),82,61,Tree (Tree (Tree (Tree (Tree (Empty,83,8,Empty),84,4,Empty),85,3,Tree (Empty,86,9,Empty)),87,3,Empty),88,7,Tree (Tree (Empty,89,0,Tree (Empty,90,7,Empty)),91,2,Tree (Tree (Empty,92,6,Empty),93,50,Tree (Empty,95,5,Tree (Empty,96,4,Tree (Tree (Empty,97,0,Empty),98,0,Empty)))))))))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.22]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionUnionAssoc
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionUnionAssoc failed (0 shrink steps):
-
-(Tree (Tree (Empty,0,1,Empty),1,93,Tree (Empty,3,5,Tree (Empty,6,5,Tree (Empty,8,7,Empty)))), Tree (Tree (Tree (Tree (Empty,0,9,Tree (Tree (Empty,1,6,Tree (Empty,2,7,Empty)),3,0,Tree (Empty,4,7,Empty))),5,65,Tree (Tree (Empty,6,7,Empty),7,1,Tree (Empty,8,6,Tree (Tree (Empty,9,1,Empty),17,2,Tree (Tree (Tree (Empty,22,7,Empty),23,4,Empty),28,25,Empty))))),30,1,Tree (Tree (Tree (Empty,31,14,Empty),34,0,Tree (Empty,39,14,Empty)),40,2,Tree (Tree (Tree (Empty,41,5,Tree (Tree (Empty,51,9,Empty),55,5,Empty)),59,84,Empty),64,4,Tree (Tree (Empty,67,74,Empty),68,8,Empty)))),69,37,Tree (Tree (Tree (Empty,72,0,Empty),73,9,Tree (Tree (Empty,78,4,Empty),82,8,Empty)),86,7,Tree (Empty,99,5,Empty))), Tree (Tree (Empty,6,8,Empty),7,7,Empty))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 0.12]
