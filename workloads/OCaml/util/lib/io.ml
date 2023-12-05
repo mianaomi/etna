@@ -7,29 +7,22 @@ let rec lookup l k =
   | [] -> None
   | (k', v) :: l' -> if k = k' then Some v else lookup l' k
 
-(* Runs f, redirecting outputs to file *)
-let redirect (file : string) (f : unit -> unit) : unit =
-  let oldout = Unix.dup Unix.stdout in
-  let newout =
-    open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 file
-  in
-  Unix.dup2 (Unix.descr_of_out_channel newout) Unix.stdout;
-  f ();
-  flush stdout;
-  Unix.dup2 oldout Unix.stdout
-
-let qmain t ts s ss =
+let qmain t ts s ss file =
   let tst = lookup ts t in
   let arb = lookup ss s in
   match (tst, arb) with
   | None, _ -> Printf.printf "Test %s not found\n" t
   | _, None -> Printf.printf "Strategy %s not found\n" s
   | Some tst, Some arb ->
-      let _ = Printf.printf "[%s|\n" t in
+      let oc =
+        open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 file
+      in
+      let _ = Printf.fprintf oc "[%s|\n" t in
       let st = Sys.time () in
       let _ = qrun tst arb in
       let dt = (Sys.time () -. st) *. 1000.0 in
-      Printf.printf "|%s -> %.2f]\n" t dt
+      Printf.fprintf oc "|%s -> %.2f]\n" t dt;
+      close_out oc
 
 let cmain t ts s ss =
   let tst = lookup ts t in
@@ -38,35 +31,70 @@ let cmain t ts s ss =
   | None, _ -> Printf.printf "Test %s not found\n" t
   | _, None -> Printf.printf "Strategy %s not found\n" s
   | Some tst, Some gen ->
-      let _ = Printf.printf "[%s|\n" t in
-      let st = Sys.time () in
-      let _ = crun tst gen in
-      let dt = (Sys.time () -. st) *. 1000.0 in
-      Printf.printf "|%s -> %.2f]\n" t dt
+      Printf.printf "[%f start]\n" (Sys.time ());
+      crun tst gen;
+      at_exit (fun () -> Printf.printf "[%f end]\n" (Sys.time ()));
+      ()
+
+let load_env () =
+  let get = Unix.getenv in
+  (get "framework", get "test", get "strategy", get "filename")
+
+let make_env framework test strategy filename =
+  [|
+    "framework=" ^ framework;
+    "test=" ^ test;
+    "strategy=" ^ strategy;
+    "filename=" ^ filename;
+  |]
+
+let crowbar_child tests strats =
+  let _framework, test, strat, _filename = load_env () in
+  cmain test tests strat strats
+
+let crowbar_fork framework test strat filename =
+  let oc =
+    open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 filename
+  in
+  let od = Unix.descr_of_out_channel oc in
+  let cur = Sys.executable_name in
+  match
+    Unix.create_process_env cur [| cur |]
+      (make_env framework test strat filename)
+      Unix.stdin od Unix.stderr
+  with
+  | 0 -> () (* child thread *)
+  | pid -> (
+      (* parent thread *)
+      let _, status = Unix.waitpid [] pid in
+      match status with
+      | Unix.WEXITED c -> Printf.fprintf oc "[%f exit %i]\n" (Sys.time ()) c
+      | _ -> Printf.fprintf oc "[%f exit unsafely]\n" (Sys.time ()))
 
 (* Call format:
    dune exec <workload> -- <framework> <testname> <strategy> <filename>
    for example,
    dune exec BST -- qcheck prop_InsertValid bespokeGenerator out.txt
+   or
+   dune exec BST -- crowbar prop_InsertPost typeBasedCrowbar out2.txt
 *)
 let main (props : (string * 'a property) list)
     (qstrats : (string * 'a arbitrary) list) (cstrats : (string * 'a gen) list)
     : unit =
-  if Array.length Sys.argv < 5 then
-    Printf.printf "Not enough arguments were provided to `dune exec` (%i) \n" (Array.length Sys.argv)
+  if Array.length Sys.argv < 5 then crowbar_child props cstrats
   else
     let framework = Sys.argv.(1) in
     let testname = Sys.argv.(2) in
     let strategy = Sys.argv.(3) in
     let filename = Sys.argv.(4) in
-    let _ =
-      Printf.printf
-        "Executing test %s into file %s using strategy %s on framework %s"
-        testname filename strategy framework
-    in
+    Printf.printf
+      "Executing test %s into file %s using strategy %s on framework %s\n"
+      testname filename strategy framework;
     match framework with
     | "qcheck" ->
-        redirect filename (fun () -> qmain testname props strategy qstrats)
+        Printf.printf "Valid framework QCheck\n";
+        qmain testname props strategy qstrats filename
     | "crowbar" ->
-        redirect filename (fun () -> cmain testname props strategy cstrats)
-    | _ -> Printf.printf "Framework %s was not found" framework
+        Printf.printf "Valid framework Crowbar\n";
+        crowbar_fork framework testname strategy filename
+    | _ -> Printf.printf "Framework %s was not found\n" framework

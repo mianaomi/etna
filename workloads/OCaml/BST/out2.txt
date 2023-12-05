@@ -1,6 +1,0 @@
-Executing test prop_InsertValid into file out2.txt using strategy typeBasedCrowbar on framework crowbar[prop_InsertValid|
-|prop_InsertValid -> 0.00]
-Executing test prop_InsertValid into file out2.txt using strategy typeBasedCrowbar on framework crowbar[prop_InsertValid|
-|prop_InsertValid -> 0.00]
-Executing test prop_InsertValid into file out2.txt using strategy typeBasedCrowbar on framework crowbar[prop_InsertValid|
-|prop_InsertValid -> 0.00]
