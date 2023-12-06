@@ -7,6 +7,7 @@ open BST.Test
 open BST.BespokeGenerator
 open BST.TypeBasedGenerator
 open BST.CrowbarType
+open BST.CrowbarBespoke
 
 let properties : (string * tree property) list =
   [
@@ -34,7 +35,7 @@ let qstrategies : (string * tree arbitrary) list =
   [ ("typeBasedGenerator", typebased); ("bespokeGenerator", bespoke) ]
 
 let cstrategies : (string * tree gen) list =
-  [ ("crowbarType", typebasedcrow)]
+  [ ("crowbarType", typebasedcrow); ("crowbarBespoke", bespokecrow)]
 
 let () = main properties qstrategies cstrategies
 

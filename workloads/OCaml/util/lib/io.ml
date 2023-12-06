@@ -60,7 +60,8 @@ let crowbar_fork framework test strat filename =
   let cur = Sys.executable_name in
   match
     Unix.create_process_env cur
-      [| cur; "--repeat=100000000" |] (* pass the # of tests as a command line argument to the child process *)
+      [| cur; "--repeat=100000000" |]
+      (* pass the # of tests as a command line argument to the child process *)
       (make_env framework test strat filename)
       Unix.stdin od Unix.stderr
   with
@@ -69,7 +70,8 @@ let crowbar_fork framework test strat filename =
       (* parent thread *)
       let _, status = Unix.waitpid [] pid in
       match status with
-      | Unix.WEXITED c -> Printf.fprintf oc "[%f exit %i]\n" (Unix.gettimeofday ()) c
+      | Unix.WEXITED c ->
+          Printf.fprintf oc "[%f exit %i]\n" (Unix.gettimeofday ()) c
       | _ -> Printf.fprintf oc "[%f exit unsafely]\n" (Unix.gettimeofday ()))
 
 (* Call format:

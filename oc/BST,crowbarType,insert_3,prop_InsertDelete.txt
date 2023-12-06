@@ -1,5 +1,5 @@
-[1701753801.931834 start]
-[1701753801.931841 end]
+[1701820780.063407 start]
+[1701820780.063418 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -10,9 +10,9 @@ the test failed:
 
     check false
     
-[1701753802.415539 exit 1]
-[1701753802.450900 start]
-[1701753802.450906 end]
+[1701820780.895916 exit 1]
+[1701820780.955648 start]
+[1701820780.955656 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -23,9 +23,9 @@ the test failed:
 
     check false
     
-[1701753802.932696 exit 1]
-[1701753802.968415 start]
-[1701753802.968422 end]
+[1701820781.787475 exit 1]
+[1701820781.846784 start]
+[1701820781.846793 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -36,9 +36,9 @@ the test failed:
 
     check false
     
-[1701753803.452968 exit 1]
-[1701753803.488542 start]
-[1701753803.488548 end]
+[1701820782.675877 exit 1]
+[1701820782.733876 start]
+[1701820782.733888 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -49,9 +49,9 @@ the test failed:
 
     check false
     
-[1701753803.972290 exit 1]
-[1701753804.007471 start]
-[1701753804.007477 end]
+[1701820783.562905 exit 1]
+[1701820783.626380 start]
+[1701820783.626388 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -62,9 +62,9 @@ the test failed:
 
     check false
     
-[1701753804.488946 exit 1]
-[1701753804.523809 start]
-[1701753804.523815 end]
+[1701820784.455914 exit 1]
+[1701820784.513654 start]
+[1701820784.513662 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -75,9 +75,9 @@ the test failed:
 
     check false
     
-[1701753805.005349 exit 1]
-[1701753805.040523 start]
-[1701753805.040528 end]
+[1701820785.342839 exit 1]
+[1701820785.401333 start]
+[1701820785.401341 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -88,9 +88,9 @@ the test failed:
 
     check false
     
-[1701753805.522518 exit 1]
-[1701753805.557977 start]
-[1701753805.557982 end]
+[1701820786.232058 exit 1]
+[1701820786.290934 start]
+[1701820786.290943 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -101,9 +101,9 @@ the test failed:
 
     check false
     
-[1701753806.044239 exit 1]
-[1701753806.079731 start]
-[1701753806.079736 end]
+[1701820787.122205 exit 1]
+[1701820787.181515 start]
+[1701820787.181523 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -114,9 +114,9 @@ the test failed:
 
     check false
     
-[1701753806.561326 exit 1]
-[1701753806.596897 start]
-[1701753806.596903 end]
+[1701820788.010477 exit 1]
+[1701820788.070587 start]
+[1701820788.070595 end]
 test_prop_InsertDelete: FAIL
 
 When given the input:
@@ -127,4 +127,4 @@ the test failed:
 
     check false
     
-[1701753807.078859 exit 1]
+[1701820788.900792 exit 1]

@@ -1,0 +1,150 @@
+[1701821945.899371 start]
+[1701821945.899379 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821945.900078 exit 1]
+[1701821945.957284 start]
+[1701821945.957292 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821945.957958 exit 1]
+[1701821946.015514 start]
+[1701821946.015522 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.016192 exit 1]
+[1701821946.073356 start]
+[1701821946.073364 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.074029 exit 1]
+[1701821946.131118 start]
+[1701821946.131126 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.131797 exit 1]
+[1701821946.189193 start]
+[1701821946.189200 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.189872 exit 1]
+[1701821946.246990 start]
+[1701821946.247002 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.247671 exit 1]
+[1701821946.305483 start]
+[1701821946.305494 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.306287 exit 1]
+[1701821946.364462 start]
+[1701821946.364470 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.365141 exit 1]
+[1701821946.422444 start]
+[1701821946.422452 end]
+test_prop_UnionUnionAssoc: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E);
+     T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E));
+     T(T(T(E, -128, -128, E), -91, 5, E), -20, -14, T(E, 72, -52, E))]
+    
+the test failed:
+
+    check false
+    
+[1701821946.423120 exit 1]

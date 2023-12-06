@@ -1,5 +1,5 @@
-[1701753888.424730 start]
-[1701753888.424737 end]
+[1701821891.211594 start]
+[1701821891.211603 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -10,9 +10,9 @@ the test failed:
 
     check false
     
-[1701753888.425222 exit 1]
-[1701753888.464568 start]
-[1701753888.464574 end]
+[1701821891.212295 exit 1]
+[1701821891.293326 start]
+[1701821891.293335 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -23,9 +23,9 @@ the test failed:
 
     check false
     
-[1701753888.465050 exit 1]
-[1701753888.504213 start]
-[1701753888.504221 end]
+[1701821891.293983 exit 1]
+[1701821891.367128 start]
+[1701821891.367136 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -36,9 +36,9 @@ the test failed:
 
     check false
     
-[1701753888.504717 exit 1]
-[1701753888.544255 start]
-[1701753888.544261 end]
+[1701821891.367786 exit 1]
+[1701821891.426136 start]
+[1701821891.426145 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -49,9 +49,9 @@ the test failed:
 
     check false
     
-[1701753888.544707 exit 1]
-[1701753888.583866 start]
-[1701753888.583873 end]
+[1701821891.426788 exit 1]
+[1701821891.483891 start]
+[1701821891.483900 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -62,9 +62,9 @@ the test failed:
 
     check false
     
-[1701753888.584319 exit 1]
-[1701753888.623371 start]
-[1701753888.623377 end]
+[1701821891.484548 exit 1]
+[1701821891.541288 start]
+[1701821891.541298 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -75,9 +75,9 @@ the test failed:
 
     check false
     
-[1701753888.623868 exit 1]
-[1701753888.662802 start]
-[1701753888.662812 end]
+[1701821891.541947 exit 1]
+[1701821891.598989 start]
+[1701821891.598997 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -88,9 +88,9 @@ the test failed:
 
     check false
     
-[1701753888.663245 exit 1]
-[1701753888.702135 start]
-[1701753888.702142 end]
+[1701821891.599645 exit 1]
+[1701821891.656585 start]
+[1701821891.656593 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -101,9 +101,9 @@ the test failed:
 
     check false
     
-[1701753888.702625 exit 1]
-[1701753888.741692 start]
-[1701753888.741702 end]
+[1701821891.657235 exit 1]
+[1701821891.714255 start]
+[1701821891.714263 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -114,9 +114,9 @@ the test failed:
 
     check false
     
-[1701753888.742157 exit 1]
-[1701753888.781097 start]
-[1701753888.781103 end]
+[1701821891.714908 exit 1]
+[1701821891.771803 start]
+[1701821891.771812 end]
 test_prop_UnionDeleteInsert: FAIL
 
 When given the input:
@@ -127,4 +127,4 @@ the test failed:
 
     check false
     
-[1701753888.781549 exit 1]
+[1701821891.772462 exit 1]

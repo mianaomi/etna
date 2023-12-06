@@ -1,0 +1,160 @@
+[1701820790.197321 start]
+[1701820790.197330 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820790.247563 exit 1]
+[1701820790.306544 start]
+[1701820790.306553 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820790.356844 exit 1]
+[1701820790.414649 start]
+[1701820790.414657 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820790.464952 exit 1]
+[1701820790.522864 start]
+[1701820790.522872 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820790.573117 exit 1]
+[1701820790.633034 start]
+[1701820790.633043 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820790.683435 exit 1]
+[1701820790.742021 start]
+[1701820790.742029 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820790.792305 exit 1]
+[1701820790.849948 start]
+[1701820790.849956 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820790.900295 exit 1]
+[1701820790.958357 start]
+[1701820790.958365 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820791.008758 exit 1]
+[1701820791.066499 start]
+[1701820791.066508 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820791.116893 exit 1]
+[1701820791.174914 start]
+[1701820791.174923 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -53, -20, T(E, -35, 110, E)), 89, -117, E);
+     89;
+     89;
+     -73]
+    
+the test failed:
+
+    check false
+    
+[1701820791.225299 exit 1]

@@ -1,0 +1,130 @@
+[1701820752.907024 start]
+[1701820752.907034 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820752.907812 exit 1]
+[1701820752.966342 start]
+[1701820752.966350 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820752.966995 exit 1]
+[1701820753.024612 start]
+[1701820753.024621 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.025289 exit 1]
+[1701820753.083052 start]
+[1701820753.083061 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.083705 exit 1]
+[1701820753.141943 start]
+[1701820753.141952 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.142629 exit 1]
+[1701820753.200326 start]
+[1701820753.200334 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.200972 exit 1]
+[1701820753.264317 start]
+[1701820753.264325 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.264985 exit 1]
+[1701820753.322838 start]
+[1701820753.322847 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.323483 exit 1]
+[1701820753.382362 start]
+[1701820753.382370 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.383044 exit 1]
+[1701820753.442095 start]
+[1701820753.442104 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33]
+    
+the test failed:
+
+    check false
+    
+[1701820753.442758 exit 1]

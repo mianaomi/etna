@@ -39,7 +39,7 @@ def parse(filename):
             "mutant": mutant,
             "passed": passed,
             "property": prop,
-            "time": ms,
+            "time": ms / 1000, # NOTE: this time has been converted to seconds.
         }
         data.append(run)
 

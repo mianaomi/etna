@@ -1,0 +1,150 @@
+[1701821170.519126 start]
+[1701821170.519135 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821171.766398 exit 1]
+[1701821171.831590 start]
+[1701821171.831600 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821173.078297 exit 1]
+[1701821173.140721 start]
+[1701821173.140730 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821174.386544 exit 1]
+[1701821174.480849 start]
+[1701821174.480858 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821175.726342 exit 1]
+[1701821175.791620 start]
+[1701821175.791630 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821177.035763 exit 1]
+[1701821177.100581 start]
+[1701821177.100591 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821178.346496 exit 1]
+[1701821178.412244 start]
+[1701821178.412256 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821179.661558 exit 1]
+[1701821179.725345 start]
+[1701821179.725354 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821180.970125 exit 1]
+[1701821181.034804 start]
+[1701821181.034812 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821182.282328 exit 1]
+[1701821182.347974 start]
+[1701821182.347983 end]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [T(T(E, -128, -128, E), -78, -75, T(E, -55, -75, T(E, -7, 74, E)));
+     -78;
+     -55]
+    
+the test failed:
+
+    check false
+    
+[1701821183.592103 exit 1]

@@ -1,0 +1,130 @@
+[1701820736.216728 start]
+[1701820736.216740 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.217410 exit 1]
+[1701820736.275414 start]
+[1701820736.275421 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.276059 exit 1]
+[1701820736.333720 start]
+[1701820736.333729 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.334456 exit 1]
+[1701820736.398976 start]
+[1701820736.398985 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.399645 exit 1]
+[1701820736.458014 start]
+[1701820736.458022 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.458673 exit 1]
+[1701820736.516015 start]
+[1701820736.516022 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.516658 exit 1]
+[1701820736.574207 start]
+[1701820736.574216 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.574869 exit 1]
+[1701820736.632319 start]
+[1701820736.632328 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.632975 exit 1]
+[1701820736.690532 start]
+[1701820736.690540 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.691192 exit 1]
+[1701820736.748528 start]
+[1701820736.748539 end]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [T(E, 41, -28, E); 76; 33; 52; 5]
+    
+the test failed:
+
+    check false
+    
+[1701820736.749206 exit 1]

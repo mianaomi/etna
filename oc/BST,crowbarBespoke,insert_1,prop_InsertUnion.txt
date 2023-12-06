@@ -1,0 +1,130 @@
+[1701820736.808833 start]
+[1701820736.808842 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820736.809548 exit 1]
+[1701820736.867703 start]
+[1701820736.867712 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820736.868377 exit 1]
+[1701820736.926528 start]
+[1701820736.926537 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820736.927228 exit 1]
+[1701820736.986107 start]
+[1701820736.986115 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820736.986818 exit 1]
+[1701820737.044556 start]
+[1701820737.044565 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820737.045239 exit 1]
+[1701820737.103048 start]
+[1701820737.103056 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820737.103729 exit 1]
+[1701820737.161612 start]
+[1701820737.161620 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820737.162285 exit 1]
+[1701820737.219640 start]
+[1701820737.219648 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820737.220322 exit 1]
+[1701820737.277587 start]
+[1701820737.277594 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820737.278251 exit 1]
+[1701820737.335515 start]
+[1701820737.335524 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [T(E, 84, 57, E); T(T(E, -56, 25, E), 38, -81, T(E, 67, 36, E)); -15; -20]
+    
+the test failed:
+
+    check false
+    
+[1701820737.336185 exit 1]

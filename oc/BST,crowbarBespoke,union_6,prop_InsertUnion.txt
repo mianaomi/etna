@@ -1,0 +1,130 @@
+[1701821894.752576 start]
+[1701821894.752585 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821894.753286 exit 1]
+[1701821894.810620 start]
+[1701821894.810629 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821894.811307 exit 1]
+[1701821894.868426 start]
+[1701821894.868434 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821894.869111 exit 1]
+[1701821894.926191 start]
+[1701821894.926198 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821894.926883 exit 1]
+[1701821894.984051 start]
+[1701821894.984059 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821894.984750 exit 1]
+[1701821895.041879 start]
+[1701821895.041887 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821895.042569 exit 1]
+[1701821895.099635 start]
+[1701821895.099642 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821895.100323 exit 1]
+[1701821895.157553 start]
+[1701821895.157561 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821895.158234 exit 1]
+[1701821895.215562 start]
+[1701821895.215569 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821895.216255 exit 1]
+[1701821895.273694 start]
+[1701821895.273702 end]
+test_prop_InsertUnion: FAIL
+
+When given the input:
+
+    [E; T(E, -95, 74, E); 69; 1]
+    
+the test failed:
+
+    check false
+    
+[1701821895.274382 exit 1]

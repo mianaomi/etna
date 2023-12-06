@@ -1,5 +1,5 @@
-[1701753807.115394 start]
-[1701753807.115405 end]
+[1701820788.965149 start]
+[1701820788.965158 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -10,9 +10,9 @@ the test failed:
 
     check false
     
-[1701753807.116858 exit 1]
-[1701753807.153377 start]
-[1701753807.153383 end]
+[1701820788.967665 exit 1]
+[1701820789.026284 start]
+[1701820789.026292 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -23,9 +23,9 @@ the test failed:
 
     check false
     
-[1701753807.154949 exit 1]
-[1701753807.189784 start]
-[1701753807.189790 end]
+[1701820789.028736 exit 1]
+[1701820789.085968 start]
+[1701820789.085976 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -36,9 +36,9 @@ the test failed:
 
     check false
     
-[1701753807.191252 exit 1]
-[1701753807.225508 start]
-[1701753807.225513 end]
+[1701820789.088429 exit 1]
+[1701820789.146417 start]
+[1701820789.146425 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -49,9 +49,9 @@ the test failed:
 
     check false
     
-[1701753807.226964 exit 1]
-[1701753807.261336 start]
-[1701753807.261342 end]
+[1701820789.148870 exit 1]
+[1701820789.206796 start]
+[1701820789.206803 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -62,9 +62,9 @@ the test failed:
 
     check false
     
-[1701753807.262767 exit 1]
-[1701753807.296955 start]
-[1701753807.296960 end]
+[1701820789.209283 exit 1]
+[1701820789.267135 start]
+[1701820789.267143 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -75,9 +75,9 @@ the test failed:
 
     check false
     
-[1701753807.298408 exit 1]
-[1701753807.332645 start]
-[1701753807.332654 end]
+[1701820789.269576 exit 1]
+[1701820789.327298 start]
+[1701820789.327306 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -88,9 +88,9 @@ the test failed:
 
     check false
     
-[1701753807.334119 exit 1]
-[1701753807.368176 start]
-[1701753807.368182 end]
+[1701820789.329746 exit 1]
+[1701820789.387451 start]
+[1701820789.387460 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -101,9 +101,9 @@ the test failed:
 
     check false
     
-[1701753807.369613 exit 1]
-[1701753807.404184 start]
-[1701753807.404191 end]
+[1701820789.389901 exit 1]
+[1701820789.447707 start]
+[1701820789.447714 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -114,9 +114,9 @@ the test failed:
 
     check false
     
-[1701753807.405837 exit 1]
-[1701753807.440294 start]
-[1701753807.440299 end]
+[1701820789.450182 exit 1]
+[1701820789.508598 start]
+[1701820789.508607 end]
 test_prop_InsertUnion: FAIL
 
 When given the input:
@@ -127,4 +127,4 @@ the test failed:
 
     check false
     
-[1701753807.441763 exit 1]
+[1701820789.511089 exit 1]

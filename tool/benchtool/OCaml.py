@@ -16,6 +16,7 @@ FRAMEWORK = {
     "bespokeGenerator": "qcheck",
     "typeBasedGenerator": "qcheck",
     "crowbarType": "crowbar",
+    "crowbarBespoke": "crowbar",
 }
 
 class OCaml(BenchTool):

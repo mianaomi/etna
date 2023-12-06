@@ -1,0 +1,130 @@
+[1701821851.965594 start]
+[1701821851.965603 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821852.174048 exit 1]
+[1701821852.233450 start]
+[1701821852.233459 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821852.441229 exit 1]
+[1701821852.499411 start]
+[1701821852.499418 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821852.707866 exit 1]
+[1701821852.769256 start]
+[1701821852.769268 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821853.008138 exit 1]
+[1701821853.131799 start]
+[1701821853.131814 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821853.340449 exit 1]
+[1701821853.405143 start]
+[1701821853.405151 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821853.613472 exit 1]
+[1701821853.673211 start]
+[1701821853.673219 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821853.881301 exit 1]
+[1701821853.939254 start]
+[1701821853.939262 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821854.147571 exit 1]
+[1701821854.207064 start]
+[1701821854.207072 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821854.415201 exit 1]
+[1701821854.474543 start]
+[1701821854.474551 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [T(E, -104, 95, T(E, -91, 44, E)); -91; -91]
+    
+the test failed:
+
+    check false
+    
+[1701821854.682456 exit 1]

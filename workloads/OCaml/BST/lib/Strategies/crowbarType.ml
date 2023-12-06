@@ -1,6 +1,5 @@
 open Crowbar
 open Impl
-open Spec
 
 (* dune exec BST -- crowbar prop_InsertValid typeBasedCrowbar out2.txt *)
 
@@ -24,36 +23,3 @@ let rec pp_tree ppf tree =
 
 let typebasedcrow = with_printer pp_tree _cbtype
 
-(* Temporary copied properties *)
-
-let crow_prop_InsertValid : tree -> key -> value -> unit =
- fun t k v ->
-  guard (isBST t);
-  isBST (insert k v t) |> check
-
-let crow_test_prop_InsertValid treeGen =
-  let gs : (tree -> int -> int -> unit, unit) gens = [ treeGen; int8; int8 ] in
-  ("crow_prop_InsertValid", gs, crow_prop_InsertValid)
-
-let crow_prop_InsertPost : tree -> key -> key -> value -> unit =
- fun t k k' v ->
-  guard (isBST t);
-  Impl.find k' (insert k v t)
-  = (if k = k' then Some v else Impl.find k' t)
-  |> check
-
-let crow_test_prop_InsertPost treeGen =
-  let gs : (tree -> int -> int -> int -> unit, unit) gens =
-    [ treeGen; int8; int8; int8 ]
-  in
-  ("crow_prop_InsertPost", gs, crow_prop_InsertPost)
-
-(* Temporary runner code *)
-
-let tests ts gen =
-  ignore
-  @@ List.map
-       (fun t ->
-         let n, gs, p = t gen in
-         add_test ~name:n gs p)
-       ts

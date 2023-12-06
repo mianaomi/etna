@@ -7,7 +7,6 @@ from functools import partial
 def analyze(results: str, images: str):
     df = parse_results(results)
     df['timeout'] = np.where(df['strategy'] == 'Lean', 10, 60)
-    df['time'] = df['time'] / 100
     df['foundbug'] = df['foundbug'] & (df['time'] < df['timeout'])
 
 
@@ -15,11 +14,11 @@ def analyze(results: str, images: str):
         os.makedirs(images)
 
     # Generate task bucket charts used in Figure 1.
-    for workload in ['BST', 'RBT', 'STLC']:
+    for workload in ['BST']:
         times = partial(stacked_barchart_times, case=workload, df=df)
         times(
-            strategies=['bespokeGenerator', 'typeBasedGenerator'],
-            colors=['#6D0E56', '#243763'],
+            strategies=['bespokeGenerator', 'typeBasedGenerator', 'crowbarBespoke', 'crowbarType'],
+            colors=['#000000', '#900D0D', '#DC5F00', '#243763'],
             limits=[0.1, 1, 10, 60],
             limit_type='time',
             image_path=images,

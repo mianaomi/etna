@@ -1,0 +1,130 @@
+[1701824009.335612 start]
+[1701824009.335618 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824009.542762 exit 1]
+[1701824009.578937 start]
+[1701824009.578944 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824009.785769 exit 1]
+[1701824009.821661 start]
+[1701824009.821667 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824010.028672 exit 1]
+[1701824010.064707 start]
+[1701824010.064713 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824010.272044 exit 1]
+[1701824010.308547 start]
+[1701824010.308554 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824010.517585 exit 1]
+[1701824010.554464 start]
+[1701824010.554473 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824010.761730 exit 1]
+[1701824010.797711 start]
+[1701824010.797717 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824011.005129 exit 1]
+[1701824011.040886 start]
+[1701824011.040893 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824011.248229 exit 1]
+[1701824011.284015 start]
+[1701824011.284021 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824011.490994 exit 1]
+[1701824011.526424 start]
+[1701824011.526430 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(E, -41, -77, T(T(E, 109, -58, E), 123, 16, E)); T(E, 109, 86, E); 109]
+    
+the test failed:
+
+    check false
+    
+[1701824011.733102 exit 1]

@@ -23,4 +23,4 @@ let rec print_tree = function
       "Tree (" ^ print_tree l ^ "," ^ string_of_int k ^ "," ^ string_of_int v
       ^ "," ^ print_tree r ^ ")"
 
-let typebased = QCheck.make typebased ~print:print_tree;;
+let typebased = QCheck.make typebased ~print:print_tree

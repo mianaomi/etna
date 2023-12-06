@@ -1,90 +1,323 @@
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  850    0    0  850 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    321      0      0    178 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    785      0      0    419 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1258      0      0    654 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1582      0      0    819 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   2014      0      0   1042 / 500000     0.5s test_prop_UnionPost (collecting)
+[ ]   2365      0      0   1229 / 500000     0.6s test_prop_UnionPost (collecting)
+[ ]   2853      0      0   1478 / 500000     0.7s test_prop_UnionPost (collecting)
+[ ]   3245      0      0   1678 / 500000     0.8s test_prop_UnionPost (collecting)
+[ ]   3670      0      0   1883 / 500000     0.9s test_prop_UnionPost (collecting)
+[ ]   4080      0      0   2091 / 500000     1.0s test_prop_UnionPost (collecting)
+[ ]   4463      0      0   2276 / 500000     1.1s test_prop_UnionPost (collecting)
+[ ]   4882      0      0   2506 / 500000     1.2s test_prop_UnionPost (collecting)
+[ ]   5151      0      0   2641 / 500000     1.3s test_prop_UnionPost (collecting)
+[ ]   5624      0      0   2875 / 500000     1.4s test_prop_UnionPost (collecting)
+[ ]   5948      0      0   3036 / 500000     1.5s test_prop_UnionPost (collecting)
+[ ]   6441      0      0   3281 / 500000     1.6s test_prop_UnionPost (collecting)
+[ ]   6760      0      0   3445 / 500000     1.7s test_prop_UnionPost (collecting)
+[ ]   7225      0      0   3687 / 500000     1.8s test_prop_UnionPost (collecting)
+[ ]   7728      0      0   3945 / 500000     1.9s test_prop_UnionPost (collecting)
+[ ]   8156      0      0   4168 / 500000     2.0s test_prop_UnionPost (collecting)
+[ ]   8491      0      0   4352 / 500000     2.1s test_prop_UnionPost (collecting)
+[ ]   9012      0      0   4619 / 500000     2.2s test_prop_UnionPost (collecting)
+[ ]   9359      0      0   4792 / 500000     2.3s test_prop_UnionPost (collecting)
+[ ]   9674      0      0   4949 / 500000     2.4s test_prop_UnionPost (collecting)
+[ ]   9963      0      0   5081 / 500000     2.5s test_prop_UnionPost (collecting)
+[ ]  10433      0      0   5312 / 500000     2.6s test_prop_UnionPost (collecting)
+[ ]  10744      0      0   5464 / 500000     2.8s test_prop_UnionPost (collecting)
+[ ]  11120      0      0   5667 / 500000     2.9s test_prop_UnionPost (collecting)
+[ ]  11442      0      0   5849 / 500000     3.0s test_prop_UnionPost (collecting)
+[ ]  11705      0      0   5999 / 500000     3.1s test_prop_UnionPost (collecting)
+[ ]  12008      0      0   6132 / 500000     3.2s test_prop_UnionPost (collecting)
+[ ]  12317      0      0   6294 / 500000     3.3s test_prop_UnionPost (collecting)
+[ ]  12729      0      0   6489 / 500000     3.4s test_prop_UnionPost (collecting)
+[ ]  13179      0      0   6729 / 500000     3.5s test_prop_UnionPost (collecting)
+[✗]  13192      0      1   6734 / 500000     3.5s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Empty,9,62,Empty), Tree (Tree (Tree (Empty,0,6,Tree (Empty,4,9,Tree (Empty,0,60,Empty))),1,904,Empty),6,2140,Tree (Tree (Tree (Empty,6,4,Tree (Empty,2,9483,Tree (Tree (Empty,2,967,Empty),7,7,Tree (Empty,66,58,Empty)))),930,559,Tree (Tree (Empty,6,30,Tree (Tree (Empty,1,1,Empty),5,5,Tree (Empty,12,53,Empty))),951,3183,Tree (Empty,7,58,Tree (Empty,7,7,Tree (Empty,58,5,Empty))))),9,3789,Tree (Tree (Tree (Tree (Tree (Empty,449,2,Empty),4815,8,Empty),5,13,Tree (Empty,0,1,Tree (Empty,78,3,Empty))),8,6,Tree (Empty,36,2,Tree (Empty,80,1,Tree (Empty,9,31,Empty)))),45,472,Tree (Tree (Empty,2,1,Empty),4,78,Tree (Tree (Tree (Empty,1,2,Empty),6,2,Tree (Empty,5,303,Empty)),4,88,Empty))))), 9)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 115.94]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 3474.17]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  590    0    0  590 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    451      0      0    242 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    854      0      0    454 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1229      0      0    658 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1634      0      0    881 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   1932      0      0   1033 / 500000     0.5s test_prop_UnionPost (collecting)
+[ ]   2297      0      0   1210 / 500000     0.6s test_prop_UnionPost
+[ ]   2686      0      0   1406 / 500000     0.7s test_prop_UnionPost (collecting)
+[ ]   3024      0      0   1589 / 500000     0.8s test_prop_UnionPost (collecting)
+[ ]   3411      0      0   1810 / 500000     0.9s test_prop_UnionPost (collecting)
+[ ]   3938      0      0   2069 / 500000     1.0s test_prop_UnionPost (collecting)
+[ ]   4380      0      0   2309 / 500000     1.1s test_prop_UnionPost (collecting)
+[ ]   4699      0      0   2459 / 500000     1.2s test_prop_UnionPost (collecting)
+[ ]   5051      0      0   2642 / 500000     1.3s test_prop_UnionPost (collecting)
+[ ]   5571      0      0   2910 / 500000     1.4s test_prop_UnionPost (collecting)
+[ ]   5888      0      0   3067 / 500000     1.5s test_prop_UnionPost (collecting)
+[ ]   6237      0      0   3240 / 500000     1.6s test_prop_UnionPost (collecting)
+[ ]   6797      0      0   3540 / 500000     1.7s test_prop_UnionPost (collecting)
+[ ]   7225      0      0   3743 / 500000     1.8s test_prop_UnionPost (collecting)
+[ ]   7537      0      0   3894 / 500000     1.9s test_prop_UnionPost (collecting)
+[ ]   7939      0      0   4100 / 500000     2.0s test_prop_UnionPost (collecting)
+[✗]   8227      0      1   4248 / 500000     2.1s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Empty,9,8,Empty), Tree (Empty,3,74,Tree (Tree (Tree (Empty,7,4,Tree (Tree (Empty,3134,7,Tree (Tree (Empty,34,6,Empty),5,6,Empty)),5,57,Tree (Empty,4767,684,Empty))),53,3,Empty),9,3,Tree (Tree (Tree (Tree (Tree (Empty,7,65,Tree (Empty,23,9,Empty)),3,75,Tree (Tree (Empty,37,9,Empty),6,513,Empty)),6,4,Empty),790,9,Tree (Tree (Tree (Empty,8,97,Tree (Empty,7658,61,Empty)),6,2460,Tree (Tree (Empty,4,6,Empty),4,2,Tree (Empty,6,593,Empty))),50,0,Tree (Empty,7,3,Tree (Empty,3,7969,Tree (Empty,29,5,Empty))))),3,44,Tree (Tree (Tree (Empty,51,10,Empty),978,3,Tree (Tree (Empty,956,1,Empty),3,7,Tree (Tree (Empty,2,0,Empty),1,2,Tree (Empty,1,7,Empty)))),3,9,Tree (Empty,6,2,Empty))))), 9)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 188.13]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 2112.17]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  662    0    0  662 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[✗]    335      0      1    147 / 500000     0.1s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Tree (Empty,3,137,Empty),55,9,Empty), Tree (Tree (Tree (Empty,3,468,Empty),3,469,Tree (Empty,387,8,Empty)),5,5,Tree (Empty,5,45,Tree (Empty,5,94,Empty))), 3)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 169.35]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 90.22]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  635    0    0  635 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    368      0      0    181 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    795      0      0    397 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1090      0      0    544 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1503      0      0    756 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   1920      0      0    978 / 500000     0.5s test_prop_UnionPost (collecting)
+[ ]   2371      0      0   1209 / 500000     0.6s test_prop_UnionPost (collecting)
+[ ]   2740      0      0   1395 / 500000     0.7s test_prop_UnionPost (collecting)
+[ ]   3057      0      0   1539 / 500000     0.8s test_prop_UnionPost (collecting)
+[ ]   3426      0      0   1723 / 500000     0.9s test_prop_UnionPost (collecting)
+[✗]   3473      0      1   1748 / 500000     0.9s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Empty,1,43,Tree (Tree (Empty,5,1,Empty),47,8,Tree (Empty,481,645,Empty))), Tree (Tree (Empty,358,6,Empty),5,3,Tree (Tree (Empty,7,6,Empty),1,7,Tree (Empty,45,3034,Empty))), 5)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 178.59]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 912.79]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  502    0    0  502 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    431      0      0    208 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    796      0      0    391 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1172      0      0    580 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1698      0      0    844 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   2021      0      0   1010 / 500000     0.5s test_prop_UnionPost (collecting)
+[✗]   2206      0      1   1111 / 500000     0.6s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Tree (Empty,3,3,Tree (Empty,9,16,Empty)),24,31,Tree (Empty,973,0,Empty)), Tree (Tree (Tree (Tree (Tree (Empty,3,85,Tree (Empty,15,320,Tree (Empty,26,7,Empty))),8,74,Tree (Tree (Tree (Tree (Empty,80,9,Empty),13,519,Tree (Empty,2,4,Empty)),319,749,Tree (Tree (Empty,836,5425,Empty),4,50,Empty)),71,3763,Empty)),0,66,Tree (Tree (Tree (Empty,363,658,Empty),172,23,Tree (Empty,92,3,Tree (Empty,8,892,Tree (Empty,5,1171,Empty)))),5,1,Tree (Tree (Tree (Tree (Empty,644,5132,Empty),1,6,Empty),11,7,Tree (Empty,3,5,Tree (Empty,77,6,Empty))),77,9,Tree (Empty,2,1,Empty)))),0,3,Tree (Empty,3,22,Empty)),71,714,Empty), 3)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 186.36]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 562.33]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  652    0    0  652 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    396      0      0    213 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    820      0      0    434 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1249      0      0    665 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1693      0      0    882 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   2057      0      0   1063 / 500000     0.5s test_prop_UnionPost (collecting)
+[ ]   2425      0      0   1264 / 500000     0.6s test_prop_UnionPost (collecting)
+[ ]   2767      0      0   1432 / 500000     0.7s test_prop_UnionPost (collecting)
+[ ]   3114      0      0   1608 / 500000     0.8s test_prop_UnionPost (collecting)
+[ ]   3543      0      0   1820 / 500000     0.9s test_prop_UnionPost (collecting)
+[ ]   3882      0      0   1998 / 500000     1.0s test_prop_UnionPost (collecting)
+[ ]   3886      0      0   2001 / 500000     4.1s test_prop_UnionPost (collecting)
+[ ]   4177      0      0   2145 / 500000     4.2s test_prop_UnionPost (collecting)
+[ ]   4535      0      0   2314 / 500000     4.3s test_prop_UnionPost (collecting)
+[ ]   5135      0      0   2607 / 500000     4.4s test_prop_UnionPost (collecting)
+[ ]   5533      0      0   2819 / 500000     4.5s test_prop_UnionPost (collecting)
+[ ]   5832      0      0   2970 / 500000     4.7s test_prop_UnionPost (collecting)
+[ ]   6209      0      0   3160 / 500000     4.8s test_prop_UnionPost (collecting)
+[ ]   6628      0      0   3381 / 500000     4.9s test_prop_UnionPost (collecting)
+[ ]   6985      0      0   3563 / 500000     5.0s test_prop_UnionPost (collecting)
+[ ]   7581      0      0   3883 / 500000     5.1s test_prop_UnionPost (collecting)
+[ ]   7988      0      0   4076 / 500000     5.2s test_prop_UnionPost (collecting)
+[ ]   8297      0      0   4222 / 500000     5.3s test_prop_UnionPost (collecting)
+[ ]   8838      0      0   4489 / 500000     5.4s test_prop_UnionPost (collecting)
+[ ]   9355      0      0   4757 / 500000     5.5s test_prop_UnionPost (collecting)
+[✗]   9418      0      1   4792 / 500000     5.5s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Tree (Empty,3,24,Empty),14,2,Empty), Tree (Tree (Tree (Tree (Tree (Tree (Empty,6,3,Empty),6,73,Tree (Empty,6,3,Empty)),935,7,Tree (Tree (Empty,6,484,Empty),7,73,Empty)),4,180,Tree (Tree (Tree (Empty,5,1,Empty),21,9,Tree (Empty,2,64,Empty)),7729,46,Tree (Tree (Empty,4,875,Empty),2,297,Empty))),3,1,Tree (Empty,1,9,Tree (Tree (Tree (Empty,503,7,Empty),2,8922,Empty),2,0,Empty))),9,2733,Empty), 3)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 194.82]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 2374.44]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  768    0    0  768 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.1s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    269      0      0    138 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    666      0      0    348 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1000      0      0    498 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1436      0      0    700 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   1785      0      0    896 / 500000     0.5s test_prop_UnionPost (collecting)
+[ ]   2112      0      0   1076 / 500000     0.6s test_prop_UnionPost (collecting)
+[ ]   2554      0      0   1311 / 500000     0.7s test_prop_UnionPost (collecting)
+[ ]   2914      0      0   1497 / 500000     0.8s test_prop_UnionPost (collecting)
+[ ]   3294      0      0   1699 / 500000     0.9s test_prop_UnionPost (collecting)
+[ ]   3791      0      0   1960 / 500000     1.0s test_prop_UnionPost (collecting)
+[ ]   4107      0      0   2122 / 500000     1.1s test_prop_UnionPost (collecting)
+[ ]   4493      0      0   2323 / 500000     1.2s test_prop_UnionPost (collecting)
+[ ]   4840      0      0   2507 / 500000     1.3s test_prop_UnionPost (collecting)
+[ ]   5168      0      0   2662 / 500000     1.4s test_prop_UnionPost (collecting)
+[ ]   5512      0      0   2825 / 500000     1.5s test_prop_UnionPost (collecting)
+[ ]   5860      0      0   2999 / 500000     1.6s test_prop_UnionPost (collecting)
+[ ]   6177      0      0   3150 / 500000     1.7s test_prop_UnionPost (collecting)
+[ ]   6466      0      0   3304 / 500000     1.8s test_prop_UnionPost (collecting)
+[ ]   6837      0      0   3507 / 500000     1.9s test_prop_UnionPost (collecting)
+[ ]   7211      0      0   3710 / 500000     2.0s test_prop_UnionPost (collecting)
+[ ]   7521      0      0   3882 / 500000     2.1s test_prop_UnionPost (collecting)
+[✗]   7864      0      1   4067 / 500000     2.2s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Tree (Tree (Empty,1,8,Empty),26,5,Empty),45,630,Tree (Empty,61,16,Tree (Empty,9847,77,Empty))), Tree (Tree (Tree (Empty,1,60,Empty),2,607,Empty),40,6,Empty), 1)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 133.38]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 2215.12]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  601    0    0  601 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    192      0      0     91 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    474      0      0    235 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]    951      0      0    470 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1296      0      0    647 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   1855      0      0    933 / 500000     0.5s test_prop_UnionPost (collecting)
+[ ]   2248      0      0   1147 / 500000     0.6s test_prop_UnionPost (collecting)
+[ ]   2642      0      0   1339 / 500000     0.7s test_prop_UnionPost (collecting)
+[ ]   3142      0      0   1592 / 500000     0.8s test_prop_UnionPost (collecting)
+[ ]   3610      0      0   1830 / 500000     0.9s test_prop_UnionPost (collecting)
+[ ]   4069      0      0   2046 / 500000     1.0s test_prop_UnionPost (collecting)
+[ ]   4401      0      0   2226 / 500000     1.1s test_prop_UnionPost (collecting)
+[ ]   4858      0      0   2459 / 500000     1.2s test_prop_UnionPost (collecting)
+[ ]   5158      0      0   2612 / 500000     1.3s test_prop_UnionPost (collecting)
+[ ]   5457      0      0   2786 / 500000     1.4s test_prop_UnionPost (collecting)
+[ ]   5984      0      0   3053 / 500000     1.5s test_prop_UnionPost (collecting)
+[ ]   6293      0      0   3204 / 500000     1.6s test_prop_UnionPost (collecting)
+[ ]   6695      0      0   3407 / 500000     1.7s test_prop_UnionPost (collecting)
+[ ]   7085      0      0   3611 / 500000     1.8s test_prop_UnionPost (collecting)
+[ ]   7556      0      0   3855 / 500000     1.9s test_prop_UnionPost (collecting)
+[ ]   7807      0      0   3989 / 500000     2.0s test_prop_UnionPost (collecting)
+[ ]   8158      0      0   4162 / 500000     2.1s test_prop_UnionPost (collecting)
+[ ]   8418      0      0   4313 / 500000     2.2s test_prop_UnionPost (collecting)
+[ ]   8841      0      0   4543 / 500000     2.3s test_prop_UnionPost (collecting)
+[ ]   9256      0      0   4760 / 500000     2.4s test_prop_UnionPost (collecting)
+[ ]   9559      0      0   4919 / 500000     2.5s test_prop_UnionPost (collecting)
+[ ]   9866      0      0   5072 / 500000     2.6s test_prop_UnionPost (collecting)
+[ ]  10286      0      0   5294 / 500000     2.7s test_prop_UnionPost (collecting)
+[ ]  10604      0      0   5464 / 500000     2.8s test_prop_UnionPost (collecting)
+[ ]  11060      0      0   5682 / 500000     2.9s test_prop_UnionPost (collecting)
+[ ]  11379      0      0   5844 / 500000     3.0s test_prop_UnionPost (collecting)
+[ ]  11732      0      0   6034 / 500000     3.2s test_prop_UnionPost (collecting)
+[ ]  12156      0      0   6254 / 500000     3.3s test_prop_UnionPost (collecting)
+[ ]  12496      0      0   6420 / 500000     3.4s test_prop_UnionPost (collecting)
+[ ]  12996      0      0   6684 / 500000     3.5s test_prop_UnionPost (collecting)
+[ ]  13409      0      0   6896 / 500000     3.6s test_prop_UnionPost (collecting)
+[ ]  13766      0      0   7082 / 500000     3.7s test_prop_UnionPost (collecting)
+[✗]  14068      0      1   7240 / 500000     3.7s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Tree (Empty,8,84,Empty),297,118,Tree (Empty,322,61,Empty)), Tree (Empty,7,14,Tree (Tree (Tree (Empty,0,891,Tree (Empty,918,529,Empty)),25,0,Tree (Empty,66,1,Tree (Empty,9,84,Empty))),2,2,Tree (Empty,8,88,Tree (Tree (Empty,2,75,Empty),603,88,Empty)))), 8)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 161.72]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 3711.74]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  551    0    0  551 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    547      0      0    266 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]   1007      0      0    505 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1412      0      0    703 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1798      0      0    888 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   2077      0      0   1031 / 500000     0.5s test_prop_UnionPost (collecting)
+[ ]   2576      0      0   1292 / 500000     0.6s test_prop_UnionPost (collecting)
+[ ]   3167      0      0   1578 / 500000     0.7s test_prop_UnionPost (collecting)
+[ ]   3657      0      0   1818 / 500000     0.8s test_prop_UnionPost (collecting)
+[ ]   4033      0      0   1997 / 500000     0.9s test_prop_UnionPost (collecting)
+[ ]   4381      0      0   2176 / 500000     1.0s test_prop_UnionPost (collecting)
+[ ]   4754      0      0   2362 / 500000     1.1s test_prop_UnionPost (collecting)
+[ ]   5168      0      0   2565 / 500000     1.2s test_prop_UnionPost (collecting)
+[ ]   5479      0      0   2715 / 500000     1.3s test_prop_UnionPost (collecting)
+[ ]   5945      0      0   2943 / 500000     1.4s test_prop_UnionPost (collecting)
+[ ]   6220      0      0   3076 / 500000     1.5s test_prop_UnionPost (collecting)
+[ ]   6678      0      0   3310 / 500000     1.6s test_prop_UnionPost (collecting)
+[ ]   7050      0      0   3495 / 500000     1.7s test_prop_UnionPost (collecting)
+[ ]   7545      0      0   3745 / 500000     1.8s test_prop_UnionPost (collecting)
+[ ]   7894      0      0   3925 / 500000     1.9s test_prop_UnionPost (collecting)
+[✗]   8166      0      1   4066 / 500000     2.0s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Empty,8,0,Empty), Tree (Tree (Empty,9,73,Empty),2,7,Tree (Empty,8,1,Empty)), 8)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 156.26]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 2012.65]
 [prop_UnionPost|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionPost (generating)
-[ ]  731    0    0  731 / 1000     0.1s test_prop_UnionPost (collecting)
-[✓] 1000    0    0 1000 / 1000     0.2s test_prop_UnionPost
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionPost (generating)
+[ ]    352      0      0    188 / 500000     0.1s test_prop_UnionPost (collecting)
+[ ]    718      0      0    383 / 500000     0.2s test_prop_UnionPost (collecting)
+[ ]   1142      0      0    613 / 500000     0.3s test_prop_UnionPost (collecting)
+[ ]   1465      0      0    778 / 500000     0.4s test_prop_UnionPost (collecting)
+[ ]   1756      0      0    919 / 500000     1.7s test_prop_UnionPost (collecting)
+[ ]   2087      0      0   1081 / 500000     1.8s test_prop_UnionPost (collecting)
+[ ]   2494      0      0   1282 / 500000     1.9s test_prop_UnionPost (collecting)
+[ ]   2728      0      0   1404 / 500000     2.0s test_prop_UnionPost (collecting)
+[ ]   3120      0      0   1607 / 500000     2.1s test_prop_UnionPost (collecting)
+[ ]   3413      0      0   1749 / 500000     2.2s test_prop_UnionPost (collecting)
+[ ]   3810      0      0   1944 / 500000     2.3s test_prop_UnionPost (collecting)
+[ ]   4099      0      0   2089 / 500000     2.4s test_prop_UnionPost (collecting)
+[ ]   4495      0      0   2299 / 500000     2.5s test_prop_UnionPost (collecting)
+[ ]   4821      0      0   2469 / 500000     2.6s test_prop_UnionPost (collecting)
+[ ]   5227      0      0   2666 / 500000     2.7s test_prop_UnionPost (collecting)
+[✗]   5237      0      1   2671 / 500000     2.7s test_prop_UnionPost
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionPost failed (0 shrink steps):
+
+(Tree (Tree (Empty,5,7,Empty),9,614,Empty), Tree (Empty,5,33,Empty), 5)
 ================================================================================
-success (ran 1 tests)
-|prop_UnionPost -> 168.43]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionPost -> 1499.75]

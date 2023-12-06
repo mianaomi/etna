@@ -1,12 +1,15 @@
 import argparse
 import os
-
 from benchtool.OCaml import OCaml
 from benchtool.Types import ReplaceLevel, TrialConfig
 from benchtool.Tasks import tasks
 
+DEFAULT_DIR = 'oc2'
+
+
 RUNNING = ['BST']
-STRATEGIES = ['crowbarType']
+STRATEGIES = ["bespokeGenerator", "typeBasedGenerator", "crowbarType", "crowbarBespoke"]
+# STRATEGIES = ['crowbarBespoke']
 TRIALS = 10
 TIMEOUT = 65
 
@@ -43,7 +46,6 @@ def collect(results: str):
 
                     run_trial(cfg)
 
-DEFAULT_DIR = 'oc'
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()

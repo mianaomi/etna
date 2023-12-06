@@ -1,0 +1,150 @@
+[1701821893.569593 start]
+[1701821893.569601 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.570990 exit 1]
+[1701821893.628179 start]
+[1701821893.628186 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.629552 exit 1]
+[1701821893.686961 start]
+[1701821893.686970 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.688331 exit 1]
+[1701821893.745436 start]
+[1701821893.745444 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.746804 exit 1]
+[1701821893.803946 start]
+[1701821893.803955 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.805326 exit 1]
+[1701821893.862500 start]
+[1701821893.862508 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.863861 exit 1]
+[1701821893.921106 start]
+[1701821893.921114 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.922480 exit 1]
+[1701821893.979661 start]
+[1701821893.979669 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821893.981035 exit 1]
+[1701821894.038325 start]
+[1701821894.038333 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821894.039681 exit 1]
+[1701821894.096903 start]
+[1701821894.096911 end]
+test_prop_UnionPost: FAIL
+
+When given the input:
+
+    [T(T(T(E, -128, -128, E), -109, 79, E), -84, 86, T(E, 31, -49, E));
+     T(T(E, -44, -26, E), -34, 90, E);
+     31]
+    
+the test failed:
+
+    check false
+    
+[1701821894.098262 exit 1]

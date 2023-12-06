@@ -1,6 +1,7 @@
 open Impl
 open QCheck
 
+
 let mt (e : expr) : typ option = getTyp [] e
 
 let isSome (a : 'a option) : bool =
@@ -8,6 +9,8 @@ let isSome (a : 'a option) : bool =
 
 let mtypeCheck (e : expr option) (t : typ) : bool =
   match e with Some e' -> typeCheck [] e' t | None -> true
+
+let typechecks = isSome << mt
 
 let prop_SinglePreserve (e : expr) : bool option =
   assume (isSome (mt e));

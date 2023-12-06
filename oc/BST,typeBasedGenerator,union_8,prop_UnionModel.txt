@@ -1,111 +1,289 @@
 [prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  533    0    0  135 / 1000     0.1s test_prop_UnionModel (collecting)
-[ ] 1140    0    0  272 / 1000     0.2s test_prop_UnionModel (collecting)
-[✓] 1200    0    0  284 / 1000     0.2s test_prop_UnionModel
-================================================================================
-success (ran 1 tests)
-|prop_UnionModel -> 211.01]
-[prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  709    0    0  190 / 1000     0.1s test_prop_UnionModel (collecting)
-[✓] 1200    0    0  331 / 1000     0.2s test_prop_UnionModel
-================================================================================
-success (ran 1 tests)
-|prop_UnionModel -> 186.53]
-[prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[✗]  356    0    1   99 / 1000     0.1s test_prop_UnionModel
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    487      0      0    125 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    826      0      0    211 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1164      0      0    291 / 500000     0.3s test_prop_UnionModel (collecting)
+[ ]   1499      0      0    373 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   1873      0      0    451 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2215      0      0    545 / 500000     0.6s test_prop_UnionModel (collecting)
+[✗]   2269      0      1    559 / 500000     0.6s test_prop_UnionModel
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionModel failed (0 shrink steps):
 
-(Tree (Tree (Tree (Empty,0,2,Empty),1,1,Empty),97,95,Empty), Tree (Empty,1,76,Empty))
+(Tree (Tree (Tree (Empty,6,2,Empty),8,1,Empty),4836,80,Empty), Tree (Empty,6,11,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionModel -> 75.49]
+|prop_UnionModel -> 647.73]
 [prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  442    0    0  118 / 1000     0.1s test_prop_UnionModel (collecting)
-[ ]  873    0    0  231 / 1000     0.2s test_prop_UnionModel (collecting)
-[✓] 1200    0    0  321 / 1000     0.3s test_prop_UnionModel
-================================================================================
-success (ran 1 tests)
-|prop_UnionModel -> 267.79]
-[prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  446    0    0  108 / 1000     0.1s test_prop_UnionModel (collecting)
-[ ] 1002    0    0  240 / 1000     0.2s test_prop_UnionModel (collecting)
-[✓] 1200    0    0  306 / 1000     0.2s test_prop_UnionModel
-================================================================================
-success (ran 1 tests)
-|prop_UnionModel -> 239.25]
-[prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  483    0    0  119 / 1000     0.1s test_prop_UnionModel (collecting)
-[✗]  965    0    1  240 / 1000     0.2s test_prop_UnionModel
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    338      0      0     91 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    648      0      0    162 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1026      0      0    248 / 500000     0.3s test_prop_UnionModel
+[ ]   1338      0      0    332 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   1712      0      0    431 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2100      0      0    533 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2606      0      0    687 / 500000     0.7s test_prop_UnionModel (collecting)
+[ ]   3026      0      0    793 / 500000     0.8s test_prop_UnionModel (collecting)
+[ ]   3360      0      0    877 / 500000     0.9s test_prop_UnionModel (collecting)
+[ ]   3664      0      0    940 / 500000     1.0s test_prop_UnionModel (collecting)
+[ ]   4227      0      0   1098 / 500000     1.1s test_prop_UnionModel (collecting)
+[ ]   4608      0      0   1210 / 500000     1.2s test_prop_UnionModel (collecting)
+[ ]   4892      0      0   1283 / 500000     1.3s test_prop_UnionModel (collecting)
+[ ]   5359      0      0   1412 / 500000     1.4s test_prop_UnionModel (collecting)
+[ ]   5704      0      0   1519 / 500000     1.5s test_prop_UnionModel (collecting)
+[ ]   6113      0      0   1630 / 500000     1.6s test_prop_UnionModel (collecting)
+[ ]   6502      0      0   1738 / 500000     1.7s test_prop_UnionModel (collecting)
+[ ]   6800      0      0   1815 / 500000     1.8s test_prop_UnionModel (collecting)
+[ ]   7212      0      0   1927 / 500000     1.9s test_prop_UnionModel (collecting)
+[ ]   7695      0      0   2062 / 500000     2.0s test_prop_UnionModel (collecting)
+[ ]   8153      0      0   2184 / 500000     2.1s test_prop_UnionModel (collecting)
+[ ]   8529      0      0   2269 / 500000     2.2s test_prop_UnionModel (collecting)
+[ ]   8963      0      0   2392 / 500000     2.3s test_prop_UnionModel (collecting)
+[✗]   9050      0      1   2423 / 500000     2.4s test_prop_UnionModel
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,2,669,Empty),69,1,Empty), Tree (Empty,2,622,Empty))
+(Tree (Tree (Empty,1,19,Empty),314,228,Empty), Tree (Empty,1,239,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionModel -> 184.88]
+|prop_UnionModel -> 2366.67]
 [prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  536    0    0  125 / 1000     0.1s test_prop_UnionModel (collecting)
-[✓] 1200    0    0  321 / 1000     0.2s test_prop_UnionModel
-================================================================================
-success (ran 1 tests)
-|prop_UnionModel -> 199.02]
-[prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[✗]  248    0    1   67 / 1000     0.0s test_prop_UnionModel
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    414      0      0    117 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    911      0      0    253 / 500000     0.2s test_prop_UnionModel
+[ ]   1207      0      0    331 / 500000     0.3s test_prop_UnionModel (collecting)
+[ ]   1586      0      0    436 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   1963      0      0    531 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2319      0      0    615 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2628      0      0    692 / 500000     0.7s test_prop_UnionModel (collecting)
+[ ]   2975      0      0    779 / 500000     0.8s test_prop_UnionModel (collecting)
+[ ]   3257      0      0    852 / 500000     0.9s test_prop_UnionModel (collecting)
+[ ]   3717      0      0    977 / 500000     1.0s test_prop_UnionModel (collecting)
+[✗]   3962      0      1   1043 / 500000     1.1s test_prop_UnionModel
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,1,4,Empty),29,6,Empty), Tree (Tree (Empty,1,8,Empty),5,2,Empty))
+(Tree (Tree (Empty,9,83,Empty),303,549,Empty), Tree (Tree (Tree (Empty,5,0,Empty),9,4,Tree (Empty,86,406,Empty)),192,2,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionModel -> 41.71]
+|prop_UnionModel -> 1078.73]
 [prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  570    0    0  141 / 1000     0.1s test_prop_UnionModel (collecting)
-[ ]  932    0    0  220 / 1000     0.2s test_prop_UnionModel (collecting)
-[✓] 1200    0    0  293 / 1000     0.2s test_prop_UnionModel
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    445      0      0    119 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    811      0      0    209 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1152      0      0    296 / 500000     0.3s test_prop_UnionModel (collecting)
+[✗]   1300      0      1    336 / 500000     0.4s test_prop_UnionModel
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionModel failed (0 shrink steps):
+
+(Tree (Tree (Tree (Empty,1,6,Empty),4,822,Tree (Empty,7,4,Empty)),811,89,Empty), Tree (Empty,4,93,Empty))
 ================================================================================
-success (ran 1 tests)
-|prop_UnionModel -> 242.21]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionModel -> 350.77]
 [prop_UnionModel|
-generated error fail pass / total     time test name
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel
-[ ]    0    0    0    0 / 1000     0.0s test_prop_UnionModel (generating)
-[ ]  547    0    0  128 / 1000     0.1s test_prop_UnionModel (collecting)
-[ ]  997    0    0  253 / 1000     0.2s test_prop_UnionModel (collecting)
-[✓] 1200    0    0  306 / 1000     0.2s test_prop_UnionModel
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    352      0      0     88 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    734      0      0    180 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1114      0      0    280 / 500000     0.3s test_prop_UnionModel (collecting)
+[ ]   1588      0      0    419 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   1938      0      0    514 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2442      0      0    636 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2830      0      0    729 / 500000     0.7s test_prop_UnionModel (collecting)
+[ ]   3307      0      0    850 / 500000     0.8s test_prop_UnionModel (collecting)
+[ ]   3689      0      0    957 / 500000     0.9s test_prop_UnionModel (collecting)
+[ ]   4114      0      0   1091 / 500000     1.0s test_prop_UnionModel (collecting)
+[ ]   4556      0      0   1210 / 500000     1.1s test_prop_UnionModel (collecting)
+[✗]   4963      0      1   1309 / 500000     1.2s test_prop_UnionModel
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionModel failed (0 shrink steps):
+
+(Tree (Empty,6,602,Empty), Tree (Empty,4,52,Tree (Empty,6,7,Empty)))
 ================================================================================
-success (ran 1 tests)
-|prop_UnionModel -> 234.87]
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionModel -> 1184.58]
+[prop_UnionModel|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    302      0      0     63 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    665      0      0    155 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1152      0      0    279 / 500000     0.3s test_prop_UnionModel (collecting)
+[ ]   1464      0      0    361 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   1789      0      0    444 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2136      0      0    551 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2456      0      0    628 / 500000     0.7s test_prop_UnionModel (collecting)
+[ ]   2691      0      0    696 / 500000     0.8s test_prop_UnionModel (collecting)
+[ ]   3072      0      0    802 / 500000     0.9s test_prop_UnionModel (collecting)
+[ ]   3482      0      0    919 / 500000     1.0s test_prop_UnionModel (collecting)
+[ ]   3842      0      0   1032 / 500000     1.1s test_prop_UnionModel (collecting)
+[ ]   4285      0      0   1157 / 500000     1.2s test_prop_UnionModel (collecting)
+[ ]   4693      0      0   1265 / 500000     1.3s test_prop_UnionModel (collecting)
+[✗]   4768      0      1   1283 / 500000     1.3s test_prop_UnionModel
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionModel failed (0 shrink steps):
+
+(Tree (Tree (Empty,4,77,Empty),9,7,Empty), Tree (Empty,0,3,Tree (Tree (Empty,2,15,Empty),9,18,Empty)))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionModel -> 1343.24]
+[prop_UnionModel|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    470      0      0    110 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    870      0      0    218 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1338      0      0    347 / 500000     0.3s test_prop_UnionModel (collecting)
+[ ]   1611      0      0    419 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   2127      0      0    554 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2516      0      0    657 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2867      0      0    732 / 500000     0.7s test_prop_UnionModel (collecting)
+[ ]   3171      0      0    808 / 500000     0.8s test_prop_UnionModel (collecting)
+[ ]   3477      0      0    877 / 500000     0.9s test_prop_UnionModel (collecting)
+[✗]   3602      0      1    921 / 500000     0.9s test_prop_UnionModel
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionModel failed (0 shrink steps):
+
+(Tree (Tree (Tree (Empty,2,5,Empty),4,626,Empty),22,673,Empty), Tree (Empty,2,98,Tree (Empty,4,9,Empty)))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionModel -> 923.36]
+[prop_UnionModel|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    342      0      0     91 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    600      0      0    160 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1058      0      0    275 / 500000     0.3s test_prop_UnionModel (collecting)
+[ ]   1478      0      0    380 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   1839      0      0    472 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2165      0      0    541 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2708      0      0    678 / 500000     0.7s test_prop_UnionModel
+[ ]   3010      0      0    774 / 500000     0.8s test_prop_UnionModel (collecting)
+[✗]   3073      0      1    788 / 500000     0.8s test_prop_UnionModel
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionModel failed (0 shrink steps):
+
+(Tree (Empty,1,989,Tree (Empty,79,7,Empty)), Tree (Empty,0,2,Tree (Empty,1,0,Empty)))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionModel -> 842.68]
+[prop_UnionModel|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    522      0      0    141 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    959      0      0    246 / 500000     0.2s test_prop_UnionModel
+[ ]   1213      0      0    319 / 500000     0.3s test_prop_UnionModel
+[ ]   1662      0      0    445 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   2055      0      0    548 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2463      0      0    638 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2759      0      0    725 / 500000     0.7s test_prop_UnionModel (collecting)
+[ ]   3203      0      0    838 / 500000     0.8s test_prop_UnionModel (collecting)
+[ ]   3712      0      0    976 / 500000     0.9s test_prop_UnionModel (collecting)
+[ ]   4103      0      0   1066 / 500000     1.0s test_prop_UnionModel (collecting)
+[ ]   4527      0      0   1168 / 500000     1.1s test_prop_UnionModel (collecting)
+[ ]   4835      0      0   1251 / 500000     1.2s test_prop_UnionModel (collecting)
+[ ]   5301      0      0   1376 / 500000     1.3s test_prop_UnionModel (collecting)
+[✗]   5651      0      1   1463 / 500000     1.4s test_prop_UnionModel
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionModel failed (0 shrink steps):
+
+(Tree (Tree (Empty,3,29,Empty),25,4,Empty), Tree (Empty,3,6,Empty))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionModel -> 1413.82]
+[prop_UnionModel|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionModel (generating)
+[ ]    296      0      0     79 / 500000     0.1s test_prop_UnionModel (collecting)
+[ ]    702      0      0    202 / 500000     0.2s test_prop_UnionModel (collecting)
+[ ]   1064      0      0    290 / 500000     0.3s test_prop_UnionModel (collecting)
+[ ]   1404      0      0    376 / 500000     0.4s test_prop_UnionModel (collecting)
+[ ]   1883      0      0    511 / 500000     0.5s test_prop_UnionModel (collecting)
+[ ]   2304      0      0    620 / 500000     0.6s test_prop_UnionModel (collecting)
+[ ]   2502      0      0    680 / 500000     0.7s test_prop_UnionModel (collecting)
+[ ]   2791      0      0    766 / 500000     0.8s test_prop_UnionModel (collecting)
+[ ]   3190      0      0    865 / 500000     0.9s test_prop_UnionModel (collecting)
+[ ]   3672      0      0    990 / 500000     1.0s test_prop_UnionModel (collecting)
+[ ]   4032      0      0   1089 / 500000     1.1s test_prop_UnionModel
+[ ]   4411      0      0   1185 / 500000     1.2s test_prop_UnionModel (collecting)
+[ ]   4791      0      0   1286 / 500000     1.3s test_prop_UnionModel (collecting)
+[ ]   5106      0      0   1363 / 500000     1.4s test_prop_UnionModel (collecting)
+[ ]   5547      0      0   1470 / 500000     1.5s test_prop_UnionModel (collecting)
+[ ]   5916      0      0   1566 / 500000     1.6s test_prop_UnionModel (collecting)
+[ ]   6168      0      0   1620 / 500000     1.7s test_prop_UnionModel (collecting)
+[ ]   6570      0      0   1716 / 500000     1.8s test_prop_UnionModel (collecting)
+[ ]   7044      0      0   1846 / 500000     1.9s test_prop_UnionModel (collecting)
+[ ]   7385      0      0   1929 / 500000     2.0s test_prop_UnionModel (collecting)
+[ ]   7802      0      0   2037 / 500000     2.1s test_prop_UnionModel (collecting)
+[ ]   8169      0      0   2133 / 500000     2.2s test_prop_UnionModel (collecting)
+[ ]   8496      0      0   2215 / 500000     2.3s test_prop_UnionModel (collecting)
+[ ]   9065      0      0   2342 / 500000     2.4s test_prop_UnionModel (collecting)
+[ ]   9353      0      0   2417 / 500000     2.5s test_prop_UnionModel (collecting)
+[ ]   9382      0      0   2424 / 500000    27.7s test_prop_UnionModel (collecting)
+[ ]   9805      0      0   2534 / 500000    27.8s test_prop_UnionModel (collecting)
+[ ]  10106      0      0   2589 / 500000    27.9s test_prop_UnionModel (collecting)
+[ ]  10438      0      0   2680 / 500000    28.0s test_prop_UnionModel (collecting)
+[ ]  10807      0      0   2783 / 500000    28.1s test_prop_UnionModel (collecting)
+[ ]  11175      0      0   2882 / 500000    28.2s test_prop_UnionModel (collecting)
+[ ]  11541      0      0   2969 / 500000    28.3s test_prop_UnionModel (collecting)
+[ ]  11851      0      0   3055 / 500000    28.4s test_prop_UnionModel
+[ ]  12241      0      0   3153 / 500000    28.5s test_prop_UnionModel (collecting)
+[ ]  12620      0      0   3261 / 500000    28.6s test_prop_UnionModel (collecting)
+[ ]  13017      0      0   3370 / 500000    28.7s test_prop_UnionModel (collecting)
+[ ]  13355      0      0   3451 / 500000    28.8s test_prop_UnionModel (collecting)
+[ ]  13830      0      0   3572 / 500000    28.9s test_prop_UnionModel (collecting)
+[ ]  14074      0      0   3636 / 500000    29.0s test_prop_UnionModel (collecting)
+[ ]  14507      0      0   3755 / 500000    29.1s test_prop_UnionModel (collecting)
+[ ]  14960      0      0   3882 / 500000    29.2s test_prop_UnionModel (collecting)
+[ ]  15339      0      0   3985 / 500000    29.3s test_prop_UnionModel (collecting)
+[ ]  15723      0      0   4081 / 500000    29.4s test_prop_UnionModel (collecting)
+[ ]  16256      0      0   4229 / 500000    29.5s test_prop_UnionModel (collecting)
+[ ]  16618      0      0   4331 / 500000    29.6s test_prop_UnionModel (collecting)
+[ ]  16963      0      0   4427 / 500000    29.7s test_prop_UnionModel (collecting)
+[ ]  17357      0      0   4514 / 500000    29.8s test_prop_UnionModel (collecting)
+[ ]  17688      0      0   4607 / 500000    29.9s test_prop_UnionModel (collecting)
+[ ]  17941      0      0   4676 / 500000    30.0s test_prop_UnionModel (collecting)
+[ ]  18375      0      0   4794 / 500000    30.1s test_prop_UnionModel (collecting)
+[ ]  18696      0      0   4872 / 500000    30.2s test_prop_UnionModel (collecting)
+[ ]  18971      0      0   4934 / 500000    30.3s test_prop_UnionModel (collecting)
+[ ]  19286      0      0   5003 / 500000    30.4s test_prop_UnionModel (collecting)
+[✗]  19392      0      1   5041 / 500000    30.4s test_prop_UnionModel
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionModel failed (0 shrink steps):
+
+(Tree (Tree (Empty,4,7,Empty),15,726,Empty), Tree (Empty,4,787,Empty))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionModel -> 5321.39]

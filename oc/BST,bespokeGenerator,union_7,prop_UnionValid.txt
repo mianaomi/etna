@@ -8,7 +8,119 @@
 
 Test test_prop_UnionValid failed (0 shrink steps):
 
-(Tree (Tree (Empty,1,9,Empty),87,4,Empty), Tree (Empty,3,8,Tree (Tree (Empty,5,2,Empty),8,9,Empty)))
+(Tree (Tree (Empty,0,9,Tree (Empty,2,6,Tree (Empty,9,1,Empty))),55,8,Empty), Tree (Tree (Empty,0,46,Empty),3,4,Tree (Empty,8,5,Empty)))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.11]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Empty,0,5,Tree (Tree (Empty,1,76,Tree (Empty,2,23,Empty)),3,1,Tree (Tree (Empty,4,4,Tree (Tree (Tree (Empty,5,9,Empty),6,4,Empty),7,34,Empty)),9,3,Tree (Tree (Tree (Tree (Empty,17,12,Empty),24,6,Tree (Empty,35,1,Tree (Empty,38,7,Empty))),63,6,Empty),67,7,Tree (Empty,80,16,Tree (Tree (Empty,84,9,Tree (Empty,86,5,Empty)),89,1,Tree (Empty,94,90,Empty))))))), Tree (Tree (Tree (Tree (Empty,0,9,Empty),1,8,Empty),2,48,Tree (Empty,3,4,Empty)),4,37,Tree (Tree (Tree (Empty,5,1,Empty),6,6,Tree (Tree (Empty,7,6,Empty),8,1,Tree (Empty,9,2,Tree (Empty,13,2,Tree (Empty,14,3,Empty))))),21,9,Tree (Tree (Tree (Empty,29,68,Empty),30,6,Tree (Tree (Empty,33,0,Tree (Empty,38,4,Empty)),51,28,Empty)),73,1,Tree (Tree (Empty,77,4,Empty),99,5,Empty)))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.13]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Empty,9,8,Empty), Tree (Tree (Tree (Empty,0,3,Tree (Empty,1,5,Empty)),2,2,Tree (Tree (Empty,3,5,Tree (Tree (Empty,4,6,Empty),5,4,Empty)),6,5,Tree (Tree (Empty,7,4,Empty),8,6,Tree (Empty,9,8,Tree (Empty,30,5,Tree (Empty,32,7,Empty)))))),36,2,Tree (Tree (Tree (Empty,38,4,Tree (Empty,44,0,Tree (Tree (Tree (Empty,46,6,Empty),51,4,Empty),53,9,Empty))),64,5,Tree (Tree (Empty,69,8,Tree (Empty,78,9,Empty)),79,91,Empty)),87,12,Tree (Tree (Empty,90,4,Empty),92,9,Tree (Empty,94,5,Tree (Empty,95,0,Empty))))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.12]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Empty,2,5,Tree (Empty,7,30,Tree (Empty,39,21,Tree (Empty,79,72,Empty)))), Tree (Empty,5,12,Tree (Empty,9,7,Tree (Empty,87,0,Empty))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.09]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Empty,4,0,Tree (Tree (Empty,5,3,Empty),7,6,Tree (Tree (Empty,8,1,Tree (Tree (Empty,9,7,Empty),33,8,Empty)),74,9,Empty))), Tree (Tree (Empty,0,9,Tree (Empty,1,76,Empty)),2,11,Tree (Tree (Tree (Empty,3,97,Empty),4,4,Empty),5,8,Tree (Tree (Empty,6,62,Tree (Empty,7,6,Empty)),8,0,Tree (Tree (Tree (Empty,9,3,Tree (Tree (Empty,10,7,Tree (Tree (Empty,11,94,Tree (Empty,12,9,Empty)),13,2,Tree (Empty,14,9,Tree (Tree (Empty,16,86,Empty),17,4,Tree (Tree (Empty,18,9,Empty),20,7,Tree (Tree (Tree (Empty,22,0,Tree (Tree (Empty,24,8,Empty),25,5,Empty)),27,79,Tree (Empty,28,81,Empty)),29,0,Empty)))))),30,3,Tree (Tree (Tree (Empty,31,51,Tree (Empty,33,47,Empty)),34,9,Tree (Tree (Empty,35,3,Empty),36,58,Empty)),38,2,Tree (Empty,39,4,Tree (Empty,42,8,Empty))))),43,6,Tree (Tree (Empty,45,0,Empty),47,41,Tree (Tree (Tree (Tree (Empty,48,4,Empty),49,1,Empty),50,7,Tree (Empty,51,8,Empty)),52,4,Empty))),55,81,Tree (Tree (Empty,56,9,Tree (Tree (Empty,57,76,Empty),58,9,Empty)),59,40,Tree (Tree (Tree (Empty,60,1,Tree (Empty,61,8,Tree (Empty,62,91,Empty))),63,5,Tree (Tree (Tree (Empty,64,12,Tree (Tree (Empty,65,6,Empty),66,41,Tree (Empty,68,0,Empty))),69,9,Tree (Empty,70,23,Empty)),71,9,Tree (Empty,72,76,Tree (Empty,74,4,Empty)))),75,0,Tree (Tree (Tree (Empty,76,94,Empty),77,3,Empty),79,1,Tree (Tree (Tree (Tree (Tree (Tree (Empty,80,3,Empty),81,6,Tree (Tree (Empty,83,7,Tree (Empty,86,51,Empty)),87,20,Empty)),88,0,Empty),90,67,Empty),91,1,Tree (Empty,92,7,Tree (Empty,93,0,Empty))),94,3,Tree (Tree (Tree (Empty,95,9,Empty),97,8,Empty),99,0,Empty))))))))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.33]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Tree (Tree (Tree (Tree (Tree (Empty,0,7,Empty),1,81,Tree (Empty,2,22,Empty)),3,5,Empty),4,0,Empty),5,0,Tree (Empty,6,35,Tree (Tree (Empty,7,5,Empty),8,8,Empty))),9,61,Tree (Tree (Tree (Tree (Empty,18,6,Empty),19,10,Empty),21,0,Tree (Empty,25,4,Empty)),29,0,Tree (Tree (Tree (Empty,30,30,Tree (Tree (Empty,33,22,Empty),36,6,Empty)),40,8,Empty),49,0,Tree (Tree (Tree (Tree (Tree (Empty,51,0,Tree (Empty,52,72,Empty)),55,5,Empty),58,6,Empty),66,7,Tree (Tree (Empty,67,9,Empty),70,3,Empty)),80,8,Tree (Tree (Empty,88,2,Empty),94,9,Empty))))), Tree (Tree (Empty,1,5,Tree (Empty,3,2,Empty)),6,14,Tree (Tree (Empty,7,0,Empty),9,79,Tree (Tree (Tree (Empty,12,3,Empty),23,8,Tree (Empty,43,76,Empty)),58,7,Tree (Tree (Empty,61,8,Empty),68,9,Tree (Empty,81,5,Empty))))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.12]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Empty,0,9,Tree (Empty,3,7,Tree (Empty,6,9,Tree (Empty,7,5,Empty)))), Tree (Empty,6,98,Empty))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.09]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Tree (Tree (Empty,3,5,Empty),4,4,Empty),6,9,Tree (Tree (Empty,7,82,Empty),9,9,Empty)), Tree (Tree (Tree (Tree (Tree (Empty,0,4,Empty),1,4,Empty),2,2,Empty),3,29,Tree (Tree (Empty,4,86,Empty),5,61,Empty)),6,8,Tree (Empty,7,0,Tree (Tree (Empty,8,99,Tree (Tree (Empty,9,3,Tree (Empty,19,9,Empty)),68,8,Tree (Tree (Empty,71,60,Tree (Empty,82,4,Empty)),87,1,Empty))),88,5,Tree (Empty,95,0,Empty)))))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+|prop_UnionValid -> 0.13]
+[prop_UnionValid|
+ generated  error   fail   pass /  total     time test name
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
+[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
+[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_UnionValid failed (0 shrink steps):
+
+(Tree (Tree (Empty,2,0,Empty),59,5,Empty), Tree (Tree (Tree (Tree (Empty,0,4,Empty),1,0,Empty),2,0,Tree (Tree (Empty,3,0,Tree (Tree (Empty,4,7,Empty),5,8,Empty)),6,8,Empty)),7,2,Tree (Tree (Empty,8,0,Empty),9,7,Tree (Tree (Empty,11,2,Tree (Empty,15,8,Empty)),16,24,Tree (Tree (Tree (Tree (Tree (Tree (Empty,18,83,Empty),20,1,Empty),23,3,Empty),26,2,Tree (Tree (Tree (Empty,27,8,Empty),29,4,Tree (Empty,30,9,Empty)),31,5,Tree (Empty,32,1,Empty))),34,4,Tree (Empty,36,7,Tree (Empty,37,65,Tree (Tree (Empty,38,82,Empty),39,3,Tree (Empty,40,0,Empty))))),45,3,Tree (Tree (Empty,48,8,Tree (Tree (Tree (Tree (Empty,49,7,Empty),50,4,Tree (Tree (Empty,51,7,Empty),52,8,Empty)),55,6,Empty),57,9,Tree (Tree (Empty,58,83,Tree (Empty,59,7,Empty)),60,26,Tree (Tree (Empty,61,4,Empty),62,4,Empty)))),63,5,Tree (Empty,64,8,Tree (Tree (Empty,67,3,Tree (Tree (Empty,68,75,Tree (Empty,69,58,Tree (Tree (Empty,70,95,Empty),71,90,Empty))),72,8,Tree (Empty,76,5,Tree (Empty,77,3,Empty)))),79,2,Tree (Tree (Tree (Empty,80,6,Tree (Tree (Empty,81,0,Empty),82,0,Empty)),83,7,Tree (Tree (Empty,85,2,Empty),86,1,Tree (Tree (Tree (Empty,87,6,Empty),88,2,Empty),89,3,Tree (Tree (Empty,90,5,Empty),93,6,Empty)))),94,5,Tree (Tree (Empty,95,27,Empty),96,8,Tree (Empty,99,0,Empty)))))))))))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
 |prop_UnionValid -> 0.22]
@@ -22,119 +134,7 @@ failure (1 tests failed, 0 tests errored, ran 1 tests)
 
 Test test_prop_UnionValid failed (0 shrink steps):
 
-(Tree (Tree (Empty,0,9,Empty),3,2,Tree (Empty,60,9,Empty)), Tree (Tree (Tree (Empty,0,9,Empty),1,72,Tree (Tree (Empty,4,7,Empty),6,74,Empty)),7,5,Tree (Tree (Empty,8,9,Tree (Empty,9,92,Empty)),66,1,Tree (Empty,68,6,Tree (Empty,97,6,Tree (Empty,98,6,Empty))))))
+(Tree (Tree (Empty,0,2,Tree (Tree (Tree (Tree (Empty,1,5,Tree (Empty,2,5,Empty)),3,8,Empty),4,2,Tree (Tree (Empty,5,1,Tree (Empty,6,0,Empty)),7,2,Empty)),8,8,Tree (Empty,9,2,Tree (Empty,11,9,Tree (Empty,12,1,Empty))))),13,69,Tree (Tree (Tree (Empty,14,1,Empty),16,7,Tree (Tree (Tree (Empty,17,89,Empty),18,49,Tree (Empty,19,9,Empty)),24,6,Empty)),25,66,Tree (Tree (Tree (Tree (Tree (Tree (Tree (Tree (Tree (Empty,26,9,Empty),27,37,Empty),28,7,Empty),30,7,Empty),32,8,Empty),34,2,Tree (Tree (Tree (Empty,35,8,Empty),36,52,Tree (Tree (Empty,37,5,Empty),38,26,Empty)),39,7,Tree (Tree (Empty,41,0,Empty),43,6,Empty))),45,6,Tree (Tree (Empty,46,6,Tree (Tree (Tree (Tree (Empty,47,0,Empty),49,5,Empty),50,8,Empty),52,8,Empty)),53,1,Tree (Tree (Empty,54,4,Empty),55,2,Tree (Tree (Empty,56,35,Tree (Empty,57,8,Empty)),60,38,Tree (Tree (Empty,61,36,Empty),62,7,Empty))))),64,0,Tree (Tree (Empty,65,3,Empty),66,0,Tree (Empty,67,9,Tree (Tree (Empty,68,7,Tree (Empty,70,89,Empty)),71,9,Empty)))),73,9,Tree (Empty,74,9,Tree (Tree (Tree (Empty,75,82,Empty),76,7,Tree (Empty,78,52,Tree (Empty,79,5,Empty))),80,5,Tree (Tree (Tree (Empty,81,1,Empty),83,8,Empty),84,7,Tree (Empty,87,45,Tree (Empty,89,5,Tree (Tree (Tree (Empty,91,8,Empty),92,84,Tree (Tree (Empty,93,0,Empty),95,4,Empty)),97,8,Tree (Empty,99,9,Empty)))))))))), Tree (Empty,9,58,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.07]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      2      0      1      1 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Tree (Tree (Empty,1,3,Empty),7,8,Tree (Empty,8,5,Empty)),36,0,Empty), Tree (Tree (Tree (Tree (Empty,0,4,Empty),2,8,Empty),4,5,Tree (Empty,5,2,Empty)),6,8,Tree (Tree (Empty,8,1,Empty),62,8,Tree (Empty,92,3,Empty))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.07]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Tree (Tree (Empty,0,4,Tree (Empty,1,8,Tree (Empty,2,9,Tree (Empty,3,7,Empty)))),4,3,Tree (Tree (Tree (Empty,5,8,Empty),6,1,Empty),7,9,Empty)),8,62,Tree (Tree (Tree (Empty,9,0,Tree (Tree (Tree (Tree (Tree (Empty,10,30,Empty),11,6,Empty),12,64,Empty),13,61,Tree (Tree (Empty,14,3,Empty),15,9,Empty)),16,4,Tree (Tree (Tree (Tree (Tree (Empty,17,4,Empty),18,1,Empty),19,2,Empty),20,3,Tree (Tree (Empty,21,88,Empty),22,28,Empty)),23,7,Tree (Tree (Empty,24,8,Tree (Empty,25,3,Empty)),26,14,Empty)))),27,72,Tree (Tree (Tree (Tree (Empty,28,1,Tree (Empty,29,9,Empty)),30,6,Tree (Tree (Empty,31,29,Tree (Empty,32,1,Empty)),33,5,Tree (Tree (Empty,34,8,Empty),35,9,Tree (Tree (Tree (Empty,36,6,Empty),37,3,Tree (Empty,38,0,Empty)),39,3,Tree (Empty,40,7,Empty))))),41,7,Tree (Tree (Empty,42,4,Tree (Tree (Tree (Empty,43,5,Empty),44,22,Tree (Empty,45,29,Empty)),46,7,Empty)),47,6,Tree (Empty,48,52,Tree (Empty,49,30,Empty)))),50,8,Tree (Tree (Empty,51,2,Empty),52,1,Tree (Tree (Tree (Tree (Tree (Tree (Empty,53,7,Empty),54,72,Tree (Empty,55,35,Empty)),56,0,Tree (Tree (Empty,57,5,Empty),58,1,Tree (Tree (Empty,59,9,Empty),60,6,Tree (Empty,61,9,Empty)))),62,8,Tree (Tree (Tree (Empty,63,8,Empty),64,5,Empty),65,86,Empty)),66,9,Tree (Empty,67,3,Empty)),68,6,Tree (Tree (Tree (Tree (Empty,69,4,Tree (Tree (Tree (Empty,70,6,Empty),71,83,Tree (Empty,72,4,Empty)),73,68,Empty)),74,6,Empty),75,96,Tree (Empty,76,1,Tree (Empty,77,5,Tree (Empty,78,7,Empty)))),79,9,Tree (Tree (Tree (Empty,80,4,Empty),81,1,Tree (Empty,82,2,Empty)),83,2,Tree (Tree (Tree (Empty,84,3,Tree (Empty,85,6,Tree (Empty,86,7,Tree (Empty,87,85,Empty)))),88,5,Tree (Empty,89,0,Tree (Tree (Empty,90,3,Empty),91,8,Empty))),92,71,Tree (Empty,93,3,Empty)))))))),94,46,Tree (Empty,95,2,Tree (Tree (Tree (Empty,96,2,Tree (Empty,97,4,Empty)),98,0,Empty),99,0,Empty)))), Tree (Tree (Tree (Empty,1,21,Tree (Empty,2,3,Empty)),3,20,Tree (Empty,4,10,Empty)),64,9,Tree (Empty,65,7,Empty)))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 1.01]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Empty,3,9,Tree (Empty,7,97,Empty)), Tree (Tree (Tree (Empty,0,5,Tree (Empty,1,7,Tree (Empty,2,6,Empty))),3,78,Tree (Tree (Empty,4,9,Tree (Tree (Empty,5,48,Tree (Empty,6,57,Empty)),7,8,Tree (Empty,8,4,Empty))),9,0,Tree (Tree (Tree (Empty,19,90,Tree (Tree (Empty,22,9,Empty),25,1,Empty)),33,2,Tree (Tree (Empty,36,1,Empty),44,5,Empty)),46,8,Tree (Tree (Empty,47,5,Tree (Tree (Tree (Empty,53,6,Empty),57,2,Tree (Empty,59,88,Empty)),62,9,Tree (Empty,73,6,Empty))),74,4,Tree (Tree (Empty,76,5,Empty),87,55,Tree (Empty,89,20,Empty)))))),92,8,Tree (Tree (Empty,94,5,Empty),96,0,Empty)))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.09]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      2      0      1      1 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Tree (Tree (Tree (Tree (Tree (Empty,0,77,Empty),1,9,Empty),2,3,Tree (Empty,3,79,Empty)),4,5,Tree (Empty,5,9,Tree (Empty,6,2,Empty))),7,5,Tree (Empty,8,5,Tree (Empty,16,70,Empty))),73,1,Empty), Tree (Tree (Tree (Tree (Empty,0,5,Tree (Tree (Empty,1,9,Empty),2,3,Tree (Empty,3,4,Empty))),4,2,Tree (Tree (Empty,5,3,Tree (Empty,6,1,Empty)),7,5,Tree (Empty,8,4,Empty))),9,7,Tree (Tree (Empty,10,0,Tree (Tree (Tree (Tree (Empty,16,64,Empty),18,9,Empty),19,0,Empty),24,3,Tree (Empty,27,9,Empty))),28,20,Tree (Empty,33,2,Tree (Tree (Tree (Empty,34,3,Empty),35,4,Tree (Empty,40,8,Empty)),42,0,Tree (Empty,43,4,Empty))))),57,7,Tree (Tree (Tree (Empty,58,8,Tree (Tree (Empty,69,7,Empty),83,5,Empty)),89,0,Empty),99,0,Empty)))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.08]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Tree (Tree (Empty,0,2,Empty),1,7,Tree (Tree (Empty,2,89,Empty),3,0,Empty)),4,7,Tree (Tree (Tree (Empty,5,5,Empty),6,7,Tree (Empty,7,1,Empty)),8,1,Tree (Tree (Tree (Empty,9,7,Tree (Tree (Tree (Empty,11,85,Tree (Tree (Tree (Tree (Empty,12,9,Empty),15,6,Tree (Empty,16,8,Empty)),17,5,Empty),19,97,Tree (Empty,22,2,Tree (Empty,23,1,Empty)))),24,41,Empty),25,5,Tree (Tree (Tree (Empty,27,6,Empty),28,5,Tree (Empty,29,2,Empty)),32,7,Empty))),34,9,Tree (Tree (Tree (Tree (Tree (Tree (Empty,36,2,Empty),38,2,Tree (Empty,39,7,Tree (Empty,41,66,Empty))),42,5,Tree (Tree (Empty,43,4,Empty),46,90,Tree (Empty,47,6,Empty))),50,6,Tree (Empty,51,41,Tree (Empty,53,3,Empty))),54,14,Tree (Empty,55,92,Empty)),57,6,Tree (Tree (Tree (Tree (Empty,58,0,Tree (Empty,62,6,Empty)),63,9,Tree (Empty,64,9,Empty)),66,1,Tree (Empty,67,0,Empty)),68,8,Tree (Empty,71,78,Empty)))),72,3,Tree (Tree (Empty,73,0,Tree (Empty,74,0,Empty)),75,41,Tree (Tree (Tree (Tree (Tree (Empty,76,4,Empty),77,8,Empty),78,8,Tree (Empty,80,5,Tree (Empty,81,75,Empty))),83,9,Empty),84,4,Tree (Tree (Empty,89,0,Empty),90,0,Tree (Tree (Tree (Tree (Empty,91,56,Empty),92,0,Tree (Empty,93,4,Tree (Empty,94,4,Empty))),97,5,Empty),98,49,Tree (Empty,99,5,Empty)))))))), Tree (Tree (Tree (Tree (Tree (Empty,0,1,Empty),1,5,Empty),2,70,Tree (Empty,3,0,Empty)),4,0,Tree (Tree (Tree (Empty,5,6,Empty),7,9,Empty),8,2,Tree (Empty,9,2,Tree (Empty,10,89,Tree (Tree (Empty,15,56,Empty),32,15,Empty))))),34,6,Tree (Tree (Tree (Empty,41,5,Tree (Empty,47,1,Empty)),48,6,Tree (Empty,63,83,Empty)),81,1,Tree (Empty,97,2,Empty))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.14]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Tree (Tree (Tree (Empty,0,0,Empty),1,9,Tree (Tree (Empty,2,2,Tree (Tree (Tree (Tree (Empty,3,4,Empty),4,6,Empty),5,7,Empty),6,9,Empty)),7,9,Tree (Tree (Tree (Empty,8,7,Empty),9,24,Tree (Tree (Tree (Empty,11,8,Empty),21,9,Tree (Empty,27,7,Tree (Empty,31,62,Empty))),40,2,Tree (Tree (Tree (Empty,44,0,Empty),45,5,Empty),46,9,Empty))),64,2,Tree (Tree (Tree (Empty,71,8,Empty),76,7,Empty),77,2,Empty)))),78,5,Tree (Tree (Tree (Empty,82,0,Empty),84,3,Tree (Empty,86,6,Tree (Empty,90,5,Empty))),92,62,Empty)),93,88,Tree (Empty,97,6,Empty)), Tree (Tree (Tree (Empty,3,0,Empty),4,0,Empty),8,8,Tree (Empty,57,8,Empty)))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.08]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Tree (Tree (Tree (Empty,0,4,Tree (Tree (Empty,1,4,Tree (Empty,2,3,Empty)),3,6,Tree (Empty,4,3,Empty))),6,4,Tree (Empty,7,1,Empty)),8,6,Tree (Tree (Tree (Tree (Empty,9,93,Empty),10,3,Empty),28,2,Empty),29,8,Tree (Tree (Empty,34,7,Empty),50,0,Empty))),94,6,Empty), Tree (Tree (Tree (Tree (Empty,0,55,Tree (Empty,1,3,Empty)),2,8,Empty),3,9,Tree (Empty,4,9,Tree (Tree (Empty,5,8,Empty),6,7,Empty))),7,4,Tree (Tree (Empty,8,8,Empty),9,8,Tree (Tree (Tree (Tree (Empty,12,35,Tree (Empty,56,8,Empty)),62,52,Empty),67,2,Empty),75,50,Tree (Empty,78,34,Tree (Empty,87,0,Empty))))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.08]
-[prop_UnionValid|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionValid (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_UnionValid
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_UnionValid failed (0 shrink steps):
-
-(Tree (Tree (Tree (Empty,0,1,Empty),1,69,Empty),2,26,Tree (Tree (Tree (Empty,3,0,Empty),4,4,Tree (Empty,5,1,Empty)),6,0,Tree (Tree (Tree (Tree (Empty,7,4,Empty),8,7,Empty),9,2,Tree (Tree (Tree (Tree (Empty,10,7,Tree (Tree (Empty,11,0,Tree (Tree (Tree (Empty,12,78,Empty),13,7,Tree (Empty,14,55,Empty)),15,1,Empty)),16,0,Tree (Tree (Tree (Empty,17,4,Empty),18,11,Tree (Empty,19,8,Empty)),20,47,Tree (Empty,21,9,Empty)))),22,3,Tree (Tree (Tree (Empty,23,3,Empty),24,0,Empty),25,2,Tree (Tree (Empty,26,5,Empty),27,26,Empty))),28,48,Tree (Tree (Empty,29,1,Tree (Empty,30,12,Tree (Empty,31,5,Empty))),32,2,Tree (Empty,33,9,Tree (Tree (Tree (Tree (Empty,34,5,Empty),35,5,Empty),36,4,Tree (Tree (Empty,37,6,Empty),38,4,Empty)),39,4,Tree (Empty,40,1,Empty))))),41,6,Tree (Tree (Tree (Empty,42,46,Empty),43,9,Tree (Empty,44,2,Tree (Tree (Tree (Empty,45,2,Tree (Empty,46,6,Empty)),47,5,Empty),48,9,Tree (Tree (Empty,49,8,Tree (Empty,50,9,Empty)),51,31,Tree (Tree (Tree (Empty,52,5,Tree (Empty,53,38,Empty)),54,94,Tree (Tree (Empty,55,49,Empty),56,12,Empty)),57,5,Empty))))),58,0,Tree (Empty,59,0,Tree (Empty,60,65,Empty))))),61,8,Tree (Tree (Tree (Empty,62,8,Empty),63,5,Tree (Tree (Empty,64,13,Tree (Empty,65,9,Empty)),66,6,Tree (Tree (Tree (Tree (Tree (Empty,67,4,Empty),68,99,Tree (Tree (Empty,69,8,Empty),70,3,Tree (Empty,71,3,Empty))),72,2,Tree (Tree (Tree (Empty,73,9,Empty),74,7,Tree (Empty,75,7,Empty)),76,4,Tree (Empty,77,7,Tree (Tree (Empty,78,2,Empty),79,3,Empty)))),80,1,Tree (Tree (Empty,81,9,Tree (Empty,82,4,Tree (Tree (Empty,83,9,Empty),84,7,Tree (Empty,85,2,Empty)))),86,9,Tree (Tree (Empty,87,4,Empty),88,6,Empty))),89,6,Tree (Tree (Empty,90,1,Empty),91,8,Tree (Tree (Tree (Empty,92,20,Empty),93,5,Empty),94,34,Tree (Empty,95,3,Tree (Empty,96,59,Empty))))))),97,44,Tree (Tree (Empty,98,4,Empty),99,2,Empty))))), Tree (Empty,0,11,Tree (Empty,1,32,Tree (Tree (Empty,4,8,Tree (Empty,5,3,Empty)),7,93,Tree (Empty,9,6,Empty)))))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionValid -> 0.68]
+|prop_UnionValid -> 0.26]
