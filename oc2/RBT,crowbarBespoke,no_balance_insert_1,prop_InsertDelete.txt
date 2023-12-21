@@ -1,0 +1,160 @@
+[1703142398.397040 start]
+[1703142398.397049 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142399.264422 exit 1]
+[1703142399.324289 start]
+[1703142399.324296 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142400.193234 exit 1]
+[1703142400.250780 start]
+[1703142400.250791 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142401.131986 exit 1]
+[1703142401.190666 start]
+[1703142401.190672 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142402.060095 exit 1]
+[1703142402.121183 start]
+[1703142402.121191 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142402.996179 exit 1]
+[1703142403.056423 start]
+[1703142403.056432 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142403.927538 exit 1]
+[1703142403.988011 start]
+[1703142403.988018 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142404.860642 exit 1]
+[1703142404.921309 start]
+[1703142404.921318 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142405.792357 exit 1]
+[1703142405.850347 start]
+[1703142405.850353 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142406.722805 exit 1]
+[1703142406.783515 start]
+[1703142406.783523 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T R (T B E -128 -77 E) -125 122 (T B E -123 58 (T R E -97 -28 E))) -76 -21 (T B E -67 21 E)) -18 16 (T B (T R (T B E 11 -65 E) 16 78 (T B E 19 -16 E)) 64 -28 (T B E 127 -32 E)));
+     -104;
+     -67;
+     47]
+    
+the test failed:
+
+    check false
+    
+[1703142407.653168 exit 1]

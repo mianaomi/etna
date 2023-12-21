@@ -13,7 +13,7 @@ let test_prop_InsertValid : tree property =
     name = "test_prop_InsertValid";
     q =
       (fun a ->
-        qbuild (triple a qi qi) (fun tkv -> prop_InsertValid tkv |> qmake));
+        qbuild (triple a qi qi) (qmake << prop_InsertValid));
     c =
       (fun g ->
         cbuild [ g; ci; ci ] (fun t k v -> prop_InsertValid (t, k, v) |> cmake));

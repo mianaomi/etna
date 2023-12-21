@@ -2,5 +2,5 @@
 
 (library
  (name RBT)
- (modules impl spec typeBasedGenerator bespokeGenerator)
- (libraries qcheck))
+ (modules impl spec test typeBasedGenerator bespokeGenerator crowbarType crowbarBespoke)
+ (libraries qcheck crowbar util))

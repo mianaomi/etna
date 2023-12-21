@@ -2,7 +2,7 @@ import re
 import os
 import json
 
-DATA_PATH = './oc/'
+DATA_PATH = './oc2/'
 OUTPUT_FILE = './experiments/ocaml-experiments/parsed.json'
 
 def parse(filename):

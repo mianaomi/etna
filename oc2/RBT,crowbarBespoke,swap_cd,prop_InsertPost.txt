@@ -1,0 +1,160 @@
+[1703142331.647441 start]
+[1703142331.647449 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142331.675851 exit 1]
+[1703142331.732631 start]
+[1703142331.732642 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142331.761060 exit 1]
+[1703142331.817965 start]
+[1703142331.817972 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142331.846345 exit 1]
+[1703142331.903230 start]
+[1703142331.903237 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142331.931596 exit 1]
+[1703142331.988544 start]
+[1703142331.988551 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142332.017000 exit 1]
+[1703142332.073814 start]
+[1703142332.073822 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142332.102123 exit 1]
+[1703142332.158847 start]
+[1703142332.158853 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142332.187963 exit 1]
+[1703142332.246116 start]
+[1703142332.246124 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142332.274396 exit 1]
+[1703142332.331460 start]
+[1703142332.331468 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142332.359713 exit 1]
+[1703142332.415792 start]
+[1703142332.415799 end]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -64 -116 E) -53 12 (T R E -40 -47 E)) -22 36 (T B (T R E -18 127 E) 14 -9 E)) 21 -89 (T R (T B (T R E 23 100 E) 51 -7 E) 85 67 (T B E 98 -117 (T R E 110 -12 E))));
+     -107;
+     51;
+     81]
+    
+the test failed:
+
+    check false
+    
+[1703142332.444198 exit 1]

@@ -1,0 +1,160 @@
+[1703142378.263662 start]
+[1703142378.263669 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.283481 exit 1]
+[1703142378.341712 start]
+[1703142378.341720 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.361636 exit 1]
+[1703142378.421587 start]
+[1703142378.421596 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.442055 exit 1]
+[1703142378.503098 start]
+[1703142378.503106 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.523049 exit 1]
+[1703142378.581237 start]
+[1703142378.581245 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.601007 exit 1]
+[1703142378.658436 start]
+[1703142378.658443 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.678242 exit 1]
+[1703142378.736299 start]
+[1703142378.736306 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.756317 exit 1]
+[1703142378.816398 start]
+[1703142378.816409 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.836226 exit 1]
+[1703142378.895205 start]
+[1703142378.895217 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.914974 exit 1]
+[1703142378.973977 start]
+[1703142378.973985 end]
+test_prop_InsertDelete: FAIL
+
+When given the input:
+
+    [(T B (T B (T B (T R E -99 64 E) -90 -12 E) -83 117 (T B E -77 -87 E)) -68 -53 (T R (T B (T R (T B (T R E -56 -37 E) -21 111 E) -16 -10 (T B (T R E 10 13 E) 26 -19 E)) 34 119 (T R (T B E 37 -63 E) 44 -17 (T B E 47 -21 E))) 50 43 (T B (T R (T B (T R E 67 4 E) 83 -57 E) 89 61 (T B E 94 96 E)) 100 16 (T R (T B E 109 -92 E) 119 46 (T B (T R E 123 -43 E) 125 -92 E)))));
+     -11;
+     44;
+     32]
+    
+the test failed:
+
+    check false
+    
+[1703142378.993749 exit 1]

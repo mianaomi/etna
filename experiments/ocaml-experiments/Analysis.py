@@ -3,6 +3,8 @@ from benchtool.Analysis import *
 from benchtool.Plot import *
 from functools import partial
 
+# use this to adjust which plots are generated
+WORKLOADS = ['RBT']
 
 def analyze(results: str, images: str):
     df = parse_results(results)
@@ -14,11 +16,13 @@ def analyze(results: str, images: str):
         os.makedirs(images)
 
     # Generate task bucket charts used in Figure 1.
-    for workload in ['BST']:
+    for workload in WORKLOADS:
         times = partial(stacked_barchart_times, case=workload, df=df)
         times(
-            strategies=['bespokeGenerator', 'typeBasedGenerator', 'crowbarBespoke', 'crowbarType'],
-            colors=['#000000', '#900D0D', '#DC5F00', '#243763'],
+            # strategies=['bespokeGenerator', 'typeBasedGenerator', 'crowbarBespoke', 'crowbarType'],
+            # colors=['#000000', '#900D0D', '#DC5F00', '#243763'],
+            strategies=['bespokeGenerator', 'crowbarBespoke'],
+            colors=['#000000', '#DC5F00'],
             limits=[0.1, 1, 10, 60],
             limit_type='time',
             image_path=images,

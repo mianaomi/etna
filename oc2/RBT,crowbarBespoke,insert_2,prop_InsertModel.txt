@@ -1,0 +1,150 @@
+[1703142390.365953 start]
+[1703142390.365963 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.366711 exit 1]
+[1703142390.424248 start]
+[1703142390.424255 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.424949 exit 1]
+[1703142390.484175 start]
+[1703142390.484182 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.484885 exit 1]
+[1703142390.544979 start]
+[1703142390.544993 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.545773 exit 1]
+[1703142390.606077 start]
+[1703142390.606084 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.606857 exit 1]
+[1703142390.666471 start]
+[1703142390.666479 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.667187 exit 1]
+[1703142390.724751 start]
+[1703142390.724758 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.725442 exit 1]
+[1703142390.781937 start]
+[1703142390.781944 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.782634 exit 1]
+[1703142390.840953 start]
+[1703142390.840961 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.841720 exit 1]
+[1703142390.901260 start]
+[1703142390.901268 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B (T R (T B (T R E -52 117 E) -27 67 E) -14 -115 (T B (T R E 5 -127 E) 22 -15 E)) 39 -56 (T R (T B (T R E 49 -121 E) 84 57 E) 103 38 (T B E 106 2 (T R E 109 19 E))));
+     -43;
+     -28]
+    
+the test failed:
+
+    check false
+    
+[1703142390.901979 exit 1]

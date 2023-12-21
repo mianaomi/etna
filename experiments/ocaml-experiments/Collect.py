@@ -7,14 +7,14 @@ from benchtool.Tasks import tasks
 DEFAULT_DIR = 'oc2'
 
 
-RUNNING = ['BST']
-STRATEGIES = ["bespokeGenerator", "typeBasedGenerator", "crowbarType", "crowbarBespoke"]
-# STRATEGIES = ['crowbarBespoke']
+RUNNING = ['RBT']
+# STRATEGIES = ["bespokeGenerator", "typeBasedGenerator", "crowbarType", "crowbarBespoke"]
+STRATEGIES = ['bespokeGenerator']
 TRIALS = 10
 TIMEOUT = 65
 
 def collect(results: str):
-    tool = OCaml(results, replace_level=ReplaceLevel.REPLACE)
+    tool = OCaml(results, replace_level=ReplaceLevel.SKIP)
 
     for workload in tool.all_workloads():
         if workload.name not in RUNNING:

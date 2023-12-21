@@ -3,7 +3,7 @@ import os
 import json
 import Parse
 
-DATA_PATH = './oc/'
+DATA_PATH = './oc2/'
 OUTPUT_FILE = './experiments/ocaml-experiments/parsed.json'
 APPEND = True # if false, will override the contents in OUTPUT_FILE
 

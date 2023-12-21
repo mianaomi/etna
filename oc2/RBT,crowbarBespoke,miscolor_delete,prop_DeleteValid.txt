@@ -1,0 +1,130 @@
+[1703142633.028923 start]
+[1703142633.028947 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.029771 exit 1]
+[1703142633.090546 start]
+[1703142633.090554 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.091243 exit 1]
+[1703142633.152076 start]
+[1703142633.152084 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.152761 exit 1]
+[1703142633.213544 start]
+[1703142633.213552 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.214252 exit 1]
+[1703142633.275103 start]
+[1703142633.275112 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.275853 exit 1]
+[1703142633.336504 start]
+[1703142633.336512 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.337228 exit 1]
+[1703142633.398537 start]
+[1703142633.398545 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.399285 exit 1]
+[1703142633.460388 start]
+[1703142633.460396 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.461123 exit 1]
+[1703142633.522005 start]
+[1703142633.522013 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.522686 exit 1]
+[1703142633.584938 start]
+[1703142633.584946 end]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5]
+    
+the test failed:
+
+    check false
+    
+[1703142633.585655 exit 1]

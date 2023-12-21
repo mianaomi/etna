@@ -1,0 +1,130 @@
+[1703142387.297609 start]
+[1703142387.297618 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.298316 exit 1]
+[1703142387.360626 start]
+[1703142387.360635 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.361383 exit 1]
+[1703142387.420056 start]
+[1703142387.420063 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.420719 exit 1]
+[1703142387.476912 start]
+[1703142387.476920 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.477576 exit 1]
+[1703142387.533561 start]
+[1703142387.533568 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.534225 exit 1]
+[1703142387.591882 start]
+[1703142387.591890 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.592549 exit 1]
+[1703142387.648876 start]
+[1703142387.648887 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.649559 exit 1]
+[1703142387.705614 start]
+[1703142387.705622 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.706260 exit 1]
+[1703142387.762763 start]
+[1703142387.762771 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.763428 exit 1]
+[1703142387.819758 start]
+[1703142387.819766 end]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T B E 41 -28 (T R E 76 33 E)); 5; 9]
+    
+the test failed:
+
+    check false
+    
+[1703142387.820421 exit 1]

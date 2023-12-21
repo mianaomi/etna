@@ -1,0 +1,150 @@
+[1703142623.086132 start]
+[1703142623.086153 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.086985 exit 1]
+[1703142623.148361 start]
+[1703142623.148371 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.149164 exit 1]
+[1703142623.210114 start]
+[1703142623.210123 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.210886 exit 1]
+[1703142623.271149 start]
+[1703142623.271157 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.271904 exit 1]
+[1703142623.343920 start]
+[1703142623.343929 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.344695 exit 1]
+[1703142623.406947 start]
+[1703142623.406955 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.407681 exit 1]
+[1703142623.468349 start]
+[1703142623.468357 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.469102 exit 1]
+[1703142623.529894 start]
+[1703142623.529902 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.530740 exit 1]
+[1703142623.592094 start]
+[1703142623.592102 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.592864 exit 1]
+[1703142623.653242 start]
+[1703142623.653249 end]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T B (T B E -110 -50 (T R E -50 33 E)) -23 82 (T B (T R E 26 79 E) 27 33 E)) 30 -32 (T B (T B E 36 -46 E) 53 40 (T B E 62 82 (T R E 91 54 E))));
+     -104;
+     53]
+    
+the test failed:
+
+    check false
+    
+[1703142623.653977 exit 1]

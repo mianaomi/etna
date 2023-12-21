@@ -34,13 +34,13 @@ let bespoke =
       list_repeat n (pair small_int small_int) >>= fun kvs ->
       return (fold_left (fun t (k, v) -> insert_correct k v t) E kvs))
 
-(*! QCheck test_prop_InsertValid. *)
-(*! QCheck test_prop_DeleteValid. *)
-(*! QCheck test_prop_InsertPost. *)
-(*! QCheck test_prop_DeletePost. *)
-(*! QCheck test_prop_InsertModel. *)
-(*! QCheck test_prop_DeleteModel. *)
-(*! QCheck test_prop_InsertInsert. *)
-(*! QCheck test_prop_InsertDelete. *)
-(*! QCheck test_prop_DeleteInsert. *)
-(*! QCheck test_prop_DeleteDelete. *)
+
+let rec print_tree t =
+  match t with
+  | E -> "Empty"
+  | T (c, l, k, v, r) ->
+      let cs = if c = R then "R" else "B" in
+      "Tree (" ^ cs ^ "," ^ print_tree l ^ "," ^ string_of_int k ^ ","
+      ^ string_of_int v ^ "," ^ print_tree r ^ ")"
+
+let bespoke = QCheck.make bespoke ~print:print_tree

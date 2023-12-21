@@ -23,24 +23,3 @@ let rec print_tree = function
 
 let bespoke = QCheck.make bespoke ~print:print_tree;;
 
-
-(*! QCheck test_prop_InsertValid. *)
-(*! QCheck test_prop_DeleteValid. *)
-(*! QCheck test_prop_UnionValid. *)
-(*! QCheck test_prop_InsertPost. *)
-(*! QCheck test_prop_DeletePost. *)
-(*! QCheck test_prop_UnionPost. *)
-(*! QCheck test_prop_InsertModel. *)
-(*! QCheck test_prop_DeleteModel. *)
-(*! QCheck test_prop_UnionModel. *)
-(*! QCheck test_prop_InsertInsert. *)
-(*! QCheck test_prop_InsertDelete. *)
-(*! QCheck test_prop_InsertUnion. *)
-(*! QCheck test_prop_DeleteInsert. *)
-(*! QCheck test_prop_DeleteDelete. *)
-(*! QCheck test_prop_DeleteUnion. *)
-(*! QCheck test_prop_UnionDeleteInsert. *)
-(*! QCheck test_prop_UnionUnionIdem. *)
-(*! QCheck test_prop_UnionUnionAssoc. *)
-
-
