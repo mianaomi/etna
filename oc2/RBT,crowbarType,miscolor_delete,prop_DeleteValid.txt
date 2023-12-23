@@ -1,0 +1,120 @@
+[1703363244.054455 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.054951 exit 1]
+[1703363244.089856 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.090299 exit 1]
+[1703363244.125044 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.125492 exit 1]
+[1703363244.160385 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.160845 exit 1]
+[1703363244.195868 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.196324 exit 1]
+[1703363244.231236 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.231687 exit 1]
+[1703363244.267029 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.267478 exit 1]
+[1703363244.302705 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.303149 exit 1]
+[1703363244.337876 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.338322 exit 1]
+[1703363244.373063 start]
+test_prop_DeleteValid: FAIL
+
+When given the input:
+
+    [(T B E -15 -51 (T R E 24 9 E)); -18]
+    
+the test failed:
+
+    check false
+    
+[1703363244.373547 exit 1]

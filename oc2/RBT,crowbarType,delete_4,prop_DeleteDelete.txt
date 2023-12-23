@@ -1,0 +1,120 @@
+[1703362950.288795 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362956.352715 exit 1]
+[1703362956.389119 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362962.430948 exit 1]
+[1703362962.467655 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362968.540279 exit 1]
+[1703362968.577116 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362974.614508 exit 1]
+[1703362974.651908 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362980.709715 exit 1]
+[1703362980.746687 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362986.792545 exit 1]
+[1703362986.837086 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362992.919703 exit 1]
+[1703362992.956132 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703362999.040164 exit 1]
+[1703362999.077092 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703363005.155758 exit 1]
+[1703363005.193084 start]
+test_prop_DeleteDelete: FAIL
+
+When given the input:
+
+    [(T B (T R E -54 35 E) 17 -3 (T R E 73 63 E)); 17; -54]
+    
+the test failed:
+
+    check false
+    
+[1703363011.268323 exit 1]

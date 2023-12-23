@@ -1,0 +1,120 @@
+[1703296109.745333 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296109.761981 exit 1]
+[1703296109.818031 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296109.834515 exit 1]
+[1703296109.890548 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296109.907076 exit 1]
+[1703296109.963060 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296109.979558 exit 1]
+[1703296110.035487 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296110.052220 exit 1]
+[1703296110.110093 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296110.126642 exit 1]
+[1703296110.182816 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296110.199323 exit 1]
+[1703296110.256062 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296110.272655 exit 1]
+[1703296110.329272 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296110.345805 exit 1]
+[1703296110.401984 start]
+test_prop_InsertPost: FAIL
+
+When given the input:
+
+    [(T R E -109 -113 E); 75; -109; -117]
+    
+the test failed:
+
+    check false
+    
+[1703296110.418531 exit 1]

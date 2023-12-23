@@ -1,0 +1,120 @@
+[1703363187.639219 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.641291 exit 1]
+[1703363187.676081 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.678065 exit 1]
+[1703363187.712961 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.714962 exit 1]
+[1703363187.749748 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.751734 exit 1]
+[1703363187.786523 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.788514 exit 1]
+[1703363187.823537 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.825511 exit 1]
+[1703363187.860265 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.862233 exit 1]
+[1703363187.897086 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.899053 exit 1]
+[1703363187.933882 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.935847 exit 1]
+[1703363187.970726 start]
+test_prop_DeleteInsert: FAIL
+
+When given the input:
+
+    [(T R E 98 119 E); -45; -45; 91]
+    
+the test failed:
+
+    check false
+    
+[1703363187.972718 exit 1]

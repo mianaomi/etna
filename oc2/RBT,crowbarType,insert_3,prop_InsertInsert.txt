@@ -1,0 +1,120 @@
+[1703296167.250071 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.252435 exit 1]
+[1703296167.309372 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.311723 exit 1]
+[1703296167.368217 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.370586 exit 1]
+[1703296167.426975 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.429333 exit 1]
+[1703296167.486145 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.488514 exit 1]
+[1703296167.544796 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.547172 exit 1]
+[1703296167.604010 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.606369 exit 1]
+[1703296167.662803 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.665174 exit 1]
+[1703296167.721936 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.724296 exit 1]
+[1703296167.780930 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [E; -59; -59; -122; 117]
+    
+the test failed:
+
+    check false
+    
+[1703296167.783280 exit 1]

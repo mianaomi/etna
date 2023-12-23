@@ -1,0 +1,3 @@
+fix the rbt delete properties
+
+they always return false when a mutant is applied

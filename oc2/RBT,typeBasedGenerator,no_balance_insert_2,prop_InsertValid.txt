@@ -1,0 +1,100 @@
+[1703302987.696394 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (1 shrink steps):
+
+(Tree (B,Tree (R,Empty,0,77,Empty),8,28,Tree (R,Empty,38,381,Empty)), 9, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302987.723092 exit 0]
+[1703302987.762519 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (9 shrink steps):
+
+(Tree (B,Tree (R,Empty,1,7474,Empty),4,202,Tree (R,Empty,94,45,Empty)), 5, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302988.048766 exit 0]
+[1703302988.084381 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (12 shrink steps):
+
+(Tree (B,Tree (R,Empty,3,84,Empty),8,3,Tree (R,Empty,662,2,Empty)), 9, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302988.289987 exit 0]
+[1703302988.330710 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (5 shrink steps):
+
+(Tree (B,Tree (R,Empty,1,598,Empty),6,8,Tree (R,Empty,44,2,Empty)), 7, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302988.626746 exit 0]
+[1703302988.666960 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (9 shrink steps):
+
+(Tree (B,Tree (R,Empty,4,738,Empty),6,52,Tree (R,Empty,34,1,Empty)), 7, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302988.833563 exit 0]
+[1703302988.871185 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (11 shrink steps):
+
+(Tree (B,Tree (R,Empty,3,0,Empty),5,6,Tree (R,Empty,77,5,Empty)), 6, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302988.891479 exit 0]
+[1703302988.929351 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (4 shrink steps):
+
+(Tree (B,Tree (R,Empty,6,95,Empty),8,770,Tree (R,Empty,62,8,Empty)), 9, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302989.623358 exit 0]
+[1703302989.659903 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (1 shrink steps):
+
+(Tree (B,Tree (R,Empty,4,29,Empty),5,2,Tree (R,Empty,84,204,Empty)), 6, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302989.689491 exit 0]
+[1703302989.725644 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (8 shrink steps):
+
+(Tree (B,Tree (R,Empty,2,26,Empty),3,445,Tree (R,Empty,79,81,Empty)), 4, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302989.778858 exit 0]
+[1703302989.814928 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (8 shrink steps):
+
+(Tree (B,Tree (R,Empty,4,9,Empty),9,8,Tree (R,Empty,293,0,Empty)), 10, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703302990.476237 exit 0]

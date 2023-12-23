@@ -1,5 +1,4 @@
-[1701820778.828450 start]
-[1701820778.828459 end]
+[1703217006.162627 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -10,9 +9,8 @@ the test failed:
 
     check false
     
-[1701820778.832825 exit 1]
-[1701820778.891972 start]
-[1701820778.891980 end]
+[1703217006.167839 exit 1]
+[1703217006.237357 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -23,9 +21,8 @@ the test failed:
 
     check false
     
-[1701820778.896253 exit 1]
-[1701820778.954176 start]
-[1701820778.954184 end]
+[1703217006.242515 exit 1]
+[1703217006.319140 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -36,9 +33,8 @@ the test failed:
 
     check false
     
-[1701820778.958448 exit 1]
-[1701820779.016261 start]
-[1701820779.016269 end]
+[1703217006.324198 exit 1]
+[1703217006.393080 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -49,9 +45,8 @@ the test failed:
 
     check false
     
-[1701820779.020521 exit 1]
-[1701820779.078004 start]
-[1701820779.078011 end]
+[1703217006.398148 exit 1]
+[1703217006.466763 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -62,9 +57,8 @@ the test failed:
 
     check false
     
-[1701820779.082338 exit 1]
-[1701820779.140087 start]
-[1701820779.140099 end]
+[1703217006.471827 exit 1]
+[1703217006.540500 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -75,9 +69,8 @@ the test failed:
 
     check false
     
-[1701820779.144404 exit 1]
-[1701820779.202204 start]
-[1701820779.202211 end]
+[1703217006.545590 exit 1]
+[1703217006.616092 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -88,9 +81,8 @@ the test failed:
 
     check false
     
-[1701820779.206471 exit 1]
-[1701820779.264449 start]
-[1701820779.264457 end]
+[1703217006.621138 exit 1]
+[1703217006.689860 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -101,9 +93,8 @@ the test failed:
 
     check false
     
-[1701820779.268698 exit 1]
-[1701820779.326375 start]
-[1701820779.326383 end]
+[1703217006.695340 exit 1]
+[1703217006.765583 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -114,9 +105,8 @@ the test failed:
 
     check false
     
-[1701820779.330651 exit 1]
-[1701820779.390346 start]
-[1701820779.390355 end]
+[1703217006.770624 exit 1]
+[1703217006.831294 start]
 test_prop_InsertModel: FAIL
 
 When given the input:
@@ -127,4 +117,4 @@ the test failed:
 
     check false
     
-[1701820779.394663 exit 1]
+[1703217006.835668 exit 1]

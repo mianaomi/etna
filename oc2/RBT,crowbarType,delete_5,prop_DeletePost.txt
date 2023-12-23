@@ -1,0 +1,120 @@
+[1703363176.939311 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363177.821657 exit 1]
+[1703363177.859077 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363178.776695 exit 1]
+[1703363178.812854 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363179.700020 exit 1]
+[1703363179.737770 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363180.624274 exit 1]
+[1703363180.660757 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363181.547143 exit 1]
+[1703363181.584472 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363182.477806 exit 1]
+[1703363182.513819 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363183.392942 exit 1]
+[1703363183.428364 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363184.311144 exit 1]
+[1703363184.347319 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363185.248991 exit 1]
+[1703363185.285555 start]
+test_prop_DeletePost: FAIL
+
+When given the input:
+
+    [(T B (T R E -74 -79 E) 25 -72 E); -74; -74]
+    
+the test failed:
+
+    check false
+    
+[1703363186.176047 exit 1]

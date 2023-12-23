@@ -1,140 +1,100 @@
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      8      0      1      4 / 500000     0.0s test_prop_InsertModel
+[1703216942.022855 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertModel failed (4 shrink steps):
+
+(Tree (Empty,63,5,Empty), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216942.023785 exit 0]
+[1703216942.166090 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_InsertModel failed (9 shrink steps):
 
-(Tree (Tree (Empty,63,318,Empty),903,5651,Empty), 0, 0)
+(Tree (Empty,2,42,Empty), 0, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 1.18]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_InsertModel
+[1703216942.167765 exit 0]
+[1703216942.292262 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_InsertModel failed (12 shrink steps):
+Test test_prop_InsertModel failed (2 shrink steps):
 
-(Tree (Tree (Empty,50,3979,Empty),88,67,Empty), 0, 0)
+(Tree (Empty,8,0,Empty), 0, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 0.11]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]     15      0      1      2 / 500000     0.0s test_prop_InsertModel
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertModel failed (10 shrink steps):
-
-(Tree (Empty,2,95,Empty), 3, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 0.54]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      8      0      1      2 / 500000     0.0s test_prop_InsertModel
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertModel failed (3 shrink steps):
-
-(Tree (Empty,0,237,Tree (Tree (Empty,9,6,Empty),346,9,Empty)), 0, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 0.25]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      5      0      1      3 / 500000     0.0s test_prop_InsertModel
+[1703216942.297320 exit 0]
+[1703216942.401702 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_InsertModel failed (6 shrink steps):
 
-(Tree (Empty,0,603,Empty), 1, 0)
+(Tree (Empty,7,7,Empty), 0, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 0.11]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      3      0      1      1 / 500000     0.0s test_prop_InsertModel
+[1703216942.408382 exit 0]
+[1703216942.499613 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_InsertModel failed (11 shrink steps):
+Test test_prop_InsertModel failed (13 shrink steps):
 
-(Tree (Empty,6,758,Empty), 0, 0)
+(Tree (Empty,4,412,Empty), 0, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 3.65]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      2      0      1      0 / 500000     0.0s test_prop_InsertModel
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertModel failed (12 shrink steps):
-
-(Tree (Empty,4,9,Empty), 0, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 0.15]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      5      0      1      1 / 500000     0.0s test_prop_InsertModel
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertModel failed (12 shrink steps):
-
-(Tree (Tree (Empty,7,3990,Empty),8,7,Tree (Empty,20,295,Empty)), 0, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 3.42]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      7      0      1      1 / 500000     0.0s test_prop_InsertModel
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertModel failed (6 shrink steps):
-
-(Tree (Empty,2,4,Empty), 3, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 3.89]
-[prop_InsertModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertModel (generating)
-[✗]      6      0      1      4 / 500000     0.0s test_prop_InsertModel
+[1703216942.500746 exit 0]
+[1703216942.585483 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_InsertModel failed (5 shrink steps):
 
-(Tree (Tree (Empty,4,51,Empty),31,67,Empty), 0, 0)
+(Tree (Empty,1,4,Empty), 0, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertModel -> 0.11]
+[1703216942.586216 exit 0]
+[1703216942.655326 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertModel failed (7 shrink steps):
+
+(Tree (Tree (Empty,1,0,Empty),3,6,Empty), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216942.655896 exit 0]
+[1703216942.720784 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertModel failed (8 shrink steps):
+
+(Tree (Empty,7,2,Empty), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216942.721357 exit 0]
+[1703216942.785550 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertModel failed (8 shrink steps):
+
+(Tree (Empty,5,29,Empty), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216942.789658 exit 0]
+[1703216942.854410 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertModel failed (4 shrink steps):
+
+(Tree (Tree (Empty,2,0,Tree (Empty,34,741,Empty)),6799,0,Empty), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216942.855037 exit 0]

@@ -2,27 +2,24 @@ open Runner
 open QCheck
 open Crowbar
 
+(* global timeout for test threads (only crowbar is supported using this for now) *)
+let timeout = 60
+
 let rec lookup l k =
   match l with
   | [] -> None
   | (k', v) :: l' -> if k = k' then Some v else lookup l' k
 
-let qmain t ts s ss file =
+let qmain t ts s ss oc =
   let tst = lookup ts t in
   let arb = lookup ss s in
   match (tst, arb) with
   | None, _ -> Printf.printf "Test %s not found\n" t
   | _, None -> Printf.printf "Strategy %s not found\n" s
   | Some tst, Some arb ->
-      let oc =
-        open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 file
-      in
-      let _ = Printf.fprintf oc "[%s|\n" t in
-      let st = Sys.time () in
-      let _ = qrun tst arb oc in
-      let dt = (Sys.time () -. st) *. 1000.0 in
-      Printf.fprintf oc "|%s -> %.2f]\n" t dt;
-      close_out oc
+      Printf.fprintf oc "[%f start]\n" (Unix.gettimeofday ());
+      flush oc;
+      qrun tst arb oc
 
 let cmain t ts s ss =
   let tst = lookup ts t in
@@ -32,9 +29,8 @@ let cmain t ts s ss =
   | _, None -> Printf.printf "Strategy %s not found\n" s
   | Some tst, Some gen ->
       Printf.printf "[%f start]\n" (Unix.gettimeofday ());
-      crun tst gen;
-      at_exit (fun () -> Printf.printf "[%f end]\n" (Unix.gettimeofday ()));
-      ()
+      flush stdout;
+      crun tst gen
 
 let load_env () =
   let get = Unix.getenv in
@@ -65,21 +61,52 @@ let crowbar_fork framework test strat filename =
       (make_env framework test strat filename)
       Unix.stdin od Unix.stderr
   with
-  | 0 -> () (* child thread *)
+  | 0 -> () (* runner/child thread *)
   | pid -> (
-      (* parent thread *)
-      let _, status = Unix.waitpid [] pid in
-      match status with
-      | Unix.WEXITED c ->
-          Printf.fprintf oc "[%f exit %i]\n" (Unix.gettimeofday ()) c
-      | _ -> Printf.fprintf oc "[%f exit unsafely]\n" (Unix.gettimeofday ()))
+      match Unix.fork () with
+      | 0 ->
+          (* timeout thread *)
+          Unix.sleep timeout;
+          Unix.kill pid Sys.sigalrm
+      | pid' -> (
+          (* waiting thread *)
+          let _, status = Unix.waitpid [] pid in
+          Unix.kill pid' Sys.sigterm;
+          let endtime = Unix.gettimeofday () in
+          match status with
+          | Unix.WEXITED c -> Printf.fprintf oc "[%f exit %i]\n" endtime c
+          | Unix.WSIGNALED c when c = Sys.sigalrm ->
+              Printf.fprintf oc "[%f exit timeout]\n" endtime
+          | _ -> Printf.fprintf oc "[%f exit unexpected]\n" endtime))
+
+let qcheck_fork t ts s ss f =
+  let oc = open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 f in
+  match Unix.fork () with
+  (* runner/child thread *)
+  | 0 -> qmain t ts s ss oc
+  | pid -> (
+      match Unix.fork () with
+      | 0 ->
+          (* timeout thread *)
+          Unix.sleep timeout;
+          Unix.kill pid Sys.sigalrm
+      | pid' -> (
+          (* waiting thread *)
+          let _, status = Unix.waitpid [] pid in
+          Unix.kill pid' Sys.sigterm;
+          let endtime = Unix.gettimeofday () in
+          match status with
+          | Unix.WEXITED c -> Printf.fprintf oc "[%f exit %i]\n" endtime c
+          | Unix.WSIGNALED c when c = Sys.sigalrm ->
+              Printf.fprintf oc "[%f exit timeout]\n" endtime
+          | _ -> Printf.fprintf oc "[%f exit unexpected]\n" endtime))
 
 (* Call format:
    dune exec <workload> -- <framework> <testname> <strategy> <filename>
    for example,
    dune exec BST -- qcheck prop_InsertValid bespokeGenerator out.txt
    or
-   dune exec BST -- crowbar prop_InsertPost typeBasedCrowbar out2.txt
+   dune exec BST -- crowbar prop_InsertPost crowbarType out2.txt
 *)
 let main (props : (string * 'a property) list)
     (qstrats : (string * 'a arbitrary) list) (cstrats : (string * 'a gen) list)
@@ -96,7 +123,7 @@ let main (props : (string * 'a property) list)
     match framework with
     | "qcheck" ->
         Printf.printf "Valid framework QCheck\n";
-        qmain testname props strategy qstrats filename
+        qcheck_fork testname props strategy qstrats filename
     | "crowbar" ->
         Printf.printf "Valid framework Crowbar\n";
         crowbar_fork framework testname strategy filename

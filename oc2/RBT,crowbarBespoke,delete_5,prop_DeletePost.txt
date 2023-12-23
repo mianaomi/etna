@@ -1,5 +1,4 @@
-[1703142627.230172 start]
-[1703142627.230193 end]
+[1703193918.265035 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -12,9 +11,8 @@ the test failed:
 
     check false
     
-[1703142627.292621 exit 1]
-[1703142627.352948 start]
-[1703142627.352956 end]
+[1703193918.327460 exit 1]
+[1703193918.385329 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -27,9 +25,8 @@ the test failed:
 
     check false
     
-[1703142627.414972 exit 1]
-[1703142627.476118 start]
-[1703142627.476125 end]
+[1703193918.447417 exit 1]
+[1703193918.504574 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -42,9 +39,8 @@ the test failed:
 
     check false
     
-[1703142627.537900 exit 1]
-[1703142627.595447 start]
-[1703142627.595454 end]
+[1703193918.566711 exit 1]
+[1703193918.623701 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -57,9 +53,8 @@ the test failed:
 
     check false
     
-[1703142627.657253 exit 1]
-[1703142627.714258 start]
-[1703142627.714265 end]
+[1703193918.685438 exit 1]
+[1703193918.742220 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -72,9 +67,8 @@ the test failed:
 
     check false
     
-[1703142627.775898 exit 1]
-[1703142627.834020 start]
-[1703142627.834027 end]
+[1703193918.804049 exit 1]
+[1703193918.861907 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -87,9 +81,8 @@ the test failed:
 
     check false
     
-[1703142627.896639 exit 1]
-[1703142627.958107 start]
-[1703142627.958116 end]
+[1703193918.926587 exit 1]
+[1703193918.985930 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -102,9 +95,8 @@ the test failed:
 
     check false
     
-[1703142628.020181 exit 1]
-[1703142628.081433 start]
-[1703142628.081442 end]
+[1703193919.047959 exit 1]
+[1703193919.105830 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -117,9 +109,8 @@ the test failed:
 
     check false
     
-[1703142628.143746 exit 1]
-[1703142628.211645 start]
-[1703142628.211654 end]
+[1703193919.167778 exit 1]
+[1703193919.226753 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -132,9 +123,8 @@ the test failed:
 
     check false
     
-[1703142628.274290 exit 1]
-[1703142628.336335 start]
-[1703142628.336342 end]
+[1703193919.288632 exit 1]
+[1703193919.346783 start]
 test_prop_DeletePost: FAIL
 
 When given the input:
@@ -147,4 +137,4 @@ the test failed:
 
     check false
     
-[1703142628.398652 exit 1]
+[1703193919.409731 exit 1]

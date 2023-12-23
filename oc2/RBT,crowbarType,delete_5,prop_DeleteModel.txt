@@ -1,0 +1,120 @@
+[1703363186.212719 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363186.319613 exit 1]
+[1703363186.355071 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363186.462835 exit 1]
+[1703363186.497954 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363186.605613 exit 1]
+[1703363186.640630 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363186.748244 exit 1]
+[1703363186.783803 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363186.891281 exit 1]
+[1703363186.926641 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363187.033849 exit 1]
+[1703363187.068865 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363187.176169 exit 1]
+[1703363187.211201 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363187.318570 exit 1]
+[1703363187.354226 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363187.461123 exit 1]
+[1703363187.496073 start]
+test_prop_DeleteModel: FAIL
+
+When given the input:
+
+    [(T B (T B (T R E -128 -128 E) -49 -26 E) 24 -33 (T B E 66 -125 E)); -128]
+    
+the test failed:
+
+    check false
+    
+[1703363187.603862 exit 1]

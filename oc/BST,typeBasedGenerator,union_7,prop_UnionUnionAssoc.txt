@@ -1,156 +1,100 @@
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]    190      0      1     26 / 500000     0.0s test_prop_UnionUnionAssoc
+[1703217301.362777 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,6,850,Empty), Tree (Empty,2,5,Empty), Tree (Empty,2,67,Tree (Empty,38,1,Empty)))
+(Tree (Empty,1,547,Tree (Empty,800,77,Empty)), Tree (Empty,51,1,Empty), Tree (Tree (Empty,13,6,Empty),929,0,Tree (Empty,7566,36,Empty)))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 41.99]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    232      0      0     24 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[ ]    535      0      0     71 / 500000     0.2s test_prop_UnionUnionAssoc (collecting)
-[ ]    823      0      0    117 / 500000     0.3s test_prop_UnionUnionAssoc (collecting)
-[✗]   1062      0      1    146 / 500000     0.4s test_prop_UnionUnionAssoc
+[1703217301.418518 exit 0]
+[1703217301.476204 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,2,118,Empty), Tree (Empty,0,18,Empty), Tree (Empty,5,18,Empty))
+(Tree (Empty,529,562,Empty), Tree (Empty,40,8,Empty), Tree (Empty,428,1638,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 377.04]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]    120      0      1      9 / 500000     0.1s test_prop_UnionUnionAssoc
+[1703217301.842105 exit 0]
+[1703217301.899569 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,97,5,Empty), Tree (Empty,780,808,Empty), Tree (Tree (Empty,2,5,Empty),6,5,Empty))
+(Tree (Tree (Empty,3,152,Empty),9,8,Tree (Empty,155,23,Empty)), Tree (Empty,5,817,Tree (Empty,7,6,Empty)), Tree (Empty,18,1,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 65.78]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    276      0      0     44 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[ ]    524      0      0     74 / 500000     0.2s test_prop_UnionUnionAssoc (collecting)
-[✗]    664      0      1    102 / 500000     0.3s test_prop_UnionUnionAssoc
+[1703217301.980088 exit 0]
+[1703217302.038509 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,23,83,Empty), Tree (Tree (Tree (Empty,71,362,Empty),91,625,Empty),808,2,Empty), Tree (Tree (Empty,7,40,Empty),76,4,Tree (Empty,592,5503,Empty)))
+(Tree (Empty,0,7,Empty), Tree (Empty,74,7,Empty), Tree (Empty,7,0,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 299.05]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    374      0      0     45 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[ ]    615      0      0     82 / 500000     0.2s test_prop_UnionUnionAssoc (collecting)
-[✗]    690      0      1     91 / 500000     0.2s test_prop_UnionUnionAssoc
+[1703217302.395551 exit 0]
+[1703217302.453999 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,285,850,Empty), Tree (Empty,363,9,Empty), Tree (Empty,52,3,Empty))
+(Tree (Tree (Empty,74,9,Empty),903,5,Empty), Tree (Tree (Empty,2,34,Empty),8,79,Empty), Tree (Empty,33,724,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 244.20]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    212      0      0     32 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[✗]    582      0      1     78 / 500000     0.2s test_prop_UnionUnionAssoc
+[1703217302.650737 exit 0]
+[1703217302.708700 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,6,6,Tree (Empty,7,86,Tree (Empty,9,1,Empty))), Tree (Tree (Empty,7,544,Empty),8945,29,Empty), Tree (Empty,2,1,Empty))
+(Tree (Empty,2,5,Empty), Tree (Empty,7,0,Empty), Tree (Tree (Tree (Empty,1,0,Empty),8,1,Empty),67,6,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 167.45]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    279      0      0     35 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[ ]    562      0      0     71 / 500000     0.2s test_prop_UnionUnionAssoc (collecting)
-[✗]    726      0      1     96 / 500000     0.3s test_prop_UnionUnionAssoc
+[1703217303.668941 exit 0]
+[1703217303.728324 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,13,656,Empty), Tree (Empty,14,68,Empty), Tree (Tree (Empty,0,0,Empty),61,430,Tree (Empty,251,4,Tree (Empty,4769,35,Empty))))
+(Tree (Tree (Empty,26,13,Empty),5507,70,Empty), Tree (Empty,95,5128,Empty), Tree (Empty,182,0,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 257.96]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    212      0      0     27 / 500000     0.1s test_prop_UnionUnionAssoc (collecting)
-[ ]    571      0      0     67 / 500000     0.2s test_prop_UnionUnionAssoc (collecting)
-[ ]    809      0      0     97 / 500000     0.3s test_prop_UnionUnionAssoc (collecting)
-[ ]   1093      0      0    133 / 500000     0.4s test_prop_UnionUnionAssoc (collecting)
-[ ]   1438      0      0    170 / 500000     0.5s test_prop_UnionUnionAssoc (collecting)
-[✗]   1674      0      1    202 / 500000     0.6s test_prop_UnionUnionAssoc
+[1703217303.834812 exit 0]
+[1703217303.895529 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,2,586,Tree (Empty,5,45,Empty)), Tree (Empty,459,720,Empty), Tree (Empty,4,7,Empty))
+(Tree (Tree (Empty,2,154,Empty),4,64,Tree (Empty,17,8,Empty)), Tree (Tree (Empty,3,81,Empty),9,826,Empty), Tree (Tree (Empty,1,39,Empty),9,0,Tree (Empty,877,58,Empty)))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 592.37]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[ ]    177      0      0     19 / 500000    15.4s test_prop_UnionUnionAssoc (collecting)
-[✗]    310      0      1     37 / 500000    15.5s test_prop_UnionUnionAssoc
+[1703217304.085923 exit 0]
+[1703217304.145472 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,31,2,Tree (Empty,671,3,Empty)), Tree (Empty,7,481,Empty), Tree (Empty,57,4,Empty))
+(Tree (Empty,69,9,Empty), Tree (Empty,4,6,Empty), Tree (Empty,67,6,Empty))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 109.96]
-[prop_UnionUnionAssoc|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc
-[ ]      0      0      0      0 / 500000     0.0s test_prop_UnionUnionAssoc (generating)
-[✗]    180      0      1     27 / 500000     0.1s test_prop_UnionUnionAssoc
+[1703217304.234496 exit 0]
+[1703217304.291767 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_UnionUnionAssoc failed (0 shrink steps):
 
-(Tree (Empty,1,9,Empty), Tree (Empty,297,6,Empty), Tree (Empty,888,387,Empty))
+(Tree (Empty,232,28,Empty), Tree (Empty,5,5,Empty), Tree (Empty,8,1,Tree (Empty,571,2811,Empty)))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_UnionUnionAssoc -> 88.46]
+[1703217304.307634 exit 0]

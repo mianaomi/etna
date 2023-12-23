@@ -1,607 +1,100 @@
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]    759      0      0    759 / 500000     0.1s test_prop_DeleteInsert
-[ ]   1770      0      0   1770 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   2828      0      0   2828 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   3913      0      0   3913 / 500000     0.4s test_prop_DeleteInsert
-[ ]   4776      0      0   4776 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   5675      0      0   5675 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[ ]   6577      0      0   6577 / 500000     0.7s test_prop_DeleteInsert (collecting)
-[ ]   7716      0      0   7716 / 500000     0.8s test_prop_DeleteInsert (collecting)
-[ ]   8849      0      0   8849 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]  10018      0      0  10018 / 500000     1.0s test_prop_DeleteInsert (collecting)
-[ ]  11100      0      0  11100 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  12092      0      0  12092 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  13004      0      0  13004 / 500000     1.3s test_prop_DeleteInsert (collecting)
-[ ]  14130      0      0  14130 / 500000     1.4s test_prop_DeleteInsert (collecting)
-[ ]  15087      0      0  15087 / 500000     1.5s test_prop_DeleteInsert (collecting)
-[ ]  16065      0      0  16065 / 500000     1.6s test_prop_DeleteInsert (collecting)
-[ ]  17138      0      0  17138 / 500000     1.7s test_prop_DeleteInsert (collecting)
-[ ]  18262      0      0  18262 / 500000     1.8s test_prop_DeleteInsert (collecting)
-[ ]  19118      0      0  19118 / 500000     1.9s test_prop_DeleteInsert (collecting)
-[ ]  20143      0      0  20143 / 500000     2.0s test_prop_DeleteInsert (collecting)
-[ ]  21348      0      0  21348 / 500000     2.1s test_prop_DeleteInsert (collecting)
-[ ]  22294      0      0  22294 / 500000     2.2s test_prop_DeleteInsert (collecting)
-[✗]  23110      0      1  23109 / 500000     2.3s test_prop_DeleteInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteInsert failed (8 shrink steps):
-
-(Tree (B,Tree (R,Tree (B,Empty,0,9,Tree (R,Empty,2,0,Empty)),4,6,Tree (B,Empty,7,96,Empty)),8,4,Tree (B,Empty,9,99,Empty)), 9, 1, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 2296.23]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]   1143      0      0   1143 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   1939      0      0   1939 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   2927      0      0   2927 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   3921      0      0   3921 / 500000     0.4s test_prop_DeleteInsert (collecting)
-[ ]   4897      0      0   4897 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   5810      0      0   5810 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[ ]   6881      0      0   6881 / 500000     0.7s test_prop_DeleteInsert (collecting)
-[ ]   7871      0      0   7871 / 500000     0.8s test_prop_DeleteInsert
-[ ]   8914      0      0   8914 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]   9891      0      0   9891 / 500000     1.0s test_prop_DeleteInsert
-[ ]  10831      0      0  10831 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  11872      0      0  11872 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  12814      0      0  12814 / 500000     1.3s test_prop_DeleteInsert (collecting)
-[ ]  13905      0      0  13905 / 500000     1.4s test_prop_DeleteInsert
-[ ]  14973      0      0  14973 / 500000     1.5s test_prop_DeleteInsert (collecting)
-[ ]  15883      0      0  15883 / 500000     1.6s test_prop_DeleteInsert (collecting)
-[ ]  16926      0      0  16926 / 500000     1.7s test_prop_DeleteInsert
-[ ]  18265      0      0  18265 / 500000     1.8s test_prop_DeleteInsert (collecting)
-[✗]  19160      0      1  19159 / 500000     1.9s test_prop_DeleteInsert
+[1703297431.931697 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteInsert failed (4 shrink steps):
 
-(Tree (B,Tree (R,Tree (B,Empty,1,1,Tree (R,Empty,4,6,Empty)),5,7,Tree (B,Empty,6,3,Empty)),7,7,Tree (B,Empty,8,6,Empty)), 8, 2, 0)
+(Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Empty,0,7,Empty),1,6,Empty),2,36,Tree (B,Tree (R,Empty,3,3,Empty),4,6,Tree (R,Empty,6,81,Empty))),7,3,Tree (B,Empty,8,3,Empty)),9,0,Tree (B,Tree (B,Empty,16,9,Empty),37,9,Tree (B,Empty,46,7,Empty))), 8, 5, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 1894.71]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]    993      0      0    993 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   1900      0      0   1900 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   2854      0      0   2854 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   3986      0      0   3986 / 500000     0.4s test_prop_DeleteInsert (collecting)
-[ ]   5053      0      0   5053 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   6104      0      0   6104 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[ ]   7183      0      0   7183 / 500000     0.7s test_prop_DeleteInsert
-[ ]   8165      0      0   8165 / 500000     0.8s test_prop_DeleteInsert (collecting)
-[ ]   9073      0      0   9073 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]  10090      0      0  10090 / 500000     1.0s test_prop_DeleteInsert (collecting)
-[ ]  11013      0      0  11013 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  12133      0      0  12133 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  13135      0      0  13135 / 500000     1.3s test_prop_DeleteInsert
-[ ]  14114      0      0  14114 / 500000     1.4s test_prop_DeleteInsert (collecting)
-[✗]  14293      0      1  14292 / 500000     1.4s test_prop_DeleteInsert
+[1703297433.965187 exit 0]
+[1703297434.019734 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_DeleteInsert failed (7 shrink steps):
+Test test_prop_DeleteInsert failed (4 shrink steps):
 
-(Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Empty,0,0,Empty),1,3,Empty),2,7,Tree (B,Empty,4,7,Tree (R,Empty,5,4,Empty))),7,68,Tree (B,Empty,8,3,Empty)),9,5,Tree (R,Tree (B,Tree (B,Tree (R,Empty,12,52,Empty),19,8,Tree (R,Empty,26,9,Empty)),33,0,Tree (B,Empty,39,1,Tree (R,Empty,63,4,Empty))),74,0,Tree (B,Tree (B,Empty,78,7,Empty),84,4,Tree (B,Tree (R,Empty,96,4,Empty),99,3,Empty)))), 8, 6, 0)
+(Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Empty,0,8,Empty),1,7,Tree (R,Empty,2,7,Empty)),4,5,Tree (B,Empty,5,3,Tree (R,Empty,6,2,Empty))),7,2,Tree (B,Empty,8,5,Empty)),9,2,Tree (R,Tree (B,Tree (R,Tree (B,Tree (R,Empty,11,68,Empty),16,4,Empty),31,1,Tree (B,Empty,39,0,Empty)),55,6,Tree (B,Empty,58,24,Empty)),59,95,Tree (B,Tree (B,Empty,72,9,Tree (R,Empty,73,0,Empty)),76,41,Tree (R,Tree (B,Empty,85,4,Empty),91,7,Tree (B,Empty,95,7,Empty))))), 8, 3, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 1424.98]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]    895      0      0    895 / 500000     0.1s test_prop_DeleteInsert
-[ ]   1969      0      0   1969 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   2979      0      0   2979 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   3895      0      0   3895 / 500000     0.4s test_prop_DeleteInsert
-[ ]   4886      0      0   4886 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   5832      0      0   5832 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[ ]   6720      0      0   6720 / 500000     0.7s test_prop_DeleteInsert (collecting)
-[ ]   7809      0      0   7809 / 500000     0.8s test_prop_DeleteInsert (collecting)
-[ ]   8626      0      0   8626 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]   9644      0      0   9644 / 500000     1.0s test_prop_DeleteInsert (collecting)
-[ ]  10587      0      0  10587 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  11562      0      0  11562 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  12758      0      0  12758 / 500000     1.3s test_prop_DeleteInsert (collecting)
-[ ]  13855      0      0  13855 / 500000     1.4s test_prop_DeleteInsert (collecting)
-[ ]  15058      0      0  15058 / 500000     1.5s test_prop_DeleteInsert
-[ ]  16025      0      0  16025 / 500000     1.6s test_prop_DeleteInsert (collecting)
-[ ]  17162      0      0  17162 / 500000     1.7s test_prop_DeleteInsert (collecting)
-[ ]  18373      0      0  18373 / 500000     1.8s test_prop_DeleteInsert (collecting)
-[ ]  19493      0      0  19493 / 500000     1.9s test_prop_DeleteInsert (collecting)
-[ ]  20621      0      0  20621 / 500000     2.0s test_prop_DeleteInsert (collecting)
-[ ]  21686      0      0  21686 / 500000     2.1s test_prop_DeleteInsert (collecting)
-[ ]  22795      0      0  22795 / 500000     2.2s test_prop_DeleteInsert (collecting)
-[ ]  23818      0      0  23818 / 500000     2.3s test_prop_DeleteInsert (collecting)
-[ ]  24729      0      0  24729 / 500000     2.4s test_prop_DeleteInsert (collecting)
-[ ]  25847      0      0  25847 / 500000     2.5s test_prop_DeleteInsert (collecting)
-[ ]  27023      0      0  27023 / 500000     2.6s test_prop_DeleteInsert (collecting)
-[ ]  28138      0      0  28138 / 500000     2.7s test_prop_DeleteInsert (collecting)
-[ ]  29012      0      0  29012 / 500000     2.8s test_prop_DeleteInsert (collecting)
-[ ]  30022      0      0  30022 / 500000     2.9s test_prop_DeleteInsert (collecting)
-[ ]  30977      0      0  30977 / 500000     3.0s test_prop_DeleteInsert (collecting)
-[ ]  31942      0      0  31942 / 500000     3.1s test_prop_DeleteInsert (collecting)
-[ ]  32945      0      0  32945 / 500000     3.2s test_prop_DeleteInsert (collecting)
-[ ]  33906      0      0  33906 / 500000     3.3s test_prop_DeleteInsert (collecting)
-[ ]  34913      0      0  34913 / 500000     3.4s test_prop_DeleteInsert (collecting)
-[ ]  36161      0      0  36161 / 500000     3.5s test_prop_DeleteInsert (collecting)
-[ ]  37112      0      0  37112 / 500000     3.6s test_prop_DeleteInsert (collecting)
-[ ]  38234      0      0  38234 / 500000     3.7s test_prop_DeleteInsert (collecting)
-[ ]  39253      0      0  39253 / 500000     3.8s test_prop_DeleteInsert (collecting)
-[ ]  40327      0      0  40327 / 500000     3.9s test_prop_DeleteInsert (collecting)
-[ ]  41455      0      0  41455 / 500000     4.0s test_prop_DeleteInsert (collecting)
-[ ]  42487      0      0  42487 / 500000     4.1s test_prop_DeleteInsert (collecting)
-[ ]  43349      0      0  43349 / 500000     4.2s test_prop_DeleteInsert (collecting)
-[ ]  44414      0      0  44414 / 500000     4.3s test_prop_DeleteInsert
-[ ]  45476      0      0  45476 / 500000     4.4s test_prop_DeleteInsert (collecting)
-[ ]  46643      0      0  46643 / 500000     4.5s test_prop_DeleteInsert (collecting)
-[ ]  47678      0      0  47678 / 500000     4.6s test_prop_DeleteInsert
-[ ]  48525      0      0  48525 / 500000     4.7s test_prop_DeleteInsert (collecting)
-[ ]  49495      0      0  49495 / 500000     4.8s test_prop_DeleteInsert (collecting)
-[ ]  50183      0      0  50183 / 500000     4.9s test_prop_DeleteInsert (collecting)
-[ ]  51370      0      0  51370 / 500000     5.0s test_prop_DeleteInsert (collecting)
-[ ]  52431      0      0  52431 / 500000     5.1s test_prop_DeleteInsert (collecting)
-[ ]  53305      0      0  53305 / 500000     5.2s test_prop_DeleteInsert (collecting)
-[ ]  54355      0      0  54355 / 500000     5.3s test_prop_DeleteInsert (collecting)
-[ ]  55152      0      0  55152 / 500000     5.4s test_prop_DeleteInsert (collecting)
-[ ]  56011      0      0  56011 / 500000     5.5s test_prop_DeleteInsert (collecting)
-[ ]  57048      0      0  57048 / 500000     5.6s test_prop_DeleteInsert (collecting)
-[ ]  58082      0      0  58082 / 500000     5.7s test_prop_DeleteInsert (collecting)
-[ ]  58984      0      0  58984 / 500000     5.8s test_prop_DeleteInsert (collecting)
-[ ]  60186      0      0  60186 / 500000     5.9s test_prop_DeleteInsert (collecting)
-[ ]  61423      0      0  61423 / 500000     6.0s test_prop_DeleteInsert (collecting)
-[ ]  62616      0      0  62616 / 500000     6.1s test_prop_DeleteInsert (collecting)
-[ ]  63688      0      0  63688 / 500000     6.2s test_prop_DeleteInsert (collecting)
-[ ]  64689      0      0  64689 / 500000     6.3s test_prop_DeleteInsert (collecting)
-[ ]  65431      0      0  65431 / 500000     6.4s test_prop_DeleteInsert (collecting)
-[ ]  66252      0      0  66252 / 500000     6.5s test_prop_DeleteInsert (collecting)
-[ ]  67505      0      0  67505 / 500000     6.6s test_prop_DeleteInsert (collecting)
-[ ]  68705      0      0  68705 / 500000     6.7s test_prop_DeleteInsert (collecting)
-[ ]  69710      0      0  69710 / 500000     6.8s test_prop_DeleteInsert (collecting)
-[ ]  70776      0      0  70776 / 500000     6.9s test_prop_DeleteInsert (collecting)
-[ ]  71894      0      0  71894 / 500000     7.0s test_prop_DeleteInsert (collecting)
-[ ]  72904      0      0  72904 / 500000     7.1s test_prop_DeleteInsert (collecting)
-[ ]  73806      0      0  73806 / 500000     7.3s test_prop_DeleteInsert (collecting)
-[ ]  74731      0      0  74731 / 500000     7.4s test_prop_DeleteInsert
-[ ]  75792      0      0  75792 / 500000     7.5s test_prop_DeleteInsert (collecting)
-[ ]  76754      0      0  76754 / 500000     7.6s test_prop_DeleteInsert (collecting)
-[ ]  77893      0      0  77893 / 500000     7.7s test_prop_DeleteInsert (collecting)
-[ ]  79056      0      0  79056 / 500000     7.8s test_prop_DeleteInsert (collecting)
-[ ]  80119      0      0  80119 / 500000     7.9s test_prop_DeleteInsert (collecting)
-[ ]  81081      0      0  81081 / 500000     8.0s test_prop_DeleteInsert (collecting)
-[ ]  81946      0      0  81946 / 500000     8.1s test_prop_DeleteInsert (collecting)
-[ ]  83110      0      0  83110 / 500000     8.2s test_prop_DeleteInsert (collecting)
-[ ]  84068      0      0  84068 / 500000     8.3s test_prop_DeleteInsert (collecting)
-[ ]  85027      0      0  85027 / 500000     8.4s test_prop_DeleteInsert (collecting)
-[ ]  86084      0      0  86084 / 500000     8.5s test_prop_DeleteInsert (collecting)
-[ ]  87085      0      0  87085 / 500000     8.6s test_prop_DeleteInsert (collecting)
-[ ]  88002      0      0  88002 / 500000     8.7s test_prop_DeleteInsert (collecting)
-[ ]  88957      0      0  88957 / 500000     8.8s test_prop_DeleteInsert (collecting)
-[ ]  89945      0      0  89945 / 500000     8.9s test_prop_DeleteInsert (collecting)
-[ ]  90907      0      0  90907 / 500000     9.0s test_prop_DeleteInsert (collecting)
-[ ]  91972      0      0  91972 / 500000     9.1s test_prop_DeleteInsert (collecting)
-[ ]  93097      0      0  93097 / 500000     9.2s test_prop_DeleteInsert (collecting)
-[ ]  94099      0      0  94099 / 500000     9.3s test_prop_DeleteInsert
-[ ]  94925      0      0  94925 / 500000     9.4s test_prop_DeleteInsert (collecting)
-[ ]  95840      0      0  95840 / 500000     9.5s test_prop_DeleteInsert
-[ ]  97052      0      0  97052 / 500000     9.6s test_prop_DeleteInsert (collecting)
-[ ]  98183      0      0  98183 / 500000     9.7s test_prop_DeleteInsert (collecting)
-[ ]  99261      0      0  99261 / 500000     9.8s test_prop_DeleteInsert (collecting)
-[✗]  99682      0      1  99681 / 500000     9.8s test_prop_DeleteInsert
+[1703297435.089005 exit 0]
+[1703297435.143443 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_DeleteInsert failed (5 shrink steps):
+Test test_prop_DeleteInsert failed (4 shrink steps):
 
-(Tree (B,Tree (R,Tree (B,Empty,0,7,Empty),2,20,Tree (B,Empty,3,6,Tree (R,Empty,9,2,Empty))),47,3,Tree (B,Empty,82,5,Empty)), 82, 4, 0)
+(Tree (B,Tree (R,Tree (B,Tree (R,Empty,1,4,Empty),3,1,Tree (R,Empty,4,8,Empty)),6,1,Tree (B,Empty,7,10,Empty)),8,60,Tree (B,Empty,9,9,Empty)), 9, 5, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 9806.75]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]   1139      0      0   1139 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   2146      0      0   2146 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[✗]   2196      0      1   2195 / 500000     0.2s test_prop_DeleteInsert
+[1703297439.156232 exit 0]
+[1703297439.210852 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteInsert failed (3 shrink steps):
 
-(Tree (B,Tree (B,Tree (R,Tree (B,Empty,1,51,Empty),2,4,Tree (B,Empty,3,8,Tree (R,Empty,4,8,Empty))),6,2,Tree (B,Empty,7,1,Empty)),8,0,Tree (R,Tree (B,Tree (B,Empty,9,81,Tree (R,Empty,17,14,Empty)),20,25,Tree (B,Empty,56,4,Empty)),68,9,Tree (B,Tree (B,Empty,69,7,Empty),75,4,Tree (B,Empty,83,8,Empty)))), 7, 5, 0)
+(Tree (B,Tree (R,Tree (B,Tree (R,Tree (B,Empty,0,6,Tree (R,Empty,2,3,Empty)),3,4,Tree (B,Empty,4,27,Empty)),5,5,Tree (B,Empty,6,6,Empty)),7,0,Tree (B,Tree (B,Empty,9,99,Empty),21,6,Tree (B,Empty,22,72,Empty))),36,9,Tree (B,Tree (B,Tree (R,Empty,39,8,Empty),59,97,Empty),61,1,Tree (B,Empty,68,98,Tree (R,Empty,89,6,Empty)))), 6, 1, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 201.46]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]   1139      0      0   1139 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   2110      0      0   2110 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   2927      0      0   2927 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   3955      0      0   3955 / 500000     0.4s test_prop_DeleteInsert (collecting)
-[ ]   5070      0      0   5070 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   5997      0      0   5997 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[ ]   6938      0      0   6938 / 500000     0.7s test_prop_DeleteInsert (collecting)
-[ ]   7909      0      0   7909 / 500000     0.8s test_prop_DeleteInsert (collecting)
-[ ]   9184      0      0   9184 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]  10269      0      0  10269 / 500000     1.0s test_prop_DeleteInsert (collecting)
-[ ]  11146      0      0  11146 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  12149      0      0  12149 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  13244      0      0  13244 / 500000     1.3s test_prop_DeleteInsert (collecting)
-[ ]  14261      0      0  14261 / 500000     1.4s test_prop_DeleteInsert (collecting)
-[ ]  15431      0      0  15431 / 500000     1.5s test_prop_DeleteInsert (collecting)
-[ ]  16579      0      0  16579 / 500000     1.6s test_prop_DeleteInsert (collecting)
-[ ]  17429      0      0  17429 / 500000     1.7s test_prop_DeleteInsert (collecting)
-[ ]  18500      0      0  18500 / 500000     1.8s test_prop_DeleteInsert (collecting)
-[ ]  19468      0      0  19468 / 500000     1.9s test_prop_DeleteInsert (collecting)
-[ ]  20773      0      0  20773 / 500000     2.0s test_prop_DeleteInsert (collecting)
-[ ]  21816      0      0  21816 / 500000     2.1s test_prop_DeleteInsert (collecting)
-[ ]  22757      0      0  22757 / 500000     2.2s test_prop_DeleteInsert (collecting)
-[ ]  23751      0      0  23751 / 500000     2.3s test_prop_DeleteInsert (collecting)
-[ ]  24841      0      0  24841 / 500000     2.4s test_prop_DeleteInsert (collecting)
-[ ]  25964      0      0  25964 / 500000     2.5s test_prop_DeleteInsert (collecting)
-[✗]  26985      0      1  26984 / 500000     2.6s test_prop_DeleteInsert
+[1703297441.736318 exit 0]
+[1703297441.791369 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_DeleteInsert failed (9 shrink steps):
+Test test_prop_DeleteInsert failed (5 shrink steps):
 
-(Tree (B,Tree (R,Tree (B,Empty,3,7,Empty),4,5,Tree (B,Empty,5,84,Tree (R,Empty,7,96,Empty))),9,1,Tree (B,Empty,52,22,Empty)), 52, 6, 0)
+(Tree (B,Tree (B,Tree (R,Tree (B,Empty,0,94,Tree (R,Empty,2,68,Empty)),3,4,Tree (B,Empty,4,8,Tree (R,Empty,5,7,Empty))),6,37,Tree (B,Empty,8,90,Empty)),9,8,Tree (B,Tree (B,Empty,12,98,Empty),70,18,Tree (B,Empty,81,3,Empty))), 8, 1, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 2592.31]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]   1003      0      0   1003 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   1864      0      0   1864 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   2796      0      0   2796 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   3753      0      0   3753 / 500000     0.4s test_prop_DeleteInsert (collecting)
-[ ]   4621      0      0   4621 / 500000     0.5s test_prop_DeleteInsert
-[ ]   5511      0      0   5511 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[ ]   6784      0      0   6784 / 500000     0.7s test_prop_DeleteInsert (collecting)
-[ ]   7876      0      0   7876 / 500000     0.8s test_prop_DeleteInsert (collecting)
-[ ]   9073      0      0   9073 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]  10051      0      0  10051 / 500000     1.0s test_prop_DeleteInsert (collecting)
-[ ]  10985      0      0  10985 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  11977      0      0  11977 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  13083      0      0  13083 / 500000     1.3s test_prop_DeleteInsert (collecting)
-[ ]  14086      0      0  14086 / 500000     1.4s test_prop_DeleteInsert (collecting)
-[ ]  14989      0      0  14989 / 500000     1.5s test_prop_DeleteInsert (collecting)
-[ ]  16025      0      0  16025 / 500000     1.6s test_prop_DeleteInsert (collecting)
-[ ]  17037      0      0  17037 / 500000     1.7s test_prop_DeleteInsert (collecting)
-[ ]  18061      0      0  18061 / 500000     1.8s test_prop_DeleteInsert (collecting)
-[ ]  18989      0      0  18989 / 500000     1.9s test_prop_DeleteInsert (collecting)
-[ ]  20030      0      0  20030 / 500000     2.0s test_prop_DeleteInsert (collecting)
-[ ]  21010      0      0  21010 / 500000     2.1s test_prop_DeleteInsert (collecting)
-[ ]  22089      0      0  22089 / 500000     2.2s test_prop_DeleteInsert (collecting)
-[ ]  23222      0      0  23222 / 500000     2.3s test_prop_DeleteInsert (collecting)
-[ ]  24173      0      0  24173 / 500000     2.4s test_prop_DeleteInsert (collecting)
-[ ]  25214      0      0  25214 / 500000     2.5s test_prop_DeleteInsert (collecting)
-[ ]  26262      0      0  26262 / 500000     2.6s test_prop_DeleteInsert (collecting)
-[ ]  27443      0      0  27443 / 500000     2.7s test_prop_DeleteInsert (collecting)
-[ ]  28443      0      0  28443 / 500000     2.8s test_prop_DeleteInsert (collecting)
-[ ]  29468      0      0  29468 / 500000     2.9s test_prop_DeleteInsert (collecting)
-[ ]  30574      0      0  30574 / 500000     3.0s test_prop_DeleteInsert (collecting)
-[ ]  31530      0      0  31530 / 500000     3.1s test_prop_DeleteInsert (collecting)
-[ ]  32565      0      0  32565 / 500000     3.2s test_prop_DeleteInsert (collecting)
-[ ]  33594      0      0  33594 / 500000     3.3s test_prop_DeleteInsert (collecting)
-[ ]  34531      0      0  34531 / 500000     3.4s test_prop_DeleteInsert (collecting)
-[ ]  35472      0      0  35472 / 500000     3.5s test_prop_DeleteInsert (collecting)
-[ ]  36562      0      0  36562 / 500000     3.6s test_prop_DeleteInsert
-[ ]  37383      0      0  37383 / 500000     3.7s test_prop_DeleteInsert (collecting)
-[ ]  38494      0      0  38494 / 500000     3.8s test_prop_DeleteInsert
-[ ]  39397      0      0  39397 / 500000     3.9s test_prop_DeleteInsert (collecting)
-[ ]  40248      0      0  40248 / 500000     4.0s test_prop_DeleteInsert (collecting)
-[ ]  41284      0      0  41284 / 500000     4.1s test_prop_DeleteInsert (collecting)
-[ ]  42529      0      0  42529 / 500000     4.2s test_prop_DeleteInsert (collecting)
-[ ]  43434      0      0  43434 / 500000     4.3s test_prop_DeleteInsert (collecting)
-[ ]  44534      0      0  44534 / 500000     4.4s test_prop_DeleteInsert (collecting)
-[ ]  45417      0      0  45417 / 500000     4.5s test_prop_DeleteInsert (collecting)
-[ ]  46574      0      0  46574 / 500000     4.6s test_prop_DeleteInsert (collecting)
-[ ]  47552      0      0  47552 / 500000     4.7s test_prop_DeleteInsert (collecting)
-[ ]  48555      0      0  48555 / 500000     4.8s test_prop_DeleteInsert (collecting)
-[ ]  49644      0      0  49644 / 500000     4.9s test_prop_DeleteInsert (collecting)
-[ ]  50640      0      0  50640 / 500000     5.0s test_prop_DeleteInsert (collecting)
-[ ]  51753      0      0  51753 / 500000     5.1s test_prop_DeleteInsert
-[ ]  52884      0      0  52884 / 500000     5.2s test_prop_DeleteInsert (collecting)
-[ ]  53940      0      0  53940 / 500000     5.3s test_prop_DeleteInsert (collecting)
-[ ]  54871      0      0  54871 / 500000     5.4s test_prop_DeleteInsert (collecting)
-[ ]  55821      0      0  55821 / 500000     5.5s test_prop_DeleteInsert (collecting)
-[ ]  56896      0      0  56896 / 500000     5.6s test_prop_DeleteInsert (collecting)
-[ ]  58133      0      0  58133 / 500000     5.7s test_prop_DeleteInsert (collecting)
-[ ]  59329      0      0  59329 / 500000     5.8s test_prop_DeleteInsert (collecting)
-[ ]  60182      0      0  60182 / 500000     5.9s test_prop_DeleteInsert (collecting)
-[ ]  61371      0      0  61371 / 500000     6.0s test_prop_DeleteInsert (collecting)
-[ ]  62597      0      0  62597 / 500000     6.1s test_prop_DeleteInsert (collecting)
-[ ]  63966      0      0  63966 / 500000     6.2s test_prop_DeleteInsert (collecting)
-[ ]  64939      0      0  64939 / 500000     6.3s test_prop_DeleteInsert (collecting)
-[ ]  65858      0      0  65858 / 500000     6.4s test_prop_DeleteInsert (collecting)
-[✗]  65964      0      1  65963 / 500000     6.5s test_prop_DeleteInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteInsert failed (6 shrink steps):
-
-(Tree (B,Tree (R,Tree (B,Empty,1,3,Empty),2,6,Tree (B,Empty,3,8,Tree (R,Empty,6,44,Empty))),8,2,Tree (B,Empty,9,6,Empty)), 9, 4, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 6455.05]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]   1097      0      0   1097 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   2133      0      0   2133 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   3083      0      0   3083 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   3999      0      0   3999 / 500000     0.4s test_prop_DeleteInsert (collecting)
-[ ]   4915      0      0   4915 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   5863      0      0   5863 / 500000     0.6s test_prop_DeleteInsert (   testing)
-[ ]   6955      0      0   6955 / 500000     0.7s test_prop_DeleteInsert (collecting)
-[ ]   7852      0      0   7852 / 500000     0.8s test_prop_DeleteInsert (collecting)
-[ ]   9176      0      0   9176 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]  10003      0      0  10003 / 500000     1.0s test_prop_DeleteInsert (collecting)
-[ ]  11001      0      0  11001 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  12003      0      0  12003 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  13223      0      0  13223 / 500000     1.3s test_prop_DeleteInsert (collecting)
-[ ]  14346      0      0  14346 / 500000     1.4s test_prop_DeleteInsert (collecting)
-[ ]  15280      0      0  15280 / 500000     1.5s test_prop_DeleteInsert
-[ ]  16332      0      0  16332 / 500000     1.6s test_prop_DeleteInsert (collecting)
-[ ]  17516      0      0  17516 / 500000     1.7s test_prop_DeleteInsert (collecting)
-[ ]  18524      0      0  18524 / 500000     1.8s test_prop_DeleteInsert (collecting)
-[ ]  19553      0      0  19553 / 500000     1.9s test_prop_DeleteInsert (collecting)
-[ ]  20664      0      0  20664 / 500000     2.0s test_prop_DeleteInsert (collecting)
-[ ]  21688      0      0  21688 / 500000     2.1s test_prop_DeleteInsert (collecting)
-[ ]  22766      0      0  22766 / 500000     2.2s test_prop_DeleteInsert (collecting)
-[ ]  23771      0      0  23771 / 500000     2.3s test_prop_DeleteInsert (collecting)
-[ ]  24624      0      0  24624 / 500000     2.4s test_prop_DeleteInsert (collecting)
-[ ]  25571      0      0  25571 / 500000     2.5s test_prop_DeleteInsert (collecting)
-[ ]  26453      0      0  26453 / 500000     2.6s test_prop_DeleteInsert (collecting)
-[ ]  27551      0      0  27551 / 500000     2.7s test_prop_DeleteInsert (collecting)
-[ ]  28776      0      0  28776 / 500000     2.8s test_prop_DeleteInsert (collecting)
-[ ]  29754      0      0  29754 / 500000     2.9s test_prop_DeleteInsert (collecting)
-[ ]  30881      0      0  30881 / 500000     3.0s test_prop_DeleteInsert (collecting)
-[ ]  32025      0      0  32025 / 500000     3.1s test_prop_DeleteInsert (collecting)
-[ ]  32841      0      0  32841 / 500000     3.2s test_prop_DeleteInsert (collecting)
-[ ]  33658      0      0  33658 / 500000     3.3s test_prop_DeleteInsert (collecting)
-[ ]  34580      0      0  34580 / 500000     3.4s test_prop_DeleteInsert (collecting)
-[ ]  35815      0      0  35815 / 500000     3.5s test_prop_DeleteInsert (collecting)
-[ ]  36886      0      0  36886 / 500000     3.6s test_prop_DeleteInsert (collecting)
-[ ]  38025      0      0  38025 / 500000     3.7s test_prop_DeleteInsert (collecting)
-[ ]  39014      0      0  39014 / 500000     3.8s test_prop_DeleteInsert (collecting)
-[ ]  39981      0      0  39981 / 500000     3.9s test_prop_DeleteInsert (collecting)
-[ ]  41079      0      0  41079 / 500000     4.0s test_prop_DeleteInsert (collecting)
-[ ]  42004      0      0  42004 / 500000     4.1s test_prop_DeleteInsert (collecting)
-[ ]  42948      0      0  42948 / 500000     4.2s test_prop_DeleteInsert (collecting)
-[ ]  43943      0      0  43943 / 500000     4.3s test_prop_DeleteInsert (collecting)
-[ ]  44841      0      0  44841 / 500000     4.4s test_prop_DeleteInsert (collecting)
-[ ]  45810      0      0  45810 / 500000     4.5s test_prop_DeleteInsert (collecting)
-[ ]  46858      0      0  46858 / 500000     4.6s test_prop_DeleteInsert (collecting)
-[ ]  47932      0      0  47932 / 500000     4.7s test_prop_DeleteInsert (collecting)
-[ ]  48796      0      0  48796 / 500000     4.8s test_prop_DeleteInsert (collecting)
-[ ]  49668      0      0  49668 / 500000     4.9s test_prop_DeleteInsert (collecting)
-[ ]  50682      0      0  50682 / 500000     5.0s test_prop_DeleteInsert (collecting)
-[ ]  51816      0      0  51816 / 500000     5.1s test_prop_DeleteInsert (collecting)
-[ ]  52637      0      0  52637 / 500000     5.2s test_prop_DeleteInsert (collecting)
-[ ]  53620      0      0  53620 / 500000     5.3s test_prop_DeleteInsert (collecting)
-[ ]  54536      0      0  54536 / 500000     5.4s test_prop_DeleteInsert (collecting)
-[ ]  55576      0      0  55576 / 500000     5.5s test_prop_DeleteInsert (collecting)
-[ ]  56528      0      0  56528 / 500000     5.6s test_prop_DeleteInsert (collecting)
-[ ]  57543      0      0  57543 / 500000     5.7s test_prop_DeleteInsert (collecting)
-[ ]  58707      0      0  58707 / 500000     5.8s test_prop_DeleteInsert (collecting)
-[ ]  59875      0      0  59875 / 500000     5.9s test_prop_DeleteInsert (collecting)
-[ ]  60984      0      0  60984 / 500000     6.0s test_prop_DeleteInsert (collecting)
-[ ]  61923      0      0  61923 / 500000     6.1s test_prop_DeleteInsert (collecting)
-[ ]  62714      0      0  62714 / 500000     6.2s test_prop_DeleteInsert (collecting)
-[ ]  63643      0      0  63643 / 500000     6.3s test_prop_DeleteInsert (collecting)
-[ ]  64507      0      0  64507 / 500000     6.4s test_prop_DeleteInsert (collecting)
-[ ]  65491      0      0  65491 / 500000     6.5s test_prop_DeleteInsert (collecting)
-[ ]  66595      0      0  66595 / 500000     6.6s test_prop_DeleteInsert (collecting)
-[ ]  67761      0      0  67761 / 500000     6.7s test_prop_DeleteInsert (collecting)
-[ ]  68591      0      0  68591 / 500000     6.8s test_prop_DeleteInsert (collecting)
-[ ]  69498      0      0  69498 / 500000     6.9s test_prop_DeleteInsert (collecting)
-[ ]  70628      0      0  70628 / 500000     7.0s test_prop_DeleteInsert (collecting)
-[ ]  71643      0      0  71643 / 500000     7.2s test_prop_DeleteInsert (collecting)
-[ ]  72730      0      0  72730 / 500000     7.3s test_prop_DeleteInsert (collecting)
-[ ]  73631      0      0  73631 / 500000     7.4s test_prop_DeleteInsert (collecting)
-[ ]  74819      0      0  74819 / 500000     7.5s test_prop_DeleteInsert (collecting)
-[ ]  75779      0      0  75779 / 500000     7.6s test_prop_DeleteInsert (collecting)
-[ ]  76675      0      0  76675 / 500000     7.7s test_prop_DeleteInsert (collecting)
-[ ]  77524      0      0  77524 / 500000     7.8s test_prop_DeleteInsert (collecting)
-[ ]  78559      0      0  78559 / 500000     7.9s test_prop_DeleteInsert (collecting)
-[ ]  79655      0      0  79655 / 500000     8.0s test_prop_DeleteInsert (collecting)
-[ ]  80496      0      0  80496 / 500000     8.1s test_prop_DeleteInsert (collecting)
-[ ]  82009      0      0  82009 / 500000     8.2s test_prop_DeleteInsert (collecting)
-[ ]  83177      0      0  83177 / 500000     8.3s test_prop_DeleteInsert
-[ ]  84084      0      0  84084 / 500000     8.4s test_prop_DeleteInsert (collecting)
-[ ]  85070      0      0  85070 / 500000     8.5s test_prop_DeleteInsert (collecting)
-[ ]  85987      0      0  85987 / 500000     8.6s test_prop_DeleteInsert (collecting)
-[ ]  87001      0      0  87001 / 500000     8.7s test_prop_DeleteInsert (collecting)
-[ ]  88047      0      0  88047 / 500000     8.8s test_prop_DeleteInsert (collecting)
-[ ]  89177      0      0  89177 / 500000     8.9s test_prop_DeleteInsert (collecting)
-[ ]  89993      0      0  89993 / 500000     9.0s test_prop_DeleteInsert (collecting)
-[ ]  91141      0      0  91141 / 500000     9.1s test_prop_DeleteInsert (collecting)
-[ ]  92044      0      0  92044 / 500000     9.2s test_prop_DeleteInsert (collecting)
-[ ]  93176      0      0  93176 / 500000     9.3s test_prop_DeleteInsert (collecting)
-[ ]  94317      0      0  94317 / 500000     9.4s test_prop_DeleteInsert (collecting)
-[ ]  95389      0      0  95389 / 500000     9.5s test_prop_DeleteInsert (collecting)
-[ ]  96522      0      0  96522 / 500000     9.6s test_prop_DeleteInsert (collecting)
-[ ]  97477      0      0  97477 / 500000     9.7s test_prop_DeleteInsert (collecting)
-[ ]  98446      0      0  98446 / 500000     9.8s test_prop_DeleteInsert (collecting)
-[ ]  99632      0      0  99632 / 500000     9.9s test_prop_DeleteInsert (collecting)
-[ ] 100514      0      0 100514 / 500000    10.0s test_prop_DeleteInsert (collecting)
-[ ] 101410      0      0 101410 / 500000    10.1s test_prop_DeleteInsert (collecting)
-[ ] 102622      0      0 102622 / 500000    10.2s test_prop_DeleteInsert
-[ ] 103458      0      0 103458 / 500000    10.3s test_prop_DeleteInsert (collecting)
-[ ] 104482      0      0 104482 / 500000    10.4s test_prop_DeleteInsert (collecting)
-[ ] 105648      0      0 105648 / 500000    10.5s test_prop_DeleteInsert (collecting)
-[ ] 106772      0      0 106772 / 500000    10.6s test_prop_DeleteInsert (collecting)
-[ ] 107717      0      0 107717 / 500000    10.7s test_prop_DeleteInsert (collecting)
-[ ] 108775      0      0 108775 / 500000    10.8s test_prop_DeleteInsert (collecting)
-[ ] 109860      0      0 109860 / 500000    10.9s test_prop_DeleteInsert (collecting)
-[ ] 111055      0      0 111055 / 500000    11.0s test_prop_DeleteInsert (collecting)
-[ ] 111982      0      0 111982 / 500000    11.1s test_prop_DeleteInsert (collecting)
-[ ] 112851      0      0 112851 / 500000    11.2s test_prop_DeleteInsert (collecting)
-[ ] 113948      0      0 113948 / 500000    11.3s test_prop_DeleteInsert
-[ ] 115259      0      0 115259 / 500000    11.4s test_prop_DeleteInsert (collecting)
-[ ] 116174      0      0 116174 / 500000    11.5s test_prop_DeleteInsert (collecting)
-[ ] 117253      0      0 117253 / 500000    11.6s test_prop_DeleteInsert (collecting)
-[ ] 118184      0      0 118184 / 500000    11.7s test_prop_DeleteInsert (collecting)
-[ ] 119511      0      0 119511 / 500000    11.8s test_prop_DeleteInsert (collecting)
-[ ] 120390      0      0 120390 / 500000    11.9s test_prop_DeleteInsert (collecting)
-[ ] 121402      0      0 121402 / 500000    12.0s test_prop_DeleteInsert (collecting)
-[ ] 122585      0      0 122585 / 500000    12.1s test_prop_DeleteInsert (collecting)
-[ ] 123611      0      0 123611 / 500000    12.2s test_prop_DeleteInsert (collecting)
-[ ] 124569      0      0 124569 / 500000    12.3s test_prop_DeleteInsert (collecting)
-[ ] 125618      0      0 125618 / 500000    12.4s test_prop_DeleteInsert (collecting)
-[ ] 126495      0      0 126495 / 500000    12.5s test_prop_DeleteInsert (collecting)
-[ ] 127511      0      0 127511 / 500000    12.6s test_prop_DeleteInsert (collecting)
-[ ] 128680      0      0 128680 / 500000    12.7s test_prop_DeleteInsert (collecting)
-[ ] 129557      0      0 129557 / 500000    12.8s test_prop_DeleteInsert (collecting)
-[ ] 130645      0      0 130645 / 500000    12.9s test_prop_DeleteInsert (collecting)
-[ ] 131531      0      0 131531 / 500000    13.0s test_prop_DeleteInsert (collecting)
-[ ] 132554      0      0 132554 / 500000    13.1s test_prop_DeleteInsert (collecting)
-[ ] 133370      0      0 133370 / 500000    13.2s test_prop_DeleteInsert (collecting)
-[ ] 134389      0      0 134389 / 500000    13.3s test_prop_DeleteInsert (collecting)
-[ ] 135289      0      0 135289 / 500000    13.4s test_prop_DeleteInsert (collecting)
-[ ] 136426      0      0 136426 / 500000    13.5s test_prop_DeleteInsert (collecting)
-[ ] 137587      0      0 137587 / 500000    13.6s test_prop_DeleteInsert (collecting)
-[ ] 138598      0      0 138598 / 500000    13.7s test_prop_DeleteInsert (collecting)
-[ ] 139746      0      0 139746 / 500000    13.8s test_prop_DeleteInsert (collecting)
-[ ] 140831      0      0 140831 / 500000    13.9s test_prop_DeleteInsert (collecting)
-[ ] 141904      0      0 141904 / 500000    14.0s test_prop_DeleteInsert (collecting)
-[ ] 142948      0      0 142948 / 500000    14.1s test_prop_DeleteInsert (collecting)
-[ ] 144149      0      0 144149 / 500000    14.2s test_prop_DeleteInsert (collecting)
-[ ] 145581      0      0 145581 / 500000    14.3s test_prop_DeleteInsert (collecting)
-[ ] 146604      0      0 146604 / 500000    14.4s test_prop_DeleteInsert (collecting)
-[ ] 147850      0      0 147850 / 500000    14.5s test_prop_DeleteInsert (collecting)
-[ ] 148829      0      0 148829 / 500000    14.6s test_prop_DeleteInsert (collecting)
-[ ] 149910      0      0 149910 / 500000    14.7s test_prop_DeleteInsert (collecting)
-[ ] 151086      0      0 151086 / 500000    14.8s test_prop_DeleteInsert (collecting)
-[ ] 151902      0      0 151902 / 500000    14.9s test_prop_DeleteInsert (collecting)
-[ ] 152958      0      0 152958 / 500000    15.0s test_prop_DeleteInsert (collecting)
-[ ] 154071      0      0 154071 / 500000    15.1s test_prop_DeleteInsert (collecting)
-[ ] 155070      0      0 155070 / 500000    15.2s test_prop_DeleteInsert (collecting)
-[ ] 156060      0      0 156060 / 500000    15.3s test_prop_DeleteInsert (collecting)
-[ ] 157086      0      0 157086 / 500000    15.4s test_prop_DeleteInsert (collecting)
-[ ] 158354      0      0 158354 / 500000    15.5s test_prop_DeleteInsert (collecting)
-[ ] 159446      0      0 159446 / 500000    15.6s test_prop_DeleteInsert (collecting)
-[ ] 160363      0      0 160363 / 500000    15.7s test_prop_DeleteInsert (collecting)
-[ ] 161264      0      0 161264 / 500000    15.8s test_prop_DeleteInsert (collecting)
-[ ] 162380      0      0 162380 / 500000    15.9s test_prop_DeleteInsert (collecting)
-[ ] 163411      0      0 163411 / 500000    16.0s test_prop_DeleteInsert (collecting)
-[ ] 164599      0      0 164599 / 500000    16.1s test_prop_DeleteInsert (collecting)
-[ ] 165735      0      0 165735 / 500000    16.2s test_prop_DeleteInsert (collecting)
-[ ] 166775      0      0 166775 / 500000    16.3s test_prop_DeleteInsert (collecting)
-[ ] 167694      0      0 167694 / 500000    16.4s test_prop_DeleteInsert (collecting)
-[ ] 168722      0      0 168722 / 500000    16.5s test_prop_DeleteInsert (collecting)
-[ ] 169567      0      0 169567 / 500000    16.6s test_prop_DeleteInsert (collecting)
-[ ] 170476      0      0 170476 / 500000    16.7s test_prop_DeleteInsert (collecting)
-[ ] 171544      0      0 171544 / 500000    16.8s test_prop_DeleteInsert (collecting)
-[ ] 172559      0      0 172559 / 500000    16.9s test_prop_DeleteInsert (collecting)
-[ ] 173524      0      0 173524 / 500000    17.0s test_prop_DeleteInsert (collecting)
-[ ] 174497      0      0 174497 / 500000    17.1s test_prop_DeleteInsert (collecting)
-[✗] 175183      0      1 175182 / 500000    17.2s test_prop_DeleteInsert
+[1703297449.875512 exit 0]
+[1703297449.930192 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteInsert failed (4 shrink steps):
 
-(Tree (B,Tree (B,Tree (R,Tree (B,Empty,0,1,Empty),1,70,Tree (B,Empty,2,13,Tree (R,Empty,3,7,Empty))),5,5,Tree (B,Empty,6,20,Empty)),7,5,Tree (B,Tree (R,Tree (B,Empty,8,77,Empty),10,42,Tree (B,Empty,26,27,Empty)),48,12,Tree (B,Empty,78,7,Empty))), 6, 4, 0)
+(Tree (B,Tree (B,Tree (R,Tree (B,Empty,0,1,Tree (R,Empty,1,10,Empty)),3,2,Tree (B,Empty,4,15,Tree (R,Empty,5,3,Empty))),6,3,Tree (B,Empty,7,5,Empty)),8,0,Tree (B,Tree (R,Tree (B,Empty,9,6,Empty),16,1,Tree (B,Tree (R,Empty,42,2,Empty),45,6,Tree (R,Empty,64,16,Empty))),89,1,Tree (B,Empty,99,9,Empty))), 7, 2, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 17161.38]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]   1335      0      0   1335 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   2417      0      0   2417 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   3425      0      0   3425 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   4587      0      0   4587 / 500000     0.4s test_prop_DeleteInsert (collecting)
-[ ]   5628      0      0   5628 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   6712      0      0   6712 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[ ]   7581      0      0   7581 / 500000     0.7s test_prop_DeleteInsert (collecting)
-[ ]   8630      0      0   8630 / 500000     0.8s test_prop_DeleteInsert (collecting)
-[ ]   9421      0      0   9421 / 500000     0.9s test_prop_DeleteInsert (collecting)
-[ ]  10406      0      0  10406 / 500000     1.0s test_prop_DeleteInsert (collecting)
-[ ]  11645      0      0  11645 / 500000     1.1s test_prop_DeleteInsert (collecting)
-[ ]  12578      0      0  12578 / 500000     1.2s test_prop_DeleteInsert (collecting)
-[ ]  13436      0      0  13436 / 500000     1.3s test_prop_DeleteInsert (collecting)
-[ ]  14443      0      0  14443 / 500000     1.4s test_prop_DeleteInsert (collecting)
-[ ]  15641      0      0  15641 / 500000     1.5s test_prop_DeleteInsert (collecting)
-[ ]  16653      0      0  16653 / 500000     1.6s test_prop_DeleteInsert (collecting)
-[ ]  17603      0      0  17603 / 500000     1.7s test_prop_DeleteInsert (collecting)
-[ ]  18552      0      0  18552 / 500000     1.8s test_prop_DeleteInsert (collecting)
-[ ]  19715      0      0  19715 / 500000     1.9s test_prop_DeleteInsert (collecting)
-[ ]  20653      0      0  20653 / 500000     2.0s test_prop_DeleteInsert (collecting)
-[ ]  21646      0      0  21646 / 500000     2.1s test_prop_DeleteInsert (collecting)
-[ ]  22567      0      0  22567 / 500000     2.2s test_prop_DeleteInsert (collecting)
-[ ]  23726      0      0  23726 / 500000     2.3s test_prop_DeleteInsert (collecting)
-[ ]  24928      0      0  24928 / 500000     2.4s test_prop_DeleteInsert (collecting)
-[ ]  25991      0      0  25991 / 500000     2.5s test_prop_DeleteInsert (collecting)
-[ ]  26946      0      0  26946 / 500000     2.6s test_prop_DeleteInsert (collecting)
-[ ]  27963      0      0  27963 / 500000     2.7s test_prop_DeleteInsert
-[ ]  28919      0      0  28919 / 500000     2.8s test_prop_DeleteInsert (collecting)
-[ ]  29777      0      0  29777 / 500000     2.9s test_prop_DeleteInsert (collecting)
-[ ]  30822      0      0  30822 / 500000     3.0s test_prop_DeleteInsert (collecting)
-[ ]  31843      0      0  31843 / 500000     3.1s test_prop_DeleteInsert (collecting)
-[ ]  32774      0      0  32774 / 500000     3.2s test_prop_DeleteInsert (collecting)
-[ ]  33913      0      0  33913 / 500000     3.3s test_prop_DeleteInsert (collecting)
-[ ]  34787      0      0  34787 / 500000     3.4s test_prop_DeleteInsert (collecting)
-[ ]  35963      0      0  35963 / 500000     3.5s test_prop_DeleteInsert (collecting)
-[ ]  37153      0      0  37153 / 500000     3.6s test_prop_DeleteInsert (collecting)
-[ ]  38164      0      0  38164 / 500000     3.7s test_prop_DeleteInsert (collecting)
-[ ]  39449      0      0  39449 / 500000     3.8s test_prop_DeleteInsert (collecting)
-[ ]  40179      0      0  40179 / 500000     3.9s test_prop_DeleteInsert (collecting)
-[ ]  41163      0      0  41163 / 500000     4.0s test_prop_DeleteInsert (collecting)
-[ ]  42251      0      0  42251 / 500000     4.1s test_prop_DeleteInsert (collecting)
-[ ]  43540      0      0  43540 / 500000     4.2s test_prop_DeleteInsert (collecting)
-[ ]  44461      0      0  44461 / 500000     4.3s test_prop_DeleteInsert (collecting)
-[ ]  45393      0      0  45393 / 500000     4.4s test_prop_DeleteInsert (collecting)
-[ ]  46380      0      0  46380 / 500000     4.5s test_prop_DeleteInsert (collecting)
-[ ]  47264      0      0  47264 / 500000     4.6s test_prop_DeleteInsert (collecting)
-[ ]  48435      0      0  48435 / 500000     4.7s test_prop_DeleteInsert (collecting)
-[ ]  49739      0      0  49739 / 500000     4.8s test_prop_DeleteInsert (collecting)
-[ ]  50800      0      0  50800 / 500000     4.9s test_prop_DeleteInsert (collecting)
-[✗]  51323      0      1  51322 / 500000     5.0s test_prop_DeleteInsert
+[1703297452.523810 exit 0]
+[1703297452.578353 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (8 shrink steps):
+
+(Tree (B,Tree (B,Tree (R,Tree (B,Empty,0,83,Tree (R,Empty,1,1,Empty)),3,33,Tree (B,Tree (R,Empty,4,1,Empty),5,1,Tree (R,Empty,7,0,Empty))),8,8,Tree (B,Empty,9,4,Empty)),23,7,Tree (B,Tree (B,Tree (R,Empty,51,7,Empty),52,6,Tree (R,Empty,86,5,Empty)),87,99,Tree (B,Empty,94,8,Empty))), 9, 2, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703297457.454557 exit 0]
+[1703297457.509468 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (5 shrink steps):
+
+(Tree (B,Tree (R,Tree (B,Tree (R,Empty,1,2,Empty),3,2,Tree (R,Empty,6,6,Empty)),9,8,Tree (B,Empty,21,1,Empty)),44,60,Tree (B,Empty,95,2,Empty)), 95, 4, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703297458.941040 exit 0]
+[1703297458.995761 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (5 shrink steps):
+
+(Tree (B,Tree (B,Tree (B,Tree (B,Tree (R,Tree (B,Empty,0,3,Empty),1,1,Tree (B,Empty,2,7,Empty)),3,6,Tree (B,Empty,4,82,Empty)),5,9,Tree (B,Tree (B,Empty,6,3,Empty),7,48,Tree (B,Empty,8,3,Empty))),9,4,Tree (B,Tree (B,Tree (R,Tree (B,Empty,10,6,Tree (R,Empty,15,29,Empty)),18,0,Tree (B,Empty,20,3,Empty)),21,18,Tree (B,Empty,25,4,Empty)),27,25,Tree (B,Tree (R,Tree (B,Tree (R,Empty,28,9,Empty),34,4,Empty),35,3,Tree (B,Tree (R,Empty,36,65,Empty),37,0,Empty)),38,1,Tree (R,Tree (B,Tree (R,Empty,42,6,Empty),46,8,Empty),48,39,Tree (B,Empty,51,9,Empty))))),55,7,Tree (B,Tree (B,Tree (B,Tree (B,Empty,57,0,Empty),62,5,Tree (B,Empty,65,1,Empty)),66,54,Tree (B,Tree (B,Empty,67,0,Tree (R,Empty,69,0,Empty)),75,2,Tree (R,Tree (B,Empty,77,9,Empty),79,0,Tree (B,Empty,80,2,Empty)))),83,6,Tree (B,Tree (B,Tree (B,Empty,86,4,Tree (R,Empty,89,3,Empty)),93,7,Tree (B,Empty,94,2,Empty)),95,1,Tree (B,Tree (B,Empty,96,3,Empty),97,9,Tree (B,Empty,98,8,Tree (R,Empty,99,7,Empty)))))), 25, 11, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703297463.890122 exit 0]
+[1703297463.944698 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteInsert failed (4 shrink steps):
 
-(Tree (B,Tree (B,Tree (R,Tree (B,Tree (R,Empty,0,99,Empty),1,9,Empty),2,2,Tree (B,Empty,3,8,Tree (R,Empty,4,6,Empty))),6,5,Tree (B,Empty,7,7,Empty)),8,5,Tree (B,Tree (R,Tree (B,Empty,9,16,Empty),28,8,Tree (B,Empty,38,6,Empty)),51,5,Tree (B,Empty,74,5,Empty))), 7, 5, 0)
+(Tree (B,Tree (B,Tree (R,Tree (B,Empty,0,6,Empty),1,5,Tree (B,Empty,2,0,Tree (R,Empty,3,1,Empty))),5,2,Tree (B,Empty,6,7,Empty)),7,9,Tree (R,Tree (B,Tree (B,Empty,8,8,Tree (R,Empty,9,9,Empty)),20,6,Tree (R,Tree (B,Tree (R,Empty,23,23,Empty),26,0,Empty),39,87,Tree (B,Empty,41,4,Tree (R,Empty,42,4,Empty)))),53,1,Tree (B,Tree (B,Tree (R,Empty,64,0,Empty),66,4,Tree (R,Empty,70,6,Empty)),72,0,Tree (R,Tree (B,Empty,81,0,Empty),89,0,Tree (B,Empty,90,0,Empty))))), 6, 4, 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 4986.99]
-[prop_DeleteInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteInsert (generating)
-[ ]   1099      0      0   1099 / 500000     0.1s test_prop_DeleteInsert (collecting)
-[ ]   2090      0      0   2090 / 500000     0.2s test_prop_DeleteInsert (collecting)
-[ ]   3120      0      0   3120 / 500000     0.3s test_prop_DeleteInsert (collecting)
-[ ]   4224      0      0   4224 / 500000     0.4s test_prop_DeleteInsert (collecting)
-[ ]   5177      0      0   5177 / 500000     0.5s test_prop_DeleteInsert (collecting)
-[ ]   6158      0      0   6158 / 500000     0.6s test_prop_DeleteInsert (collecting)
-[✗]   6537      0      1   6536 / 500000     0.6s test_prop_DeleteInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteInsert failed (6 shrink steps):
-
-(Tree (B,Tree (R,Tree (B,Empty,0,92,Empty),1,15,Tree (B,Empty,2,5,Tree (R,Empty,5,8,Empty))),7,2,Tree (B,Empty,9,1,Empty)), 9, 3, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteInsert -> 635.20]
+[1703297463.979031 exit 0]

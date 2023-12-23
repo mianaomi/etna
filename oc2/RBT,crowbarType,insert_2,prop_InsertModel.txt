@@ -1,0 +1,120 @@
+[1703296110.475426 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.476206 exit 1]
+[1703296110.532382 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.533127 exit 1]
+[1703296110.589455 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.590202 exit 1]
+[1703296110.646356 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.647111 exit 1]
+[1703296110.703357 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.704117 exit 1]
+[1703296110.760237 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.760991 exit 1]
+[1703296110.817154 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.817900 exit 1]
+[1703296110.874139 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.874919 exit 1]
+[1703296110.930720 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.931486 exit 1]
+[1703296110.987697 start]
+test_prop_InsertModel: FAIL
+
+When given the input:
+
+    [(T R E -126 11 E); -119; 51]
+    
+the test failed:
+
+    check false
+    
+[1703296110.988458 exit 1]

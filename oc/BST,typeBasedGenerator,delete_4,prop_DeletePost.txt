@@ -1,140 +1,100 @@
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]    195      0      1     97 / 500000     0.0s test_prop_DeletePost
+[1703217024.683428 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_DeletePost failed (6 shrink steps):
+Test test_prop_DeletePost failed (5 shrink steps):
 
-(Tree (Empty,6,62,Empty), 0, 6)
+(Tree (Empty,5,676,Empty), 0, 5)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 14.96]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]    424      0      1    212 / 500000     0.0s test_prop_DeletePost
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeletePost failed (4 shrink steps):
-
-(Tree (Empty,3,34,Empty), 0, 3)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 42.83]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]     25      0      1     15 / 500000     0.0s test_prop_DeletePost
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeletePost failed (3 shrink steps):
-
-(Tree (Empty,9,9,Empty), 0, 9)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 0.40]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]     69      0      1     43 / 500000     0.0s test_prop_DeletePost
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeletePost failed (4 shrink steps):
-
-(Tree (Tree (Empty,7,82,Empty),90,4,Empty), 0, 7)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 17.26]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]    489      0      1    255 / 500000     0.1s test_prop_DeletePost
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeletePost failed (2 shrink steps):
-
-(Tree (Empty,4,964,Empty), 0, 4)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 58.87]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]     32      0      1     18 / 500000     0.0s test_prop_DeletePost
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeletePost failed (0 shrink steps):
-
-(Tree (Tree (Empty,2,2,Empty),52,5,Empty), 3, 2)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 2.61]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]     18      0      1      8 / 500000     0.0s test_prop_DeletePost
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeletePost failed (2 shrink steps):
-
-(Tree (Tree (Empty,0,53,Empty),37,4775,Empty), 1, 0)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 0.51]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]    139      0      1     78 / 500000     0.0s test_prop_DeletePost
+[1703217024.754280 exit 0]
+[1703217024.823385 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeletePost failed (7 shrink steps):
 
-(Tree (Empty,5,6,Empty), 0, 5)
+(Tree (Empty,0,498,Tree (Empty,6,5,Tree (Empty,9,2,Empty))), 1, 6)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 17.61]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]     82      0      1     45 / 500000     0.0s test_prop_DeletePost
+[1703217024.838734 exit 0]
+[1703217024.914021 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeletePost failed (4 shrink steps):
 
-(Tree (Empty,3,70,Empty), 0, 3)
+(Tree (Tree (Empty,0,2525,Empty),4,4,Empty), 0, 4)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 4.32]
-[prop_DeletePost|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeletePost (generating)
-[✗]    154      0      1     77 / 500000     0.0s test_prop_DeletePost
+[1703217024.915393 exit 0]
+[1703217024.997537 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (2 shrink steps):
+
+(Tree (Tree (Empty,0,43,Empty),39,693,Tree (Empty,903,389,Empty)), 1, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703217025.006742 exit 0]
+[1703217025.072682 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeletePost failed (1 shrink steps):
 
-(Tree (Empty,1,8,Empty), 2, 1)
+(Tree (Empty,5,3,Empty), 0, 5)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeletePost -> 12.76]
+[1703217025.089587 exit 0]
+[1703217025.155074 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (5 shrink steps):
+
+(Tree (Tree (Empty,4,5,Empty),8,0,Empty), 0, 4)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703217025.158254 exit 0]
+[1703217025.225861 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (1 shrink steps):
+
+(Tree (Empty,3,66,Empty), 0, 3)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703217025.268874 exit 0]
+[1703217025.341945 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (2 shrink steps):
+
+(Tree (Empty,2,874,Empty), 3, 2)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703217025.342758 exit 0]
+[1703217025.421982 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (4 shrink steps):
+
+(Tree (Empty,5,57,Tree (Empty,7,2,Empty)), 0, 5)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703217025.428697 exit 0]
+[1703217025.505773 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (3 shrink steps):
+
+(Tree (Empty,1,6,Empty), 2, 1)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703217025.507097 exit 0]

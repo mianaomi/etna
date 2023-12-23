@@ -1,0 +1,120 @@
+[1703368937.467032 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.467504 exit 1]
+[1703368937.502398 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.502816 exit 1]
+[1703368937.537306 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.537732 exit 1]
+[1703368937.572198 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.572625 exit 1]
+[1703368937.607285 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.607709 exit 1]
+[1703368937.642716 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.643151 exit 1]
+[1703368937.678135 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.678561 exit 1]
+[1703368937.713638 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.714073 exit 1]
+[1703368937.749918 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.750346 exit 1]
+[1703368937.784902 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(Bool -> Bool), b true \a:Bool, true
+    
+the test failed:
+
+    check false
+    
+[1703368937.785330 exit 1]

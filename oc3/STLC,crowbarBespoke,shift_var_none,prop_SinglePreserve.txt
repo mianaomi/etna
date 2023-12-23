@@ -1,0 +1,120 @@
+[1703368869.188213 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.192149 exit 1]
+[1703368869.227765 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.231505 exit 1]
+[1703368869.265793 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.269514 exit 1]
+[1703368869.304374 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.308218 exit 1]
+[1703368869.343747 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.347525 exit 1]
+[1703368869.384840 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.388916 exit 1]
+[1703368869.426305 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.430172 exit 1]
+[1703368869.466908 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.470734 exit 1]
+[1703368869.507826 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.511629 exit 1]
+[1703368869.547663 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703368869.551365 exit 1]

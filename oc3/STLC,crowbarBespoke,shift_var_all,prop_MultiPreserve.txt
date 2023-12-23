@@ -1,0 +1,120 @@
+[1703368871.915841 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368871.916797 exit 1]
+[1703368871.952647 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368871.953568 exit 1]
+[1703368871.988494 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368871.989390 exit 1]
+[1703368872.023703 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368872.024608 exit 1]
+[1703368872.058765 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368872.059654 exit 1]
+[1703368872.093902 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368872.094795 exit 1]
+[1703368872.129866 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368872.130783 exit 1]
+[1703368872.165992 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368872.166897 exit 1]
+[1703368872.203502 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368872.204423 exit 1]
+[1703368872.240969 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:Bool, a \b:Bool, \c:Bool, \d:Bool, \e:Bool, \f:(((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))) -> (((Bool -> Bool) -> Bool) -> (Bool -> (Bool -> Bool)))), false \d:(Bool -> (Bool -> Bool)), \e:Bool, true \d:Bool, \e:Bool, \f:Bool, \g:Bool, false b true \d:((Bool -> Bool) -> Bool), true \d:Bool, \e:(Bool -> Bool), true false false \b:((Bool -> Bool) -> Bool), true \b:(Bool -> Bool), true \b:Bool, \c:(Bool -> ((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> Bool))), false false \b:Bool, \c:(Bool -> Bool), \d:((Bool -> Bool) -> (Bool -> Bool)), true \b:((((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool)) -> ((Bool -> (Bool -> Bool)) -> ((Bool -> Bool) -> Bool))), \c:((Bool -> Bool) -> Bool), \d:Bool, \e:Bool, false false \a:((Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))) -> (Bool -> Bool)), true \a:(Bool -> ((Bool -> ((Bool -> Bool) -> Bool)) -> (Bool -> ((Bool -> Bool) -> Bool)))), \b:Bool, \c:(((Bool -> Bool) -> Bool) -> Bool), false \c:Bool, \d:((Bool -> Bool) -> Bool), true a
+    
+the test failed:
+
+    check false
+    
+[1703368872.241885 exit 1]

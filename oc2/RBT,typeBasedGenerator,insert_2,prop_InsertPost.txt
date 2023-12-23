@@ -1,0 +1,100 @@
+[1703296100.017086 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (5 shrink steps):
+
+(Tree (B,Empty,1,963,Empty), 2, 1, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296100.194828 exit 0]
+[1703296100.250611 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (5 shrink steps):
+
+(Tree (B,Empty,3,4,Empty), 4, 3, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296100.302180 exit 0]
+[1703296100.356890 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (4 shrink steps):
+
+(Tree (R,Empty,2,4,Empty), 5, 5, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296100.398432 exit 0]
+[1703296100.452710 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (2 shrink steps):
+
+(Tree (R,Empty,4,1710,Empty), 5, 4, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296100.471686 exit 0]
+[1703296100.525671 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (3 shrink steps):
+
+(Tree (R,Empty,1,7,Empty), 7, 7, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296100.526180 exit 0]
+[1703296100.579706 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (10 shrink steps):
+
+(Tree (B,Tree (R,Empty,2,8,Empty),7,1,Tree (R,Empty,43,910,Empty)), 3, 2, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296100.889953 exit 0]
+[1703296100.944986 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (4 shrink steps):
+
+(Tree (R,Empty,3,1,Empty), 4, 3, 2)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296101.355544 exit 0]
+[1703296101.410488 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (5 shrink steps):
+
+(Tree (B,Empty,0,71,Empty), 4, 4, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296101.484698 exit 0]
+[1703296101.539248 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (6 shrink steps):
+
+(Tree (R,Empty,3,8,Empty), 4, 3, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296101.611174 exit 0]
+[1703296101.665617 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertPost failed (1 shrink steps):
+
+(Tree (R,Empty,0,4,Empty), 4, 4, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296101.736050 exit 0]

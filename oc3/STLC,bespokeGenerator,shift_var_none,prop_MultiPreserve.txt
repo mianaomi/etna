@@ -1,0 +1,100 @@
+[1703368868.493040 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:(Bool->Bool),\b:Bool,b true \a:Bool,\b:Bool,false false \a:(Bool->Bool),true \a:Bool,true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368868.552653 exit 0]
+[1703368868.593322 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:(Bool->Bool),\b:Bool,b true \b:((((Bool->Bool)->Bool)->Bool)->Bool),\c:(Bool->Bool),false \b:((Bool->Bool)->(Bool->((Bool->(((Bool->Bool)->((Bool->(Bool->(Bool->Bool)))->(Bool->Bool)))->((Bool->Bool)->((((Bool->Bool)->(Bool->(((Bool->Bool)->Bool)->(Bool->Bool))))->(Bool->Bool))->Bool))))->((Bool->Bool)->Bool)))),\c:Bool,\d:(((Bool->Bool)->Bool)->Bool),true \b:(Bool->Bool),\c:Bool,\d:(Bool->(((Bool->Bool)->((Bool->(Bool->(Bool->Bool)))->(Bool->Bool)))->((Bool->Bool)->((((Bool->Bool)->(Bool->(((Bool->Bool)->Bool)->(Bool->Bool))))->(Bool->Bool))->Bool)))),\e:(Bool->Bool),false \b:((Bool->Bool)->Bool),\c:Bool,false \b:(Bool->Bool),true true a \a:Bool,false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368868.619305 exit 0]
+[1703368868.656151 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:((Bool->(Bool->Bool))->Bool),\b:Bool,\c:((Bool->((Bool->Bool)->Bool))->((((Bool->Bool)->Bool)->Bool)->((Bool->Bool)->Bool))),b \c:(Bool->((Bool->Bool)->Bool)),\d:(((Bool->Bool)->Bool)->Bool),\e:(Bool->Bool),true true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368868.669148 exit 0]
+[1703368868.705692 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,b true false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368868.787874 exit 0]
+[1703368868.825377 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:((Bool->((Bool->(Bool->Bool))->((((Bool->Bool)->Bool)->(Bool->Bool))->(Bool->(Bool->Bool)))))->Bool),b \b:Bool,\c:(Bool->((Bool->(Bool->Bool))->((((Bool->Bool)->Bool)->(Bool->Bool))->(Bool->(Bool->Bool))))),false a
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368868.843304 exit 0]
+[1703368868.879175 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,b a
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368868.902385 exit 0]
+[1703368868.939504 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:(Bool->Bool),b \b:Bool,\c:Bool,true a \a:(((Bool->Bool)->(Bool->Bool))->Bool),\b:Bool,false \a:((Bool->Bool)->(Bool->Bool)),false true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368868.973523 exit 0]
+[1703368869.010802 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:((((((Bool->Bool)->Bool)->Bool)->(Bool->Bool))->Bool)->(Bool->((Bool->(((Bool->(((Bool->Bool)->(Bool->Bool))->((Bool->Bool)->Bool)))->((((Bool->Bool)->Bool)->(((Bool->(((Bool->Bool)->Bool)->((Bool->Bool)->Bool)))->((Bool->Bool)->((Bool->Bool)->Bool)))->Bool))->Bool))->Bool))->((Bool->Bool)->(Bool->(Bool->(Bool->(Bool->Bool)))))))),\b:Bool,\c:((Bool->((Bool->(Bool->Bool))->((Bool->(((((Bool->Bool)->Bool)->Bool)->(Bool->Bool))->Bool))->((Bool->((((Bool->Bool)->(Bool->Bool))->Bool)->((Bool->(Bool->Bool))->Bool)))->Bool))))->Bool),\d:(Bool->Bool),c \c:(Bool->((Bool->Bool)->(Bool->Bool))),\d:(Bool->((Bool->(Bool->Bool))->((Bool->(((((Bool->Bool)->Bool)->Bool)->(Bool->Bool))->Bool))->((Bool->((((Bool->Bool)->(Bool->Bool))->Bool)->((Bool->(Bool->Bool))->Bool)))->Bool)))),true \c:Bool,\d:Bool,\e:(Bool->Bool),\f:Bool,true false \c:(Bool->Bool),\d:Bool,b \d:((Bool->(Bool->Bool))->((Bool->Bool)->Bool)),false \d:(Bool->(Bool->Bool)),\e:(Bool->Bool),true \c:Bool,b \a:(((((Bool->Bool)->Bool)->Bool)->(Bool->Bool))->Bool),\b:Bool,\c:(Bool->(((Bool->(((Bool->Bool)->(Bool->Bool))->((Bool->Bool)->Bool)))->((((Bool->Bool)->Bool)->(((Bool->(((Bool->Bool)->Bool)->((Bool->Bool)->Bool)))->((Bool->Bool)->((Bool->Bool)->Bool)))->Bool))->Bool))->Bool)),\d:Bool,\e:Bool,\f:(((Bool->Bool)->Bool)->((Bool->Bool)->Bool)),\g:(Bool->Bool),\h:Bool,\i:Bool,\j:Bool,\k:Bool,false \f:((Bool->Bool)->Bool),\g:(Bool->Bool),true b \d:(Bool->(Bool->(Bool->(Bool->Bool)))),c \d:Bool,\e:Bool,\f:Bool,\g:Bool,\h:Bool,false true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368869.023912 exit 0]
+[1703368869.060711 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:(Bool->Bool),b \b:(Bool->Bool),\c:Bool,false \b:Bool,false \a:(Bool->Bool),a \a:((Bool->Bool)->(Bool->((Bool->Bool)->(Bool->Bool)))),\b:Bool,true \a:(Bool->Bool),\b:Bool,\c:(Bool->Bool),\d:Bool,true \a:(Bool->(Bool->(Bool->Bool))),false \a:Bool,\b:Bool,\c:Bool,true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368869.073352 exit 0]
+[1703368869.110567 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_MultiPreserve failed (0 shrink steps):
+
+\a:Bool,\b:(((Bool->Bool)->Bool)->Bool),b \b:((Bool->Bool)->(Bool->Bool)),\c:((Bool->Bool)->Bool),false \b:(Bool->Bool),\c:Bool,true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368869.149751 exit 0]

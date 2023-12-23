@@ -1,0 +1,120 @@
+[1703221431.606547 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.611842 exit 1]
+[1703221431.649587 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.654807 exit 1]
+[1703221431.691354 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.696622 exit 1]
+[1703221431.732917 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.738126 exit 1]
+[1703221431.774337 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.779579 exit 1]
+[1703221431.816126 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.821309 exit 1]
+[1703221431.857591 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.862570 exit 1]
+[1703221431.897822 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.902876 exit 1]
+[1703221431.938354 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.943394 exit 1]
+[1703221431.978751 start]
+test_prop_InsertInsert: FAIL
+
+When given the input:
+
+    [(T B (T R E -82 -100 E) 72 -21 E); 84; -105; 114; -60]
+    
+the test failed:
+
+    check false
+    
+[1703221431.983774 exit 1]

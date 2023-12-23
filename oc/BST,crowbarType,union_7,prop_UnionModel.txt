@@ -1,5 +1,4 @@
-[1701821939.264034 start]
-[1701821939.264042 end]
+[1703217310.088444 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -10,9 +9,8 @@ the test failed:
 
     check false
     
-[1701821939.265157 exit 1]
-[1701821939.324325 start]
-[1701821939.324334 end]
+[1703217310.089677 exit 1]
+[1703217310.151499 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -23,9 +21,8 @@ the test failed:
 
     check false
     
-[1701821939.325438 exit 1]
-[1701821939.382611 start]
-[1701821939.382619 end]
+[1703217310.152656 exit 1]
+[1703217310.213392 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -36,9 +33,8 @@ the test failed:
 
     check false
     
-[1701821939.383707 exit 1]
-[1701821939.441014 start]
-[1701821939.441022 end]
+[1703217310.214736 exit 1]
+[1703217310.275370 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -49,9 +45,8 @@ the test failed:
 
     check false
     
-[1701821939.442123 exit 1]
-[1701821939.499266 start]
-[1701821939.499274 end]
+[1703217310.276531 exit 1]
+[1703217310.336195 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -62,9 +57,8 @@ the test failed:
 
     check false
     
-[1701821939.500356 exit 1]
-[1701821939.557310 start]
-[1701821939.557318 end]
+[1703217310.337356 exit 1]
+[1703217310.398918 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -75,9 +69,8 @@ the test failed:
 
     check false
     
-[1701821939.558413 exit 1]
-[1701821939.615328 start]
-[1701821939.615336 end]
+[1703217310.400226 exit 1]
+[1703217310.460683 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -88,9 +81,8 @@ the test failed:
 
     check false
     
-[1701821939.616423 exit 1]
-[1701821939.673744 start]
-[1701821939.673752 end]
+[1703217310.461861 exit 1]
+[1703217310.523758 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -101,9 +93,8 @@ the test failed:
 
     check false
     
-[1701821939.674843 exit 1]
-[1701821939.731953 start]
-[1701821939.731961 end]
+[1703217310.525065 exit 1]
+[1703217310.588335 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -114,9 +105,8 @@ the test failed:
 
     check false
     
-[1701821939.733054 exit 1]
-[1701821939.789951 start]
-[1701821939.789959 end]
+[1703217310.589695 exit 1]
+[1703217310.652182 start]
 test_prop_UnionModel: FAIL
 
 When given the input:
@@ -127,4 +117,4 @@ the test failed:
 
     check false
     
-[1701821939.791033 exit 1]
+[1703217310.653521 exit 1]

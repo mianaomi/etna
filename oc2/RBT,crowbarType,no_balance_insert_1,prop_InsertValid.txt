@@ -1,0 +1,120 @@
+[1703297464.038439 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.044056 exit 1]
+[1703297464.101304 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.106763 exit 1]
+[1703297464.163092 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.168559 exit 1]
+[1703297464.224907 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.230400 exit 1]
+[1703297464.286871 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.292384 exit 1]
+[1703297464.348869 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.354352 exit 1]
+[1703297464.410197 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.415662 exit 1]
+[1703297464.471873 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.477341 exit 1]
+[1703297464.535431 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.540967 exit 1]
+[1703297464.599472 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B (T R E 55 123 E) 69 -112 E); -65; -83]
+    
+the test failed:
+
+    check false
+    
+[1703297464.605080 exit 1]

@@ -1,140 +1,100 @@
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      3      0      1      0 / 500000     0.0s test_prop_InsertInsert
+[1703216963.691684 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_InsertInsert failed (8 shrink steps):
+Test test_prop_InsertInsert failed (11 shrink steps):
+
+(Empty, (1, 0, 0, 0))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216963.692312 exit 0]
+[1703216963.758205 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertInsert failed (23 shrink steps):
 
 (Empty, (0, 1, 0, 0))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.13]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      2      0      1      0 / 500000     0.0s test_prop_InsertInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertInsert failed (10 shrink steps):
-
-(Tree (Tree (Empty,94,2042,Empty),3737,240,Empty), (0, 1, 0, 0))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.22]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      2      0      1      0 / 500000     0.0s test_prop_InsertInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertInsert failed (19 shrink steps):
-
-(Empty, (0, 1, 0, 0))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.13]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      4      0      1      0 / 500000     0.0s test_prop_InsertInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertInsert failed (14 shrink steps):
-
-(Empty, (0, 1, 0, 0))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 3.56]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      2      0      1      1 / 500000     0.0s test_prop_InsertInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertInsert failed (14 shrink steps):
-
-(Empty, (0, 1, 0, 0))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.11]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_InsertInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertInsert failed (13 shrink steps):
-
-(Empty, (0, 1, 0, 0))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.10]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      2      0      1      0 / 500000     0.0s test_prop_InsertInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertInsert failed (13 shrink steps):
-
-(Empty, (0, 1, 0, 0))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.21]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      2      0      1      0 / 500000     0.0s test_prop_InsertInsert
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_InsertInsert failed (19 shrink steps):
-
-(Empty, (0, 1, 0, 0))
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.11]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      1      0      1      0 / 500000     0.0s test_prop_InsertInsert
+[1703216963.758808 exit 0]
+[1703216963.824487 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_InsertInsert failed (12 shrink steps):
 
-(Empty, (0, 1, 0, 0))
+(Empty, (1, 0, 0, 0))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.11]
-[prop_InsertInsert|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert
-[ ]      0      0      0      0 / 500000     0.0s test_prop_InsertInsert (generating)
-[✗]      4      0      1      0 / 500000     0.0s test_prop_InsertInsert
+[1703216963.825277 exit 0]
+[1703216963.890737 start]
 
 --- Failure --------------------------------------------------------------------
 
-Test test_prop_InsertInsert failed (10 shrink steps):
+Test test_prop_InsertInsert failed (13 shrink steps):
 
-(Tree (Empty,2,9,Empty), (2, 3, 0, 1))
+(Tree (Empty,0,0,Empty), (0, 1, 0, 1))
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_InsertInsert -> 0.17]
+[1703216963.891329 exit 0]
+[1703216963.957595 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertInsert failed (17 shrink steps):
+
+(Empty, (1, 0, 0, 0))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216963.958203 exit 0]
+[1703216964.025453 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertInsert failed (2 shrink steps):
+
+(Empty, (1, 0, 0, 0))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216964.026105 exit 0]
+[1703216964.095004 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertInsert failed (16 shrink steps):
+
+(Empty, (0, 1, 0, 0))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216964.095672 exit 0]
+[1703216964.170312 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertInsert failed (11 shrink steps):
+
+(Empty, (1, 0, 0, 0))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216964.170915 exit 0]
+[1703216964.236337 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertInsert failed (18 shrink steps):
+
+(Empty, (0, 1, 0, 0))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216964.236904 exit 0]
+[1703216964.302316 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertInsert failed (16 shrink steps):
+
+(Empty, (0, 1, 0, 0))
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703216964.302911 exit 0]

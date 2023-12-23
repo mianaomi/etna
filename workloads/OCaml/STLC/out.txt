@@ -1,0 +1,46 @@
+[1703362012.866449 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:Bool,\b:(Bool->((Bool->(Bool->(((Bool->Bool)->Bool)->((Bool->Bool)->Bool))))->Bool)),b \b:Bool,\c:Bool,\d:Bool,\e:Bool,\f:(Bool->(Bool->(((Bool->Bool)->Bool)->((Bool->Bool)->Bool)))),false \b:Bool,true true a a
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703362012.867037 exit 0]
+[1703362030.485866 start]
+
+=== Error ======================================================================
+
+Test test_prop_SinglePreserve errored on (0 shrink steps):
+
+\a:Bool,\b:(Bool->(((((((((Bool->Bool)->Bool)->((Bool->Bool)->(Bool->Bool)))->((Bool->Bool)->Bool))->Bool)->Bool)->(((((Bool->(Bool->Bool))->Bool)->Bool)->(Bool->(Bool->((Bool->Bool)->(Bool->Bool)))))->(((Bool->Bool)->((Bool->(Bool->Bool))->Bool))->Bool)))->Bool)->Bool)),\c:(((Bool->Bool)->Bool)->Bool),\d:Bool,false false false
+
+exception Invalid_argument("option is None")
+Raised at Stdlib.invalid_arg in file "stdlib.ml", line 30, characters 20-45
+Called from STLC__Spec.prop_SinglePreserve in file "lib/spec.ml", line 14, characters 40-46
+Called from STLC__Test.(<<) in file "lib/test.ml" (inlined), line 6, characters 21-26
+Called from STLC__Test.test_prop_SinglePreserve.(fun) in file "lib/test.ml", line 11, characters 27-57
+Called from QCheck2.Test.run_law.loop in file "src/core/QCheck2.ml", line 1644, characters 27-32
+Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1649, characters 6-18
+Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1772, characters 20-59
+
+================================================================================
+failure (0 tests failed, 1 tests errored, ran 1 tests)
+[1703362030.486345 exit 0]
+[1703362261.561567 start]
+[1703362289.521873 start]
+[1703362302.720802 start]
+[1703362362.746191 exit timeout]
+[1703366708.540033 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, a \a:Bool, \b:(((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))) -> ((Bool -> Bool) -> (((Bool -> Bool) -> Bool) -> Bool))), b \b:((Bool -> Bool) -> (((Bool -> Bool) -> (Bool -> Bool)) -> ((Bool -> Bool) -> (Bool -> Bool)))), \c:(Bool -> Bool), \d:((Bool -> Bool) -> Bool), true false
+    
+the test failed:
+
+    check false
+    
+[1703366708.549401 exit 1]

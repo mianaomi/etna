@@ -1,0 +1,4002 @@
+[
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00047206878662109375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00041794776916503906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004258155822753906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00042700767517089844
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004239082336425781
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00043511390686035156
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004260540008544922
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00043487548828125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004279613494873047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004279613494873047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.037689924240112305
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.012077093124389648
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.022264957427978516
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00921487808227539
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.033763885498046875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.04531502723693848
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009658336639404297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.015916109085083008
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.03132510185241699
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.023591041564941406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.040193796157836914
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021725893020629883
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.002772808074951172
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.015697956085205078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.023287057876586914
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.015583038330078125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.023392915725708008
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0003650188446044922
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.014290094375610352
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.010937929153442383
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004711151123046875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004971027374267578
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004448890686035156
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004360675811767578
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00043892860412597656
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004379749298095703
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004620552062988281
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00043010711669921875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004329681396484375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0004429817199707031
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006555080413818359
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.011568069458007812
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.010550975799560547
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.007902860641479492
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0248110294342041
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.027318954467773438
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.033937931060791016
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.03444099426269531
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.008767127990722656
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.010168075561523438
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.038435935974121094
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.022400856018066406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.05301403999328613
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.058949947357177734
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.005110979080200195
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.017564058303833008
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.002794027328491211
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00039887428283691406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0012028217315673828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006273031234741211
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.01697397232055664
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0005810260772705078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.001397848129272461
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.005661964416503906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.012948989868164062
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0035851001739501953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009350776672363281
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0022079944610595703
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.009536981582641602
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.008733987808227539
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.011499166488647461
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.08283805847167969
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.010769128799438477
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006479978561401367
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006242036819458008
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.012382030487060547
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.007231950759887695
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0073511600494384766
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0008299350738525391
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.017781972885131836
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0011839866638183594
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.001138925552368164
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0011289119720458984
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0010929107666015625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.001110076904296875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0011169910430908203
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0010991096496582031
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.001096963882446289
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0012409687042236328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.001088857650756836
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037980079650878906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037839412689208984
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003826141357421875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003796100616455078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003777027130126953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037500858306884766
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004283905029296875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037717819213867188
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004029989242553711
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037310123443603516
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.009458065032958984
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0005888938903808594
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01258993148803711
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.014987945556640625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.013933897018432617
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.05191206932067871
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02575516700744629
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0021009445190429688
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0013709068298339844
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.06623697280883789
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009579658508300781
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009410381317138672
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009920597076416016
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009808540344238281
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009229183197021484
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009710788726806641
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009260177612304688
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0008900165557861328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009570121765136719
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0008981227874755859
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.056086063385009766
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.009560823440551758
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00041794776916503906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0003418922424316406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.03494906425476074
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004486083984375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004125118255615234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.014606952667236328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004746913909912109
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.025578022003173828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0035178661346435547
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0034570693969726562
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0034279823303222656
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003459930419921875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003484010696411133
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0036919116973876953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003512144088745117
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003443002700805664
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0034630298614501953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003509998321533203
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.030557870864868164
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.028200864791870117
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.059610843658447266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.020364999771118164
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.024090051651000977
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.018199920654296875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.009008169174194336
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.041818857192993164
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.018870115280151367
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.032328128814697266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.05961298942565918
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02598285675048828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.012996912002563477
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.08218193054199219
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.017926931381225586
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02321004867553711
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.03401899337768555
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.013109922409057617
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.012641191482543945
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.039183855056762695
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01972198486328125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019590139389038086
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019323110580444336
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019837141036987305
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01929306983947754
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01966094970703125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019287109375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0193789005279541
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019364118576049805
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019700050354003906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.360461950302124
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.8408191204071045
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.0471620559692383
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.07966995239257812
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.42748308181762695
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.68247389793396
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.573970079421997
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.14500713348388672
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 7.5570290088653564
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.710860013961792
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004055976867675781
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037450790405273438
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037360191345214844
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037250518798828125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0038280487060546875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037298202514648438
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037271976470947266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037598609924316406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0036962032318115234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037589073181152344
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.03484392166137695
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.025106191635131836
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02047586441040039
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02628493309020996
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.009824037551879883
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.008845806121826172
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.002184152603149414
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.005883932113647461
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.004101991653442383
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00585484504699707
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02050495147705078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02018594741821289
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02009296417236328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019875049591064453
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01988697052001953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.020127058029174805
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01976799964904785
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019533872604370117
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01961493492126465
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019819021224975586
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003935813903808594
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037398338317871094
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003720998764038086
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003844022750854492
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037779808044433594
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0040760040283203125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003866910934448242
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0038259029388427734
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0038030147552490234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003701925277709961
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.36929798126220703
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.3207991123199463
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.6255910396575928
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.6311380863189697
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.20232486724853516
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.5071511268615723
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 5.29435396194458
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.1421408653259277
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.4395461082458496
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.8630759716033936
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.7750120162963867
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.5450010299682617
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.7300751209259033
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.591973066329956
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.5006649494171143
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.5805478096008301
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.8801531791687012
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.7747550010681152
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.2898709774017334
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.10286498069763184
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.005533933639526367
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.012846946716308594
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006901979446411133
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.005513906478881836
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.002568960189819336
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00923609733581543
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.009356021881103516
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02171611785888672
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.014926910400390625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.008555889129638672
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009799003601074219
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009448528289794922
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009429454803466797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.000926971435546875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009219646453857422
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009381771087646484
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009560585021972656
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009319782257080078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0008990764617919922
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0009441375732421875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.011758089065551758
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0051729679107666016
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0005719661712646484
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00860595703125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0019588470458984375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.000720977783203125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.011369943618774414
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0039861202239990234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0018458366394042969
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.005545854568481445
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0010211467742919922
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0010249614715576172
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009191036224365234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009579658508300781
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009300708770751953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009350776672363281
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009810924530029297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0008871555328369141
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009009838104248047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009279251098632812
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00047898292541503906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00048089027404785156
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004329681396484375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0005049705505371094
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00043511390686035156
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00043082237243652344
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00042700767517089844
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004169940948486328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004279613494873047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004169940948486328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02950000762939453
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.028648853302001953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.020724058151245117
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02013111114501953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037279129028320312
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.025516033172607422
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.05824589729309082
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004537105560302734
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.04449605941772461
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.021854162216186523
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.00238800048828125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0023920536041259766
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0022771358489990234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0023081302642822266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.002312183380126953
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0024728775024414062
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.002340078353881836
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.002588987350463867
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0023550987243652344
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0026619434356689453
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003712177276611328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021180152893066406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0042231082916259766
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.007244110107421875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003507852554321289
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006053924560546875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.024548053741455078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003495931625366211
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.014436006546020508
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.004581928253173828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.5401060581207275
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.46086883544921875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.8070759773254395
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.4786529541015625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.7452020645141602
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.039212942123413
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.7969529628753662
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.14879894256591797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.7430570125579834
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.5861320495605469
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.001850128173828125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.014419078826904297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.014409065246582031
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.008864879608154297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.009801864624023438
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0007359981536865234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0008020401000976562
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003748178482055664
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.014567136764526367
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "bespokeGenerator",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.08172917366027832
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.019984960556030273
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.019845008850097656
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.019870996475219727
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.020119905471801758
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02016615867614746
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0200040340423584
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.01987290382385254
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.020470857620239258
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.020308971405029297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.019913911819458008
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06757807731628418
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06616091728210449
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06552505493164062
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06559395790100098
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06656193733215332
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06602811813354492
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06851506233215332
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0662851333618164
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06625199317932129
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.06713390350341797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037801265716552734
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037751197814941406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037338733673095703
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003756999969482422
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037000179290771484
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0038208961486816406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003751039505004883
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003762960433959961
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037250518798828125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003755807876586914
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009558200836181641
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009210109710693359
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0008959770202636719
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009047985076904297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0008890628814697266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0008928775787353516
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009171962738037109
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009050369262695312
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009210109710693359
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0009160041809082031
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004839897155761719
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004749298095703125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0005240440368652344
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00042891502380371094
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00043702125549316406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004742145538330078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.000431060791015625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0004749298095703125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.00043010711669921875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.000431060791015625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0038199424743652344
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0038230419158935547
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003859996795654297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003765106201171875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003757953643798828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037119388580322266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037751197814941406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037641525268554688
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003753185272216797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003782987594604492
+    }
+]

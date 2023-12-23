@@ -1,0 +1,100 @@
+[1703368870.567593 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:((Bool->(Bool->(Bool->Bool)))->(Bool->(Bool->Bool))),\b:(((Bool->((Bool->(Bool->Bool))->Bool))->Bool)->Bool),\c:(Bool->Bool),false \b:((Bool->((Bool->(Bool->Bool))->Bool))->Bool),true \b:Bool,a \a:(Bool->(Bool->(Bool->Bool))),\b:Bool,\c:Bool,false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.602437 exit 0]
+[1703368870.641157 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:(Bool->Bool),\b:(Bool->(Bool->Bool)),\c:(Bool->Bool),c \a:Bool,\b:(Bool->Bool),\c:Bool,false \b:Bool,\c:Bool,false a a
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.666263 exit 0]
+[1703368870.699325 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,\c:((Bool->Bool)->((Bool->Bool)->(Bool->Bool))),\d:((Bool->((Bool->Bool)->Bool))->Bool),d \c:(Bool->Bool),\d:((Bool->Bool)->(((Bool->Bool)->(Bool->Bool))->(Bool->(Bool->Bool)))),\e:((Bool->Bool)->Bool),\f:(Bool->Bool),\g:Bool,false \d:(Bool->Bool),\e:((Bool->Bool)->(Bool->Bool)),\f:Bool,\g:Bool,false \d:Bool,\e:(Bool->Bool),false b \c:(Bool->((Bool->Bool)->Bool)),\d:Bool,\e:Bool,a \d:Bool,false \d:(Bool->(Bool->(Bool->Bool))),false \d:Bool,\e:Bool,\f:Bool,false b false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.719801 exit 0]
+[1703368870.753786 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,a false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.780071 exit 0]
+[1703368870.813502 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:(Bool->((Bool->((Bool->(Bool->(Bool->Bool)))->Bool))->Bool)),\b:Bool,a \a:Bool,\b:(Bool->((Bool->(Bool->(Bool->Bool)))->Bool)),false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.823326 exit 0]
+[1703368870.856429 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:Bool,\b:(Bool->Bool),\c:((Bool->Bool)->(Bool->(Bool->Bool))),false \c:Bool,\d:(Bool->Bool),\e:(Bool->Bool),\f:Bool,\g:Bool,false \c:(Bool->((((Bool->(((Bool->Bool)->(Bool->Bool))->(Bool->(Bool->(Bool->Bool)))))->(Bool->Bool))->((Bool->(Bool->Bool))->Bool))->Bool)),true \c:(Bool->Bool),\d:Bool,\e:(((Bool->(((Bool->Bool)->(Bool->Bool))->(Bool->(Bool->(Bool->Bool)))))->(Bool->Bool))->((Bool->(Bool->Bool))->Bool)),false \c:Bool,\d:Bool,false b \c:Bool,false \a:(Bool->(((Bool->(Bool->Bool))->(((Bool->Bool)->Bool)->(Bool->((Bool->(((((Bool->(Bool->Bool))->Bool)->(Bool->(Bool->Bool)))->Bool)->Bool))->Bool))))->((Bool->Bool)->Bool))),false \a:(Bool->Bool),\b:Bool,\c:((Bool->(Bool->Bool))->(((Bool->Bool)->Bool)->(Bool->((Bool->(((((Bool->(Bool->Bool))->Bool)->(Bool->(Bool->Bool)))->Bool)->Bool))->Bool)))),\d:(Bool->Bool),true \a:Bool,false \a:Bool,\b:Bool,a \a:(Bool->(Bool->Bool)),false \a:Bool,\b:Bool,false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.865275 exit 0]
+[1703368870.898095 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:(((Bool->Bool)->Bool)->Bool),\b:Bool,a \a:((Bool->Bool)->Bool),false true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.900279 exit 0]
+[1703368870.932935 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:Bool,\b:((Bool->Bool)->Bool),\c:Bool,b \c:Bool,true true false
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.938819 exit 0]
+[1703368870.971551 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:(Bool->Bool),\b:Bool,\c:Bool,\d:(Bool->Bool),\e:((Bool->Bool)->(Bool->(Bool->((Bool->Bool)->Bool)))),false true \b:(Bool->(Bool->(Bool->Bool))),\c:((Bool->(Bool->Bool))->(Bool->(Bool->Bool))),true \b:Bool,\c:((Bool->Bool)->(Bool->(Bool->Bool))),\d:Bool,\e:Bool,\f:Bool,true \c:(((Bool->Bool)->(Bool->Bool))->((Bool->Bool)->(Bool->Bool))),\d:(Bool->Bool),\e:Bool,\f:Bool,true \c:((Bool->Bool)->(Bool->Bool)),\d:(Bool->Bool),\e:Bool,false false \b:(Bool->(Bool->Bool)),\c:Bool,\d:Bool,false \b:Bool,a \a:Bool,\b:Bool,\c:Bool,\d:Bool,false \c:(Bool->Bool),\d:((Bool->Bool)->Bool),true \c:(Bool->Bool),\d:Bool,false \c:Bool,true \c:(Bool->Bool),\d:Bool,true false \a:Bool,false \a:(Bool->Bool),a \a:Bool,\b:Bool,\c:Bool,\d:Bool,false false true true true true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368870.975653 exit 0]
+[1703368871.008958 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_SinglePreserve failed (0 shrink steps):
+
+\a:Bool,\b:Bool,\c:Bool,b false \a:Bool,a false \a:Bool,true \a:Bool,false true
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703368871.014813 exit 0]

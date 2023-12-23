@@ -1,0 +1,100 @@
+[1703363011.946835 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (R,Empty,2,6,Empty),3,313,Tree (R,Empty,4,9,Empty)), 4, 4)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363013.816115 exit 0]
+[1703363013.850620 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (R,Tree (B,Empty,1,15,Empty),2,9,Tree (B,Empty,9,8,Empty)), 9, 9)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363014.061920 exit 0]
+[1703363014.096482 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (R,Tree (B,Empty,4,2,Empty),6,75,Tree (B,Empty,8,11,Empty)), 4, 4)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363014.472371 exit 0]
+[1703363014.510106 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (R,Empty,8,49,Empty),89,9,Tree (R,Empty,491,2,Empty)), 8, 8)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363014.510500 exit 0]
+[1703363014.546584 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,1,9,Empty),8,2,Tree (B,Empty,636,590,Empty)), 1, 1)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363016.094358 exit 0]
+[1703363016.129038 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (R,Empty,7,4,Empty),9,8,Tree (R,Empty,74,5,Empty)), 7, 7)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363025.311531 exit 0]
+[1703363025.347488 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (R,Empty,9,627,Empty),464,69,Tree (R,Empty,798,65,Empty)), 9, 9)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363032.329205 exit 0]
+[1703363032.365646 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (R,Empty,4,3,Empty),369,8,Tree (R,Empty,691,2,Empty)), 4, 4)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363050.322764 exit 0]
+[1703363050.403599 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (R,Empty,0,8,Empty),6,688,Tree (R,Empty,26,250,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363062.341684 exit 0]
+[1703363062.377078 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeletePost failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,3,5,Empty),7,801,Tree (B,Empty,908,0,Empty)), 3, 3)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363068.768368 exit 0]

@@ -1,0 +1,100 @@
+[1703363068.803895 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,1,7,Empty),523,0,Tree (B,Empty,914,7,Empty)), 1)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363069.230588 exit 0]
+[1703363069.265001 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,6,2061,Empty),7,77,Tree (B,Empty,771,4,Empty)), 6)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363069.398179 exit 0]
+[1703363069.432732 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,2,2,Empty),4,2,Tree (B,Empty,8,0,Empty)), 2)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363069.686688 exit 0]
+[1703363069.721208 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,5,9,Empty),11,470,Tree (B,Empty,43,1,Empty)), 5)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363069.874112 exit 0]
+[1703363069.908470 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (R,Tree (B,Empty,4,56,Empty),5,58,Tree (B,Empty,897,728,Empty)), 4)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363070.265564 exit 0]
+[1703363070.300159 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (R,Tree (B,Empty,7,5,Empty),88,5042,Tree (B,Empty,3488,3,Empty)), 7)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363070.573501 exit 0]
+[1703363070.607791 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (R,Tree (B,Empty,2,2,Empty),3,2,Tree (B,Empty,8,614,Empty)), 2)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363071.364617 exit 0]
+[1703363071.399198 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,4,918,Empty),8,9862,Tree (B,Empty,9,7,Empty)), 9)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363072.167347 exit 0]
+[1703363072.201714 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (B,Tree (R,Empty,2,4,Empty),9,9,Tree (R,Empty,78,5,Empty)), 2)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363072.402028 exit 0]
+[1703363072.436476 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (0 shrink steps):
+
+(Tree (B,Tree (B,Empty,6,31,Empty),9,691,Tree (B,Empty,681,5,Empty)), 6)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703363072.915411 exit 0]

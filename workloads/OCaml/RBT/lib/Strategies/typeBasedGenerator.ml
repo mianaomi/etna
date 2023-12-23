@@ -1,8 +1,6 @@
 open Impl
 open QCheck
 
-(* --------------------- Generator --------------------- *)
-
 let typebased =
   let open QCheck.Gen in
   let t c l k v r = T (c, l, k, v, r) in

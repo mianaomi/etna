@@ -1,0 +1,120 @@
+[1703368900.239094 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368900.306672 exit 1]
+[1703368900.343246 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368900.409407 exit 1]
+[1703368900.444880 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368900.510405 exit 1]
+[1703368900.545064 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368900.610658 exit 1]
+[1703368900.647294 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368900.713856 exit 1]
+[1703368900.750274 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368900.816302 exit 1]
+[1703368900.851846 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368900.920361 exit 1]
+[1703368900.957783 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368901.024068 exit 1]
+[1703368901.060191 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368901.126443 exit 1]
+[1703368901.163135 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), b a
+    
+the test failed:
+
+    check false
+    
+[1703368901.230269 exit 1]

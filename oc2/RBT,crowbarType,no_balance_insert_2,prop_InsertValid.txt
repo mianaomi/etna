@@ -1,0 +1,120 @@
+[1703304206.380645 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.382718 exit 1]
+[1703304206.417422 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.419461 exit 1]
+[1703304206.454047 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.456068 exit 1]
+[1703304206.490614 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.492612 exit 1]
+[1703304206.526982 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.528988 exit 1]
+[1703304206.563850 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.565880 exit 1]
+[1703304206.600351 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.602352 exit 1]
+[1703304206.636990 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.638993 exit 1]
+[1703304206.673437 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.675436 exit 1]
+[1703304206.710076 start]
+test_prop_InsertValid: FAIL
+
+When given the input:
+
+    [(T B E -83 110 (T R E 2 12 E)); -9; 51]
+    
+the test failed:
+
+    check false
+    
+[1703304206.712115 exit 1]

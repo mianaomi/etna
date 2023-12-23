@@ -1,0 +1,100 @@
+[1703218811.579403 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (1 shrink steps):
+
+(Tree (B,Tree (R,Empty,14,4753,Empty),68,148,Tree (R,Empty,80,0,Empty)), 4, 4, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218811.785266 exit 0]
+[1703218811.848152 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (4 shrink steps):
+
+(Tree (B,Tree (R,Empty,4,6,Empty),8,281,Tree (R,Empty,723,5,Empty)), 1, 1, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218826.930527 exit 0]
+[1703218826.999704 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (3 shrink steps):
+
+(Tree (B,Tree (R,Empty,1,9,Empty),2,0,Tree (R,Empty,27,30,Empty)), 0, 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218835.006870 exit 0]
+[1703218835.070324 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (9 shrink steps):
+
+(Tree (B,Tree (R,Empty,5,74,Empty),6,6,Tree (R,Empty,10,724,Empty)), 5, 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218838.228372 exit 0]
+[1703218838.306054 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (8 shrink steps):
+
+(Tree (B,Tree (R,Empty,4,6,Empty),28,531,Tree (R,Empty,65,8730,Empty)), 3, 3, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218844.176667 exit 0]
+[1703218844.266364 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (4 shrink steps):
+
+(Tree (B,Tree (R,Empty,5,83,Empty),9,7,Tree (R,Empty,179,8,Empty)), 5, 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218844.839561 exit 0]
+[1703218844.916839 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (4 shrink steps):
+
+(Tree (B,Tree (R,Empty,6,5,Empty),19,3,Tree (R,Empty,606,13,Empty)), 5, 5, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218847.514264 exit 0]
+[1703218847.579273 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (6 shrink steps):
+
+(Tree (B,Tree (R,Empty,4,27,Empty),6,0,Tree (R,Empty,7,2,Empty)), 3, 3, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218851.257713 exit 0]
+[1703218851.319027 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (8 shrink steps):
+
+(Tree (B,Tree (R,Empty,3,0,Empty),49,3,Tree (R,Empty,338,94,Empty)), 2, 2, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218855.414000 exit 0]
+[1703218855.502224 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteInsert failed (1 shrink steps):
+
+(Tree (B,Tree (R,Empty,588,5,Empty),653,1,Tree (R,Empty,674,2,Empty)), 2, 2, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703218884.580924 exit 0]

@@ -4,7 +4,7 @@ from benchtool.Plot import *
 from functools import partial
 
 # use this to adjust which plots are generated
-WORKLOADS = ['RBT']
+WORKLOADS = ['STLC']
 
 def analyze(results: str, images: str):
     df = parse_results(results)

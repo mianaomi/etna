@@ -1,0 +1,100 @@
+[1703296175.538063 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (12 shrink steps):
+
+(Tree (B,Tree (R,Empty,9,1,Empty),198,5,Tree (R,Empty,338,4,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296175.886501 exit 0]
+[1703296175.941183 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (4 shrink steps):
+
+(Tree (B,Tree (R,Empty,1,5572,Empty),6,78,Tree (R,Empty,2615,8,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296175.964029 exit 0]
+[1703296176.019601 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (6 shrink steps):
+
+(Tree (B,Tree (R,Empty,3,7,Empty),9,93,Tree (R,Empty,83,74,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296176.843186 exit 0]
+[1703296176.898033 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (3 shrink steps):
+
+(Tree (B,Tree (R,Empty,0,550,Empty),948,7,Tree (R,Empty,2716,67,Empty)), 1, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296177.488515 exit 0]
+[1703296177.543241 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (5 shrink steps):
+
+(Tree (B,Tree (R,Empty,2,7,Empty),8,9,Tree (R,Empty,675,8,Empty)), 3, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296178.387806 exit 0]
+[1703296178.444479 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (7 shrink steps):
+
+(Tree (B,Tree (R,Empty,52,3,Empty),83,7,Tree (R,Empty,90,45,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296178.633421 exit 0]
+[1703296178.690287 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (10 shrink steps):
+
+(Tree (B,Tree (R,Empty,0,65,Empty),13,1,Tree (R,Empty,87,0,Empty)), 1, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296178.691578 exit 0]
+[1703296178.748029 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (8 shrink steps):
+
+(Tree (B,Tree (R,Empty,8,0,Empty),9,2,Tree (R,Empty,948,3,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296178.990330 exit 0]
+[1703296179.047339 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (6 shrink steps):
+
+(Tree (B,Tree (R,Empty,5,4,Empty),502,9,Tree (R,Empty,591,1,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296179.394406 exit 0]
+[1703296179.451196 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_InsertValid failed (9 shrink steps):
+
+(Tree (B,Tree (R,Empty,9,41,Empty),140,459,Tree (R,Empty,926,497,Empty)), 0, 0)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703296179.737991 exit 0]

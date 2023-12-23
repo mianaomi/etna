@@ -1,143 +1,100 @@
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[✗]    183      0      1     87 / 500000     0.0s test_prop_DeleteModel
+[1703217188.065503 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,4,6,Empty),583,1,Empty), 4)
+(Tree (Tree (Empty,0,583,Empty),20,79,Empty), 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 16.56]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[✗]    142      0      1     65 / 500000     0.0s test_prop_DeleteModel
+[1703217188.127452 exit 0]
+[1703217188.185917 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,9,5,Empty),778,4,Empty), 9)
+(Tree (Tree (Empty,1,5,Empty),7,7,Empty), 1)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 37.10]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[ ]    734      0      0    401 / 500000     0.1s test_prop_DeleteModel (collecting)
-[✗]    844      0      1    464 / 500000     0.1s test_prop_DeleteModel
+[1703217188.280774 exit 0]
+[1703217188.342413 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Empty,4,7,Tree (Empty,5,0,Empty)), 5)
+(Tree (Tree (Tree (Empty,1,9,Empty),7,893,Empty),760,3,Empty), 1)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 111.27]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[✗]    134      0      1     83 / 500000     0.0s test_prop_DeleteModel
+[1703217188.378647 exit 0]
+[1703217188.439024 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,4,51,Empty),23,214,Tree (Empty,4347,0,Empty)), 4)
+(Tree (Tree (Empty,2,735,Empty),8,0,Empty), 2)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 19.74]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[ ]    393      0      0    202 / 500000     4.0s test_prop_DeleteModel (collecting)
-[✗]    591      0      1    306 / 500000     4.1s test_prop_DeleteModel
+[1703217188.449574 exit 0]
+[1703217188.510834 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,7,0,Empty),37,370,Empty), 7)
+(Tree (Tree (Tree (Empty,2,35,Empty),3,7,Empty),5,9,Empty), 2)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 83.31]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[✗]    674      0      1    342 / 500000     0.1s test_prop_DeleteModel
+[1703217188.531474 exit 0]
+[1703217188.589603 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,6,86,Empty),9,4,Tree (Empty,603,8,Empty)), 6)
+(Tree (Tree (Tree (Empty,7,9,Empty),9,5,Empty),32,3,Empty), 7)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 94.78]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[✗]     33      0      1     16 / 500000     0.0s test_prop_DeleteModel
+[1703217188.596464 exit 0]
+[1703217188.662540 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Empty,4,0,Tree (Empty,9,372,Empty)), 9)
+(Tree (Tree (Empty,0,7,Empty),7,0,Empty), 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 1.97]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[✗]    130      0      1     63 / 500000     0.0s test_prop_DeleteModel
+[1703217188.767384 exit 0]
+[1703217188.827005 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,2,0,Empty),3,1,Tree (Empty,7,7398,Empty)), 7)
+(Tree (Tree (Empty,0,2,Tree (Empty,7,943,Empty)),621,7,Empty), 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 17.92]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[✗]    538      0      1    258 / 500000     0.1s test_prop_DeleteModel
+[1703217188.901339 exit 0]
+[1703217188.961368 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_DeleteModel failed (1 shrink steps):
+
+(Tree (Empty,0,6,Tree (Empty,7,6,Tree (Empty,9,0,Empty))), 7)
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1703217188.970614 exit 0]
+[1703217189.031393 start]
 
 --- Failure --------------------------------------------------------------------
 
 Test test_prop_DeleteModel failed (0 shrink steps):
 
-(Tree (Tree (Empty,9,384,Empty),58,34,Empty), 9)
+(Tree (Tree (Empty,0,2,Empty),969,0,Empty), 0)
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 88.56]
-[prop_DeleteModel|
- generated  error   fail   pass /  total     time test name
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel
-[ ]      0      0      0      0 / 500000     0.0s test_prop_DeleteModel (generating)
-[ ]    654      0      0    338 / 500000     0.1s test_prop_DeleteModel (collecting)
-[✗]   1222      0      1    625 / 500000     0.2s test_prop_DeleteModel
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_DeleteModel failed (0 shrink steps):
-
-(Tree (Empty,0,258,Tree (Empty,2,779,Tree (Empty,26,8,Empty))), 26)
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-|prop_DeleteModel -> 179.82]
+[1703217189.064627 exit 0]

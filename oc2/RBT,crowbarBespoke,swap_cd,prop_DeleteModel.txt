@@ -1,5 +1,4 @@
-[1703142336.718254 start]
-[1703142336.718262 end]
+[1703193753.908910 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -11,9 +10,8 @@ the test failed:
 
     check false
     
-[1703142336.722927 exit 1]
-[1703142336.779144 start]
-[1703142336.779152 end]
+[1703193753.913748 exit 1]
+[1703193753.973542 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -25,9 +23,8 @@ the test failed:
 
     check false
     
-[1703142336.783827 exit 1]
-[1703142336.839821 start]
-[1703142336.839832 end]
+[1703193753.978437 exit 1]
+[1703193754.039613 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -39,9 +36,8 @@ the test failed:
 
     check false
     
-[1703142336.844484 exit 1]
-[1703142336.900644 start]
-[1703142336.900655 end]
+[1703193754.044482 exit 1]
+[1703193754.104586 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -53,9 +49,8 @@ the test failed:
 
     check false
     
-[1703142336.905511 exit 1]
-[1703142336.969537 start]
-[1703142336.969546 end]
+[1703193754.109404 exit 1]
+[1703193754.166935 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -67,9 +62,8 @@ the test failed:
 
     check false
     
-[1703142336.974298 exit 1]
-[1703142337.031917 start]
-[1703142337.031925 end]
+[1703193754.171625 exit 1]
+[1703193754.228267 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -81,9 +75,8 @@ the test failed:
 
     check false
     
-[1703142337.036597 exit 1]
-[1703142337.092735 start]
-[1703142337.092741 end]
+[1703193754.232938 exit 1]
+[1703193754.290014 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -95,9 +88,8 @@ the test failed:
 
     check false
     
-[1703142337.097408 exit 1]
-[1703142337.153451 start]
-[1703142337.153459 end]
+[1703193754.294807 exit 1]
+[1703193754.352441 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -109,9 +101,8 @@ the test failed:
 
     check false
     
-[1703142337.158095 exit 1]
-[1703142337.214144 start]
-[1703142337.214151 end]
+[1703193754.357153 exit 1]
+[1703193754.414622 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -123,9 +114,8 @@ the test failed:
 
     check false
     
-[1703142337.218822 exit 1]
-[1703142337.275142 start]
-[1703142337.275149 end]
+[1703193754.419360 exit 1]
+[1703193754.479304 start]
 test_prop_DeleteModel: FAIL
 
 When given the input:
@@ -137,4 +127,4 @@ the test failed:
 
     check false
     
-[1703142337.279809 exit 1]
+[1703193754.484045 exit 1]

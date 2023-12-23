@@ -4,12 +4,11 @@ from benchtool.OCaml import OCaml
 from benchtool.Types import ReplaceLevel, TrialConfig
 from benchtool.Tasks import tasks
 
-DEFAULT_DIR = 'oc2'
+DEFAULT_DIR = 'oc3'
 
-
-RUNNING = ['RBT']
-# STRATEGIES = ["bespokeGenerator", "typeBasedGenerator", "crowbarType", "crowbarBespoke"]
-STRATEGIES = ['bespokeGenerator']
+RUNNING = ['STLC']
+STRATEGIES = ["bespokeGenerator", "typeBasedGenerator", "crowbarType", "crowbarBespoke"]
+# STRATEGIES = ['bespokeGenerator', 'crowbarBespoke']
 TRIALS = 10
 TIMEOUT = 65
 
