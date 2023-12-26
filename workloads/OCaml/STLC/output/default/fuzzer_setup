@@ -1,0 +1,7 @@
+# environment variables:
+AFL_BENCH_UNTIL_CRASH=true
+AFL_CUSTOM_INFO_PROGRAM=/Users/nikhil/Code/Research/etna/workloads/OCaml/STLC/_build/install/default/bin/STLC
+AFL_CUSTOM_INFO_PROGRAM_ARGV=@@
+AFL_CUSTOM_INFO_OUT=output/default
+# command line:
+'afl-fuzz' '-i' 'input' '-o' 'output' '-V' '60' '/Users/nikhil/Code/Research/etna/workloads/OCaml/STLC/_build/install/default/bin/STLC' '@@'

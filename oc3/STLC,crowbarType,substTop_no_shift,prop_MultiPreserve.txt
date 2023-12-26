@@ -1,0 +1,120 @@
+[1703470944.602828 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470947.008577 exit 1]
+[1703470947.044890 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470949.408043 exit 1]
+[1703470949.444806 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470951.821833 exit 1]
+[1703470951.861059 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470954.284666 exit 1]
+[1703470954.323101 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470956.672425 exit 1]
+[1703470956.709092 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470959.192925 exit 1]
+[1703470959.231237 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470961.734207 exit 1]
+[1703470961.781053 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470964.208725 exit 1]
+[1703470964.245361 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470966.681809 exit 1]
+[1703470966.721156 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, b true
+    
+the test failed:
+
+    check false
+    
+[1703470969.125557 exit 1]

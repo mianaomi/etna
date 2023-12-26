@@ -24,27 +24,19 @@ let typebased =
           map2 e_app (_exprGen (n / 2)) (_exprGen (n / 2));
         ]
   in
-  sized (fun n -> _exprGen n)
+  sized _exprGen
 
-(* i think this is wrong *)
-let print_expr e =
-  let var_to_string n =
-    String.make 1 (String.get "abcdefghijklmnopqrstuvwxyz" (n mod 26))
-  in
-  let rec print_typ t =
+let rec string_of_expr (e : expr) : string =
+  let rec string_of_typ (t : typ) : string =
     match t with
-    | TBool -> "Bool"
-    | TFun (t, t') -> "(" ^ print_typ t ^ "->" ^ print_typ t' ^ ")"
+    | TBool -> "TBool"
+    | TFun (t1, t2) ->
+        "TFun (" ^ string_of_typ t1 ^ ", " ^ string_of_typ t2 ^ ")"
   in
-  let rec _print_expr n e =
-    match e with
-    | Var n -> var_to_string n
-    | Bool b -> string_of_bool b
-    | Abs (t, e') ->
-        "\\" ^ var_to_string n ^ ":" ^ print_typ t ^ ","
-        ^ _print_expr (1 + n) e'
-    | App (e1, e2) -> _print_expr n e1 ^ " " ^ _print_expr n e2
-  in
-  _print_expr 0 e
+  match e with
+  | Bool b -> "Bool " ^ string_of_bool b
+  | Var i -> "Var " ^ string_of_int i
+  | Abs (t, e') -> "Abs (" ^ string_of_typ t ^ ", " ^ string_of_expr e' ^ ")"
+  | App (e1, e2) -> "App (" ^ string_of_expr e1 ^ ", " ^ string_of_expr e2 ^ ")"
 
-let typebased = QCheck.make typebased ~print:print_expr
+let typebased = QCheck.make typebased ~print:string_of_expr

@@ -1,0 +1,120 @@
+[1703475471.740856 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TBool, App (Abs (TBool, Abs (TFun (TBool, TBool), Var 2)), Bool true))
+    
+the test failed:
+
+    check false
+    
+[1703475471.825785 exit 1]
+[1703475471.861113 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TBool, Abs (TFun (TFun (TBool, TBool), TBool), App (Abs (TBool, Var 1), Bool false)))
+    
+the test failed:
+
+    check false
+    
+[1703475471.864871 exit 1]
+[1703475471.899521 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TFun (TBool, TBool), Abs (TFun (TBool, TFun (TBool, TFun (TBool, TFun (TBool, TBool)))), App (Abs (TBool, Var 1), Bool true)))
+    
+the test failed:
+
+    check false
+    
+[1703475472.212692 exit 1]
+[1703475472.247655 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TBool, App (Abs (TBool, Var 1), Bool true))
+    
+the test failed:
+
+    check false
+    
+[1703475473.431455 exit 1]
+[1703475473.467910 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TFun (TFun (TFun (TBool, TFun (TBool, TBool)), TBool), TFun (TBool, TFun (TBool, TBool))), App (Abs (TBool, Abs (TBool, Var 2)), Bool true))
+    
+the test failed:
+
+    check false
+    
+[1703475473.567786 exit 1]
+[1703475473.604209 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TBool, App (Abs (TBool, Var 1), Bool false))
+    
+the test failed:
+
+    check false
+    
+[1703475474.258550 exit 1]
+[1703475474.295122 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TFun (TFun (TBool, TBool), TFun (TFun (TBool, TFun (TFun (TBool, TBool), TBool)), TBool)), App (Abs (TBool, Var 1), Bool true))
+    
+the test failed:
+
+    check false
+    
+[1703475474.796324 exit 1]
+[1703475474.834554 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TBool, App (Abs (TBool, App (Abs (TBool, Var 0), Var 1)), Bool true))
+    
+the test failed:
+
+    check false
+    
+[1703475477.900280 exit 1]
+[1703475477.936688 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TFun (TBool, TFun (TBool, TFun (TBool, TFun (TFun (TBool, TBool), TBool)))), App (Abs (TBool, Abs (TFun (TFun (TBool, TBool), TFun (TBool, TBool)), Var 2)), Bool false))
+    
+the test failed:
+
+    check false
+    
+[1703475478.479374 exit 1]
+[1703475478.517342 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    Abs (TFun (TBool, TFun (TBool, TFun (TBool, TBool))), App (Abs (TBool, Var 1), Bool false))
+    
+the test failed:
+
+    check false
+    
+[1703475479.440298 exit 1]

@@ -4,7 +4,7 @@ import json
 
 DATA_PATH = './oc3/'
 OUTPUT_FILE = './experiments/ocaml-experiments/stlc.json'
-APPEND = True # if false, will override the contents in OUTPUT_FILE
+APPEND = False # if false, will override the contents in OUTPUT_FILE
 
 def parse(filename):
     print(f"parsing {filename}")

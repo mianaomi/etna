@@ -103,6 +103,106 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.105003833770752
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.5459930896759033
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.197993040084839
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.639988899230957
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.3010029792785645
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.1210010051727295
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.3220019340515137
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.104008913040161
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.4350008964538574
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.501020908355713
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "bespokeGenerator",
         "mutant": "subst_abs_no_incr",
         "passed": -1,
@@ -302,6 +402,106 @@
     {
         "workload": "STLC",
         "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99940299987793
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99962615966797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99957799911499
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99942493438721
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99940800666809
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99946403503418
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99936008453369
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 60.00168490409851
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 60.00150108337402
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99946403503418
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
         "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "subst_var_none",
@@ -398,6 +598,106 @@
         "passed": -1,
         "property": "prop_MultiPreserve",
         "time": 0.0004429817199707031
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.010697126388549805
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006229877471923828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006103992462158203
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006139993667602539
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006144046783447266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006245136260986328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006129026412963867
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006974935531616211
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0060999393463134766
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.006136894226074219
     },
     {
         "workload": "STLC",
@@ -803,6 +1103,106 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.002223968505859375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.03144478797912598
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.005280017852783203
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.010422945022583008
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003882169723510742
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.03579401969909668
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.001194000244140625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.010667800903320312
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.009557962417602539
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0074520111083984375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "subst_var_all",
         "passed": -1,
@@ -898,6 +1298,206 @@
         "passed": -1,
         "property": "prop_SinglePreserve",
         "time": 0.001088857650756836
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.030939102172851562
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021619081497192383
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02180004119873047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021578073501586914
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021888017654418945
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021591901779174805
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02167987823486328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021713972091674805
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.021664857864379883
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02172398567199707
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.563015937805176
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.0919930934906006
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 6.621012926101685
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.8430140018463135
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.278011083602905
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.1460230350494385
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.6960020065307617
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 7.30002498626709
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 5.118016004562378
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.194999933242798
     },
     {
         "workload": "STLC",
@@ -1102,6 +1702,106 @@
     {
         "workload": "STLC",
         "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 315.4922471046448
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 98.36904883384705
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 247.1526231765747
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 125.87636399269104
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 535.5909039974213
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1104.5575878620148
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1236.0457611083984
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1945.7753539085388
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2638.1493220329285
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3334.8293631076813
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
         "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "shift_var_all",
@@ -1298,6 +1998,206 @@
         "passed": -1,
         "property": "prop_MultiPreserve",
         "time": 0.025578022003173828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01922607421875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.019469022750854492
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.009464025497436523
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006883859634399414
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.009041070938110352
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.02631402015686035
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.008344888687133789
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.017737865447998047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.03255510330200195
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.004620075225830078
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.012459993362426758
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.004183053970336914
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003771066665649414
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0038459300994873047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0037729740142822266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003757953643798828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0038170814514160156
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003776073455810547
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003801107406616211
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0039670467376708984
     },
     {
         "workload": "STLC",
@@ -1603,6 +2503,206 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.08492898941040039
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.003757953643798828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.3131709098815918
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.1837999820709229
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.09987592697143555
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.6543409824371338
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.5012021064758301
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.0657260417938232
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.5426859855651855
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.9229559898376465
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.021861791610717773
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02175307273864746
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.021838903427124023
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.022060155868530273
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02184581756591797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.021670103073120117
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.021881103515625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.02170705795288086
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.021723031997680664
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.021843910217285156
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "subst_abs_no_shift",
         "passed": -1,
@@ -1698,6 +2798,206 @@
         "passed": -1,
         "property": "prop_SinglePreserve",
         "time": 0.019700050354003906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.041149139404296875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.018757104873657227
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01859593391418457
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01850605010986328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01852703094482422
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.018743038177490234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.018526077270507812
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01896214485168457
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.01857614517211914
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.023250102996826172
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0187070369720459
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.018694162368774414
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0186920166015625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.01903700828552246
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.01883387565612793
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.018779993057250977
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.01866602897644043
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.018722057342529297
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.018683910369873047
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.019517898559570312
     },
     {
         "workload": "STLC",
@@ -1903,6 +3203,106 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.3959181308746338
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.038160085678100586
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.961522102355957
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.7076759338378906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0590519905090332
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.9215359687805176
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.6835241317749023
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.7159039974212646
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.050425052642822266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.11169600486755371
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "bespokeGenerator",
         "mutant": "shift_var_all",
         "passed": -1,
@@ -2003,6 +3403,246 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 347.9461119174957
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.2952141761779785
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.13187599182128906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.3565349578857422
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99541902542114
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99944496154785
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99952483177185
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99943709373474
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99901103973389
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.999338150024414
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99943399429321
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.9992790222168
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.999473094940186
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99941611289978
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.9780030250549316
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.816992998123169
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.8890020847320557
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.4820151329040527
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.6219990253448486
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.4679999351501465
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.01700496673584
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 5.752033948898315
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.3200011253356934
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.6289889812469482
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "shift_var_leq",
         "passed": -1,
@@ -2098,6 +3738,206 @@
         "passed": -1,
         "property": "prop_SinglePreserve",
         "time": 0.019819021224975586
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 769.9880509376526
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 979.4166550636292
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 355.63685607910156
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 168.5485758781433
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 290.2189199924469
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 325.02559900283813
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 414.88362288475037
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 610.8618741035461
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 181.18138599395752
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 146.8524239063263
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.9260051250457764
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 15.208080053329468
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 6.125018119812012
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.1720061302185059
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.9150149822235107
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.3440001010894775
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.6870169639587402
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.2490010261535645
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.7470018863677979
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.277008056640625
     },
     {
         "workload": "STLC",
@@ -2303,6 +4143,296 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.500983953475952
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.5640039443969727
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.988999128341675
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 5.542013168334961
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 15.964021921157837
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 7.659991025924683
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 11.402018070220947
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.7350029945373535
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 5.375994920730591
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.151993989944458
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3382.4849388599396
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2068.84441781044
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 396.80403995513916
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1707.4365661144257
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1943.7767159938812
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 868.4204840660095
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 6685.051356077194
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 241.49913001060486
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 662.7023530006409
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 158.60592007637024
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99833297729492
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99953484535217
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.9995539188385
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99960398674011
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99977898597717
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99985384941101
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99964690208435
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99954795837402
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.999741077423096
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "bespokeGenerator",
         "mutant": "shift_var_leq",
         "passed": -1,
@@ -2398,6 +4528,306 @@
         "passed": -1,
         "property": "prop_SinglePreserve",
         "time": 0.10286498069763184
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.02739191055298
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.03292679786682
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.02434301376343
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.026511907577515
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.02768397331238
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.02453303337097
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.027304887771606
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.02856707572937
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 467.81253600120544
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 424.05699491500854
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.3518948554992676
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.465035915374756
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.4239509105682373
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.417504072189331
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.424408197402954
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.3971469402313232
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.361294984817505
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.344014883041382
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.320543050765991
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.4135069847106934
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 5.046968221664429
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.7149980068206787
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 5.860028982162476
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.7760090827941895
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.617000102996826
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 4.897011995315552
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 4.724025011062622
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 7.95903205871582
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.3490049839019775
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.3190069198608398
     },
     {
         "workload": "STLC",
@@ -2502,6 +4932,206 @@
     {
         "workload": "STLC",
         "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 60.000468015670776
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.999531984329224
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.999507904052734
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99966216087341
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99949812889099
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99945902824402
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.999484062194824
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.999536991119385
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99950194358826
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 59.99945402145386
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.829003095626831
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 4.0760178565979
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 5.497009038925171
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.1249899864196777
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.7049949169158936
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.880000114440918
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.4479999542236328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.9029958248138428
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.1070079803466797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.0879979133605957
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
         "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "shift_abs_no_incr",
@@ -2598,6 +5228,106 @@
         "passed": -1,
         "property": "prop_SinglePreserve",
         "time": 0.0009441375732421875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.8929939270019531
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 57.44521903991699
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 10.360960006713867
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 6.511981010437012
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 10.114048957824707
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 6.755002021789551
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 29.839896202087402
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 11.656018018722534
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 10.899002075195312
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.6429920196533203
     },
     {
         "workload": "STLC",
@@ -2803,6 +5533,106 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.425992012023926
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.886998176574707
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.7079949378967285
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.1380009651184082
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.9090008735656738
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.6569969654083252
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.6509978771209717
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.8419969081878662
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.3139870166778564
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.845012903213501
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "subst_abs_no_incr",
         "passed": -1,
@@ -2903,6 +5733,606 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.2550039291381836
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 16.212943077087402
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 4.731989145278931
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 6.8679587841033936
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 9.568042039871216
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 8.704035997390747
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 9.955018997192383
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 11.95895004272461
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 36.4638409614563
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.310991048812866
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.010478019714355469
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006752967834472656
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006073951721191406
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006133079528808594
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006067037582397461
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006124973297119141
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006242036819458008
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.0061719417572021484
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006212949752807617
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.006085872650146484
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.682990074157715
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 7.7339818477630615
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 21.384958028793335
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 25.157006978988647
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 5.318011999130249
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 21.877119064331055
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.412014007568359
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 6.130019903182983
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.9839911460876465
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_leq",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 7.062027215957642
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0038280487060546875
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003863096237182617
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0038068294525146484
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003976106643676758
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0037980079650878906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0038089752197265625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.004357099533081055
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003941059112548828
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.003879070281982422
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.0038950443267822266
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.20235395431518555
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.17022705078125
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.17205595970153809
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.17069602012634277
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.1720290184020996
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.17251205444335938
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.17154288291931152
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.1718769073486328
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.17129302024841309
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.1707439422607422
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.5149970054626465
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.2729978561401367
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.3580100536346436
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.961993932723999
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.0960001945495605
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.5690019130706787
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.7809898853302002
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.9350039958953857
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.827996015548706
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.49399805068969727
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "bespokeGenerator",
         "mutant": "shift_abs_no_incr",
         "passed": -1,
@@ -2998,6 +6428,206 @@
         "passed": -1,
         "property": "prop_MultiPreserve",
         "time": 0.021854162216186523
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.6959989070892334
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.901007890701294
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 8.202036142349243
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.213002920150757
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 4.23698091506958
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 9.112021923065186
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.8050000667572021
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 8.264971017837524
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.9150021076202393
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.3789939880371094
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.123002052307129
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.6560161113739014
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.936998128890991
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.331985950469971
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 8.016005992889404
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.4849960803985596
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 5.116997003555298
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 6.786005973815918
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 7.361001014709473
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.6910061836242676
     },
     {
         "workload": "STLC",
@@ -3303,6 +6933,506 @@
         "workload": "STLC",
         "discards": -1,
         "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.9150078296661377
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 5.5959999561309814
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.25901198387146
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.8570029735565186
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.59897780418396
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.6419980525970459
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.9090011119842529
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.43799090385437
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.089993953704834
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.514014959335327
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.134005069732666
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.209975004196167
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.7880117893218994
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.973006010055542
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.2559969425201416
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.6780080795288086
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.2330119609832764
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.7359869480133057
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.0309908390045166
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.9179940223693848
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 153.33521008491516
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 609.1531550884247
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1200.476182937622
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2201.9007749557495
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 4449.432063102722
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 4710.4599459171295
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 8843.766262054443
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 8126.898204088211
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1333.630919933319
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "typeBasedGenerator",
+        "mutant": "shift_var_all",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 558.6509699821472
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.4057490825653076
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.3631529808044434
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.3770267963409424
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.423607110977173
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.3493239879608154
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.483833074569702
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.502969980239868
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.4276719093322754
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.436447858810425
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.4044010639190674
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.272007942199707
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.2239999771118164
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.1749989986419678
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.6779980659484863
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.800983190536499
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.9370059967041016
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.726999044418335
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.3550119400024414
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.657010793685913
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_abs_no_incr",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.269007921218872
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
         "strategy": "bespokeGenerator",
         "mutant": "substTop_no_shift",
         "passed": -1,
@@ -3398,6 +7528,106 @@
         "passed": -1,
         "property": "prop_MultiPreserve",
         "time": 0.08172917366027832
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.9159929752349854
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.5299980640411377
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.402987003326416
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.8789999485015869
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.0880019664764404
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.7050058841705322
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 2.5160000324249268
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.4170191287994385
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.772994041442871
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "shift_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 6.27896785736084
     },
     {
         "workload": "STLC",
@@ -3502,6 +7732,206 @@
     {
         "workload": "STLC",
         "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99784302711487
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99950098991394
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99943399429321
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99949789047241
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99943709373474
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99946188926697
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99946904182434
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.99952697753906
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 59.999480962753296
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": false,
+        "strategy": "crowbarType",
+        "mutant": "subst_abs_no_shift",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 60.000529050827026
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.18469786643981934
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.17002105712890625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.1721198558807373
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.17125606536865234
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.17075181007385254
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.17075800895690918
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.17123103141784668
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.16981291770935059
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.17006683349609375
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "crowbarType",
+        "mutant": "substTop_no_shift_back",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 0.16991400718688965
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
         "foundbug": true,
         "strategy": "crowbarBespoke",
         "mutant": "shift_var_leq",
@@ -3598,6 +8028,106 @@
         "passed": -1,
         "property": "prop_MultiPreserve",
         "time": 0.06713390350341797
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.299009084701538
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.5970020294189453
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 3.583984136581421
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.9810099601745605
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.3210079669952393
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.6809988021850586
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 7.011970043182373
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 1.1129989624023438
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.7410039901733398
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_none",
+        "passed": -1,
+        "property": "prop_MultiPreserve",
+        "time": 0.7720010280609131
     },
     {
         "workload": "STLC",
@@ -3898,6 +8428,106 @@
         "passed": -1,
         "property": "prop_SinglePreserve",
         "time": 0.000431060791015625
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.267991065979004
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 7.398964881896973
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 2.711984157562256
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.9739880561828613
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.5700101852416992
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.7170100212097168
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 10.462002038955688
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 4.119983911514282
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 1.1360042095184326
+    },
+    {
+        "workload": "STLC",
+        "discards": -1,
+        "foundbug": true,
+        "strategy": "aflBespoke",
+        "mutant": "subst_var_all",
+        "passed": -1,
+        "property": "prop_SinglePreserve",
+        "time": 3.5980100631713867
     },
     {
         "workload": "STLC",

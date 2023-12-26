@@ -17,6 +17,8 @@ FRAMEWORK = {
     "typeBasedGenerator": "qcheck",
     "crowbarType": "crowbar",
     "crowbarBespoke": "crowbar",
+    "aflBespoke": "afl",
+    "aflType": "afl",
 }
 
 class OCaml(BenchTool):
@@ -51,8 +53,13 @@ class OCaml(BenchTool):
                 os.rename(filename, new_filename)
 
         with self._change_dir(workload_path):
+
+            # TODO: improve this, afl is kinda hard coded
+            fw = FRAMEWORK[params.strategy]
+            if "afl" in params.strategy:
+                params.strategy = params.strategy.replace("afl", "crowbar")
+
             for _ in range(params.trials):
-                fw = FRAMEWORK[params.strategy]
 
                 # print(f"Executing command {' '.join(['dune', 'exec',  params.workload, '--', fw, params.property, params.strategy, params.file])}")
                 self._shell_command(['dune', 'exec',  params.workload, '--', fw, params.property, params.strategy, params.file])

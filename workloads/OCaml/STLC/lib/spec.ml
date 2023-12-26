@@ -7,7 +7,6 @@ let typechecks (e : expr) : bool = Option.is_some (mt e)
 let mtypeCheck (e : expr option) (t : typ) : bool =
   match e with Some e' -> typeCheck [] e' t | None -> true
 
-(* unsafe cast is ok because of the precondition *)
 
 let prop_SinglePreserve (e : expr) : test =
   typechecks e

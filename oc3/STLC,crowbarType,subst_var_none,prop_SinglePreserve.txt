@@ -1,0 +1,120 @@
+[1703469716.018897 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.029375 exit 1]
+[1703469716.070586 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.077339 exit 1]
+[1703469716.113346 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.119420 exit 1]
+[1703469716.154978 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.161111 exit 1]
+[1703469716.196524 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.202591 exit 1]
+[1703469716.243596 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.249721 exit 1]
+[1703469716.285845 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.292087 exit 1]
+[1703469716.327471 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.333643 exit 1]
+[1703469716.369724 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.375937 exit 1]
+[1703469716.411164 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:(((Bool -> Bool) -> ((Bool -> Bool) -> Bool)) -> Bool), \c:Bool, \d:Bool, a true
+    
+the test failed:
+
+    check false
+    
+[1703469716.417250 exit 1]

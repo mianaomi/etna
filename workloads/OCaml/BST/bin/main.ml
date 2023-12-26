@@ -9,6 +9,10 @@ open BST.TypeBasedGenerator
 open BST.CrowbarType
 open BST.CrowbarBespoke
 
+(*
+  dune exec BST -- qcheck prop_InsertValid bespokeGenerator out.txt
+*)
+
 let properties : (string * tree property) list =
   [
     ("prop_InsertValid", test_prop_InsertValid);

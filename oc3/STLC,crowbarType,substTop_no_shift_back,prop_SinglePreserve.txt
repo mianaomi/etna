@@ -1,0 +1,120 @@
+[1703470969.696520 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470969.881218 exit 1]
+[1703470969.917906 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470970.087927 exit 1]
+[1703470970.123397 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470970.295517 exit 1]
+[1703470970.331765 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470970.503021 exit 1]
+[1703470970.538963 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470970.709715 exit 1]
+[1703470970.745654 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470970.916412 exit 1]
+[1703470970.952229 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470971.123460 exit 1]
+[1703470971.159204 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470971.329017 exit 1]
+[1703470971.364057 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470971.534124 exit 1]
+[1703470971.568927 start]
+test_prop_SinglePreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> Bool), \d:Bool, \e:Bool, a a
+    
+the test failed:
+
+    check false
+    
+[1703470971.738841 exit 1]

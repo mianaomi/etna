@@ -7,13 +7,14 @@ from benchtool.Tasks import tasks
 DEFAULT_DIR = 'oc3'
 
 RUNNING = ['STLC']
-STRATEGIES = ["bespokeGenerator", "typeBasedGenerator", "crowbarType", "crowbarBespoke"]
+# STRATEGIES = ["bespokeGenerator", "typeBasedGenerator", "crowbarType", "crowbarBespoke"]
 # STRATEGIES = ['bespokeGenerator', 'crowbarBespoke']
+STRATEGIES = ['aflBespoke']
 TRIALS = 10
 TIMEOUT = 65
 
 def collect(results: str):
-    tool = OCaml(results, replace_level=ReplaceLevel.SKIP)
+    tool = OCaml(results, replace_level=ReplaceLevel.REPLACE)
 
     for workload in tool.all_workloads():
         if workload.name not in RUNNING:
@@ -24,9 +25,7 @@ def collect(results: str):
                 continue
 
             run_trial = None
-            for strategy in tool.all_strategies(workload):
-                if strategy.name not in STRATEGIES:
-                    continue
+            for strategy in STRATEGIES:
 
                 for property in tool.all_properties(workload):
                     if workload.name in ['BST', 'RBT']:
@@ -37,7 +36,7 @@ def collect(results: str):
                         run_trial = tool.apply_variant(workload, variant)
 
                     cfg = TrialConfig(workload=workload,
-                                        strategy=strategy.name,
+                                        strategy=strategy,
                                         property=property,
                                         trials=TRIALS,
                                         timeout=TIMEOUT,

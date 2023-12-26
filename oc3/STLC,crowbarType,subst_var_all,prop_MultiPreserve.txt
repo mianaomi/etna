@@ -1,0 +1,120 @@
+[1703469714.985361 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.007223 exit 1]
+[1703469715.043411 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.065164 exit 1]
+[1703469715.100862 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.122701 exit 1]
+[1703469715.162648 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.184708 exit 1]
+[1703469715.220652 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.242498 exit 1]
+[1703469715.277984 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.299654 exit 1]
+[1703469715.335223 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.357104 exit 1]
+[1703469715.392653 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.414360 exit 1]
+[1703469715.449732 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.471455 exit 1]
+[1703469715.506910 start]
+test_prop_MultiPreserve: FAIL
+
+When given the input:
+
+    \a:Bool, \b:Bool, \c:(Bool -> (Bool -> Bool)), a false true
+    
+the test failed:
+
+    check false
+    
+[1703469715.528754 exit 1]

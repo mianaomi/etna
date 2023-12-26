@@ -50,4 +50,4 @@ let bespoke =
   let open QCheck.Gen in
   typGen >>= genExactExpr []
 
-let bespoke = QCheck.make bespoke ~print:print_expr
+let bespoke = QCheck.make bespoke ~print:string_of_expr

@@ -20,26 +20,16 @@ let crowbarType : expr gen =
         ])
 
 (* i dont think this works in terms of making variables match up *)
-let format_expr fmt e =
-  let string_of_var n =
-    String.make 1 (String.get "abcdefghijklmnopqrstuvwxyz" (n mod 26))
-  in
+let rec format_expr fmt e =
   let rec format_typ fmt t =
     match t with
-    | TBool -> Format.fprintf fmt "Bool"
-    | TFun (t, t') -> Format.fprintf fmt "(%a -> %a)" format_typ t format_typ t'
+    | TBool -> Format.fprintf fmt "TBool"
+    | TFun (t, t') -> Format.fprintf fmt "TFun (%a, %a)" format_typ t format_typ t'
   in
-  let rec _format_expr fmt (x, e) =
-    match e with
-    | Var n -> Format.fprintf fmt "%s" (string_of_var n)
-    | Bool b -> Format.fprintf fmt "%s" (string_of_bool b)
-    | Abs (t, e') ->
-        Format.fprintf fmt "\\%s:%a, %a" (string_of_var x) format_typ t
-          _format_expr
-          (1 + x, e')
-    | App (e1, e2) ->
-        Format.fprintf fmt "%a %a" _format_expr (x, e1) _format_expr (x, e2)
-  in
-  _format_expr fmt (0, e)
+  match e with
+  | Bool b -> Format.fprintf fmt "Bool %b" b
+  | Var i -> Format.fprintf fmt "Var %i" i
+  | Abs (t, e') -> Format.fprintf fmt "Abs (%a, %a)" format_typ t format_expr e'
+  | App (e1, e2) -> Format.fprintf fmt "App (%a, %a)" format_expr e1 format_expr e2
 
 let crowbarType = with_printer format_expr crowbarType

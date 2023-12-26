@@ -33,7 +33,7 @@ let rec cmake (t : test) : unit =
 
 (* Helpers to build `'a property` types. Note that `'b` is the input to the property, INCLUDING the other parameters. *)
 let qbuild (g : 'b QCheck.arbitrary) (p : 'b -> bool) : string -> qtest =
- fun name -> QCheck.Test.make ~name ~count:5000000 g p
+ fun name -> QCheck.Test.make ~name ~count:500000000 g p
 
 let cbuild (g : ('b, unit) Crowbar.gens) (p : 'b) : string -> ctest =
  fun name () -> Crowbar.add_test ~name g p

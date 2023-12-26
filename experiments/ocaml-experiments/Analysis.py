@@ -19,10 +19,10 @@ def analyze(results: str, images: str):
     for workload in WORKLOADS:
         times = partial(stacked_barchart_times, case=workload, df=df)
         times(
-            # strategies=['bespokeGenerator', 'typeBasedGenerator', 'crowbarBespoke', 'crowbarType'],
-            # colors=['#000000', '#900D0D', '#DC5F00', '#243763'],
-            strategies=['bespokeGenerator', 'crowbarBespoke'],
-            colors=['#000000', '#DC5F00'],
+            strategies=['bespokeGenerator', 'typeBasedGenerator', 'crowbarBespoke', 'crowbarType', 'aflBespoke'],
+            colors=['#470938', '#000000', '#900D0D', '#DC5F00', '#243763'],
+            # strategies=['bespokeGenerator', 'crowbarBespoke', 'crowbarType'],
+            # colors=['#000000', '#900D0D', '#DC5F00'],
             limits=[0.1, 1, 10, 60],
             limit_type='time',
             image_path=images,
