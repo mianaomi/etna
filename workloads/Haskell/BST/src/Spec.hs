@@ -73,11 +73,16 @@ prop_DeletePost (t, k, k') =
     --> find k' (delete k t)
     == if k == k' then Nothing else find k' t
 
+
+
+
 prop_UnionPost :: Task (BST, BST, Key)
 prop_UnionPost (t, t', k) =
   isBST t
     --> find k (t `union` t')
     == (find k t <|> find k t')
+
+
 
 ----------
 
@@ -160,6 +165,10 @@ prop_UnionUnionIdem t =
     --> union t t
     =~= t
 
+
+
+
+
 prop_UnionUnionAssoc :: Task (BST, BST, BST)
 prop_UnionUnionAssoc (t1, t2, t3) =
   isBST t1
@@ -167,6 +176,10 @@ prop_UnionUnionAssoc (t1, t2, t3) =
     && isBST t3
     --> union (t1 `union` t2) t3
     == union t1 (t2 `union` t3)
+
+
+
+
 
 (=~=) :: Tree Key Val -> Tree Key Val -> Bool
 t1 =~= t2 = toList t1 == toList t2

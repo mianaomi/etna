@@ -2,5 +2,5 @@
 
 (library
  (name STLC)
- (modules impl spec typeBasedGenerator bespokeGenerator)
- (libraries qcheck))
+ (modules impl spec test qcheckType qcheckBespoke crowbarBespoke crowbarType display)
+ (libraries qcheck crowbar util))

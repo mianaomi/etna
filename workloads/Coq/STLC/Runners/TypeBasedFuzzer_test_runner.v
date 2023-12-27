@@ -17,7 +17,7 @@ fun test_name ->
   test ()
 
 
-let () = 
+let () =
   Printf.printf ""Entering main of qc_exec\n""; flush stdout;
   setup_shm_aux ();
   Sys.argv.(1) |> qctest_map ; flush stdout;

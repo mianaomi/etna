@@ -9,7 +9,8 @@ type ctx = typ list
 
 let rec getTyp (c : ctx) (e : expr) : typ option =
   match e with
-  | Var n -> nth_opt c n
+  | Var n when n >= 0 && n < List.length c -> nth_opt c n
+  | Var _ -> None
   | Bool _ -> Some TBool
   | Abs (t, e) -> getTyp (t :: c) e >>= fun t' -> Some (TFun (t, t'))
   | App (e1, e2) -> (
@@ -22,7 +23,8 @@ let rec getTyp (c : ctx) (e : expr) : typ option =
 let typeCheck (c : ctx) (e : expr) (t : typ) : bool =
   match getTyp c e with Some t' -> t = t' | None -> false
 
-let shift (d : int) (ex : expr) : expr = let _ = ignore (d, ex) in
+let shift (d : int) (ex : expr) : expr =
+  let _ = ignore (d, ex) in
   let rec go (c : int) (e : expr) =
     match e with
     | Var n ->

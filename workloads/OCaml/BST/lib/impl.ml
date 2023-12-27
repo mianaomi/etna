@@ -3,7 +3,7 @@ type tree =
 | T of tree * int * int * tree
 
 
-let fuel : int = 100000
+let fuel : int = 10000
 
 
 let rec insert (k: int) (v: int) (t: tree) =

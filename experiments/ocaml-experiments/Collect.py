@@ -1,19 +1,31 @@
 import argparse
 import os
-
 from benchtool.OCaml import OCaml
-from benchtool.Types import ReplaceLevel, TrialConfig
+from benchtool.Types import ReplaceLevel, TrialConfig, PBTGenerator
 from benchtool.Tasks import tasks
 
-RUNNING = ['STLC']
+DEFAULT_DIR = 'oc3'
+REPLACE = False
+
+WORKLOADS = ['STLC']
+STRATEGIES : list[PBTGenerator] = [
+    # PBTGenerator('qcheck', 'bespoke'),
+    # PBTGenerator('qcheck', 'type'),
+    # PBTGenerator('crowbar', 'bespoke'),
+    # PBTGenerator('crowbar', 'type'),
+    # PBTGenerator('afl', 'bespoke'),
+    PBTGenerator('afl', 'type'),
+]
+
 TRIALS = 10
 TIMEOUT = 65
 
-def collect(results: str):
-    tool = OCaml(results, replace_level=ReplaceLevel.SKIP)
+
+def collect(directory: str, workloads=WORKLOADS, strategies=STRATEGIES):
+    tool = OCaml(directory, replace_level=ReplaceLevel.REPLACE if REPLACE else ReplaceLevel.SKIP)
 
     for workload in tool.all_workloads():
-        if workload.name not in RUNNING:
+        if workload.name not in workloads:
             continue
 
         for variant in tool.all_variants(workload):
@@ -21,21 +33,27 @@ def collect(results: str):
                 continue
 
             run_trial = None
-            for strategy in tool.all_strategies(workload):
+            for strategy in strategies:
+
                 for property in tool.all_properties(workload):
+                    if workload.name in ['BST', 'RBT']:
+                        if property.split('_')[1] not in tasks[workload.name][variant.name]:
+                            continue
+
                     if not run_trial:
                         run_trial = tool.apply_variant(workload, variant)
 
                     cfg = TrialConfig(workload=workload,
-                                        strategy=strategy.name,
+                                        strategy=strategy.strategy,
+                                        framework=strategy.framework,
                                         property=property,
+                                        label=strategy.framework + strategy.strategy.capitalize(),
                                         trials=TRIALS,
                                         timeout=TIMEOUT,
                                         short_circuit=False)
 
                     run_trial(cfg)
 
-DEFAULT_DIR = 'oc'
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()

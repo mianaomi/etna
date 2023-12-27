@@ -3,6 +3,32 @@ From QuickChick Require Import QuickChick. Import QcNotation.
 From Coq Require Import Bool ZArith List. Import ListNotations.
 From BST Require Import Impl.
 
+#[local] Instance dec_eq_tree : Dec_Eq Tree.
+Proof. dec_eq. Defined.
+
+Class Implies (A B : Type) := implies : A -> B -> option bool.
+Notation "A -=> B" := (implies A B) (at level 199, left associativity).
+
+#[global] Instance impliesOO : Implies (option bool) (option bool) :=
+    fun p1 p2 =>
+        match p1 with
+        | None | Some false => None
+        | Some true => p2
+        end.
+
+#[global] Instance impliesBB : Implies bool bool :=
+    fun p1 p2 =>
+        impliesOO (Some p1) (Some p2).
+
+#[global] Instance impliesOB : Implies (option bool) bool :=
+    fun p1 p2 =>
+        impliesOO p1 (Some p2).
+
+#[global] Instance impliesBO : Implies bool (option bool) :=
+    fun p1 p2 =>
+        impliesOO (Some p1) p2.
+
+
 Fixpoint keys (t: Tree): list nat :=
   match t with
   | E => nil
@@ -66,11 +92,14 @@ Definition prop_UnionValid (t1: Tree) (t2: Tree) :=
 
 Definition prop_InsertPost (t: Tree) (k: nat) (k': nat) (v: nat) :=
   isBST t
-    -=> (find k' (insert k v t) ==? if k =? k' then Some v else find k' t).
+    -=> (find k' (insert k v t) = if k =? k' then Some v else find k' t)?.
 
 Definition prop_DeletePost (t: Tree) (k: nat) (k': nat) :=
   isBST t
-    -=> (find k' (delete k t) ==? if k =? k' then None else find k' t).
+    -=> (find k' (delete k t) = if k =? k' then None else find k' t)?.
+
+
+
 
 Definition prop_UnionPost (t: Tree) (t': Tree) (k: nat) :=
   isBST t
@@ -78,7 +107,9 @@ Definition prop_UnionPost (t: Tree) (t': Tree) (k: nat) :=
     let lhs := find k (union t t') in
     let rhs := find k t in
     let rhs':= find k t' in
-    ((lhs ==? rhs) || (lhs ==? rhs')) .
+    (((lhs = rhs)?) || ((lhs = rhs')?)).
+
+
 
 (* ---------- *)
 
@@ -111,12 +142,12 @@ Fixpoint sorted (l: list (nat * nat)): bool :=
 
 Definition prop_InsertModel (t: Tree) (k: nat) (v: nat) :=
   isBST t
-    -=> (toList (insert k v t) ==? L_insert (k, v) (deleteKey k (toList t))).
+    -=> (toList (insert k v t) = L_insert (k, v) (deleteKey k (toList t)))?.
 
 
 Definition prop_DeleteModel (t: Tree) (k: nat) :=
   isBST t
-    -=> Some(toList (delete k t) ==? deleteKey k (toList t)).
+    -=> Some((toList (delete k t) = deleteKey k (toList t))?).
 
 
 Fixpoint L_sort (l: list (nat * nat)): list (nat * nat) :=
@@ -148,13 +179,13 @@ Fixpoint L_unionBy (f: nat -> nat -> nat) (l1: list (nat * nat)) (l2: list (nat 
 
 Definition prop_UnionModel (t: Tree) (t': Tree) :=
   (isBST t && isBST t')
-    -=> (toList (union t t') ==? L_sort (L_unionBy (fun x y => x) (toList t) (toList t'))).
+    -=> (toList (union t t') = L_sort (L_unionBy (fun x y => x) (toList t) (toList t')))?.
 
 
 (* ---------- *)
 
 Fixpoint tree_eqb (t: Tree) (t': Tree) : bool :=
-  toList t ==? toList t'.
+  (toList t = toList t')?.
 
 Notation "A =|= B" := (tree_eqb A B) (at level 100, right associativity).
 (* -- Metamorphic properties. *)
@@ -194,9 +225,19 @@ Definition prop_UnionUnionIdem (t: Tree) :=
   isBST t
     -=> union t t =|= t.
 
+
+
+
+
+
 Definition prop_UnionUnionAssoc (t1: Tree) (t2: Tree) (t3: Tree) :=
   (isBST t1 && isBST t2 && isBST t3)
     -=> (union (union t1 t2) t3 =|= union t1 (union t2 t3)).
+
+
+
+
+
 
 
 

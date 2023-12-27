@@ -14,12 +14,12 @@ data Tree k v
 insert :: Ord k => k -> v -> Tree k v -> Either Error (Tree k v)
 insert x vx s = return $ blacken (ins x vx s)
   where
-    ins x vx E = 
+    ins x vx E =
       {-! -}
       T R E x vx E
       {-!! miscolor_insert -}
-      {-! 
-      T B E x vx E 
+      {-!
+      T B E x vx E
       -}
     ins x vx (T rb a y vy b)
       {-! -}
@@ -62,12 +62,12 @@ data Error = IE -- invariant error
   deriving (Eq, Ord, Show)
 
 delete :: Ord k => k -> Tree k v -> Either Error (Tree k v)
-delete x t = 
+delete x t =
   {-! -}
   blacken <$> del t
   {-!! miscolor_delete -}
-  {-! 
-  del t 
+  {-!
+  del t
   -}
   where
     del E = return E
@@ -108,7 +108,7 @@ balLeft bl x vx (T R (T B a y vy b) z vz c) =
   c' <- redden c
   return $ T R (T B bl x vx a) y vy (balance B b z vz c')
   {-!! miscolor_balLeft -}
-  {-! 
+  {-!
   return $ T R (T B bl x vx a) y vy (balance B b z vz c)
   -}
 balLeft _ _ _ _ = Left IE
@@ -122,7 +122,7 @@ balRight (T R a x vx (T B b y vy c)) z vz bl =
   a' <- redden a
   return $ T R (balance B a' x vx b) y vy (T B c z vz bl)
   {-!! miscolor_balRight -}
-  {-! 
+  {-!
   return $ T R (balance B a x vx b) y vy (T B c z vz bl)
   -}
 balRight _ _ _ _ = Left IE
@@ -133,22 +133,22 @@ join a E = return a
 join (T R a x vx b) (T R c y vy d) = do
   t' <- join b c
   case t' of
-    T R b' z vz c' -> 
+    T R b' z vz c' ->
       {-! -}
       return $ T R (T R a x vx b') z vz (T R c' y vy d)
       {-!! miscolor_join_1 -}
-      {-! 
+      {-!
       return $ T R (T B a x vx b') z vz (T B c' y vy d)
       -}
     bc -> return $ T R a x vx (T R bc y vy d)
 join (T B a x vx b) (T B c y vy d) = do
   t' <- join b c
   case t' of
-    T R b' z vz c' -> 
+    T R b' z vz c' ->
       {-! -}
       return $ T R (T B a x vx b') z vz (T B c' y vy d)
       {-!! miscolor_join_2 -}
-      {-! 
+      {-!
       return $ T R (T R a x vx b') z vz (T R c' y vy d)
       -}
     bc -> balLeft a x vx (T B bc y vy d)
@@ -173,15 +173,15 @@ balance :: Color -> Tree k v -> k -> v -> Tree k v -> Tree k v
 {-! -}
 balance B (T R (T R a x vx b) y vy c) z vz d = T R (T B a x vx b) y vy (T B c z vz d)
 {-!! swap_cd -}
-{-! 
-balance B (T R (T R a x vx b) y vy c) z vz d = T R (T B a x vx b) y vy (T B d z vz c) 
+{-!
+balance B (T R (T R a x vx b) y vy c) z vz d = T R (T B a x vx b) y vy (T B d z vz c)
 -}
 balance B (T R a x vx (T R b y vy c)) z vz d = T R (T B a x vx b) y vy (T B c z vz d)
 {-! -}
 balance B a x vx (T R (T R b y vy c) z vz d) = T R (T B a x vx b) y vy (T B c z vz d)
 {-!! swap_bc -}
-{-! 
-balance B a x vx (T R (T R b y vy c) z vz d) = T R (T B a x vx c) y vy (T B b z vz d) 
+{-!
+balance B a x vx (T R (T R b y vy c) z vz d) = T R (T B a x vx c) y vy (T B b z vz d)
 -}
 balance B a x vx (T R b y vy (T R c z vz d)) = T R (T B a x vx b) y vy (T B c z vz d)
 balance rb a x vx b = T rb a x vx b
