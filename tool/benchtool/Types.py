@@ -120,6 +120,11 @@ class Entry:
 
 
 @dataclass
+class PBTGenerator:
+    framework: str
+    strategy: str
+
+@dataclass
 class TrialArgs:
     file: str
     trials: int
@@ -128,6 +133,7 @@ class TrialArgs:
     mutant: str
     property: str
     label: str
+    framework: str = ""
     timeout: float | None = None
     short_circuit: bool = False
 
@@ -141,6 +147,7 @@ class TrialConfig:
     workload: Entry
     strategy: str
     property: str
+    framework: str = ""
     file: str | None = None  # if not provided, use default format
     label: str | None = None  # if not provided, use same as strategy
     timeout: float | None = None  # in seconds

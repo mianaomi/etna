@@ -4,14 +4,19 @@ open Util.Runner
 open Util.Io
 open BST.Impl
 open BST.Test
-open BST.BespokeGenerator
-open BST.TypeBasedGenerator
+open BST.QcheckType
+open BST.QcheckBespoke
 open BST.CrowbarType
 open BST.CrowbarBespoke
 
 (*
-  dune exec BST -- qcheck prop_InsertValid bespokeGenerator out.txt
-*)
+  dune exec BST -- qcheck prop_InsertValid bespoke out.txt
+  dune exec BST -- qcheck prop_InsertValid type out.txt
+  dune exec BST -- crowbar prop_InsertValid bespoke out.txt
+  dune exec BST -- crowbar prop_InsertValid type out.txt
+  dune exec BST -- afl prop_InsertValid bespoke out.txt
+  dune exec BST -- afl prop_InsertValid type out.txt
+  *)
 
 let properties : (string * tree property) list =
   [
@@ -36,11 +41,9 @@ let properties : (string * tree property) list =
   ]
 
 let qstrategies : (string * tree arbitrary) list =
-  [ ("typeBasedGenerator", typebased); ("bespokeGenerator", bespoke) ]
+  [ ("type", qcheck_type); ("bespoke", qcheck_bespoke) ]
 
 let cstrategies : (string * tree gen) list =
-  [ ("crowbarType", typebasedcrow); ("crowbarBespoke", bespokecrow)]
+  [ ("type", crowbar_type); ("bespoke", crowbar_bespoke) ]
 
 let () = main properties qstrategies cstrategies
-
-

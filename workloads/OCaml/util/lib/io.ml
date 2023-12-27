@@ -6,6 +6,15 @@ open Parse
 (* global timeout for test threads (only crowbar is supported using this for now) *)
 let timeout = 60
 
+(* super simple running *)
+let qrun (p : 'a property) (g : 'a QCheck.arbitrary) (oc : out_channel) : unit =
+  ignore
+    (QCheck_runner.run_tests
+       [ p.q g p.name ]
+       ~colors:false ~verbose:false ~out:oc)
+
+let crun (p : 'a property) (g : 'a Crowbar.gen) : unit = p.c g p.name ()
+
 let qmain t ts s ss oc =
   let tst = lookup ts t in
   let arb = lookup ss s in
@@ -91,6 +100,7 @@ let crowbar_fork framework test strat filename =
 
 let afl_fork framework test strat filename : unit =
   Sys.command "mkdir -p input && echo asdf > input/nikhil" |> ignore;
+  Sys.command "echo lkj > input/nikhil2" |> ignore;
   let channels =
     Unix.open_process_args_full "afl-fuzz"
       [|

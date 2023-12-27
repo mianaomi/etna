@@ -1,4 +1,3 @@
-open Crowbar
 open Impl
 
 let rec insert_correct (k : int) (v : int) (t : tree) =
@@ -9,10 +8,10 @@ let rec insert_correct (k : int) (v : int) (t : tree) =
       else if k' < k then T (l, k', v', insert_correct k v r)
       else T (l, k', v, r)
 
-let bespoke : tree gen =
-  dynamic_bind
-    (list (pair int8 int8))
-    (fun kvs ->
-      const (List.fold_left (fun t (k, v) -> insert_correct k v t) E kvs))
+let bespoke =
+  let open QCheck.Gen in
+  sized (fun n ->
+      list_repeat n (pair small_int small_int) >>= fun kvs ->
+      return (List.fold_left (fun t (k, v) -> insert_correct k v t) E kvs))
 
-let crowbar_bespoke = with_printer Display.format_tree bespoke
+let qcheck_bespoke = QCheck.make bespoke ~print:Display.string_of_tree

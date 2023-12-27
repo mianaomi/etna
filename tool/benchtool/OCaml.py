@@ -12,15 +12,6 @@ STRATEGIES_DIR = 'lib/Strategies'
 IMPL_PATH = 'lib/'
 SPEC_PATH = 'lib/spec.ml'
 
-FRAMEWORK = {
-    "bespokeGenerator": "qcheck",
-    "typeBasedGenerator": "qcheck",
-    "crowbarType": "crowbar",
-    "crowbarBespoke": "crowbar",
-    "aflBespoke": "afl",
-    "aflType": "afl",
-}
-
 class OCaml(BenchTool):
 
     def __init__(self, results: str, log_level: LogLevel = LogLevel.INFO, replace_level: ReplaceLevel = ReplaceLevel.REPLACE):
@@ -53,16 +44,10 @@ class OCaml(BenchTool):
                 os.rename(filename, new_filename)
 
         with self._change_dir(workload_path):
-
-            # TODO: improve this, afl is kinda hard coded
-            fw = FRAMEWORK[params.strategy]
-            if "afl" in params.strategy:
-                params.strategy = params.strategy.replace("afl", "crowbar")
-
             for _ in range(params.trials):
 
                 # print(f"Executing command {' '.join(['dune', 'exec',  params.workload, '--', fw, params.property, params.strategy, params.file])}")
-                self._shell_command(['dune', 'exec',  params.workload, '--', fw, params.property, params.strategy, params.file])
+                self._shell_command(['dune', 'exec',  params.workload, '--', params.framework, params.property, params.strategy, params.file])
 
         reformat(params.file)
 

@@ -5,27 +5,32 @@ from functools import partial
 
 # use this to adjust which plots are generated
 WORKLOADS = ['STLC']
+STRATEGIES = [
+    'qcheckBespoke',
+    'qcheckType',
+    'crowbarBespoke',
+    'crowbarType',
+    'aflBespoke',
+    'aflType',
+]
 
-def analyze(results: str, images: str):
-    df = parse_results(results)
+def analyze(json_dir: str, image_dir: str, strategies=STRATEGIES, workloads=WORKLOADS):
+    df = parse_results(json_dir)
     df['timeout'] = np.where(df['strategy'] == 'Lean', 10, 60)
     df['foundbug'] = df['foundbug'] & (df['time'] < df['timeout'])
 
 
-    if not os.path.exists(images):
-        os.makedirs(images)
+    if not os.path.exists(image_dir):
+        os.makedirs(image_dir)
 
     # Generate task bucket charts used in Figure 1.
-    for workload in WORKLOADS:
+    for workload in workloads:
         times = partial(stacked_barchart_times, case=workload, df=df)
         times(
-            strategies=['bespokeGenerator', 'typeBasedGenerator', 'crowbarBespoke', 'crowbarType', 'aflBespoke'],
-            colors=['#470938', '#000000', '#900D0D', '#DC5F00', '#243763'],
-            # strategies=['bespokeGenerator', 'crowbarBespoke', 'crowbarType'],
-            # colors=['#000000', '#900D0D', '#DC5F00'],
+            strategies=strategies,
             limits=[0.1, 1, 10, 60],
             limit_type='time',
-            image_path=images,
+            image_path=image_dir,
             show=False,
         )
 

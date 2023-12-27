@@ -1,5 +1,4 @@
 open Impl
-open CrowbarType
 open Crowbar
 
 let ( >>= ) = dynamic_bind
@@ -11,6 +10,10 @@ let ( --- ) i j =
 (** `oneofl xs` constructs a generator by randomly choosing an element of xs *)
 let oneofl (xs : 'a list) : 'a gen =
   range (List.length xs) >>= fun n -> const (List.nth xs n)
+
+let typegen : typ gen =
+  let t_fun t t' = TFun (t, t') in
+  fix (fun typeGen -> choose [ const TBool; map [ typeGen; typeGen ] t_fun ])
 
 let genExactExpr (ctx : ctx) (t : typ) : expr gen =
   let e_var v = Var v in
@@ -45,4 +48,4 @@ let genExactExpr (ctx : ctx) (t : typ) : expr gen =
   unlazy (go ctx t)
 
 let crowbarBespoke = typegen >>= genExactExpr []
-let crowbarBespoke = with_printer format_expr crowbarBespoke
+let crowbar_bespoke = with_printer Display.format_expr crowbarBespoke

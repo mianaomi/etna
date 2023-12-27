@@ -1,5 +1,5 @@
 open Impl
-open Crowbar
+open List
 
 let blacken_correct (t : ('a, 'b) tree) : ('a, 'b) tree =
   match t with E -> E | T (_, a, k, v, b) -> T (B, a, k, v, b)
@@ -28,18 +28,13 @@ let insert_correct (k : 'a) (vk : 'b) (s : ('a, 'b) tree) : ('a, 'b) tree =
   in
   blacken_correct (ins k vk s)
 
-let listn (g : 'a gen) : 'a list gen =
-  fix (fun listn ->
-      dynamic_bind (range 15) (fun n ->
-          if n = 0 then const []
-          else
-            dynamic_bind g (fun x ->
-                dynamic_bind listn (fun xs -> const (x :: xs)))))
+let bespoke =
+  let open QCheck.Gen in
+  sized (fun n ->
+      list_repeat n (pair small_int small_int) >>= fun kvs ->
+      return (fold_left (fun t (k, v) -> insert_correct k v t) E kvs))
 
-let _cbbespoke : rbt gen =
-  dynamic_bind
-    (listn (pair int8 int8))
-    (fun kvs ->
-      const (List.fold_left (fun t (k, v) -> insert_correct k v t) E kvs))
 
-let crowbar_bespoke = with_printer Display.format_tree _cbbespoke
+
+
+let qcheck_bespoke = QCheck.make bespoke ~print:Display.string_of_tree

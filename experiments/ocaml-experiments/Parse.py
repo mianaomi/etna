@@ -7,7 +7,7 @@ OUTPUT_FILE = './experiments/ocaml-experiments/stlc.json'
 APPEND = False # if false, will override the contents in OUTPUT_FILE
 
 def parse(filename):
-    print(f"parsing {filename}")
+    print(f"parsing {os.path.basename(filename)}")
     workload, strategy, mutant, prop = os.path.splitext(os.path.basename(filename))[0].split(',')
 
     file = ""
@@ -43,6 +43,15 @@ def parse(filename):
 
     return data
 
+def parse_dir(input_directory, output_file):
+    fs = os.listdir(input_directory)
+    fs = list(map(lambda f: os.path.join(input_directory, f), fs))
+    parsed = [entry for f in fs for entry in parse(f)]
+
+    with open(output_file, 'w') as f:
+        json.dump(parsed, f, indent=4)
+
+    print(f"Successfully parsed through {len(fs)} files with {len(parsed)} runs in {input_directory} directory")
 
 
 def main():

@@ -19,17 +19,5 @@ let crowbarType : expr gen =
           map [ exprGen; exprGen ] e_app;
         ])
 
-(* i dont think this works in terms of making variables match up *)
-let rec format_expr fmt e =
-  let rec format_typ fmt t =
-    match t with
-    | TBool -> Format.fprintf fmt "TBool"
-    | TFun (t, t') -> Format.fprintf fmt "TFun (%a, %a)" format_typ t format_typ t'
-  in
-  match e with
-  | Bool b -> Format.fprintf fmt "Bool %b" b
-  | Var i -> Format.fprintf fmt "Var %i" i
-  | Abs (t, e') -> Format.fprintf fmt "Abs (%a, %a)" format_typ t format_expr e'
-  | App (e1, e2) -> Format.fprintf fmt "App (%a, %a)" format_expr e1 format_expr e2
 
-let crowbarType = with_printer format_expr crowbarType
+let crowbar_type = with_printer Display.format_expr crowbarType
