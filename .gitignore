@@ -20,8 +20,6 @@ draft/paper.pdf
 tool/build
 tool/dist
 
-bin/
-/lib/**
 **/_build/*
 
 
