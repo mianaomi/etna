@@ -4,7 +4,7 @@ from benchtool.Plot import *
 from functools import partial
 
 # use this to adjust which plots are generated
-WORKLOADS = ['STLC']
+WORKLOADS = ['BST']  # , 'RBT', 'STLC']
 STRATEGIES = [
     'qcheckBespoke',
     'qcheckType',
@@ -12,13 +12,15 @@ STRATEGIES = [
     'crowbarType',
     'aflBespoke',
     'aflType',
+    'baseBespoke',
+    'baseType',
 ]
+
 
 def analyze(json_dir: str, image_dir: str, strategies=STRATEGIES, workloads=WORKLOADS):
     df = parse_results(json_dir)
     df['timeout'] = np.where(df['strategy'] == 'Lean', 10, 60)
     df['foundbug'] = df['foundbug'] & (df['time'] < df['timeout'])
-
 
     if not os.path.exists(image_dir):
         os.makedirs(image_dir)
@@ -47,6 +49,6 @@ if __name__ == "__main__":
     p.add_argument('--figures', help='path to folder for figures')
     args = p.parse_args()
 
-    results_path = f'{os.getcwd()}/{args.data}' if args.data else f'{os.getcwd()}/experiments/ocaml-experiments'
-    images_path = f'{os.getcwd()}/{args.figures}' if args.figures else f'{os.getcwd()}/ocResults'
+    results_path = f'{os.getcwd()}/{args.data}' if args.data else f'{os.getcwd()}/experiments/ocaml-experiments/parsed'
+    images_path = f'{os.getcwd()}/{args.figures}' if args.figures else f'{os.getcwd()}/experiments/ocaml-experiments/analyzed'
     analyze(results_path, images_path)

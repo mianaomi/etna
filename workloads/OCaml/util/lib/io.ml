@@ -3,10 +3,10 @@ open QCheck
 open Crowbar
 open Parse
 
-(* global timeout for test threads (only crowbar is supported using this for now) *)
+(* global timeout in seconds for test threads *)
 let timeout = 60
 
-(* super simple running *)
+(* super simple running of the tests *)
 let qrun (p : 'a property) (g : 'a QCheck.arbitrary) (oc : out_channel) : unit =
   ignore
     (QCheck_runner.run_tests
@@ -14,36 +14,51 @@ let qrun (p : 'a property) (g : 'a QCheck.arbitrary) (oc : out_channel) : unit =
        ~colors:false ~verbose:false ~out:oc)
 
 let crun (p : 'a property) (g : 'a Crowbar.gen) : unit = p.c g p.name ()
+let brun (p : 'a property) (g : 'a basegen) : unit = p.b g p.name ()
 
-let qmain t ts s ss oc =
-  let tst = lookup ts t in
-  let arb = lookup ss s in
-  match (tst, arb) with
+(* starting the execution for the various frameworks *)
+let qmain oc t ts s ss =
+  let t' = lookup ts t in
+  let s' = lookup ss s in
+  match (t', s') with
   | None, _ -> Printf.printf "Test %s not found\n" t
   | _, None -> Printf.printf "Strategy %s not found\n" s
-  | Some tst, Some arb ->
+  | Some t', Some s' ->
       Printf.fprintf oc "[%f start]\n" (Unix.gettimeofday ());
       flush oc;
-      qrun tst arb oc
+      qrun t' s' oc
 
 let cmain t ts s ss =
-  let tst = lookup ts t in
-  let gen = lookup ss s in
-  match (tst, gen) with
+  let t' = lookup ts t in
+  let s' = lookup ss s in
+  match (t', s') with
   | None, _ -> Printf.printf "Test %s not found\n" t
   | _, None -> Printf.printf "Strategy %s not found\n" s
-  | Some tst, Some gen ->
+  | Some t', Some s' ->
       Printf.printf "[%f start]\n" (Unix.gettimeofday ());
       flush stdout;
-      crun tst gen
+      crun t' s'
 
 let fmain t ts s ss =
-  let tst = lookup ts t in
-  let gen = lookup ss s in
-  match (tst, gen) with
+  let t' = lookup ts t in
+  let s' = lookup ss s in
+  match (t', s') with
   | None, _ -> Printf.printf "Test %s not found\n" t
   | _, None -> Printf.printf "Strategy %s not found\n" s
-  | Some tst, Some gen -> crun tst gen
+  | Some t', Some s' -> crun t' s'
+
+let bmain oc t ts s ss =
+  let t' = lookup ts t in
+  let s' = lookup ss s in
+  match (t', s') with
+  | None, _ -> Printf.printf "Test %s not found\n" t
+  | _, None -> Printf.printf "Strategy %s not found\n" s
+  | Some t', Some s' ->
+      Printf.fprintf oc "[%f start]\n" (Unix.gettimeofday ());
+      flush oc;
+      brun t' s'
+
+(* piping helper functions *)
 
 let load_env () =
   let get = Unix.getenv in
@@ -119,7 +134,6 @@ let afl_fork framework test strat filename : unit =
          [| "AFL_BENCH_UNTIL_CRASH=true" |])
   in
   let _status = Unix.close_process_full channels in
-  (* TODO: parse the fuzzing stats into the same format as the rest of the runs so we don't have to rewrite a parser. *)
   let now = Unix.gettimeofday () in
   let get = parse "output/default/fuzzer_stats" in
   match (get "execs_done", get "execs_per_sec", get "saved_crashes") with
@@ -139,11 +153,13 @@ let afl_fork framework test strat filename : unit =
       close_out oc
   | _ -> failwith "Error attempting to read AFL output file"
 
-let qcheck_fork t ts s ss f =
-  let oc = open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 f in
+let _simple_fork f file =
+  let oc = open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 file in
   match Unix.fork () with
   (* runner/child thread *)
-  | 0 -> qmain t ts s ss oc
+  | 0 ->
+      f oc
+      (* todo: if the forking overhead is too much, we could pipe the endtime back to the main thread *)
   | pid -> (
       match Unix.fork () with
       | 0 ->
@@ -161,6 +177,9 @@ let qcheck_fork t ts s ss f =
               Printf.fprintf oc "[%f exit timeout]\n" endtime
           | _ -> Printf.fprintf oc "[%f exit unexpected]\n" endtime))
 
+let qcheck_fork t ts s ss = _simple_fork (fun oc -> qmain oc t ts s ss)
+let base_fork t ts s ss = _simple_fork (fun oc -> bmain oc t ts s ss)
+
 (* Call format:
    dune exec <workload> -- <framework> <testname> <strategy> <filename>
    for example,
@@ -170,13 +189,13 @@ let qcheck_fork t ts s ss f =
 *)
 let main (props : (string * 'a property) list)
     (qstrats : (string * 'a arbitrary) list) (cstrats : (string * 'a gen) list)
-    : unit =
+    (bstrats : (string * 'a basegen) list) : unit =
   if Array.length Sys.argv < 5 then
     match Unix.getenv "framework" with
     | "crowbar" -> crowbar_child props cstrats
     | "afl" -> afl_child props cstrats
     | _ ->
-        Printf.printf
+        print_endline
           "Not enough arguments were passed. Could not determine whether this \
            was a child process."
   else
@@ -187,14 +206,18 @@ let main (props : (string * 'a property) list)
     Printf.printf
       "Executing test %s into file %s using strategy %s on framework %s\n"
       testname filename strategy framework;
+    flush stdout;
     match framework with
     | "qcheck" ->
-        Printf.printf "Valid framework QCheck\n";
+        print_endline "Valid framework QCheck\n";
         qcheck_fork testname props strategy qstrats filename
     | "crowbar" ->
-        Printf.printf "Valid framework Crowbar\n";
+        print_endline "Valid framework Crowbar\n";
         crowbar_fork framework testname strategy filename
     | "afl" ->
-        Printf.printf "Valid framework AFL\n";
+        print_endline "Valid framework AFL\n";
         afl_fork framework testname strategy filename
-    | _ -> Printf.printf "Framework %s was not found\n" framework
+    | "base" ->
+        print_endline "Valid framework Base_quickcheck\n";
+        base_fork testname props strategy bstrats filename
+    | _ -> print_endline ("Framework " ^ framework ^ " was not found\n")

@@ -1,6 +1,7 @@
 type tree =
 | E
-| T of tree * int * int * tree
+| T of tree * Nat.Nat.t * Nat.Nat.t * tree
+[@@deriving sexp, quickcheck]
 
 
 let fuel : int = 10000
