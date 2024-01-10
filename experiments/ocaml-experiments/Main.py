@@ -7,9 +7,9 @@ import Analysis
 # script to do the collection, parsing, and analysis all in one
 
 WORKLOADS = [
-    'BST',
+    # 'BST',
     # 'RBT',
-    # 'STLC',
+    'STLC',
 ]
 
 STRATEGIES: list[PBTGenerator] = [
@@ -19,8 +19,8 @@ STRATEGIES: list[PBTGenerator] = [
     # PBTGenerator('crowbar', 'type'),
     # PBTGenerator('afl', 'bespoke'),
     # PBTGenerator('afl', 'type'),
-    # PBTGenerator('base', 'bespoke'),
-    PBTGenerator('base', 'type'),
+    PBTGenerator('base', 'bespoke'),
+    # PBTGenerator('base', 'type'),
 ]
 
 

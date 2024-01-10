@@ -10,7 +10,6 @@ let ( << ) f g x = f (g x)
 let qi = small_int
 let ci = int8
 
-(* TODO: make ints in Base_quickcheck have a smaller range? *)
 
 let test_prop_InsertValid : tree property =
   {

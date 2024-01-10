@@ -3,8 +3,15 @@ open Option
 
 let ( >>= ) = bind
 
-type typ = TBool | TFun of typ * typ
-type expr = Var of int | Bool of bool | Abs of typ * expr | App of expr * expr
+type typ = TBool | TFun of typ * typ [@@deriving sexp, quickcheck]
+
+type expr =
+  | Var of Core.Int.t
+  | Bool of Core.Bool.t
+  | Abs of typ * expr
+  | App of expr * expr
+[@@deriving sexp, quickcheck]
+
 type ctx = typ list
 
 let rec getTyp (c : ctx) (e : expr) : typ option =

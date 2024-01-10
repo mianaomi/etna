@@ -4,7 +4,7 @@ from benchtool.Plot import *
 from functools import partial
 
 # use this to adjust which plots are generated
-WORKLOADS = ['BST']  # , 'RBT', 'STLC']
+WORKLOADS = ['STLC']  # , 'RBT', 'STLC']
 STRATEGIES = [
     'qcheckBespoke',
     'qcheckType',
@@ -13,7 +13,7 @@ STRATEGIES = [
     'aflBespoke',
     'aflType',
     'baseBespoke',
-    'baseType',
+    # 'baseType',
 ]
 
 
