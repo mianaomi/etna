@@ -10,11 +10,11 @@ REPLACE = False
 WORKLOADS = ['STLC']
 STRATEGIES : list[PBTGenerator] = [
     # PBTGenerator('qcheck', 'bespoke'),
-    # PBTGenerator('qcheck', 'type'),
+    PBTGenerator('qcheck', 'type'),
     # PBTGenerator('crowbar', 'bespoke'),
     # PBTGenerator('crowbar', 'type'),
     # PBTGenerator('afl', 'bespoke'),
-    PBTGenerator('afl', 'type'),
+    # PBTGenerator('afl', 'type'),
 ]
 
 TRIALS = 10

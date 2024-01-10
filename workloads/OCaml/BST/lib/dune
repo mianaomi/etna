@@ -2,5 +2,18 @@
 
 (library
  (name BST)
- (modules impl spec test qcheckType qcheckBespoke crowbarType crowbarBespoke display)
- (libraries qcheck crowbar util))
+ (modules
+  impl
+  spec
+  test
+  qcheckType
+  qcheckBespoke
+  crowbarType
+  crowbarBespoke
+  baseType
+  baseBespoke
+  nat
+  display)
+ (libraries qcheck crowbar util core)
+ (preprocess
+  (pps ppx_jane)))

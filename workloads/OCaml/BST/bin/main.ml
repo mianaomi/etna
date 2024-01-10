@@ -8,14 +8,18 @@ open BST.QcheckType
 open BST.QcheckBespoke
 open BST.CrowbarType
 open BST.CrowbarBespoke
+open BST.BaseType
+open BST.BaseBespoke
 
 (*
-  dune exec BST -- qcheck prop_InsertValid bespoke out.txt
-  dune exec BST -- qcheck prop_InsertValid type out.txt
-  dune exec BST -- crowbar prop_InsertValid bespoke out.txt
-  dune exec BST -- crowbar prop_InsertValid type out.txt
-  dune exec BST -- afl prop_InsertValid bespoke out.txt
-  dune exec BST -- afl prop_InsertValid type out.txt
+  dune exec BST -- qcheck prop_InsertInsert bespoke out
+  dune exec BST -- qcheck prop_InsertInsert type out
+  dune exec BST -- crowbar prop_InsertInsert bespoke out
+  dune exec BST -- crowbar prop_InsertInsert type out
+  dune exec BST -- afl prop_InsertInsert bespoke out
+  dune exec BST -- afl prop_InsertInsert type out
+  dune exec BST -- base prop_InsertInsert bespoke out
+  dune exec BST -- base prop_InsertInsert type out
   *)
 
 let properties : (string * tree property) list =
@@ -46,4 +50,7 @@ let qstrategies : (string * tree arbitrary) list =
 let cstrategies : (string * tree gen) list =
   [ ("type", crowbar_type); ("bespoke", crowbar_bespoke) ]
 
-let () = main properties qstrategies cstrategies
+let bstrategies : (string * tree basegen) list =
+  [ ("type", (module BaseType)); ("bespoke", (module BaseBespoke)) ]
+
+let () = main properties qstrategies cstrategies bstrategies

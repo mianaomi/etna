@@ -54,7 +54,8 @@ def stacked_barchart_times(
     results['rest'] = total_tasks
 
     for within in limits:
-        dft = overall_solved(df, agg=agg, within=within, solved_type=limit_type)
+        dft = overall_solved(df, agg=agg, within=within,
+                             solved_type=limit_type)
         dft = dft.reset_index()
         dft = dft.groupby(['strategy']).sum(numeric_only=False)
         for strategy in strategies:
@@ -82,6 +83,17 @@ def stacked_barchart_times(
             '#334756',  # dark blue
             '#290001',  # dark brown
             '#000000',  # black
+        ]
+        # paired color pallete
+        colors = [
+            '#000000',  # blue
+            '#000000',  # blue
+            '#334756',  # yellow
+            '#334756',  # yellow
+            '#436E4F',  # green
+            '#436E4F',  # green
+            '#900D0D',  # red
+            '#900D0D',  # red
         ]
 
     extrapolated_colors = list(
@@ -161,26 +173,28 @@ def stacked_barchart_times(
 def dashboard(df: pd.DataFrame):
     app = Dash(__name__)
 
-    div_style = {'width': '31%', 'float': 'left', 'display': 'inline-block', 'margin-right': '15px'}
+    div_style = {'width': '31%', 'float': 'left',
+                 'display': 'inline-block', 'margin-right': '15px'}
     app.layout = html.Div([
         html.Div([
             html.Div([dcc.Dropdown(sorted(df['workload'].unique()), 'BST', id='workload')],
                      style=div_style),
             html.Div([
                 dcc.Dropdown(['time', 'inputs'], 'time', id='col'),
-                dcc.RadioItems(['linear', 'log'], 'linear', id='yscale', inline=True)
+                dcc.RadioItems(['linear', 'log'], 'linear',
+                               id='yscale', inline=True)
             ],
-                     style=div_style),
+                style=div_style),
             html.Div([
                 dcc.Dropdown(
                     df['strategy'].unique(), df['strategy'].unique(), id='strategies', multi=True)
             ],
-                     style={
-                         'width': '31%',
+                style={
+                'width': '31%',
                          'display': 'inline-block'
-                     })
+            })
         ],
-                 style={'margin-bottom': '15px'}),
+            style={'margin-bottom': '15px'}),
         dcc.Graph(id='graph', style={'height': '85vh'})
     ])
 
@@ -192,7 +206,8 @@ def dashboard(df: pd.DataFrame):
         Input('strategies', 'value'),
     )
     def update_graph(workload, col, yscale, strategies):
-        dff = df[(df['workload'] == workload) & (df['strategy'].isin(strategies))]
+        dff = df[(df['workload'] == workload) & (
+            df['strategy'].isin(strategies))]
 
         # Note: this only includes tasks that everyone solved
         dff = task_average(dff, col)

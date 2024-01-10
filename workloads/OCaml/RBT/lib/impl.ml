@@ -4,11 +4,14 @@ let ( >>= ) = bind
 let ( <$> ) f x = match x with None -> None | Some v -> Some (f v)
 let return x = Some x
 
-type color = R | B
+type color = R | B [@@deriving sexp, quickcheck]
+
 type ('a, 'b) tree = E | T of color * ('a, 'b) tree * 'a * 'b * ('a, 'b) tree
+[@@deriving sexp, quickcheck]
+
 type key = int
 type value = int
-type rbt = (key, value) tree
+type rbt = (Nat.Nat.t, Nat.Nat.t) tree [@@deriving sexp, quickcheck]
 
 let t c l k v r = T (c, l, k, v, r)
 

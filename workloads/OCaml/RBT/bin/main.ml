@@ -8,6 +8,8 @@ open RBT.QcheckType
 open RBT.QcheckBespoke
 open RBT.CrowbarType
 open RBT.CrowbarBespoke
+open RBT.BaseType
+open RBT.BaseBespoke
 
 (* RUNNER COMMAND:
    dune exec RBT -- qcheck prop_DeleteValid bespoke out.txt
@@ -16,6 +18,7 @@ open RBT.CrowbarBespoke
    dune exec RBT -- crowbar prop_DeleteValid type out.txt
    dune exec RBT -- afl prop_DeleteValid bespoke out.txt
    dune exec RBT -- afl prop_DeleteValid type out.txt
+   dune exec RBT -- base prop_DeleteValid type out
 *)
 
 let properties : (string * rbt property) list =
@@ -38,4 +41,7 @@ let qstrategies : (string * rbt arbitrary) list =
 let cstrategies : (string * rbt gen) list =
   [ ("type", crowbar_type); ("bespoke", crowbar_bespoke) ]
 
-let () = main properties qstrategies cstrategies
+let bstrategies : (string * rbt basegen) list =
+  [ ("type", (module BaseType)); ("bespoke", (module BaseBespoke)) ]
+
+let () = main properties qstrategies cstrategies bstrategies
