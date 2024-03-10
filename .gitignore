@@ -37,3 +37,6 @@ tool/dist
 tui
 
 data/**
+
+**/input/*
+**/output/*

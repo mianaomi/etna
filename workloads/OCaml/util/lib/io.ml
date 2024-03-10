@@ -4,7 +4,7 @@ open Crowbar
 open Parse
 
 (* global timeout in seconds for test threads *)
-let timeout = 60
+let timeout = ref 60
 
 (* super simple running of the tests *)
 let qrun (p : 'a property) (g : 'a QCheck.arbitrary) (oc : out_channel) : unit =
@@ -90,7 +90,7 @@ let crowbar_fork framework test strat filename =
   let seed = string_of_int (Random.bits ()) in
   match
     Unix.create_process_env cur
-      [| cur; "--repeat=100000000"; "--seed=" ^ seed |]
+      [| cur; "--repeat=461168601842738"; "--seed=" ^ seed |]
       (* pass the # of tests as a command line argument to the child process *)
       (make_env framework test strat filename)
       Unix.stdin od Unix.stderr
@@ -100,7 +100,7 @@ let crowbar_fork framework test strat filename =
       match Unix.fork () with
       | 0 ->
           (* timeout thread *)
-          Unix.sleep timeout;
+          Unix.sleep !timeout;
           Unix.kill pid Sys.sigalrm
       | pid' -> (
           (* waiting thread *)
@@ -125,7 +125,7 @@ let afl_fork framework test strat filename : unit =
         "-o";
         "output";
         "-V";
-        string_of_int timeout;
+        string_of_int !timeout;
         Sys.executable_name;
         "@@";
       |]
@@ -164,7 +164,7 @@ let _simple_fork f file =
       match Unix.fork () with
       | 0 ->
           (* timeout thread *)
-          Unix.sleep timeout;
+          Unix.sleep !timeout;
           Unix.kill pid Sys.sigalrm
       | pid' -> (
           (* waiting thread *)

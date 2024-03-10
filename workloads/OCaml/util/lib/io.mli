@@ -4,3 +4,5 @@ val main :
   (string * 'a Crowbar.gen) list ->
   (string * 'a Runner.basegen) list ->
   unit
+
+val timeout : int ref
