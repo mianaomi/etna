@@ -1,5 +1,6 @@
 open QCheck
 open Crowbar
+open Quickchick_ocaml
 open Util.Runner
 open Util.Io
 open BST.Impl
@@ -53,4 +54,19 @@ let cstrategies : (string * tree gen) list =
 let bstrategies : (string * tree basegen) list =
   [ ("type", (module BaseType)); ("bespoke", (module BaseBespoke)) ]
 
-let () = main properties qstrategies cstrategies bstrategies
+(* let () = main properties qstrategies cstrategies bstrategies *)
+
+let () =
+  let setup = Quickchick_ocaml.Required.({
+    extractions = [
+      Ty {type_name = "tree"; package = "Impl"; constructors = ["E"; "T"]};
+      Func {function_name = "prop_InsertPost2"; package = "Impl"};
+      File "/Users/nikhil/Code/Research/etna/workloads/OCaml/BST/lib/impl.ml";
+      File "/Users/nikhil/Code/Research/etna/workloads/OCaml/BST/lib/Strategies/nat.ml";
+    ];
+    libraries = [ "qcheck"; "crowbar"; "util"; "core"];
+    ml_file = "/Users/nikhil/Code/Research/etna/workloads/OCaml/BST/lib/impl.ml";
+    temp_dir = "/Users/nikhil/Code/Research/etna/workloads/OCaml/BST/temporary";
+    target = "prop_InsertPost2";
+  }) in
+  Quickchick_ocaml.Driver.quickchick_arg setup

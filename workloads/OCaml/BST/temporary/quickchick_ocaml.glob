@@ -1,0 +1,33 @@
+DIGEST f4ebc6365de3e1f3448341740ee3ad6a
+Fquickchick_ocaml
+R47:61 Coq.extraction.ExtrOcamlNatInt <> <> lib
+R95:104 QuickChick.QuickChick <> <> lib
+ind 133:136 <> tree
+constr 149:149 <> E
+constr 160:160 <> T
+R153:156 quickchick_ocaml <> tree:1 ind
+R168:171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R164:167 quickchick_ocaml <> tree:1 ind
+R175:178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R172:174 Coq.Init.Datatypes <> nat ind
+R182:185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R179:181 Coq.Init.Datatypes <> nat ind
+R190:193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R186:189 quickchick_ocaml <> tree:1 ind
+R194:197 quickchick_ocaml <> tree:1 ind
+scheme 133:136 <> tree_rect
+scheme 133:136 <> tree_ind
+scheme 133:136 <> tree_rec
+scheme 133:136 <> tree_sind
+ax 206:221 <> prop_InsertPost2
+R229:232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R225:228 quickchick_ocaml <> tree ind
+R236:239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R233:235 Coq.Init.Datatypes <> nat ind
+R243:246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R240:242 Coq.Init.Datatypes <> nat ind
+R250:253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R247:249 Coq.Init.Datatypes <> nat ind
+R254:257 Coq.Init.Datatypes <> bool ind
+R314:317 quickchick_ocaml <> tree ind
+R608:623 quickchick_ocaml <> prop_InsertPost2 prfax

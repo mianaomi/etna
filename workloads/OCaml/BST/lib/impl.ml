@@ -1,6 +1,10 @@
+open Core
+open Nat.Nat
+open Poly
+
 type tree =
 | E
-| T of tree * Nat.Nat.t * Nat.Nat.t * tree
+| T of tree * int * int * tree
 [@@deriving sexp, quickcheck]
 
 
@@ -12,13 +16,13 @@ let rec insert (k: int) (v: int) (t: tree) =
   | E -> T (E, k, v, E)
   | T (l, k', v', r) ->
     (*! *)
-      if k < k' then T ((insert k v l), k', v', r)
+      (* if k < k' then T ((insert k v l), k', v', r)
       else if k' < k then T (l, k', v', (insert k v r))
-      else T (l, k', v, r)
+      else T (l, k', v, r) *)
     (*!! insert_1 *)
-      (*!
+      (* ! *)
       let _ = ignore (l, k', v', r, insert) in T (E, k, v, E)
-      *)
+
     (*!! insert_2 *)
       (*!
       if k < k' then T ((insert k v l), k', v', r)
@@ -123,3 +127,25 @@ let rec size (t: tree) =
   | T (l, _, _, r) -> 1 + size l + size r
 
 
+
+
+
+let prop_InsertPost2 =
+  let rec keys (t : tree) : int list =
+  match t with
+  | E -> []
+  | T (l, k, _v, r) ->
+      let lk = keys l in
+      let rk = keys r in
+      [ k ] @ lk @ rk in
+let rec all (f : 'a -> bool) (l : 'a list) : bool =
+  match l with [] -> true | x :: xs -> f x && all f xs in
+  let rec isBST (t : tree) : bool =
+  match t with
+  | E -> true
+  | T (l, k, _, r) ->
+      isBST l && isBST r
+      && all (fun k' -> k' < k) (keys l)
+      && all (fun k' -> k' > k) (keys r) in
+let open Util.Runner in
+ fun t k k' v -> (not (isBST t)) || (find k' (insert k v t) = if k = k' then Some v else find k' t)
