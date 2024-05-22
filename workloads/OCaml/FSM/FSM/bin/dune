@@ -1,4 +1,0 @@
-(executable
- (public_name FSM)
- (name main)
- (libraries FSM))
