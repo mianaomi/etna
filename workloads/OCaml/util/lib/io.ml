@@ -117,6 +117,16 @@ let afl_fork framework test strat filename : unit =
   Sys.command "mkdir -p input && echo asdf > input/nikhil" |> ignore;
   Sys.command "echo lkj > input/nikhil2" |> ignore;
   let channels =
+    print_endline "Executing AFL command: ";
+    print_endline
+      ("afl-fuzz -i input -o output -V " ^ string_of_int !timeout ^ " "
+     ^ Sys.executable_name ^ " @@");
+    print_endline "With environment: ";
+    print_endline
+      (Array.fold_left
+         (fun a s -> a ^ " " ^ s)
+         ""
+         (make_env framework test strat "-"));
     Unix.open_process_args_full "afl-fuzz"
       [|
         "afl-fuzz";
@@ -135,7 +145,11 @@ let afl_fork framework test strat filename : unit =
   in
   let _status = Unix.close_process_full channels in
   let now = Unix.gettimeofday () in
-  let get = parse "output/default/fuzzer_stats" in
+  let get =
+    try parse "output/default/fuzzer_stats"
+    with _ ->
+      failwith "afl-fuzz failed. try debugging with the command directly"
+  in
   match (get "execs_done", get "execs_per_sec", get "saved_crashes") with
   | Some runs, Some rps, Some found when found >= 0.5 ->
       let oc =
@@ -191,13 +205,20 @@ let main (props : (string * 'a property) list)
     (qstrats : (string * 'a arbitrary) list) (cstrats : (string * 'a gen) list)
     (bstrats : (string * 'a basegen) list) : unit =
   if Array.length Sys.argv < 5 then
-    match Unix.getenv "framework" with
-    | "crowbar" -> crowbar_child props cstrats
-    | "afl" -> afl_child props cstrats
-    | _ ->
-        print_endline
-          "Not enough arguments were passed. Could not determine whether this \
-           was a child process."
+    try
+      match Unix.getenv "framework" with
+      | "crowbar" -> crowbar_child props cstrats
+      | "afl" -> afl_child props cstrats
+      | _ ->
+          print_endline
+            "Not enough arguments were passed. Could not determine whether \
+             this was a child process."
+    with Not_found ->
+      print_endline
+        ("Usage: `dune exec <workload> -- <framework> <testname> <strategy> \
+          <filename>`\n"
+       ^ "Ex: `dune exec BST -- qcheck prop_InsertValid bespokeGenerator \
+          out.txt`\n")
   else
     let framework = Sys.argv.(1) in
     let testname = Sys.argv.(2) in

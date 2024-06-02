@@ -6,13 +6,13 @@ from functools import partial
 # use this to adjust which plots are generated
 WORKLOADS = ['BST', 'RBT', 'STLC']
 STRATEGIES = [
-    'qcheckBespoke',
+    # 'qcheckBespoke',
     'qcheckType',
-    'crowbarBespoke',
+    # 'crowbarBespoke',
     'crowbarType',
-    'aflBespoke',
+    # 'aflBespoke',
     'aflType',
-    'baseBespoke',
+    # 'baseBespoke',
     'baseType',
 ]
 
@@ -49,6 +49,6 @@ if __name__ == "__main__":
     p.add_argument('--figures', help='path to folder for figures')
     args = p.parse_args()
 
-    results_path = f'{os.getcwd()}/{args.data}' if args.data else f'{os.getcwd()}/experiments/ocaml-experiments/parsed'
-    images_path = f'{os.getcwd()}/{args.figures}' if args.figures else f'{os.getcwd()}/experiments/ocaml-experiments/analyzed'
+    results_path = f'{os.getcwd()}/{args.data}' if args.data else '/Users/nikhil/Code/Research/etna/experiments/ocaml-experiments/parsed'
+    images_path = f'{os.getcwd()}/{args.figures}' if args.figures else '/Users/nikhil/Code/Research/etna/experiments/ocaml-experiments/analyzed'
     analyze(results_path, images_path)

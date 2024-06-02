@@ -4,21 +4,23 @@ from benchtool.OCaml import OCaml
 from benchtool.Types import ReplaceLevel, TrialConfig, PBTGenerator
 from benchtool.Tasks import tasks
 
-DEFAULT_DIR = 'oc3'
+DEFAULT_DIR = 'oc4'
 REPLACE = False
 
-WORKLOADS = ['STLC']
+WORKLOADS = ['RARE']
 STRATEGIES : list[PBTGenerator] = [
     # PBTGenerator('qcheck', 'bespoke'),
     PBTGenerator('qcheck', 'type'),
     # PBTGenerator('crowbar', 'bespoke'),
-    # PBTGenerator('crowbar', 'type'),
+    PBTGenerator('crowbar', 'type'),
     # PBTGenerator('afl', 'bespoke'),
-    # PBTGenerator('afl', 'type'),
+    PBTGenerator('afl', 'type'),
+    # PBTGenerator('base', 'bespoke'),
+    PBTGenerator('base', 'type'),
 ]
 
 TRIALS = 10
-TIMEOUT = 65
+TIMEOUT = 605
 
 
 def collect(directory: str, workloads=WORKLOADS, strategies=STRATEGIES):

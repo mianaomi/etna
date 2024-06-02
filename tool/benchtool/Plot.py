@@ -84,17 +84,7 @@ def stacked_barchart_times(
             '#290001',  # dark brown
             '#000000',  # black
         ]
-        # paired color pallete
-        colors = [
-            '#000000',  # blue
-            '#000000',  # blue
-            '#334756',  # yellow
-            '#334756',  # yellow
-            '#436E4F',  # green
-            '#436E4F',  # green
-            '#900D0D',  # red
-            '#900D0D',  # red
-        ]
+
 
     extrapolated_colors = list(
         map(light_gradient, map(ImageColor.getrgb, colors), [len(limits) + 1] * len(colors)))

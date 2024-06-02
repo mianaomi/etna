@@ -18,7 +18,6 @@ let () = timeout := 600
 let properties =
   [
     ("prop_NothingPasses", test_prop_NothingPasses);
-    ("prop_TightPrecondition", test_prop_TightPrecondition);
   ]
 
 let qstrategies =
