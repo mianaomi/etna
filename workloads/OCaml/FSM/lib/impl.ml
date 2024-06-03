@@ -1,4 +1,3 @@
-open Set
 type transition = int * char option * int
 
 type fsm_t = {
