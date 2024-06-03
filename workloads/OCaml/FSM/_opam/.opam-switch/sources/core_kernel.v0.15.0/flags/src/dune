@@ -1,2 +1,0 @@
-(library (name flags) (public_name core_kernel.flags) (libraries core)
- (preprocess (pps ppx_jane)))

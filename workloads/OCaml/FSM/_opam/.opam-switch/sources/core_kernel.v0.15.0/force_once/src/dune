@@ -1,2 +1,0 @@
-(library (name force_once) (public_name core_kernel.force_once)
- (libraries core) (preprocess (pps ppx_jane)))

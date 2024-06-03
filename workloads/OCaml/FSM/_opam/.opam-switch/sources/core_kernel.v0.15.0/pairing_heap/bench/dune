@@ -1,2 +1,0 @@
-(library (name pairing_heap_bench) (libraries pairing_heap)
- (preprocess (pps ppx_jane)))
