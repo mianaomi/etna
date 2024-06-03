@@ -1,0 +1,37 @@
+opam-version: "2.0"
+added: [
+  "doc/topkg" {"D"}
+  "doc/topkg/CHANGES.md" {"F:S11568T1717441207.56"}
+  "doc/topkg/LICENSE.md" {"F:S735T1717441207.56"}
+  "doc/topkg/README.md" {"F:S1981T1717441207.56"}
+  "lib/topkg" {"D"}
+  "lib/topkg/META" {"F:S543T1717441207.55"}
+  "lib/topkg/opam" {"F:S1715T1717441207.56"}
+  "lib/topkg/topkg.a" {"F:S799850T1717441207.55"}
+  "lib/topkg/topkg.cma" {"F:S973137T1717441207.56"}
+  "lib/topkg/topkg.cmi" {"F:S52291T1717441207.56"}
+  "lib/topkg/topkg.cmti" {"F:S397133T1717441207.56"}
+  "lib/topkg/topkg.cmx" {"F:S30274T1717441207.56"}
+  "lib/topkg/topkg.cmxa" {"F:S17744T1717441207.56"}
+  "lib/topkg/topkg.cmxs" {"F:S739208T1717441207.56"}
+  "lib/topkg/topkg.mli" {"F:S100896T1717441207.56"}
+  "lib/topkg/topkg_build.cmx" {"F:S2520T1717441207.56"}
+  "lib/topkg/topkg_cmd.cmx" {"F:S1719T1717441207.56"}
+  "lib/topkg/topkg_codec.cmx" {"F:S2573T1717441207.56"}
+  "lib/topkg/topkg_conf.cmx" {"F:S12376T1717441207.56"}
+  "lib/topkg/topkg_distrib.cmx" {"F:S4584T1717441207.56"}
+  "lib/topkg/topkg_fexts.cmx" {"F:S1235T1717441207.56"}
+  "lib/topkg/topkg_fpath.cmx" {"F:S1478T1717441207.56"}
+  "lib/topkg/topkg_install.cmx" {"F:S4308T1717441207.56"}
+  "lib/topkg/topkg_ipc.cmx" {"F:S2397T1717441207.56"}
+  "lib/topkg/topkg_log.cmx" {"F:S1984T1717441207.56"}
+  "lib/topkg/topkg_main.cmx" {"F:S3122T1717441207.56"}
+  "lib/topkg/topkg_opam.cmx" {"F:S1419T1717441207.56"}
+  "lib/topkg/topkg_os.cmx" {"F:S3913T1717441207.56"}
+  "lib/topkg/topkg_pkg.cmx" {"F:S4586T1717441207.56"}
+  "lib/topkg/topkg_publish.cmx" {"F:S831T1717441207.56"}
+  "lib/topkg/topkg_result.cmx" {"F:S951T1717441207.56"}
+  "lib/topkg/topkg_string.cmx" {"F:S6961T1717441207.56"}
+  "lib/topkg/topkg_test.cmx" {"F:S927T1717441207.56"}
+  "lib/topkg/topkg_vcs.cmx" {"F:S5023T1717441207.56"}
+]

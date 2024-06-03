@@ -1,0 +1,1327 @@
+.TH "StdLabels.String" 3 2024-06-03 OCamldoc "OCaml library"
+.SH NAME
+StdLabels.String \- no description
+.SH Module
+Module   StdLabels.String
+.SH Documentation
+.sp
+Module
+.BI "String"
+ : 
+.B (module StringLabels)
+
+.sp
+
+.sp
+
+.sp
+.sp
+
+.I val length 
+: 
+.B string -> int
+.sp
+Return the length (number of characters) of the given string\&.
+
+.sp
+
+.I val get 
+: 
+.B string -> int -> char
+.sp
+
+.ft B
+String\&.get s n
+.ft R
+returns the character at index 
+.ft B
+n
+.ft R
+in string 
+.ft B
+s
+.ft R
+\&.
+You can also write 
+.ft B
+s\&.[n]
+.ft R
+instead of 
+.ft B
+String\&.get s n
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+n
+.ft R
+not a valid index in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val set 
+: 
+.B bytes -> int -> char -> unit
+.sp
+.B "Deprecated."
+This is a deprecated alias of 
+.ft B
+BytesLabels\&.set
+.ft R
+\&.
+
+.sp
+
+.ft B
+String\&.set s n c
+.ft R
+modifies byte sequence 
+.ft B
+s
+.ft R
+in place,
+replacing the byte at index 
+.ft B
+n
+.ft R
+with 
+.ft B
+c
+.ft R
+\&.
+You can also write 
+.ft B
+s\&.[n] <\- c
+.ft R
+instead of 
+.ft B
+String\&.set s n c
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+n
+.ft R
+is not a valid index in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val create 
+: 
+.B int -> bytes
+.sp
+.B "Deprecated."
+This is a deprecated alias of 
+.ft B
+BytesLabels\&.create
+.ft R
+\&.
+
+.sp
+
+.ft B
+String\&.create n
+.ft R
+returns a fresh byte sequence of length 
+.ft B
+n
+.ft R
+\&.
+The sequence is uninitialized and contains arbitrary bytes\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+n < 0
+.ft R
+or 
+.ft B
+n > 
+.ft R
+.ft B
+Sys\&.max_string_length
+.ft R
+\&.
+
+.sp
+
+.I val make 
+: 
+.B int -> char -> string
+.sp
+
+.ft B
+String\&.make n c
+.ft R
+returns a fresh string of length 
+.ft B
+n
+.ft R
+,
+filled with the character 
+.ft B
+c
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+n < 0
+.ft R
+or 
+.ft B
+n > 
+.ft R
+.ft B
+Sys\&.max_string_length
+.ft R
+\&.
+
+.sp
+
+.I val init 
+: 
+.B int -> f:(int -> char) -> string
+.sp
+
+.ft B
+init n f
+.ft R
+returns a string of length 
+.ft B
+n
+.ft R
+,
+with character 
+.ft B
+i
+.ft R
+initialized to the result of 
+.ft B
+f i
+.ft R
+\&.
+
+.sp
+.B "Since"
+4.02.0
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+n < 0
+.ft R
+or 
+.ft B
+n > 
+.ft R
+.ft B
+Sys\&.max_string_length
+.ft R
+\&.
+
+.sp
+
+.I val copy 
+: 
+.B string -> string
+.sp
+Return a copy of the given string\&.
+
+.sp
+
+.I val sub 
+: 
+.B string -> pos:int -> len:int -> string
+.sp
+
+.ft B
+String\&.sub s start len
+.ft R
+returns a fresh string of length 
+.ft B
+len
+.ft R
+,
+containing the substring of 
+.ft B
+s
+.ft R
+that starts at position 
+.ft B
+start
+.ft R
+and
+has length 
+.ft B
+len
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+start
+.ft R
+and 
+.ft B
+len
+.ft R
+do not
+designate a valid substring of 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val fill 
+: 
+.B bytes -> pos:int -> len:int -> char -> unit
+.sp
+.B "Deprecated."
+This is a deprecated alias of 
+.ft B
+BytesLabels\&.fill
+.ft R
+\&.
+
+.sp
+
+.ft B
+String\&.fill s start len c
+.ft R
+modifies byte sequence 
+.ft B
+s
+.ft R
+in place,
+replacing 
+.ft B
+len
+.ft R
+bytes by 
+.ft B
+c
+.ft R
+, starting at 
+.ft B
+start
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+start
+.ft R
+and 
+.ft B
+len
+.ft R
+do not
+designate a valid substring of 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val blit 
+: 
+.B src:string -> src_pos:int -> dst:bytes -> dst_pos:int -> len:int -> unit
+.sp
+
+.ft B
+String\&.blit src srcoff dst dstoff len
+.ft R
+copies 
+.ft B
+len
+.ft R
+bytes
+from the string 
+.ft B
+src
+.ft R
+, starting at index 
+.ft B
+srcoff
+.ft R
+,
+to byte sequence 
+.ft B
+dst
+.ft R
+, starting at character number 
+.ft B
+dstoff
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+srcoff
+.ft R
+and 
+.ft B
+len
+.ft R
+do not
+designate a valid range of 
+.ft B
+src
+.ft R
+, or if 
+.ft B
+dstoff
+.ft R
+and 
+.ft B
+len
+.ft R
+do not designate a valid range of 
+.ft B
+dst
+.ft R
+\&.
+
+.sp
+
+.I val concat 
+: 
+.B sep:string -> string list -> string
+.sp
+
+.ft B
+String\&.concat sep sl
+.ft R
+concatenates the list of strings 
+.ft B
+sl
+.ft R
+,
+inserting the separator string 
+.ft B
+sep
+.ft R
+between each\&.
+
+.sp
+
+.I val iter 
+: 
+.B f:(char -> unit) -> string -> unit
+.sp
+
+.ft B
+String\&.iter f s
+.ft R
+applies function 
+.ft B
+f
+.ft R
+in turn to all
+the characters of 
+.ft B
+s
+.ft R
+\&.  It is equivalent to
+.ft B
+f s\&.[0]; f s\&.[1]; \&.\&.\&.; f s\&.[String\&.length s \- 1]; ()
+.ft R
+\&.
+
+.sp
+
+.I val iteri 
+: 
+.B f:(int -> char -> unit) -> string -> unit
+.sp
+Same as 
+.ft B
+String\&.iter
+.ft R
+, but the
+function is applied to the index of the element as first argument
+(counting from 0), and the character itself as second argument\&.
+
+.sp
+.B "Since"
+4.00.0
+
+.sp
+
+.I val map 
+: 
+.B f:(char -> char) -> string -> string
+.sp
+
+.ft B
+String\&.map f s
+.ft R
+applies function 
+.ft B
+f
+.ft R
+in turn to all
+the characters of 
+.ft B
+s
+.ft R
+and stores the results in a new string that
+is returned\&.
+
+.sp
+.B "Since"
+4.00.0
+
+.sp
+
+.I val mapi 
+: 
+.B f:(int -> char -> char) -> string -> string
+.sp
+
+.ft B
+String\&.mapi f s
+.ft R
+calls 
+.ft B
+f
+.ft R
+with each character of 
+.ft B
+s
+.ft R
+and its
+index (in increasing index order) and stores the results in a new
+string that is returned\&.
+
+.sp
+.B "Since"
+4.02.0
+
+.sp
+
+.I val trim 
+: 
+.B string -> string
+.sp
+Return a copy of the argument, without leading and trailing
+whitespace\&.  The characters regarded as whitespace are: 
+.ft B
+\&' \&'
+.ft R
+,
+.ft B
+\&'\(rs012\&'
+.ft R
+, 
+.ft B
+\&'\(rsn\&'
+.ft R
+, 
+.ft B
+\&'\(rsr\&'
+.ft R
+, and 
+.ft B
+\&'\(rst\&'
+.ft R
+\&.  If there is no leading nor
+trailing whitespace character in the argument, return the original
+string itself, not a copy\&.
+
+.sp
+.B "Since"
+4.00.0
+
+.sp
+
+.I val escaped 
+: 
+.B string -> string
+.sp
+Return a copy of the argument, with special characters
+represented by escape sequences, following the lexical
+conventions of OCaml\&.  If there is no special
+character in the argument, return the original string itself,
+not a copy\&. Its inverse function is Scanf\&.unescaped\&.
+
+.sp
+
+.I val index 
+: 
+.B string -> char -> int
+.sp
+
+.ft B
+String\&.index s c
+.ft R
+returns the index of the first
+occurrence of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+.B "Raises Not_found"
+if 
+.ft B
+c
+.ft R
+does not occur in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val index_opt 
+: 
+.B string -> char -> int option
+.sp
+
+.ft B
+String\&.index_opt s c
+.ft R
+returns the index of the first
+occurrence of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+, or
+.ft B
+None
+.ft R
+if 
+.ft B
+c
+.ft R
+does not occur in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+.B "Since"
+4.05
+
+.sp
+
+.I val rindex 
+: 
+.B string -> char -> int
+.sp
+
+.ft B
+String\&.rindex s c
+.ft R
+returns the index of the last
+occurrence of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+.B "Raises Not_found"
+if 
+.ft B
+c
+.ft R
+does not occur in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val rindex_opt 
+: 
+.B string -> char -> int option
+.sp
+
+.ft B
+String\&.rindex_opt s c
+.ft R
+returns the index of the last occurrence
+of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+, or 
+.ft B
+None
+.ft R
+if 
+.ft B
+c
+.ft R
+does not occur in
+.ft B
+s
+.ft R
+\&.
+
+.sp
+.B "Since"
+4.05
+
+.sp
+
+.I val index_from 
+: 
+.B string -> int -> char -> int
+.sp
+
+.ft B
+String\&.index_from s i c
+.ft R
+returns the index of the
+first occurrence of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+after position 
+.ft B
+i
+.ft R
+\&.
+.ft B
+String\&.index s c
+.ft R
+is equivalent to 
+.ft B
+String\&.index_from s 0 c
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+i
+.ft R
+is not a valid position in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+.B "Raises Not_found"
+if 
+.ft B
+c
+.ft R
+does not occur in 
+.ft B
+s
+.ft R
+after position 
+.ft B
+i
+.ft R
+\&.
+
+.sp
+
+.I val index_from_opt 
+: 
+.B string -> int -> char -> int option
+.sp
+
+.ft B
+String\&.index_from_opt s i c
+.ft R
+returns the index of the
+first occurrence of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+after position 
+.ft B
+i
+.ft R
+or 
+.ft B
+None
+.ft R
+if 
+.ft B
+c
+.ft R
+does not occur in 
+.ft B
+s
+.ft R
+after position 
+.ft B
+i
+.ft R
+\&.
+.sp
+
+.ft B
+String\&.index_opt s c
+.ft R
+is equivalent to 
+.ft B
+String\&.index_from_opt s 0 c
+.ft R
+\&.
+
+.sp
+.B "Since"
+4.05
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+i
+.ft R
+is not a valid position in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val rindex_from 
+: 
+.B string -> int -> char -> int
+.sp
+
+.ft B
+String\&.rindex_from s i c
+.ft R
+returns the index of the
+last occurrence of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+before position 
+.ft B
+i+1
+.ft R
+\&.
+.ft B
+String\&.rindex s c
+.ft R
+is equivalent to
+.ft B
+String\&.rindex_from s (String\&.length s \- 1) c
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+i+1
+.ft R
+is not a valid position in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+.B "Raises Not_found"
+if 
+.ft B
+c
+.ft R
+does not occur in 
+.ft B
+s
+.ft R
+before position 
+.ft B
+i+1
+.ft R
+\&.
+
+.sp
+
+.I val rindex_from_opt 
+: 
+.B string -> int -> char -> int option
+.sp
+
+.ft B
+String\&.rindex_from_opt s i c
+.ft R
+returns the index of the
+last occurrence of character 
+.ft B
+c
+.ft R
+in string 
+.ft B
+s
+.ft R
+before position 
+.ft B
+i+1
+.ft R
+or 
+.ft B
+None
+.ft R
+if 
+.ft B
+c
+.ft R
+does not occur in 
+.ft B
+s
+.ft R
+before position 
+.ft B
+i+1
+.ft R
+\&.
+.sp
+
+.ft B
+String\&.rindex_opt s c
+.ft R
+is equivalent to
+.ft B
+String\&.rindex_from_opt s (String\&.length s \- 1) c
+.ft R
+\&.
+
+.sp
+.B "Since"
+4.05
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+i+1
+.ft R
+is not a valid position in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val contains 
+: 
+.B string -> char -> bool
+.sp
+
+.ft B
+String\&.contains s c
+.ft R
+tests if character 
+.ft B
+c
+.ft R
+appears in the string 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val contains_from 
+: 
+.B string -> int -> char -> bool
+.sp
+
+.ft B
+String\&.contains_from s start c
+.ft R
+tests if character 
+.ft B
+c
+.ft R
+appears in 
+.ft B
+s
+.ft R
+after position 
+.ft B
+start
+.ft R
+\&.
+.ft B
+String\&.contains s c
+.ft R
+is equivalent to
+.ft B
+String\&.contains_from s 0 c
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+start
+.ft R
+is not a valid position in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val rcontains_from 
+: 
+.B string -> int -> char -> bool
+.sp
+
+.ft B
+String\&.rcontains_from s stop c
+.ft R
+tests if character 
+.ft B
+c
+.ft R
+appears in 
+.ft B
+s
+.ft R
+before position 
+.ft B
+stop+1
+.ft R
+\&.
+
+.sp
+.B "Raises Invalid_argument"
+if 
+.ft B
+stop < 0
+.ft R
+or 
+.ft B
+stop+1
+.ft R
+is not a valid
+position in 
+.ft B
+s
+.ft R
+\&.
+
+.sp
+
+.I val uppercase 
+: 
+.B string -> string
+.sp
+.B "Deprecated."
+Functions operating on Latin\-1 character set are deprecated\&.
+
+.sp
+Return a copy of the argument, with all lowercase letters
+translated to uppercase, including accented letters of the ISO
+Latin\-1 (8859\-1) character set\&.
+
+.sp
+
+.I val lowercase 
+: 
+.B string -> string
+.sp
+.B "Deprecated."
+Functions operating on Latin\-1 character set are deprecated\&.
+
+.sp
+Return a copy of the argument, with all uppercase letters
+translated to lowercase, including accented letters of the ISO
+Latin\-1 (8859\-1) character set\&.
+
+.sp
+
+.I val capitalize 
+: 
+.B string -> string
+.sp
+.B "Deprecated."
+Functions operating on Latin\-1 character set are deprecated\&.
+
+.sp
+Return a copy of the argument, with the first character set to uppercase,
+using the ISO Latin\-1 (8859\-1) character set\&.\&.
+
+.sp
+
+.I val uncapitalize 
+: 
+.B string -> string
+.sp
+.B "Deprecated."
+Functions operating on Latin\-1 character set are deprecated\&.
+
+.sp
+Return a copy of the argument, with the first character set to lowercase,
+using the ISO Latin\-1 (8859\-1) character set\&.\&.
+
+.sp
+
+.I val uppercase_ascii 
+: 
+.B string -> string
+.sp
+Return a copy of the argument, with all lowercase letters
+translated to uppercase, using the US\-ASCII character set\&.
+
+.sp
+.B "Since"
+4.05.0
+
+.sp
+
+.I val lowercase_ascii 
+: 
+.B string -> string
+.sp
+Return a copy of the argument, with all uppercase letters
+translated to lowercase, using the US\-ASCII character set\&.
+
+.sp
+.B "Since"
+4.05.0
+
+.sp
+
+.I val capitalize_ascii 
+: 
+.B string -> string
+.sp
+Return a copy of the argument, with the first character set to uppercase,
+using the US\-ASCII character set\&.
+
+.sp
+.B "Since"
+4.05.0
+
+.sp
+
+.I val uncapitalize_ascii 
+: 
+.B string -> string
+.sp
+Return a copy of the argument, with the first character set to lowercase,
+using the US\-ASCII character set\&.
+
+.sp
+.B "Since"
+4.05.0
+
+.sp
+.I type t 
+= 
+.B string
+
+.sp
+An alias for the type of strings\&.
+
+.sp
+
+.I val compare 
+: 
+.B t -> t -> int
+.sp
+The comparison function for strings, with the same specification as
+.ft B
+compare
+.ft R
+\&.  Along with the type 
+.ft B
+t
+.ft R
+, this function 
+.ft B
+compare
+.ft R
+allows the module 
+.ft B
+String
+.ft R
+to be passed as argument to the functors
+.ft B
+Set\&.Make
+.ft R
+and 
+.ft B
+Map\&.Make
+.ft R
+\&.
+
+.sp
+
+.I val equal 
+: 
+.B t -> t -> bool
+.sp
+The equal function for strings\&.
+
+.sp
+.B "Since"
+4.05.0
+
+.sp
+
+.I val split_on_char 
+: 
+.B sep:char -> string -> string list
+.sp
+
+.ft B
+String\&.split_on_char sep s
+.ft R
+returns the list of all (possibly empty)
+substrings of 
+.ft B
+s
+.ft R
+that are delimited by the 
+.ft B
+sep
+.ft R
+character\&.
+.sp
+The function\&'s output is specified by the following invariants:
+.sp
+.sp
+\-The list is not empty\&.
+.sp
+\-Concatenating its elements using 
+.ft B
+sep
+.ft R
+as a separator returns a
+string equal to the input (
+.ft B
+String\&.concat (String\&.make 1 sep)
+.br
+\&      (String\&.split_on_char sep s) = s
+.ft R
+)\&.
+.sp
+\-No string in the result contains the 
+.ft B
+sep
+.ft R
+character\&.
+
+
+.sp
+.B "Since"
+4.05.0
+
+.sp
+
+.PP
+.SS Iterators
+
+.PP
+
+.I val to_seq 
+: 
+.B t -> char Seq.t
+.sp
+Iterate on the string, in increasing index order\&. Modifications of the
+string during iteration will be reflected in the iterator\&.
+
+.sp
+.B "Since"
+4.07
+
+.sp
+
+.I val to_seqi 
+: 
+.B t -> (int * char) Seq.t
+.sp
+Iterate on the string, in increasing order, yielding indices along chars
+
+.sp
+.B "Since"
+4.07
+
+.sp
+
+.I val of_seq 
+: 
+.B char Seq.t -> t
+.sp
+Create a string from the generator
+
+.sp
+.B "Since"
+4.07
+
+.sp

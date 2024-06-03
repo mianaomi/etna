@@ -1,0 +1,29 @@
+opam-version: "2.0"
+added: [
+  "doc/timezone" {"D"}
+  "doc/timezone/LICENSE.md" {"F:S1117T1717441339.48"}
+  "doc/timezone/README.md" {"F:S2371T1717441339.48"}
+  "lib/timezone" {"D"}
+  "lib/timezone/META" {"F:S625T1717441339.48"}
+  "lib/timezone/dune-package" {"F:S1816T1717441339.48"}
+  "lib/timezone/opam" {"F:S745T1717441339.48"}
+  "lib/timezone/runtime.js" {"F:S456T1717441339.48"}
+  "lib/timezone/timezone.a" {"F:S45186T1717441339.48"}
+  "lib/timezone/timezone.cma" {"F:S512633T1717441339.48"}
+  "lib/timezone/timezone.cmi" {"F:S109675T1717441339.48"}
+  "lib/timezone/timezone.cmt" {"F:S858141T1717441339.48"}
+  "lib/timezone/timezone.cmti" {"F:S225013T1717441339.48"}
+  "lib/timezone/timezone.cmx" {"F:S72528T1717441339.48"}
+  "lib/timezone/timezone.cmxa" {"F:S27521T1717441339.48"}
+  "lib/timezone/timezone.cmxs" {"F:S79440T1717441339.48"}
+  "lib/timezone/timezone.ml" {"F:S7275T1717441339.48"}
+  "lib/timezone/timezone.mli" {"F:S31T1717441339.48"}
+  "lib/timezone/timezone__.cmi" {"F:S240T1717441339.48"}
+  "lib/timezone/timezone__.cmt" {"F:S2612T1717441339.48"}
+  "lib/timezone/timezone__.cmx" {"F:S128T1717441339.48"}
+  "lib/timezone/timezone__.ml" {"F:S113T1717441339.48"}
+  "lib/timezone/timezone__Timezone_intf.cmi" {"F:S176422T1717441339.48"}
+  "lib/timezone/timezone__Timezone_intf.cmt" {"F:S518981T1717441339.48"}
+  "lib/timezone/timezone__Timezone_intf.cmx" {"F:S13286T1717441339.48"}
+  "lib/timezone/timezone_intf.ml" {"F:S2725T1717441339.48"}
+]

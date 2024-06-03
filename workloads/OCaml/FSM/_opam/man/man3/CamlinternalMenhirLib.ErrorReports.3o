@@ -1,0 +1,48 @@
+.TH "CamlinternalMenhirLib.ErrorReports" 3 2024-06-03 OCamldoc "OCaml library"
+.SH NAME
+CamlinternalMenhirLib.ErrorReports \- no description
+.SH Module
+Module   CamlinternalMenhirLib.ErrorReports
+.SH Documentation
+.sp
+Module
+.BI "ErrorReports"
+ : 
+.B sig end
+
+.sp
+
+.sp
+
+.sp
+.sp
+.I type 
+.B 'a
+.I buffer 
+
+.sp
+
+.sp
+
+.I val wrap 
+: 
+.B (Lexing.lexbuf -> 'token) ->
+.B   (Lexing.position * Lexing.position)
+.B   buffer * (Lexing.lexbuf -> 'token)
+.sp
+
+.sp
+
+.I val show 
+: 
+.B ('a -> string) -> 'a buffer -> string
+.sp
+
+.sp
+
+.I val last 
+: 
+.B 'a buffer -> 'a
+.sp
+
+.sp

@@ -1,0 +1,80 @@
+.TH "StdLabels" 3 2024-06-03 OCamldoc "OCaml library"
+.SH NAME
+StdLabels \- Standard labeled libraries.
+.SH Module
+Module   StdLabels
+.SH Documentation
+.sp
+Module
+.BI "StdLabels"
+ : 
+.B sig end
+
+.sp
+Standard labeled libraries\&.
+.sp
+This meta\-module provides labelized version of the 
+.ft B
+Array
+.ft R
+,
+.ft B
+Bytes
+.ft R
+, 
+.ft B
+List
+.ft R
+and 
+.ft B
+String
+.ft R
+modules\&.
+.sp
+They only differ by their labels\&. Detailed interfaces can be found
+in 
+.ft B
+arrayLabels\&.mli
+.ft R
+, 
+.ft B
+bytesLabels\&.mli
+.ft R
+, 
+.ft B
+listLabels\&.mli
+.ft R
+and 
+.ft B
+stringLabels\&.mli
+.ft R
+\&.
+
+.sp
+
+.sp
+.sp
+.I module Array : 
+.B (module ArrayLabels)
+
+.sp
+
+.sp
+.I module Bytes : 
+.B (module BytesLabels)
+
+.sp
+
+.sp
+.I module List : 
+.B (module ListLabels)
+
+.sp
+
+.sp
+.I module String : 
+.B (module StringLabels)
+
+.sp
+
+.sp

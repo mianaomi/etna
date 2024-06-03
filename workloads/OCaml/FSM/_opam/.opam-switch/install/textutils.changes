@@ -1,0 +1,162 @@
+opam-version: "2.0"
+added: [
+  "doc/textutils" {"D"}
+  "doc/textutils/CHANGES.md" {"F:S3564T1717441378.46"}
+  "doc/textutils/LICENSE.md" {"F:S1117T1717441378.46"}
+  "lib/textutils" {"D"}
+  "lib/textutils/META" {"F:S2345T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.a" {"F:S21098T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.cma" {"F:S39601T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.cmi" {"F:S16997T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.cmt" {"F:S69705T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.cmti" {"F:S53449T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.cmx" {"F:S19686T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.cmxa" {"F:S14166T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.cmxs" {"F:S67416T1717441378.45"}
+  "lib/textutils/ascii_table/ascii_table.ml" {"F:S2851T1717441378.44"}
+  "lib/textutils/ascii_table/ascii_table.mli" {"F:S1407T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.a"
+    {"F:S221074T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.cma"
+    {"F:S516786T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.cmi"
+    {"F:S18925T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.cmt"
+    {"F:S59948T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.cmti"
+    {"F:S44370T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.cmx"
+    {"F:S18190T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.cmxa"
+    {"F:S166293T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.cmxs"
+    {"F:S366112T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.ml"
+    {"F:S1651T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel.mli"
+    {"F:S51T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__.cmi"
+    {"F:S1407T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__.cmt"
+    {"F:S7445T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__.cmx"
+    {"F:S475T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__.ml"
+    {"F:S1091T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Ascii_table_kernel_intf.cmi"
+    {"F:S18926T1717441378.44"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Ascii_table_kernel_intf.cmt"
+    {"F:S65350T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Ascii_table_kernel_intf.cmx"
+    {"F:S13723T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Cell.cmi"
+    {"F:S14818T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Cell.cmt"
+    {"F:S42311T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Cell.cmti"
+    {"F:S35986T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Cell.cmx"
+    {"F:S14719T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Cell_intf.cmi"
+    {"F:S14797T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Cell_intf.cmt"
+    {"F:S45990T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Cell_intf.cmx"
+    {"F:S13514T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Column.cmi"
+    {"F:S18369T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Column.cmt"
+    {"F:S269688T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Column.cmti"
+    {"F:S43257T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Column.cmx"
+    {"F:S20442T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Column_intf.cmi"
+    {"F:S19119T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Column_intf.cmt"
+    {"F:S69968T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Column_intf.cmx"
+    {"F:S14126T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Grid.cmi"
+    {"F:S14769T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Grid.cmt"
+    {"F:S110273T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Grid.cmti"
+    {"F:S35834T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Grid.cmx"
+    {"F:S15807T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Grid_intf.cmi"
+    {"F:S15467T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Grid_intf.cmt"
+    {"F:S48835T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Grid_intf.cmx"
+    {"F:S14572T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Import.cmi"
+    {"F:S13588T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Import.cmt"
+    {"F:S152685T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Import.cmx"
+    {"F:S13564T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Screen.cmi"
+    {"F:S15727T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Screen.cmt"
+    {"F:S106633T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Screen.cmti"
+    {"F:S37876T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Screen.cmx"
+    {"F:S15621T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Screen_intf.cmi"
+    {"F:S16426T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Screen_intf.cmt"
+    {"F:S62947T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Screen_intf.cmx"
+    {"F:S13961T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Table_char.cmi"
+    {"F:S14174T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Table_char.cmt"
+    {"F:S96361T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Table_char.cmti"
+    {"F:S36801T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel__Table_char.cmx"
+    {"F:S16084T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/ascii_table_kernel_intf.ml"
+    {"F:S2012T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/cell.ml" {"F:S703T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/cell.mli" {"F:S23T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/cell_intf.ml" {"F:S1248T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/column.ml" {"F:S5614T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/column.mli" {"F:S27T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/column_intf.ml" {"F:S3352T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/grid.ml" {"F:S4385T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/grid.mli" {"F:S23T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/grid_intf.ml" {"F:S601T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/import.ml" {"F:S162T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/screen.ml" {"F:S2767T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/screen.mli" {"F:S27T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/screen_intf.ml" {"F:S1393T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/table_char.ml" {"F:S1316T1717441378.45"}
+  "lib/textutils/ascii_table_kernel/table_char.mli" {"F:S291T1717441378.45"}
+  "lib/textutils/console/console.a" {"F:S46730T1717441378.45"}
+  "lib/textutils/console/console.cma" {"F:S116866T1717441378.45"}
+  "lib/textutils/console/console.cmi" {"F:S18294T1717441378.45"}
+  "lib/textutils/console/console.cmt" {"F:S177007T1717441378.45"}
+  "lib/textutils/console/console.cmti" {"F:S44222T1717441378.45"}
+  "lib/textutils/console/console.cmx" {"F:S18169T1717441378.45"}
+  "lib/textutils/console/console.cmxa" {"F:S28788T1717441378.45"}
+  "lib/textutils/console/console.cmxs" {"F:S92400T1717441378.46"}
+  "lib/textutils/console/console.ml" {"F:S7258T1717441378.45"}
+  "lib/textutils/console/console.mli" {"F:S44T1717441378.45"}
+  "lib/textutils/console/console__.cmi" {"F:S240T1717441378.45"}
+  "lib/textutils/console/console__.cmt" {"F:S2624T1717441378.45"}
+  "lib/textutils/console/console__.cmx" {"F:S125T1717441378.45"}
+  "lib/textutils/console/console__.ml" {"F:S108T1717441378.45"}
+  "lib/textutils/console/console__Console_intf.cmi"
+    {"F:S24902T1717441378.45"}
+  "lib/textutils/console/console__Console_intf.cmt"
+    {"F:S83191T1717441378.45"}
+  "lib/textutils/console/console__Console_intf.cmx"
+    {"F:S13353T1717441378.45"}
+  "lib/textutils/console/console_intf.ml" {"F:S2338T1717441378.45"}
+  "lib/textutils/dune-package" {"F:S10328T1717441378.45"}
+  "lib/textutils/opam" {"F:S827T1717441378.45"}
+]

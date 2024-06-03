@@ -1,0 +1,13 @@
+opam-version: "2.0"
+synopsis: "/home/miac-umd/etna/workloads/OCaml/FSM"
+opam-root: "/home/miac-umd/.opam"
+invariant: [
+  "ocaml-base-compiler" {= "4.11.1"}
+]
+paths {
+  
+}
+variables {
+  user: "miac-umd"
+  group: "miac-umd"
+}

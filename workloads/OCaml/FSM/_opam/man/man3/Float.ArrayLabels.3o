@@ -1,0 +1,280 @@
+.TH "Float.ArrayLabels" 3 2024-06-03 OCamldoc "OCaml library"
+.SH NAME
+Float.ArrayLabels \- no description
+.SH Module
+Module   Float.ArrayLabels
+.SH Documentation
+.sp
+Module
+.BI "ArrayLabels"
+ : 
+.B sig end
+
+.sp
+
+.sp
+
+.sp
+.sp
+.I type t 
+= 
+.B floatarray
+
+.sp
+
+.sp
+
+.I val length 
+: 
+.B t -> int
+.sp
+
+.sp
+
+.I val get 
+: 
+.B t -> int -> float
+.sp
+
+.sp
+
+.I val set 
+: 
+.B t -> int -> float -> unit
+.sp
+
+.sp
+
+.I val make 
+: 
+.B int -> float -> t
+.sp
+
+.sp
+
+.I val create 
+: 
+.B int -> t
+.sp
+
+.sp
+
+.I val init 
+: 
+.B int -> f:(int -> float) -> t
+.sp
+
+.sp
+
+.I val append 
+: 
+.B t -> t -> t
+.sp
+
+.sp
+
+.I val concat 
+: 
+.B t list -> t
+.sp
+
+.sp
+
+.I val sub 
+: 
+.B t -> pos:int -> len:int -> t
+.sp
+
+.sp
+
+.I val copy 
+: 
+.B t -> t
+.sp
+
+.sp
+
+.I val fill 
+: 
+.B t -> pos:int -> len:int -> float -> unit
+.sp
+
+.sp
+
+.I val blit 
+: 
+.B src:t ->
+.B   src_pos:int -> dst:t -> dst_pos:int -> len:int -> unit
+.sp
+
+.sp
+
+.I val to_list 
+: 
+.B t -> float list
+.sp
+
+.sp
+
+.I val of_list 
+: 
+.B float list -> t
+.sp
+
+.sp
+
+.I val iter 
+: 
+.B f:(float -> unit) -> t -> unit
+.sp
+
+.sp
+
+.I val iteri 
+: 
+.B f:(int -> float -> unit) -> t -> unit
+.sp
+
+.sp
+
+.I val map 
+: 
+.B f:(float -> float) -> t -> t
+.sp
+
+.sp
+
+.I val mapi 
+: 
+.B f:(int -> float -> float) -> t -> t
+.sp
+
+.sp
+
+.I val fold_left 
+: 
+.B f:('a -> float -> 'a) -> init:'a -> t -> 'a
+.sp
+
+.sp
+
+.I val fold_right 
+: 
+.B f:(float -> 'a -> 'a) -> t -> init:'a -> 'a
+.sp
+
+.sp
+
+.I val iter2 
+: 
+.B f:(float -> float -> unit) ->
+.B   t -> t -> unit
+.sp
+
+.sp
+
+.I val map2 
+: 
+.B f:(float -> float -> float) ->
+.B   t -> t -> t
+.sp
+
+.sp
+
+.I val for_all 
+: 
+.B f:(float -> bool) -> t -> bool
+.sp
+
+.sp
+
+.I val exists 
+: 
+.B f:(float -> bool) -> t -> bool
+.sp
+
+.sp
+
+.I val mem 
+: 
+.B float -> set:t -> bool
+.sp
+
+.sp
+
+.I val mem_ieee 
+: 
+.B float -> set:t -> bool
+.sp
+
+.sp
+
+.I val sort 
+: 
+.B cmp:(float -> float -> int) -> t -> unit
+.sp
+
+.sp
+
+.I val stable_sort 
+: 
+.B cmp:(float -> float -> int) -> t -> unit
+.sp
+
+.sp
+
+.I val fast_sort 
+: 
+.B cmp:(float -> float -> int) -> t -> unit
+.sp
+
+.sp
+
+.I val to_seq 
+: 
+.B t -> float Seq.t
+.sp
+
+.sp
+
+.I val to_seqi 
+: 
+.B t -> (int * float) Seq.t
+.sp
+
+.sp
+
+.I val of_seq 
+: 
+.B float Seq.t -> t
+.sp
+
+.sp
+
+.I val map_to_array 
+: 
+.B f:(float -> 'a) -> t -> 'a array
+.sp
+
+.sp
+
+.I val map_from_array 
+: 
+.B f:('a -> float) -> 'a array -> t
+.sp
+
+.sp
+
+.I val unsafe_get 
+: 
+.B t -> int -> float
+.sp
+
+.sp
+
+.I val unsafe_set 
+: 
+.B t -> int -> float -> unit
+.sp
+
+.sp

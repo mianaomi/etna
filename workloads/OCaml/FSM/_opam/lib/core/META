@@ -1,0 +1,99 @@
+version = "v0.15.1"
+description = ""
+requires =
+"base
+ base.caml
+ base.md5
+ base_bigstring
+ base_quickcheck
+ base_quickcheck.ppx_quickcheck.runtime
+ bin_prot
+ core.base_for_tests
+ core.validate
+ fieldslib
+ jane-street-headers
+ ppx_assert.runtime-lib
+ ppx_bench.runtime-lib
+ ppx_compare.runtime-lib
+ ppx_enumerate.runtime-lib
+ ppx_expect.collector
+ ppx_expect.config
+ ppx_hash.runtime-lib
+ ppx_here.runtime-lib
+ ppx_inline_test.config
+ ppx_inline_test.runtime-lib
+ ppx_log.types
+ ppx_module_timer.runtime
+ ppx_sexp_conv.runtime-lib
+ sexplib
+ sexplib0
+ splittable_random
+ stdio
+ time_now
+ typerep
+ variantslib"
+archive(byte) = "core.cma"
+archive(native) = "core.cmxa"
+plugin(byte) = "core.cma"
+plugin(native) = "core.cmxs"
+jsoo_runtime = "strftime.js runtime.js"
+package "base_for_tests" (
+  directory = "base_for_tests"
+  version = "v0.15.1"
+  description = ""
+  requires =
+  "base
+   ppx_compare.runtime-lib
+   ppx_enumerate.runtime-lib
+   ppx_hash.runtime-lib
+   ppx_here.runtime-lib
+   ppx_inline_test.config
+   ppx_inline_test.runtime-lib
+   ppx_sexp_conv.runtime-lib
+   sexplib0"
+  archive(byte) = "base_for_tests.cma"
+  archive(native) = "base_for_tests.cmxa"
+  plugin(byte) = "base_for_tests.cma"
+  plugin(native) = "base_for_tests.cmxs"
+)
+package "top" (
+  directory = "top"
+  version = "v0.15.1"
+  description = ""
+  requires = "compiler-libs.toplevel core"
+  archive(byte) = "core_top.cma"
+  archive(native) = ""
+  plugin(byte) = "core_top.cma"
+  plugin(native) = ""
+)
+package "validate" (
+  directory = "validate"
+  version = "v0.15.1"
+  description = ""
+  requires =
+  "base
+   base_quickcheck
+   base_quickcheck.ppx_quickcheck.runtime
+   bin_prot
+   fieldslib
+   ppx_assert.runtime-lib
+   ppx_bench.runtime-lib
+   ppx_compare.runtime-lib
+   ppx_enumerate.runtime-lib
+   ppx_expect.collector
+   ppx_expect.config
+   ppx_hash.runtime-lib
+   ppx_here.runtime-lib
+   ppx_inline_test.config
+   ppx_inline_test.runtime-lib
+   ppx_log.types
+   ppx_module_timer.runtime
+   ppx_sexp_conv.runtime-lib
+   sexplib0
+   typerep
+   variantslib"
+  archive(byte) = "validate.cma"
+  archive(native) = "validate.cmxa"
+  plugin(byte) = "validate.cma"
+  plugin(native) = "validate.cmxs"
+)
