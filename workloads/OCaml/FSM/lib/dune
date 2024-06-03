@@ -9,6 +9,6 @@
   qcheckType
   qcheckBespoke
   )
- (libraries qcheck util)
+ (libraries qcheck crowbar util core)
  (preprocess
   (pps ppx_jane)))
