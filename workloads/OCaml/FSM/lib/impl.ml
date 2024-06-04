@@ -37,13 +37,24 @@ let rec intersection a b =
   match a with
     | h::t -> if elem h b then insert h (intersection t b) else (intersection t b)
     | [] -> []
-let explode (s: string) : char list =
+
+let rec remove x a =
+  match a with
+  | h::t -> if h = x then t else h::(remove x t)
+  | [] -> []
+    
+let rec diff a b =  
+  match b with
+  | [] -> a
+  | h::t -> diff (remove h a) t
+let rec minus a b = diff a b
+    let explode (s: string) : char list =
   let rec exp i l =
     if i < 0 then l else exp (i - 1) (s.[i] :: l)
   in
   exp (String.length s - 1) []
 
-let move (fsm: fsm_t) (qs: int list) (s: char option) : int list =
+let move (fsm:(int) fsm_t) (qs: int list) (s: char option) : int list =
   List.fold_left (fun acc x -> 
                      union (List.fold_left (fun a (tup1,tup2,tup3) ->  
                                           if (tup1=x && tup2=s)
@@ -54,14 +65,14 @@ let move (fsm: fsm_t) (qs: int list) (s: char option) : int list =
                 [] qs
 
 
-let rec e_closure (fsm: fsm_t) (qs: int list) : int list = 
+let rec e_closure (fsm: (int) fsm_t) (qs: int list) : int list = 
   let next_qs = union qs (move fsm qs None) 
      in
       if eq qs next_qs 
       then qs 
       else e_closure fsm next_qs
                 
-let accept (fsm: fsm_t) (s: string) : bool =
+let accept (fsm: ('q) fsm_t) (s: string) : bool =
   let rec aux states input =
     match input with
     | [] -> (match (intersection fsm.fs (e_closure fsm states)) with
@@ -72,14 +83,14 @@ let accept (fsm: fsm_t) (s: string) : bool =
   aux [fsm.q0] (explode s)
 
 
-let new_states (nfa: ('q,'s) nfa_t) (qs: 'q list) : 'q list list =
+let new_states (nfa: ('q) fsm_t) (qs: 'q list) : 'q list list =
   List.fold_right (fun sym acc ->
       let dest = e_closure nfa (move nfa qs (Some sym)) in
       if dest = [] then []::acc else dest::acc
   ) nfa.sigma []
 
             
-let new_trans (nfa: ('q,'s) nfa_t) (qs: 'q list): ('q list,'s) transition list =
+let new_trans (nfa: ('q) fsm_t) (qs: 'q list): ('q list) transition list =
  List.fold_right (fun sym acc -> 
                       (qs, Some sym, (e_closure 
                                           nfa 
@@ -96,7 +107,7 @@ let new_trans (nfa: ('q,'s) nfa_t) (qs: 'q list): ('q list,'s) transition list =
                 
                    
                    
-let new_finals (nfa: ('q,'s) nfa_t) (qs: 'q list) : 'q list list =
+let new_finals (nfa: ('q) fsm_t) (qs: 'q list) : 'q list list =
 if List.exists (fun q -> List.mem q nfa.fs) qs then [qs] else []
   let nfa_to_dfa_step (nfa: int fsm_t) (dfa: int list fsm_t) (worklist: int list list) =
     match worklist with
@@ -107,13 +118,13 @@ if List.exists (fun q -> List.mem q nfa.fs) qs then [qs] else []
       let finals = new_finals nfa qs in 
         let updated_dfa = {
           sigma = dfa.sigma;
-          qs = Sets.union dfa.qs states;
+          qs = union dfa.qs states;
           q0 = dfa.q0;
-          fs = Sets.union dfa.fs finals;
-          delta = Sets.union dfa.delta transitions;
+          fs = union dfa.fs finals;
+          delta = union dfa.delta transitions;
       } in
       
-      let new_worklist = Sets.union rest (Sets.minus states (List.map (fun (t,a,b) -> t) dfa.delta)) in
+      let new_worklist = union rest (minus states (List.map (fun (t,a,b) -> t) dfa.delta)) in
       (updated_dfa, new_worklist)
 
   let nfa_to_dfa (nfa: (int) fsm_t) : (int list) fsm_t =
