@@ -1,0 +1,109 @@
+let rarely_false (s: string) =
+  match Array.to_list (Array.init (String.length s) (String.get s)) with
+  (*! *)
+  (* | _ -> true *)
+  (*!! rare_1_a *)
+  (*!
+    | ['a'] -> false
+    | _ -> true *)
+  (*!! rare_1_b *)
+  (*!
+    | ['b'] -> false
+    | _ -> true *)
+  (*!! rare_1_c *)
+  (*!
+    | ['c'] -> false
+    | _ -> true *)
+  (*!! rare_1_d *)
+  (*!
+    | ['d'] -> false
+    | _ -> true *)
+  (*!! rare_1_e *)
+  (*!
+    | ['e'] -> false
+    | _ -> true *)
+
+  (*!! rare_2_a *)
+  (* ! *)
+    | ['a'; 'b'] -> false
+    | _ -> true
+  (*!! rare_2_b *)
+  (*!
+    | ['c'; 'd'] -> false
+    | _ -> true *)
+  (*!! rare_2_c *)
+  (*!
+    | ['e'; 'f'] -> false
+    | _ -> true *)
+  (*!! rare_2_d *)
+  (*!
+    | ['g'; 'h'] -> false
+    | _ -> true *)
+  (*!! rare_2_e *)
+  (*!
+    | ['x'; 'y'] -> false
+    | _ -> true *)
+
+  (*!! rare_3_a *)
+  (*!
+    | ['x'; 'y'; 'z'] -> false
+    | _ -> true *)
+  (*!! rare_3_b *)
+  (*!
+    | ['a'; 'b'; 'c'] -> false
+    | _ -> true *)
+  (*!! rare_3_c *)
+  (*!
+    | ['d'; 'e'; 'f'] -> false
+    | _ -> true *)
+  (*!! rare_3_d *)
+  (*!
+    | ['1'; '2'; '3'] -> false
+    | _ -> true *)
+  (*!! rare_3_e *)
+  (*!
+    | ['*'; '@'; '#'] -> false
+    | _ -> true *)
+
+  (*!! rare_4_a *)
+  (*!
+    | ['w'; 'x'; 'y'; 'z'] -> false
+    | _ -> true *)
+  (*!! rare_4_b *)
+  (*!
+    | ['a'; 'b'; 'c'; 'd'] -> false
+    | _ -> true *)
+  (*!! rare_4_c *)
+  (*!
+    | ['e'; 'f'; 'g'; 'h'] -> false
+    | _ -> true *)
+  (*!! rare_4_d *)
+  (*!
+    | ['1'; '2'; '3'; '4'] -> false
+    | _ -> true *)
+  (*!! rare_4_e *)
+  (*!
+    | ['*'; '@'; '#'; ')'] -> false
+    | _ -> true *)
+
+  (*!! rare_5_a *)
+  (*!
+    | ['v'; 'w'; 'x'; 'y'; 'z'] -> false
+    | _ -> true *)
+  (*!! rare_5_b *)
+  (*!
+    | ['a'; 'b'; 'c'; 'd'; 'e'] -> false
+    | _ -> true *)
+  (*!! rare_5_c *)
+  (*!
+    | ['l'; 'm'; 'n'; 'o'; 'p'] -> false
+    | _ -> true *)
+  (*!! rare_5_d *)
+  (*!
+    | ['1'; '2'; '3'; '4'; '5'] -> false
+    | _ -> true *)
+  (*!! rare_5_e *)
+  (*!
+    | ['*'; '@'; '#'; ')'; '('] -> false
+    | _ -> true *)
+

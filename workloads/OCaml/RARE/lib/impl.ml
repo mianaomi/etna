@@ -1,109 +1,59 @@
 let rarely_false (s: string) =
-  match s with
+  match Array.to_list (Array.init (String.length s) (String.get s)) with
   (*! *)
   | _ -> true
-  (*!! rare_1_a *)
+  (*!! rare_1 *)
   (*!
-    | "a" -> false
-    | _ -> true *)
-  (*!! rare_1_b *)
-  (*!
-    | "b" -> false
-    | _ -> true *)
-  (*!! rare_1_c *)
-  (*!
-    | "c" -> false
-    | _ -> true *)
-  (*!! rare_1_d *)
-  (*!
-    | "d" -> false
-    | _ -> true *)
-  (*!! rare_1_e *)
-  (*!
-    | "e" -> false
+    | ['a'] -> false
     | _ -> true *)
 
-  (*!! rare_2_a *)
-  (*!
-    | "ab" -> false
-    | _ -> true *)
-  (*!! rare_2_b *)
-  (*!
-    | "cd" -> false
-    | _ -> true *)
-  (*!! rare_2_c *)
-  (*!
-    | "ef" -> false
-    | _ -> true *)
-  (*!! rare_2_d *)
-  (*!
-    | "gh" -> false
-    | _ -> true *)
-  (*!! rare_2_e *)
-  (*!
-    | "xy" -> false
+  (*!! rare_2 *)
+  (*! *)
+    (* | ['h'; 'i'] -> false
     | _ -> true *)
 
-  (*!! rare_3_a *)
+  (*!! rare_3 *)
   (*!
-    | "xyz" -> false
-    | _ -> true *)
-  (*!! rare_3_b *)
-  (*!
-    | "abc" -> false
-    | _ -> true *)
-  (*!! rare_3_c *)
-  (*!
-    | "def" -> false
-    | _ -> true *)
-  (*!! rare_3_d *)
-  (*!
-    | "123" -> false
-    | _ -> true *)
-  (*!! rare_3_e *)
-  (*!
-    | "*@#" -> false
+    | ['h'; 'e'; 'y'] -> false
     | _ -> true *)
 
-  (*!! rare_4_a *)
+  (*!! rare_4 *)
   (*!
-    | "wxyz" -> false
-    | _ -> true *)
-  (*!! rare_4_b *)
-  (*!
-    | "abcd" -> false
-    | _ -> true *)
-  (*!! rare_4_c *)
-  (*!
-    | "efgh" -> false
-    | _ -> true *)
-  (*!! rare_4_d *)
-  (*!
-    | "1234" -> false
-    | _ -> true *)
-  (*!! rare_4_e *)
-  (*!
-    | "*@#)" -> false
+    | ['f'; 'u'; 'z'; 'z'] -> false
     | _ -> true *)
 
-  (*!! rare_5_a *)
+  (*!! rare_5 *)
   (*!
-    | "vwxyz" -> false
+    | ['f'; 'u'; 'z'; 'Z'; 'y'] -> false
     | _ -> true *)
-  (*!! rare_5_b *)
+
+  (*!! rare_6 *)
   (*!
-    | "abcde" -> false
+    | ['n'; 'i'; 'k'; 'h'; 'i'; 'l'] -> false
     | _ -> true *)
-  (*!! rare_5_c *)
+
+  (*!! rare_7 *)
   (*!
-    | "lmnop" -> false
+    | ['a'; 'f'; 'l'; 'f'; 'u'; 'z'; 'z'] -> false
     | _ -> true *)
-  (*!! rare_5_d *)
+
+  (*!! rare_8 *)
   (*!
-    | "12345" -> false
+    | ['p'; 'r'; 'o'; 'p'; 'e'; 'r'; 't'; 'y'] -> false
     | _ -> true *)
-  (*!! rare_5_e *)
+
+  (*!! rare_9 *)
   (*!
-    | "*@#)(" -> false
+    | ['f'; 'u'; 'z'; 'z'; 'i'; 'n'; 'g'; '!'; '!'] -> false
+    | _ -> true *)
+
+  (*!! rare_10 *)
+  (*!
+    | ['s'; 'e'; 'c'; 'r'; 'e'; 't'; ' '; 'k'; 'e'; 'y'] -> false
+    | _ -> true *)
+
+  (*!! rare_11 *)
+  (*!
+    | ['h'; 'e'; 'l'; 'l'; 'o'; ' '; 'w'; 'o'; 'r'; 'l'; 'd'] -> false
     | _ -> true *)
 
