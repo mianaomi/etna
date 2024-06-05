@@ -242,3 +242,92 @@ let main (props : (string * 'a property) list)
         print_endline "Valid framework Base_quickcheck\n";
         base_fork testname props strategy bstrats filename
     | _ -> print_endline ("Framework " ^ framework ^ " was not found\n")
+
+let remove_fuzz ((n, f) : string * fuzz_property) : string * string property =
+  (n, f.pbt)
+
+let remove_fuzzes = List.map remove_fuzz
+
+let afl_persistent_fork framework test strat filename : unit =
+  Sys.command "mkdir -p input && echo asdf > input/nikhil" |> ignore;
+  Sys.command "echo lkj > input/nikhil2" |> ignore;
+  let channels =
+    print_endline "Executing AFL command: ";
+    print_endline
+      ("afl-fuzz -i input -o output -V " ^ string_of_int !timeout ^ " "
+     ^ Sys.executable_name);
+    print_endline "With environment: ";
+    print_endline
+      (Array.fold_left
+         (fun a s -> a ^ " " ^ s)
+         ""
+         (make_env framework test strat "-"));
+    Unix.open_process_args_full "afl-fuzz"
+      [|
+        "afl-fuzz";
+        "-i";
+        "input";
+        "-o";
+        "output";
+        "-V";
+        string_of_int !timeout;
+        Sys.executable_name;
+      |]
+      (Array.append
+         (make_env framework test strat "-")
+         [| "AFL_BENCH_UNTIL_CRASH=true" |])
+  in
+  let _status = Unix.close_process_full channels in
+  let now = Unix.gettimeofday () in
+  let get =
+    try parse "output/default/fuzzer_stats"
+    with _ ->
+      failwith "afl-fuzz failed. try debugging with the command directly"
+  in
+  match (get "execs_done", get "execs_per_sec", get "saved_crashes") with
+  | Some runs, Some rps, Some found when found >= 0.5 ->
+      let oc =
+        open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 filename
+      in
+      Printf.fprintf oc "[%f start]\n" now;
+      Printf.fprintf oc "[%f exit 0]\n" (now +. (runs /. rps));
+      close_out oc
+  | Some runs, Some rps, Some _ ->
+      let oc =
+        open_out_gen [ Open_wronly; Open_append; Open_creat ] 0o666 filename
+      in
+      Printf.fprintf oc "[%f start]\n" now;
+      Printf.fprintf oc "[%f exit timeout]\n" (now +. (runs /. rps));
+      close_out oc
+  | _ -> failwith "Error attempting to read AFL output file"
+
+let etna_fuzz (fuzzes : (string * fuzz_property) list)
+    (qstrats : (string * string arbitrary) list)
+    (cstrats : (string * string gen) list)
+    (bstrats : (string * string basegen) list) : unit =
+  if Array.length Sys.argv >= 5 then (
+    let framework = Sys.argv.(1) in
+    if framework <> "afl2" then
+      main (remove_fuzzes fuzzes) qstrats cstrats bstrats
+    else
+      let testname = Sys.argv.(2) in
+      let strategy = Sys.argv.(3) in
+      let filename = Sys.argv.(4) in
+      print_endline "OVERRIDE: Using afl-persistent \n";
+      afl_persistent_fork framework testname strategy filename)
+  else
+    let child_framework = Unix.getenv "framework" in
+    if child_framework <> "afl2" then
+      main (remove_fuzzes fuzzes) qstrats cstrats bstrats
+    else (
+      print_endline "OVERRIDE: Using afl-persistent (child process) \n";
+      let _framework, test, _strat, _filename = load_env () in
+      print_endline
+        "OVERRIDE: Using afl-persistent (child process): environment loaded \n";
+      match lookup fuzzes test with
+      | Some fuzz_target ->
+          let afl_target = fuzz_target.afl in
+          AflPersistent.run (fun () ->
+              let s = read_line () in
+              afl_target s)
+      | None -> Printf.printf "Test %s not found\n" test)
