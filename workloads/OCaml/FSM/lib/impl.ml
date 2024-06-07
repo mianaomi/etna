@@ -54,7 +54,7 @@ let rec minus a b = diff a b
   in
   exp (String.length s - 1) []
 
-let move (fsm:(int) fsm_t) (qs: int list) (s: char option) : int list =
+let move (fsm:('q) fsm_t) (qs: 'q list) (s: char option) : 'q list =
   List.fold_left (fun acc x -> 
                      union (List.fold_left (fun a (tup1,tup2,tup3) ->  
                                           if (tup1=x && tup2=s)
@@ -65,7 +65,7 @@ let move (fsm:(int) fsm_t) (qs: int list) (s: char option) : int list =
                 [] qs
 
 
-let rec e_closure (fsm: (int) fsm_t) (qs: int list) : int list = 
+let rec e_closure (fsm: ('q) fsm_t) (qs: 'q list) : 'q list = 
   let next_qs = union qs (move fsm qs None) 
      in
       if eq qs next_qs 
@@ -127,7 +127,7 @@ if List.exists (fun q -> List.mem q nfa.fs) qs then [qs] else []
       let new_worklist = union rest (minus states (List.map (fun (t,a,b) -> t) dfa.delta)) in
       (updated_dfa, new_worklist)
 
-  let nfa_to_dfa (nfa: (int) fsm_t) : (int list) fsm_t =
+  let nfa_to_dfa (nfa: ('q) fsm_t) : ('q list) fsm_t =
     let initial_state = e_closure nfa [nfa.q0] in  
     let initial_dfa = {
       sigma = nfa.sigma;
