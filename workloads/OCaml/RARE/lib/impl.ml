@@ -1,15 +1,16 @@
 let rarely_false (s: string) =
   match Array.to_list (Array.init (String.length s) (String.get s)) with
   (*! *)
-  | _ -> true
+  (* | _ -> true *)
+
   (*!! rare_1 *)
-  (*!
+  (* ! *)
     | ['a'] -> false
-    | _ -> true *)
+    | _ -> true
 
   (*!! rare_2 *)
-  (*! *)
-    (* | ['h'; 'i'] -> false
+  (*!
+    | ['h'; 'i'] -> false
     | _ -> true *)
 
   (*!! rare_3 *)

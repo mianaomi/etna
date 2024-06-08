@@ -5,6 +5,7 @@ from functools import partial
 
 # use this to adjust which plots are generated
 WORKLOADS = ['BST', 'RBT', 'STLC']
+WORKLOADS = ['RARE']
 STRATEGIES = [
     # 'qcheckBespoke',
     'qcheckType',
@@ -14,13 +15,12 @@ STRATEGIES = [
     'aflType',
     # 'baseBespoke',
     'baseType',
+    'afl2Type',
 ]
 
 
 def analyze(json_dir: str, image_dir: str, strategies=STRATEGIES, workloads=WORKLOADS):
     df = parse_results(json_dir)
-    df['timeout'] = np.where(df['strategy'] == 'Lean', 10, 60)
-    df['foundbug'] = df['foundbug'] & (df['time'] < df['timeout'])
 
     if not os.path.exists(image_dir):
         os.makedirs(image_dir)
@@ -28,11 +28,16 @@ def analyze(json_dir: str, image_dir: str, strategies=STRATEGIES, workloads=WORK
     # Generate task bucket charts used in Figure 1.
     for workload in workloads:
         times = partial(stacked_barchart_times, case=workload, df=df)
+
+        limits = [1, 10, 60, 605] if workload == 'RARE' else [0.1, 1, 10, 60]
+        agg = 'any' if workload == 'RARE' else 'all'
+
         times(
             strategies=strategies,
-            limits=[0.1, 1, 10, 60],
+            limits=limits,
             limit_type='time',
             image_path=image_dir,
+            agg=agg,
             show=False,
         )
 

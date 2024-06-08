@@ -2,8 +2,8 @@ import re
 import os
 import json
 
-DATA_PATH = './oc3/'
-OUTPUT_FILE = './experiments/ocaml-experiments/stlc.json'
+DATA_PATH = './oc4/'
+OUTPUT_FILE = './experiments/ocaml-experiments/parsed/rare.json'
 APPEND = False # if false, will override the contents in OUTPUT_FILE
 
 def parse(filename):
