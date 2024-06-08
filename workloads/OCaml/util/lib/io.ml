@@ -221,3 +221,7 @@ let main (props : (string * 'a property) list)
         print_endline "Valid framework Base_quickcheck\n";
         base_fork testname props strategy bstrats filename
     | _ -> print_endline ("Framework " ^ framework ^ " was not found\n")
+
+
+
+let etna = main
