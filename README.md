@@ -2,7 +2,7 @@
 
 Hi! ETNA helps evaluate which property-based testing or fuzzing approach is best for you.
 
-This fork of ETNA has OCaml support. For a guide on how to use ETNA to create your own OCaml workload, look at [OCaml.md](ocaml.md).
+This fork of ETNA has OCaml support. For a guide on how to use ETNA to create your own OCaml workload, look at [OCaml.md](OCAML.md).
 
 
 The rest of this `README` is the same as the original ICFP Artifact's.
