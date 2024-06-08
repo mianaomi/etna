@@ -1,8 +1,11 @@
-# ICFP 2023 Artifact
+# ETNA+
 
-Name: Etna: An Evaluation Platform for Property-Based Testing
+Hi! ETNA helps evaluate which property-based testing or fuzzing approach is best for you.
 
-## Artifact Instructions
+This fork of ETNA has OCaml support. For a guide on how to use ETNA to create your own OCaml workload, look at [OCaml.md](ocaml.md).
+
+
+The rest of this `README` is the same as the original ICFP Artifact's.
 
 ### Orientation
 
