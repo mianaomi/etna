@@ -256,3 +256,16 @@ cd experiments/ocaml-experiments/
 vim Main.py
 ```
 
+
+Change `WORKLOADS` to be a list with just the name of the dune project you're testing.
+Change `STRATEGIES` to be a list with just the framework-generator pairs you have.
+
+Then just run:
+
+```bash
+python Main.py
+```
+
+ You should see the `raw` folder having some files created inside of it. Once all the tasks are run, it will run the parser to convert this into a `.json` file, and finally generate the graphs for you automatically.
+
+
