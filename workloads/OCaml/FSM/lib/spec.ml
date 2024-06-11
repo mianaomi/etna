@@ -1,4 +1,4 @@
-open FSM.Impl
+open Impl
 open List
 open Util.Runner
 
@@ -9,7 +9,51 @@ let ( === ) fsm_a fsm_b =
   && (fsm_a.q0 == fsm_b.q0) && (Impl.eq fsm_a.fs fsm_b.fs) 
   && (Impl.eq fsm_a.delta fsm_b.delta)
 
-let is_functional_FSM (fsm : ('q) fsm_t) : bool = failwith("not added")
+  let all_unique lst =
+    let rec aux seen = function
+      | [] -> true
+      | x :: xs ->
+        if List.mem x seen then false
+        else aux (x :: seen) xs
+    in
+    aux [] lst
+  
+let is_functional_FSM (fsm : ('q) fsm_t) : bool = 
+  let translegal = 
+    List.for_all (fun (start, symbol, finish) ->
+      (List.mem start fsm.qs) && (List.mem finish fsm.qs) &&
+      (match symbol with
+       | None -> true
+       | Some c -> List.mem c fsm.sigma)
+    ) fsm.delta
+  in
+  let reaches q0 qs delta qf =
+    let rec dfs visited state =
+      if List.mem state visited then visited
+      else
+        let next_states = List.fold_left (fun acc (start, _, finish) ->
+          if start = state then finish :: acc else acc
+        ) [] delta in
+        List.fold_left dfs (state :: visited) next_states
+ in
+  (let reachable_states = dfs [] q0 in
+  List.for_all (fun state -> List.mem state reachable_states) qf) &&
+  (List.mem fsm.q0 fsm.qs) && 
+  (Impl.subset fsm.qf fsm.qs) && 
+  (translegal) && 
+  (all_unique fsm.sigma) && 
+  (all_unique fsm.delta) && 
+  (all_unique fsm.qf) && 
+  (all_unique fsm.qs)
+(*
+   1. can reach every qf from q0
+   2. q0 in qs - list.mem
+   3. qf in qs - subset 
+   4. Transitions legal: 
+    a. uses none or a char in sigma 
+    b. states on both ends are in qs 
+   5. sigma, delta, qf, qs no repeats - all_unique
+*)
 
 (* -- Postcondition Properties. *)
 
