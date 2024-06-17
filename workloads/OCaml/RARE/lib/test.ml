@@ -12,9 +12,8 @@ let test_prop_NothingPasses : string property = {
   b = (fun m -> bbuild m (bmake << prop_NothingPasses));
 }
 
-let test_prop_TightPrecondition : string property = {
-  name = "test_prop_TightPrecondition";
-  q = (fun a -> qbuild a (qmake << prop_TightPrecondition));
-  c = (fun g -> cbuild [g] (cmake << prop_TightPrecondition));
-  b = (fun m -> bbuild m (bmake << prop_TightPrecondition))
+
+let fuzz_prop_NothingPasses : fuzz_property = {
+  pbt = test_prop_NothingPasses;
+  afl = cmake << prop_NothingPasses;
 }

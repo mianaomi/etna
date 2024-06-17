@@ -1,0 +1,28 @@
+package:
+  name: benchtool
+  version: 0.1.0
+
+source:
+  url: ../benchtool-0.1.0.tar.gz
+  sha256: b1c0570fd9ffceeaa3ac97b579376f6dc3da00f8d3a445b23d1a25a8df589ba1
+
+build:
+  script: {{ PYTHON }} -m pip install .
+  number: 0
+
+requirements:
+  host:
+    - python
+    - pip
+    - wheel
+
+  run:
+    - python
+    - pandas >=1.4.2
+    - plotly >=5.8.2
+
+about:
+  home: None
+  summary: 'Benchmarking Tool for Property-Based Testing'
+  license: 'MIT'
+  license_file: ../LICENSE

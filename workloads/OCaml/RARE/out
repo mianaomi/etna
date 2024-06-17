@@ -1,2 +1,24 @@
-[1705263945.839055 start]
-[1705264545.837147 exit timeout]
+[1717697481.628111 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_NothingPasses failed (0 shrink steps):
+
+a
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1717697481.645978 exit 0]
+[1717697496.785535 start]
+[1717697496.788113 exit 0]
+[1717697502.088956 start]
+test_prop_NothingPasses: FAIL
+
+When given the input:
+
+    "a"
+    
+the test failed:
+
+    check false
+    
+[1717697509.992911 exit 1]

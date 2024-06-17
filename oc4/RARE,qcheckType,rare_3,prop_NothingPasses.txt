@@ -1,14 +1,4 @@
-[1705253179.305101 start]
-
---- Failure --------------------------------------------------------------------
-
-Test test_prop_NothingPasses failed (0 shrink steps):
-
-<no printer>
-================================================================================
-failure (1 tests failed, 0 tests errored, ran 1 tests)
-[1705253220.095424 exit 0]
-[1705253335.267946 start]
+[1717559410.494953 start]
 
 --- Failure --------------------------------------------------------------------
 
@@ -17,4 +7,16 @@ Test test_prop_NothingPasses failed (0 shrink steps):
 hey
 ================================================================================
 failure (1 tests failed, 0 tests errored, ran 1 tests)
-[1705253455.488206 exit 0]
+[1717559599.970422 exit 0]
+[1717559600.224687 start]
+
+--- Failure --------------------------------------------------------------------
+
+Test test_prop_NothingPasses failed (0 shrink steps):
+
+hey
+================================================================================
+failure (1 tests failed, 0 tests errored, ran 1 tests)
+[1717559727.771821 exit 0]
+[1717559727.969798 start]
+[1717560328.672078 exit timeout]

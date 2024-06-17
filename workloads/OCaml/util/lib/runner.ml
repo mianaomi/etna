@@ -22,6 +22,11 @@ type 'a property = {
   b : 'a basegen -> string -> btest;
 }
 
+type fuzz_property = { (* USED FOR AFL_PERSISTENT INSTEAD OF via CROWBAR!!! *)
+  pbt : string property;
+  afl : string -> unit;
+}
+
 (* Functions for realizing preconditions *)
 let rec qmake (t : test) : bool =
   match t with
