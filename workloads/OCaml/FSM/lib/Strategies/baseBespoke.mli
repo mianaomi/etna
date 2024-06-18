@@ -1,0 +1,1 @@
+module BaseBespoke: Base_quickcheck.Test.S with type fsm_t = Impl.fsm_t

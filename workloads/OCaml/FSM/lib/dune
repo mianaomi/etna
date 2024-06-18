@@ -6,6 +6,8 @@
   impl
   spec
   test
+  baseType
+  baseBespoke
   qcheckType
   qcheckBespoke
   )

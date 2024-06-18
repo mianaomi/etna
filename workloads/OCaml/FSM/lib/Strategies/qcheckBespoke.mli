@@ -1,0 +1,1 @@
+val qcheck_type : Impl.fsm_t QCheck.arbitrary
