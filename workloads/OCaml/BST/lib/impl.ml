@@ -1,3 +1,5 @@
+module Impl = Impl
+
 type tree =
 | E
 | T of tree * Nat.Nat.t * Nat.Nat.t * tree

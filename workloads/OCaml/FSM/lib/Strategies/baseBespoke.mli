@@ -1,1 +1,1 @@
-module BaseBespoke: Base_quickcheck.Test.S with type fsm_t = Impl.fsm_t
+module BaseBespoke: Base_quickcheck.Test.S with type t = int Impl.fsm_t

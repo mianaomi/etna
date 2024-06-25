@@ -1,3 +1,5 @@
+module Runner = Runner
+
 (* the test type for Crowbar is just a lazy call to Crowbar.add_test *)
 (* same with Base_quickcheck, but with Test.run  *)
 type qtest = QCheck.Test.t

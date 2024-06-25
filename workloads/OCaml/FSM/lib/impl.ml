@@ -1,11 +1,16 @@
-type ('q) transition = 'q * char option * 'q [@@deriving sexp_of, quickcheck]
+open Core
+
+module Impl = struct 
+
+
+type ('q) transition = 'q * Core.Char.t option * 'q [@@deriving sexp_of, quickcheck]
 
 type ('q) fsm_t = {
-  sigma: char list;
-  qs: 'q list;
+  sigma: Core.Char.t Core.List.t;
+  qs: 'q Core.List.t;
   q0: 'q;
-  fs: 'q list;
-  delta: ('q) transition list;
+  fs: 'q Core.List.t;
+  delta: ('q) transition Core.List.t;
 } [@@deriving sexp_of, quickcheck]
 
 
@@ -145,3 +150,5 @@ if List.exists (fun q -> List.mem q nfa.fs) qs then [qs] else []
         loop updated_dfa new_worklist
     in
     loop initial_dfa [initial_state] 
+
+  end

@@ -3,6 +3,8 @@ open QCheck
 open Crowbar
 open Parse
 
+module Io = struct
+
 (* global timeout in seconds for test threads *)
 let timeout = ref 60
 
@@ -243,11 +245,6 @@ let main (props : (string * 'a property) list)
         base_fork testname props strategy bstrats filename
     | _ -> print_endline ("Framework " ^ framework ^ " was not found\n")
 
-<<<<<<< HEAD
-
-
-let etna = main
-=======
 let remove_fuzz ((n, f) : string * fuzz_property) : string * string property =
   (n, f.pbt)
 
@@ -336,4 +333,6 @@ let etna_fuzz (fuzzes : (string * fuzz_property) list)
               let s = read_line () in
               afl_target s)
       | None -> Printf.printf "Test %s not found\n" test)
->>>>>>> upstream/afl-persistent
+
+
+end

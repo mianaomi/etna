@@ -2,7 +2,7 @@ open Runner
 
 (* Core provides functions for composition of generators. These are some functions for composition of module types. *)
 (* todo: i have no clue what the observers do *)
-
+module Core_plus = struct
 let double (type a b) (module M1 : Base_quickcheck.Test.S with type t = a)
     (module M2 : Base_quickcheck.Test.S with type t = b) : (a * b) basegen =
   (module struct
@@ -94,3 +94,4 @@ let quinta (type a b c d e) (module M1 : Base_quickcheck.Test.S with type t = a)
 
     type t = a * b * c * d * e [@@deriving sexp_of, quickcheck]
   end)
+end
