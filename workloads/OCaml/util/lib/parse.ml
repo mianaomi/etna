@@ -1,7 +1,5 @@
 open Scanf
 
-module Parse = Parse
-
 let rec lookup l k =
   match l with
   | [] -> None

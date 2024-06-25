@@ -2,10 +2,13 @@
 
 (library
  (name FSM)
+ (flags (:standard -w -39))
  (modules
   impl
   spec
   test
+  nat
+  char
   baseType
   baseBespoke
   qcheckType

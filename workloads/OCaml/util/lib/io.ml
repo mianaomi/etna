@@ -3,7 +3,6 @@ open QCheck
 open Crowbar
 open Parse
 
-module Io = struct
 
 (* global timeout in seconds for test threads *)
 let timeout = ref 60
@@ -335,4 +334,3 @@ let etna_fuzz (fuzzes : (string * fuzz_property) list)
       | None -> Printf.printf "Test %s not found\n" test)
 
 
-end

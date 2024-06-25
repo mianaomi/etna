@@ -1,8 +1,6 @@
-open Core
 
-module Impl = struct 
-
-
+module Impl = struct
+include Core 
 type ('q) transition = 'q * Core.Char.t option * 'q [@@deriving sexp_of, quickcheck]
 
 type ('q) fsm_t = {
@@ -59,16 +57,19 @@ let rec minus a b = diff a b
   in
   exp (String.length s - 1) []
 
-let move (fsm:('q) fsm_t) (qs: 'q list) (s: char option) : 'q list =
-  List.fold_left (fun acc x -> 
-                     union (List.fold_left (fun a (tup1,tup2,tup3) ->  
-                                          if (tup1=x && tup2=s)
-                                            then tup3::a 
-                                            else a) 
-                        [] fsm.delta) acc 
-                 ) 
-                [] qs
-
+  let move (fsm: ('q) fsm_t) (qs: 'q list) (s: char option) : 'q list =
+    (List.fold_left (fun acc x -> 
+                       (union acc 
+                              (List.fold_left (fun a (tup1,tup2,tup3) ->  
+                                                    if (tup1=x && tup2=s)
+                                                    then tup3::a 
+                                                    else a) 
+                                                    [] fsm.delta)
+                        ) 
+                   ) 
+                  [] qs)
+    
+    
 
 let rec e_closure (fsm: ('q) fsm_t) (qs: 'q list) : 'q list = 
   let next_qs = union qs (move fsm qs None) 
@@ -113,7 +114,7 @@ let new_trans (nfa: ('q) fsm_t) (qs: 'q list): ('q list) transition list =
                    
                    
 let new_finals (nfa: ('q) fsm_t) (qs: 'q list) : 'q list list =
-if List.exists (fun q -> List.mem q nfa.fs) qs then [qs] else []
+if List.exists qs (fun q -> (List.mem nfa.fs q)) then [qs] else []
   let nfa_to_dfa_step (nfa: int fsm_t) (dfa: int list fsm_t) (worklist: int list list) =
     match worklist with
     | [] -> (dfa, [])
