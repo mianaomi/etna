@@ -6,8 +6,6 @@ module QcheckType = struct
     let nfa_gen n =
       if n <= 0 then return ([], [], 0, [], [])
       else
-        (*simplify gen*)
-
        (*very list sizes*) 
         let gen_size = int_range 0 n in
 
@@ -33,6 +31,10 @@ module QcheckType = struct
             (1, return (from, None, to_));
             (4, char >>= fun c -> return (from, Some c, to_))
           ]
+         (*delta:generate a number x, then add a new transiton x times
+          for each transition: generate 2 ints, 
+          and 1/5 option = none 4/5 option = some char
+          transition = (int1, option, int2); *)
         in
         let gen_transitions =
           gen_size >>= fun transitions_size ->
@@ -47,16 +49,6 @@ module QcheckType = struct
         return (sigma, qs, q0, fs, delta)
     in
     sized (fun n -> nfa_gen n)
-       (*
-  sigma: generate a number x, then add a new char x times
-  qs: generate a number x, then add a new int x times;
-  q0: generate a number x;
-  fs: generate a number x, then add a new int x times;
-  delta:generate a number x, then add a new transiton x times
-          for each transition: generate 2 ints, 
-          and 1/5 option = none 4/5 option = some char
-          transition = (int1, option, int2);
-    *)
-  
-  let qcheck_type = QCheck.make typebased
+
+   let qcheck_type = QCheck.make typebased
 end
