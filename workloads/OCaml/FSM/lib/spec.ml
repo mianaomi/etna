@@ -4,12 +4,6 @@ open Util.Runner
 
 module Spec = struct 
 (* Additional Functions *)
-
-let ( === ) fsm_a fsm_b = 
-  (Impl.eq fsm_a.sigma fsm_b.sigma) && (Impl.eq fsm_a.qs fsm_b.qs) 
-  && (fsm_a.q0 == fsm_b.q0) && (Impl.eq fsm_a.fs fsm_b.fs) 
-  && (Impl.eq fsm_a.delta fsm_b.delta)
-
   let all_unique lst =
     let rec aux seen = function
       | [] -> true
