@@ -1,5 +1,5 @@
 open Impl
-
+(*no size cap*)
 module QcheckType = struct
   let typebased =
     let open QCheck.Gen in

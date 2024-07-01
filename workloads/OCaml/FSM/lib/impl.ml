@@ -2,7 +2,7 @@
 module Impl = struct
 include Core 
 type ('q) transition = 'q * Core.Char.t option * 'q [@@deriving sexp_of, quickcheck]
-
+(*WILL BE MARKED AS NONEXISTANT UNTIL REDLINING IS FIXED!!!*)
 type ('q) fsm_t = {
   sigma: Core.Char.t Core.List.t;
   qs: 'q Core.List.t;
