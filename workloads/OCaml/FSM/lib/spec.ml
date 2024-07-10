@@ -50,10 +50,11 @@ module Spec = struct
       let reachable_states = reaches fsm.q0 fsm.qs fsm.delta in
     
       (*call checks*)
-      List.mem fsm.q0 fsm.qs &&  (*q0 in qs*)
-      (List.length fsm.fs) > 0 && (*fs > 0*)
-      List.for_all (fun state -> List.mem state fsm.qs) fsm.fs && (*fs subset qs*)
-      translegal && (*all transitions legal*)
+      ((List.length fsm.qs) > 0) && (*qs > 0*)
+      (List.mem fsm.q0 fsm.qs) &&  (*q0 in qs*)
+      ((List.length fsm.fs) > 0) && (*fs > 0*)
+      (List.for_all (fun state -> List.mem state fsm.qs) fsm.fs) && (*fs subset qs*)
+      (translegal) && (*all transitions legal*)
       List.for_all (fun state -> List.mem state reachable_states) fsm.qs && (*all states are reachable from q0*)
       all_unique fsm.sigma && (*sigma all unique*)
       all_unique fsm.qs && (*qs all unique*)

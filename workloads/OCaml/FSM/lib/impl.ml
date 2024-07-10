@@ -1,14 +1,14 @@
 
 module Impl = struct
 include Core 
-type ('q) transition = 'q * Core.Char.t option * 'q [@@deriving sexp_of, quickcheck]
+type ('q, 's) transition = 'q * 's option * 'q [@@deriving sexp_of, quickcheck]
 (*WILL BE MARKED AS NONEXISTANT UNTIL REDLINING IS FIXED!!!*)
-type ('q) fsm_t = {
-  sigma: Core.Char.t Core.List.t;
+type ('q, 's) fsm_t = {
+  sigma: 's Core.List.t;
   qs: 'q Core.List.t;
   q0: 'q;
   fs: 'q Core.List.t;
-  delta: ('q) transition Core.List.t;
+  delta: ('q, 's) transition Core.List.t;
 } [@@deriving sexp_of, quickcheck]
 
 
@@ -57,28 +57,24 @@ let rec minus a b = diff a b
   in
   exp (String.length s - 1) []
 
-  let move (fsm: ('q) fsm_t) (qs: 'q list) (s: char option) : 'q list =
-    (List.fold_left (fun acc x -> 
-                       (union acc 
-                              (List.fold_left (fun a (tup1,tup2,tup3) ->  
-                                                    if (tup1=x && tup2=s)
-                                                    then tup3::a 
-                                                    else a) 
-                                                    [] fsm.delta)
-                        ) 
-                   ) 
-                  [] qs)
+  let move (fsm: ('q, 's) fsm_t) (qs: 'q list) (s: 's) : 'q list =
+    List.fold_left (fun acc x ->
+      union acc (List.fold_left (fun a (tup1, tup2, tup3) ->
+        (match (tup1, tup2, tup3) with
+        | (q, sym, q') when q = x && sym = s -> q' :: a
+        | _ -> a)
+      ) [] fsm.delta)
+    ) [] qs
+  
     
-    
-
-let rec e_closure (fsm: ('q) fsm_t) (qs: 'q list) : 'q list = 
+let rec e_closure (fsm: ('q, 's) fsm_t) (qs: 'q list) : 'q list = 
   let next_qs = union qs (move fsm qs None) 
      in
       if eq qs next_qs 
       then qs 
       else e_closure fsm next_qs
                 
-let accept (fsm: ('q) fsm_t) (s: string) : bool =
+let accept (fsm: ('q, 's) fsm_t) (s: string) : bool =
   let rec aux states input =
     match input with
     | [] -> (match (intersection fsm.fs (e_closure fsm states)) with
@@ -89,14 +85,14 @@ let accept (fsm: ('q) fsm_t) (s: string) : bool =
   aux [fsm.q0] (explode s)
 
 
-let new_states (nfa: ('q) fsm_t) (qs: 'q list) : 'q list list =
+let new_states (nfa: ('q, 's) fsm_t) (qs: 'q list) : 'q list list =
   List.fold_right (fun sym acc ->
       let dest = e_closure nfa (move nfa qs (Some sym)) in
       if dest = [] then []::acc else dest::acc
   ) nfa.sigma []
 
             
-let new_trans (nfa: ('q) fsm_t) (qs: 'q list): ('q list) transition list =
+let new_trans (nfa: ('q, 's) fsm_t) (qs: 'q list): ('q list) transition list =
  List.fold_right (fun sym acc -> 
                       (qs, Some sym, (e_closure 
                                           nfa 
@@ -113,9 +109,9 @@ let new_trans (nfa: ('q) fsm_t) (qs: 'q list): ('q list) transition list =
                 
                    
                    
-let new_finals (nfa: ('q) fsm_t) (qs: 'q list) : 'q list list =
+let new_finals (nfa: ('q, 's) fsm_t) (qs: 'q list) : 'q list list =
 if List.exists qs (fun q -> (List.mem nfa.fs q)) then [qs] else []
-  let nfa_to_dfa_step (nfa: int fsm_t) (dfa: int list fsm_t) (worklist: int list list) =
+  let nfa_to_dfa_step (nfa: ('q, 's) fsm_t) (dfa: ('q list, 's) fsm_t) (worklist: 'q list list) =
     match worklist with
     | [] -> (dfa, [])
     | qs :: rest ->
@@ -133,7 +129,7 @@ if List.exists qs (fun q -> (List.mem nfa.fs q)) then [qs] else []
       let new_worklist = union rest (minus states (List.map (fun (t,a,b) -> t) dfa.delta)) in
       (updated_dfa, new_worklist)
 
-  let nfa_to_dfa (nfa: ('q) fsm_t) : ('q list) fsm_t =
+  let nfa_to_dfa (nfa: ('q, 's) fsm_t) : ('q list, 's) fsm_t =
     let initial_state = e_closure nfa [nfa.q0] in  
     let initial_dfa = {
       sigma = nfa.sigma;
