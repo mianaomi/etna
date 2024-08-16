@@ -28,11 +28,10 @@ let explode (s: string) : char list =
   exp (String.length s - 1) []
 let  q_equal (a: q) (b: q) =
   match (a, b) with 
-  | (Int x, Int y) -> (x=y)
+  | (Int _x, Int _y) -> (_x=_y)
   | (Int_list x, Int_list y) ->  Base.List.equal Int.equal x y
-  | (Int x, Int_list y) -> false
-  | (Int_list x, Int y) -> false
-  | _ -> false
+  | (Int _x, Int_list _y) -> false
+  | (Int_list _x, Int _y) -> false
 
     let  s_equal (a: s) (b: s) =
     match (a, b) with 
@@ -41,8 +40,6 @@ let  q_equal (a: q) (b: q) =
     | (Char None, Char None) -> true
     | (Char_list None, Char_list None) -> true
     | (Char_list Some x, Char_list Some y) ->  Base.List.equal Char.equal x y
-    | (Char Some x, Char_list Some y) -> false
-    | (Char_list Some x, Char Some y) -> false
     | _ -> false
 
   let move (fsm: fsm_t) (frm: q) (trns: s) : q list =
@@ -57,7 +54,7 @@ let  q_equal (a: q) (b: q) =
 
   let rec union (set_a: q list) (set_b: q list) : q list =
     Base.List.fold set_b ~init:set_a ~f:(fun acc q ->
-     f List.exists acc ~f:(q_equal q) then acc else q :: acc
+     if List.exists acc ~f:(q_equal q) then acc else q :: acc
    )
     
   let rec e_closure (fsm: fsm_t) (qs: q list) : q list = 
@@ -118,7 +115,7 @@ let  q_equal (a: q) (b: q) =
         List.exists fsm.fs ~f:(q_equal state)
       )
 
-  let nfa_to_dfa (nfa: fsm_t) : fsm_t = ()
+  (*let nfa_to_dfa (nfa: fsm_t) : fsm_t = ()*)
 
 
   end
