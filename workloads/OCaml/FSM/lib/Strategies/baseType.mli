@@ -1,1 +1,1 @@
-module BaseType : Base_quickcheck.Test.S with type t = int Impl.fsm_t
+module BaseType : Base_quickcheck.Test.S with type t = int char Impl.fsm_t

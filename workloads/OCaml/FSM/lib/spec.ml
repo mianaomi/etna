@@ -68,7 +68,7 @@ let prop_conversionPost: ('q) fsm_t * string -> test =
   ->> ((Impl.accept fsm s) = (Impl.accept (Impl.nfa_to_dfa(fsm)) s))
 (*Assuming that we have a functional FSM, 
 accept(FSM, a string) should be the same 
-as accept(nfa_to_dfa(FSM,  the same string))*)
+as accept(nfa_to_dfa(FSM),  the same string))*)
 
 (*
 Potential Properties

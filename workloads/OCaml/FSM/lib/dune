@@ -13,6 +13,7 @@
   baseBespoke
   qcheckType
   qcheckBespoke
+  qcheckBespokeAlt
   )
 
  (libraries qcheck crowbar util core)

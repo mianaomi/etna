@@ -1,1 +1,1 @@
-val qcheck_type : int Impl.fsm_t QCheck.arbitrary
+val qcheck_type : int char Impl.fsm_t QCheck.arbitrary
