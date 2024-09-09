@@ -9,7 +9,7 @@ let timeout = ref 60
 
 (* super simple running of the tests *)
 let qrun (p : 'a property) (g : 'a QCheck.arbitrary) (oc : out_channel) : unit =
-  ignore
+  let _ : unit = 
     (QCheck_runner.run_tests
        [ p.q g p.name ]
        ~colors:false ~verbose:false ~out:oc)

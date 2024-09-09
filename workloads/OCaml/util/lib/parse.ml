@@ -1,4 +1,5 @@
 open Scanf
+open List
 
 let rec lookup l k =
   match l with
